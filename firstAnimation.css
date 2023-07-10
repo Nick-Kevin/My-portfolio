@@ -1,0 +1,196 @@
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1;
+}
+
+.preloader .spinner {
+    width: calc(20px + 4vw);
+    height: calc(20px + 4vw);
+    border: 6px solid #23095a4d;
+    border-top: 6px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.preloader p {
+    padding-top: 20px;
+    font-family: var(--standard-font);
+    font-size: 1.2em;
+    color: var(--main-color);
+}
+
+img {
+    font-family: var(--standard-font);
+    color: white;
+}
+
+.first-animation {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.first-animation .images {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.7;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.first-animation .images img {
+    width: 45vw;
+    height: 45vw;
+}
+
+.first-animation .text {
+    position: relative;
+    z-index: 1;
+}
+
+.first-animation .text div {
+    position: absolute;
+    top: 68vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.first-animation .text div .boutton {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--white-color);
+    text-align: center;
+    font-family: var(--standard-font-light);
+    font-size: calc(0.6em + 0.57vw);
+    margin: 0;
+    padding: calc(5px + 0.6vw) calc(15px + 1.1vw);
+    transition: all 0.5s;
+}
+  
+.first-animation .text div .boutton span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.first-animation .text div .boutton span:after {
+    font-family: sans-serif;
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.first-animation .text div .boutton:hover span {
+    padding-right: calc(15px + 0.75vw);
+  }
+  
+.first-animation .text div .boutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.first-animation .text .white-milk{
+    position: relative;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-color);
+}
+
+.first-animation .text .white-milk span {
+    position: absolute;
+    font-size: calc(1em + 4vw);
+    font-weight: 300;
+}
+
+.first-animation .text .white-milk .n1 {
+    margin-left: calc(-105px - 13.1vw);  
+    -webkit-animation-delay: 1000ms;
+    -moz-animation-delay: 1000ms;
+    animation-delay: 1000ms;
+}
+
+.first-animation .text .white-milk .i1 {
+    margin-left: calc(-75px - 10vw);
+    -webkit-animation-delay: 1300ms;
+    -moz-animation-delay: 1300ms;
+    animation-delay: 1300ms;
+}
+
+.first-animation .text .white-milk .c {
+    margin-left: calc(-55px - 7vw);
+    -webkit-animation-delay: 1600ms;
+    -moz-animation-delay: 1600ms;
+    animation-delay: 1600ms;
+}
+
+.first-animation .text .white-milk .k1 {
+    margin-left: calc(-30px - 4.1vw);
+    -webkit-animation-delay: 1900ms;
+    -moz-animation-delay: 1900ms;
+    animation-delay: 1900ms;
+}
+
+.first-animation .text .white-milk .k2 {
+    margin-left: calc(20px + 1.8vw);
+    -webkit-animation-delay: 2200ms;
+    -moz-animation-delay: 2200ms;
+    animation-delay: 2200ms;
+}
+
+.first-animation .text .white-milk .e {
+    margin-left: calc(45px + 4.5vw);
+    -webkit-animation-delay: 2500ms;
+    -moz-animation-delay: 2500ms;
+    animation-delay: 2500ms;
+}
+
+.first-animation .text .white-milk .v {
+    margin-left: calc(76px + 7.95vw);
+    -webkit-animation-delay: 2800ms;
+    -moz-animation-delay: 2800ms;
+    animation-delay: 2800ms;
+}
+
+.first-animation .text .white-milk .i2 {
+    margin-left: calc(104px + 10.2vw);
+    -webkit-animation-delay: 3100ms;
+    -moz-animation-delay: 3100ms;
+    animation-delay: 3100ms;
+}
+
+.first-animation .text .white-milk .n2 {
+    margin-left: calc(128px + 12.9vw);
+    -webkit-animation-delay: 3400ms;
+    -moz-animation-delay: 3400ms;
+    animation-delay: 3400ms;
+}
+
+.first-animation .text p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: calc(0.625em + 0.5vw);
+}

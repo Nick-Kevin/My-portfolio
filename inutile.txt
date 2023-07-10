@@ -1,0 +1,91 @@
+/*const slideUp = $(".slideUp")
+const btnWidth = btn.offsetWidth + "px"
+var rect = btn.getBoundingClientRect()
+var w = rect.width
+var h = rect.height
+
+console.log(btn.clientWidth + "px")
+btn.style.width = btnWidth
+btn.style.padding = "0"
+btn.style.height = `${h}px`
+console.log(btn.clientWidth + "px")
+console.log(`${w}X${h}`)
+slideUp.style.width = `${w}px`/*"calc("+btn.offsetWidth+"px + 1px)"*/
+//console.log(slideUp.style.width)
+
+/*btn.addEventListener('mouseover', () => {
+    setTimeout(() => {
+        console.log(btn.clientWidth)
+        slideUp.style.width = "calc("+btn.offsetWidth+"px + 5px)"
+    }, 1000)
+})*/
+
+
+
+
+
+
+
+
+
+
+
+/*btn.addEventListener('click', () => {
+        accueil.scrollIntoView({
+            block: 'start',
+            behavior: 'smooth',
+            inline: 'nearest'
+        })
+    })
+
+    rtn.addEventListener('click', () => {
+        firstAnimation.style.display = 'initial'
+        firstAnimation.scrollIntoView({
+            block: 'start',
+            behavior: 'smooth',
+            inline: 'nearest'
+        })
+    })*/
+
+
+    /*window.addEventListener('scroll', () => {
+
+        //détecter si firstAnimation apparait sur l'écran pour lancer les animations
+        if(isElementInViewport(firstAnimation)) {
+            nickKevin.forEach((element) => {
+                element.classList.add("zoom")
+            })
+            whiteMilk.classList.add('changeColor')
+            copyright.classList.add('makeOpacity')
+            boyWithGlasses.style.display = 'initial'
+            boyWithGlasses.classList.add('scrollingRight')
+            parameter.style.display = 'initial'
+            parameter.classList.add('scrollingLeft')
+        } else {
+            btn.style.display = 'none'
+            whiteMilk.classList.remove('changeColor')
+            copyright.classList.remove('makeOpacity')
+            boyWithGlasses.style.display = 'none'
+            boyWithGlasses.classList.remove('scrollingRight')
+            parameter.style.display = 'none'
+            parameter.classList.remove('scrollingLeft')
+        }
+    })
+
+    /*btn.addEventListener('click', () => {
+        firstAnimation.style.display = 'none'
+    })
+
+    rtn.addEventListener('click', () => {
+        firstAnimation.style.display = 'initial'
+    })*/
+
+    //return true if the el is in viewport
+isElementInViewport = (el) => {
+    const rect = el.getBoundingClientRect()
+    return (rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+}
+
+if(isElementInViewport(accueil)) {
+        displayMode(firstAnimation, 'none')
+    }
