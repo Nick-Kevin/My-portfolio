@@ -12,10 +12,6 @@
     --main-font: "White Milk";
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: var(--main-color) /*linear-gradient(to top right, coral, lightblue, pink)*/;
     overflow: hidden;
