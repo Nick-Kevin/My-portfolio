@@ -50,6 +50,11 @@ section {
     font-family: var(--standard-font);
 }
 
+#contact {
+    position: relative;
+    min-height: 100vh;
+}
+
 .screen {
     width: calc(100vw - calc(calc(30px + 0.9vw)  * 2));
     height: calc(100vh - calc(20px + 0.6vw));

@@ -21,6 +21,7 @@ removeClass = (param, value) => {
 // Déclaration des variables
 const firstAnimation = $(".first-animation")
 const secondPage = id("secondPage")
+const contactPage = id("contact")
 const section = $("section")
 const preloader = $(".preloader")
 const body = $("body")
