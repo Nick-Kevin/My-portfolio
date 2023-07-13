@@ -37,9 +37,10 @@ const copyright = $(".text p")
 const burgerMenuInHome = $(".accueil div div:nth-child(2) img"); // menu in the home page
 const burgerMenuInContact = $("#contact div .content img"); // menu in the contact page
 const menuInHome = $(".accueil div div:nth-child(4)"); // links menu in home page
-const menuInContact = $("#contact div div:nth-child(2)"); // links menu in contact page
+const menuInContact = $("#contact div div:nth-child(3)"); // links menu in contact page
 const closeMenuInHome = $(".accueil div div:nth-child(4) img"); // close links menu in home page
-const closeMenuInContact = $("#contact div div:nth-child(2) .menu img"); // close links menu in contact page
+const closeMenuInContact = $("#contact div div:nth-child(3) .menu img"); // close links menu in contact page
+console.log(closeMenuInContact)
 //const notMenu = $(".accueil :not(.accueil div div:nth-child(4))")
 const link = $(".link")
 const mainContent = $(".main-content")
