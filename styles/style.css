@@ -100,6 +100,10 @@ section {
     overflow-x: hidden;
 }
 
+.oy-a {
+    overflow-y: auto;
+}
+
 .inline {
     display: inline;
 } 
@@ -239,7 +243,7 @@ section {
 }
 
 .fs-2 {
-    font-size: calc(18px + 0.6rem);
+    font-size: calc(10px + 1.2vw);
 }
 /********************************************************************/
 

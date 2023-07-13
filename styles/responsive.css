@@ -132,6 +132,14 @@ section {
     }
 }
 
+/* Phone portrait mode device */
+@media (max-width: 780px) {
+    /* Not display images inside Contact Nick Kevin */
+    #contact div:nth-child(2) img {
+        display: none;
+    }
+}
+
 /*@media (min-width: 780px) and (max-height: 1090px) {
     .second-content {
         width: calc(100px + 5vw);
