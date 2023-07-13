@@ -120,6 +120,7 @@ section {
     float: right;
 }
 
+/***************************** Text color ******************************/
 .nk-text-color {
     color: white;
 }
@@ -127,6 +128,12 @@ section {
 .nk-black-color {
     color: var(--black-color);
 }
+
+.nk-stheme-color {
+    color: var(--second-color);
+}
+/************************************************************************/
+
 /***************************** Margin ******************************/
 /* TOP */
 .mt-1 {
