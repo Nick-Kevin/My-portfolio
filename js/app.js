@@ -35,18 +35,27 @@ const boyWithGlasses = $(".boy-glasses")
 const parameter = $(".parameter")
 const copyright = $(".text p")
 const burgerMenuInHome = $(".accueil div div:nth-child(2) img"); // menu in the home page
-const burgerMenuInContact = $("#contact div .content img")
-const menuInHome = $(".accueil div div:nth-child(4)") // links menu in home page
-const menuInContact = $("#contact div div:nth-child(2)")
+const burgerMenuInContact = $("#contact div .content img"); // menu in the contact page
+const menuInHome = $(".accueil div div:nth-child(4)"); // links menu in home page
+const menuInContact = $("#contact div div:nth-child(2)"); // links menu in contact page
 const closeMenuInHome = $(".accueil div div:nth-child(4) img"); // close links menu in home page
-const closeMenuInContact = $("#contact div div:nth-child(2) .menu img")
+const closeMenuInContact = $("#contact div div:nth-child(2) .menu img"); // close links menu in contact page
 //const notMenu = $(".accueil :not(.accueil div div:nth-child(4))")
 const link = $(".link")
 const mainContent = $(".main-content")
 const myMusic = $("audio")
-const audioOn = id("soundOff")
-const audioOff = id("soundOn")
-const tooltip = $(".tooltiptext span")
+const audioOn = {
+    "inHome": id("soundOffInHome"),
+    "inContact": id("soundOffInContact"),
+} 
+const audioOff = {
+    "inHome": id("soundOnInHome"),
+    "inContact": id("soundOnInContact"),
+}
+const tooltip = {
+    "inHome": $(".accueil .tooltiptext span"),
+    "inContact": $("#contact .tooltiptext span")
+}
 const nickKevin = [
     $(".n1"),
     $(".i1"),
@@ -89,15 +98,15 @@ removeFirstPageAnimation = () => {
 makeSecondPageAnimation = () => {
     addClass(mainContent, 'scrollingDown')
     addClass(link, 'scrollingRight')
-    addClass(audioOff, 'playOpacity')
-    addClass(audioOn, 'playOpacity')
+    addClass(audioOff["inHome"], 'playOpacity')
+    addClass(audioOn["inHome"], 'playOpacity')
 }
 
 removeSecondPageAnimation = () => {
     removeClass(mainContent, 'scrollingDown')
     removeClass(link, 'scrollingRight')
-    removeClass(audioOn, 'playOpacity')
-    removeClass(audioOff, 'playOpacity')
+    removeClass(audioOn["inHome"], 'playOpacity')
+    removeClass(audioOff["inHome"], 'playOpacity')
 }
 
 makeBlur = () => {
@@ -133,7 +142,9 @@ window.addEventListener("load", () => {
     //initialiser les animations
     displayMode(btn, 'none')
     displayMode(preloader, 'none')
-    displayMode(audioOff, 'none')
+    Object.keys(audioOff).forEach((key) => {
+        displayMode(audioOff[key], 'none')
+    }); // hidde all audioOff button
     displayMode(menuInHome, 'none')
     displayMode(menuInContact, 'none')
     makeSecondPageAnimation()
@@ -154,18 +165,47 @@ window.addEventListener("load", () => {
         removeClass(btn, 'scrollingUp')
     })
 
-    audioOn.addEventListener('click', () => {
-        tooltip.innerHTML = 'off'
-        myMusic.play()
-        displayMode(audioOff, 'initial')
-        displayMode(audioOn, 'none')
+    // initialize the tooltip text
+    Object.keys(audioOn).forEach((key) => {
+        audioOn[key].style.display == 'none' ? 
+            Object.keys(tooltip).forEach((tooltipKey) => {
+                tooltip[tooltipKey].innerHTML = 'off'
+            }) : 
+            Object.keys(tooltip).forEach((tooltipKey) => {
+                tooltip[tooltipKey].innerHTML = 'on'
+            })
     })
 
-    audioOff.addEventListener('click', () => {
-        tooltip.innerHTML = 'on'
-        myMusic.pause()
-        displayMode(audioOff, 'none')
-        displayMode(audioOn, 'initial')
+    // play music if one of audioOn button is clicked and hidde all of audioOn button
+    Object.keys(audioOn).forEach((keyOn1) => {
+        audioOn[keyOn1].addEventListener('click', () => {
+            Object.keys(tooltip).forEach((tooltipKey) => {
+                tooltip[tooltipKey].innerHTML = 'off'
+            }) 
+            myMusic.play()
+            Object.keys(audioOff).forEach((keyOff) => {
+                displayMode(audioOff[keyOff], 'initial')
+            })
+            Object.keys(audioOn).forEach((keyOn2) => {
+                displayMode(audioOn[keyOn2], 'none')
+            })
+        })
+    })
+
+    // pause music if one of audioOff button is clicked and hidde all of audioOff button
+    Object.keys(audioOff).forEach((keyOff1) => {
+        audioOff[keyOff1].addEventListener('click', () => {
+            Object.keys(tooltip).forEach((tooltipKey) => {
+                tooltip[tooltipKey].innerHTML = 'on'
+            })
+            myMusic.pause()
+            Object.keys(audioOff).forEach((keyOff2) => {
+                displayMode(audioOff[keyOff2], 'none')
+            })
+            Object.keys(audioOn).forEach((keyOn) => {
+                displayMode(audioOn[keyOn], 'initial')
+            })
+        })
     })
 
     btn.addEventListener('click', function (event) {
@@ -210,19 +250,4 @@ window.addEventListener("load", () => {
     } else {
         makeFirstPageAnimation()
     }
-
-    if(audioOn.style.display == 'none') {
-        tooltip.innerHTML = 'off'
-    } else {
-        tooltip.innerHTML = 'on'
-    }
-
-    if(myMusic.paused) {
-        displayMode(audioOff, 'none')
-        displayMode(audioOn, 'initial')
-    } else {
-        displayMode(audioOff, 'initial')
-        displayMode(audioOn, 'none')
-    }
-
 })

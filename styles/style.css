@@ -238,13 +238,15 @@ section {
     width: calc(12px + 0.8vw);
 }
 
-.accueil .other-width {
+/******************* turn on/off music buttons *****************/
+.accueil .other-width, #contact .other-width {
     margin-right: 20px;
 }
 
-.accueil .other-width img {
+.accueil .other-width img, #contact .other-width img {
     padding-top: calc(5px + 0.10vw);
 }
+/***************************************************************/
 
 .menu {
     display: grid;
