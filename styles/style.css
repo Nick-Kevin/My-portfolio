@@ -5,7 +5,7 @@
     --childprime-color: #3c109c86;
     --second-color: #faff06;
     --white-color: #fdfddc;
-    --black-color: #202000;
+    --black-color: #010101;
     --standard-font: Roboto-Regular;
     --standard-font-thin: Roboto-Thin;
     --standard-font-light:Roboto-Light;
@@ -142,7 +142,7 @@ section {
 }
 
 .mt-4 {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 
 .mt-5 {
@@ -219,6 +219,12 @@ section {
 }
 /*******************************************************************/
 
+/************************** Border-radius **************************/
+.br-50 {
+    border-radius: 50%;
+}
+/*******************************************************************/
+
 /************************** Font-family **************************/
 .nk-text-light {
     font-family: var(--standard-font-light);
@@ -254,6 +260,14 @@ section {
 
 .justify-content-center {
     justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
 
 .align-items-center {
@@ -525,3 +539,16 @@ section {
     justify-content: center;
     font-family: var(--standard-font);
 }
+
+/******************** Style for the contact page ********************/
+/* The circle div */
+.contact-image {
+    width: calc(7vw + 60px);
+    height: calc(7vw + 60px);
+}
+
+.contact-image img {
+    width: 40%;
+}
+
+/*****************************************************************/
