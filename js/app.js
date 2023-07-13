@@ -139,6 +139,9 @@ makeFirstPageAnimation()
 
 // QUAND LA PAGE EST CHARGEE
 window.addEventListener("load", () => {
+    window.addEventListener('resize', (e) => {
+        e.preventDefault()
+    })
 
     //initialiser les animations
     displayMode(btn, 'none')
@@ -148,7 +151,6 @@ window.addEventListener("load", () => {
     }); // hidde all audioOff button
     displayMode(menuInHome, 'none')
     displayMode(menuInContact, 'none')
-    makeSecondPageAnimation()
 
     //écouter les évènements pour les animations
     nickKevin[8].addEventListener('animationend', () => {
