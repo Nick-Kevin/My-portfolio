@@ -26,17 +26,20 @@ const section = $("section")
 const preloader = $(".preloader")
 const body = $("body")
 const btn = id("letsVisit")
-const accueil = $(".accueil")
-const rtn = $(".return")
+const accueil = $(".accueil"); // home page
+const rtn = $(".return"); // return button in the home page
 const zoom = $(".zoom")
 const whiteMilk = $('.white-milk')
 const visibleContentInAccueil = $('.first-content div')
 const boyWithGlasses = $(".boy-glasses")
 const parameter = $(".parameter")
 const copyright = $(".text p")
-const burgerMenu = $(".accueil div div:nth-child(2) img")
-const menu = $(".accueil div div:nth-child(4)")
-const closeMenu = $(".accueil div div:nth-child(4) img")
+const burgerMenuInHome = $(".accueil div div:nth-child(2) img"); // menu in the home page
+const burgerMenuInContact = $("#contact div .content img")
+const menuInHome = $(".accueil div div:nth-child(4)") // links menu in home page
+const menuInContact = $("#contact div div:nth-child(2)")
+const closeMenuInHome = $(".accueil div div:nth-child(4) img"); // close links menu in home page
+const closeMenuInContact = $("#contact div div:nth-child(2) .menu img")
 //const notMenu = $(".accueil :not(.accueil div div:nth-child(4))")
 const link = $(".link")
 const mainContent = $(".main-content")
@@ -98,7 +101,7 @@ removeSecondPageAnimation = () => {
 }
 
 makeBlur = () => {
-    addClass(menu, 'notblur')
+    addClass(menuInHome, 'notblur')
     elementNotBlur.forEach((element) => {
         addClass(element, 'blur')
         element.addEventListener('click', (event) => {
@@ -111,7 +114,7 @@ removeBlur = () => {
     elementNotBlur.forEach((element) => {
         removeClass(element, 'blur')
     })
-    removeClass(menu, 'notblur')
+    removeClass(menuInHome, 'notblur')
 }
 
 isElementInViewport = (el) => {
@@ -131,7 +134,8 @@ window.addEventListener("load", () => {
     displayMode(btn, 'none')
     displayMode(preloader, 'none')
     displayMode(audioOff, 'none')
-    displayMode(menu, 'none')
+    displayMode(menuInHome, 'none')
+    displayMode(menuInContact, 'none')
     makeSecondPageAnimation()
 
     //écouter les évènements pour les animations
@@ -178,16 +182,26 @@ window.addEventListener("load", () => {
         removeSecondPageAnimation()
     })
 
-    burgerMenu.addEventListener('click', () => {
-        displayMode(burgerMenu, 'none')
-        displayMode(menu, 'initial')
+    burgerMenuInHome.addEventListener('click', () => {
+        displayMode(burgerMenuInHome, 'none')
+        displayMode(menuInHome, 'initial')
         makeBlur()
     })
 
-    closeMenu.addEventListener('click', () => {
-        displayMode(burgerMenu, 'initial')
-        displayMode(menu, 'none')
+    closeMenuInHome.addEventListener('click', () => {
+        displayMode(burgerMenuInHome, 'initial')
+        displayMode(menuInHome, 'none')
         removeBlur()
+    })
+
+    burgerMenuInContact.addEventListener('click', () => {
+        displayMode(burgerMenuInContact, 'none')
+        displayMode(menuInContact, 'initial')
+    })
+
+    closeMenuInContact.addEventListener('click', () => {
+        displayMode(burgerMenuInContact, 'initial')
+        displayMode(menuInContact, 'none')
     })
 
     //quelque fonctions pour les animations

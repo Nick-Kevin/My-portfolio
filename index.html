@@ -11,11 +11,13 @@
     <title>Nick Kevin</title>
 </head>
 <body>
+    <!-- The preloader -->
     <section class="preloader">
         <div class="spinner rotate"></div>
         <p class="paragraph">Loading...</p>
     </section>
     
+    <!-- Animation section in first view of the website -->
     <section id="firstPage" class="first-animation">
         <div class="text">
             <h1 class="white-milk nk-text-style">
@@ -42,6 +44,7 @@
         </div>   
     </section>
     
+    <!-- Home page -->
     <section id="secondPage" class="accueil screen scrollbar">
         <div>
             <div class="tooltip">
@@ -108,17 +111,23 @@
         </div>
     </section>
 
-    <section id="contact">
-        contact
-        <div class="absolute" style="right: calc(30px + 0.9vw)">
-            <div class="menu">
-                <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="assets/SVG Images/close-svgrepo-com.svg">
-                <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#secondPage">Home</a>
-                <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Work</a>
-                <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#">About</a>
-                <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Contact</a>
+    <!-- Contact page -->
+    <section id="contact" class="screen">
+        <div>
+            <div class="content nk-right">
+                <img class="pointer" src="assets/SVG Images/burger-menu-right-svgrepo-com.svg" alt="menu">
+            </div>
+            <div class="absolute" style="right: calc(30px + 0.9vw)">
+                <div class="menu">
+                    <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="assets/SVG Images/close-svgrepo-com.svg">
+                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#secondPage">Home</a>
+                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Work</a>
+                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#">About</a>
+                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Contact</a>
+                </div>
             </div>
         </div>
+        contact
     </section>
     <script src="./js/app.js"></script>
 </body>

@@ -46,6 +46,12 @@ section {
     font-family: var(--standard-font);
 }
 
+/* Home page */
+.accueil {
+    position: relative;
+}
+
+/* Contact page */
 #contact {
     position: relative;
     min-height: 100vh;
@@ -128,10 +134,6 @@ section {
     z-index: 1000;
 }
 
-.accueil {
-    position: relative;
-}
-
 .absolute {
     position: absolute;
     top: calc(20px + 0.6vw);
@@ -160,7 +162,7 @@ section {
     margin-top: 1vh;
 }
 
-.accueil .content, .accueil .content img {
+.accueil .content, .accueil .content img, #contact div .content img {
     left: 90vw;
     width: calc(20px + 1vw);
 }
