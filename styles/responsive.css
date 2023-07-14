@@ -157,9 +157,9 @@ section {
 
     /* turn all contact into cards */
     #contact>div:nth-child(3)>div {
-        background-color: #fdfddc;
+        background-color: var(--white-color);
         padding: 20px 0;
-        width: 190px;
+        width: 210px;
         border-radius: 5px;
         margin-left: 12px;
         margin-right: 12px;
@@ -172,8 +172,14 @@ section {
 
     /* my information or links to my social netcwork */
     #contact>div:nth-child(3) div a, #contact>div:nth-child(3) div p {
-        color: black;
         font-weight: bold;
+        width: 190px;
+        height: 40px;
+        color: white;
+        background-color: var(--main-color);
+        border-radius: 20px;
+        align-items: center;
+        text-decoration: none;
     }
 
     /* footer */
