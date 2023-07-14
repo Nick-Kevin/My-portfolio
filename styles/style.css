@@ -135,6 +135,10 @@ section {
 /************************************************************************/
 
 /***************************** Width ******************************/
+.w-20 {
+    width: 20%;
+}
+
 .w-25 {
     width: 25%;
 }
@@ -198,6 +202,48 @@ section {
 .mb-5 {
     margin-bottom: 5rem;
 }
+
+/* LEFT */
+.ml-1 {
+    padding-left: 0.2rem;
+}
+
+.ml-2 {
+    padding-left: 0.5rem;
+}
+
+.ml-3 {
+    padding-left: 0.8rem;
+}
+
+.ml-4 {
+    padding-left: 3rem;
+}
+
+.ml-5 {
+    padding-left: 5rem;
+}
+
+/* RIGHT */
+.mr-1 {
+    padding-right: 0.2rem;
+}
+
+.mr-2 {
+    padding-right: 0.5rem;
+}
+
+.mr-3 {
+    padding-right: 0.8rem;
+}
+
+.mr-4 {
+    padding-right: 3rem;
+}
+
+.mr-5 {
+    padding-right: 5rem;
+}
 /*******************************************************************/
 
 /***************************** Padding ******************************/
@@ -215,7 +261,7 @@ section {
 }
 
 .pt-4 {
-    padding-top: 1.5rem;
+    padding-top: 3rem;
 }
 
 .pt-5 {
@@ -236,7 +282,7 @@ section {
 }
 
 .pb-4 {
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
 }
 
 .pb-5 {
@@ -257,7 +303,7 @@ section {
 }
 
 .pl-4 {
-    padding-left: 1.5rem;
+    padding-left: 3rem;
 }
 
 .pl-5 {
@@ -278,7 +324,7 @@ section {
 }
 
 .pr-4 {
-    padding-right: 1.5rem;
+    padding-right: 3rem;
 }
 
 .pr-5 {
@@ -622,8 +668,8 @@ section {
 /******************** Style for the contact page ********************/
 /* The circle div */
 .contact-image {
-    width: calc(7vw + 60px);
-    height: calc(7vw + 60px);
+    width: 151px;
+    height: 151px;
 }
 
 .contact-image img {
