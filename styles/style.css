@@ -46,6 +46,12 @@ section {
     font-family: var(--standard-font);
 }
 
+.screen {
+    width: calc(100vw - calc(calc(30px + 0.9vw)  * 2));
+    max-height: calc(100vh - calc(20px + 0.6vw));
+    padding: calc(20px + 0.6vw) calc(30px + 0.9vw) 0 calc(30px + 0.9vw);
+}
+
 /* Home page */
 .accueil {
     position: relative;
@@ -88,13 +94,6 @@ section {
     background-color: var(--black-color);
 }
 /*******************************************************************/
-
-.screen {
-    width: calc(100vw - calc(calc(30px + 0.9vw)  * 2));
-    height: calc(100vh - calc(20px + 0.6vw));
-    padding: calc(20px + 0.6vw) calc(30px + 0.9vw) 0 calc(30px + 0.9vw);
-}
-
 .scrollbar {
     overflow-y: scroll;
     overflow-x: hidden;

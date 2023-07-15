@@ -139,8 +139,19 @@ makeFirstPageAnimation()
 
 // QUAND LA PAGE EST CHARGEE
 window.addEventListener("load", () => {
-    window.addEventListener('resize', (e) => {
-        e.preventDefault()
+    let x,y;
+    window.addEventListener('scroll', () => {
+        x = window.pageXOffset || document.documentElement.scrollLeft;
+        y = window.pageYOffset || document.documentElement.scrollTop;
+        console.log("scrolltop = "+y+", left = "+x)
+    })
+
+    window.addEventListener('resize', () => {
+        console.log("resize: top = "+y+", left = "+x)
+        //restoreScrollPosition()
+        firstAnimation.style.height = `${innerHeight}px`
+        secondPage.style.height = `${innerHeight}px`
+        contactPage.style.height = `${innerHeight}px`
     })
 
     //initialiser les animations
