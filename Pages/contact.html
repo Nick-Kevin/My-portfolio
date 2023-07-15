@@ -10,9 +10,7 @@
 	    <link rel="stylesheet" href="./../styles/responsive.css" media="(orientation: portrait)">
 	    <title>Nick Kevin - Contact</title>
 	</head>
-	<body>
-        <!-- Contact page -->
-    <section id="contact" class="p-relative screen oy-a nk-text-thin">
+	<body id="contact" class="nk-text-thin screen">
         <!-------------------------- Buttons on the top right side -------------------------->
         <div>
             <!-- the burger menu -->
@@ -87,12 +85,72 @@
             </div>
         </div>
         <!----------------------------------------------------------------------------------->
-        <!--------------------------------------- Footer ------------------------------------>
-        <footer class="mt-5 flex-display justify-content-center mb-4 pb-2" style="bottom: calc(3.25vh + 25px);">
-            <h2 class="nk-text-color white-bt-1 pt-3 pl-4 pr-4">FIND ME</h2>
-        </footer>
-        <!----------------------------------------------------------------------------------->
-    </section>
 	<!--script src="../js/app.js"></script-->
+		<script type="text/javascript">
+            // get id function
+            id = (param) => {
+                return document.getElementById(param)
+            }
+
+            // css selector function
+            $ = (param) => {
+                return document.querySelector(param)
+            }
+
+            // set display value function
+            displayMode = (param, value) => {
+                return (param.style.display = value)
+            }
+
+            // add css class function
+            addClass = (param, value) => {
+                return param.classList.add(value)
+            }
+
+            // remove css class function
+            removeClass = (param, value) => {
+                return param.classList.remove(value)
+            }
+
+            const burgerMenu = $("#contact div:nth-child(1) div:nth-child(1) img"); // select the burger menu
+            const closeMenu = $("#contact div:nth-child(1) div:nth-child(3) img"); // close links menu selector
+            const menu = $("#contact div:nth-child(1) div:nth-child(3)"); // links menu selector
+            const audioOn = id("soundOffInContact"); // sound off icon selector
+            const audioOff = id("soundOnInContact"); // sound on icon selector
+
+            //Not display when the page is not loaded 
+            displayMode(menu, 'none'); // the menu
+            displayMode(audioOff, 'none'); // the sound on icon
+
+            window.addEventListener('load', () => {
+            	// show menu links and hidde burger menu when click it
+            	burgerMenu.addEventListener('click', () => {
+            		displayMode(burgerMenu, 'none'),
+            		displayMode(menu, 'initial');
+            	})
+            	// show burger and hidde menu links when visitors click the close menu button
+            	closeMenu.addEventListener('click', () => {
+            		displayMode(menu, 'none');
+            		displayMode(burgerMenu, 'initial');
+            	})
+            	// show sound on icon when click on audio On button
+    			audioOn.addEventListener('click', () => {
+    				displayMode(audioOn, 'none');
+    				removeClass(audioOn, 'playOpacity');
+    				addClass(audioOff, 'playOpacity');
+    				displayMode(audioOff, 'initial');
+    			})
+    			// show sound off icon when click on audio off button
+    			audioOff.addEventListener('click', () => {
+    				displayMode(audioOff, 'none');
+    				removeClass(audioOff, 'playOpacity');
+    				addClass(audioOn, 'playOpacity');
+    				displayMode(audioOn, 'initial');
+    			})
+            })   
+       </script>
 	</body>
+	<footer class="mt-3 pb-3 flex-display justify-content-center" style="bottom: calc(3.25vh + 25px);">
+        <h2 class="nk-text-color white-bt-1 pt-3 pl-4 pr-4">FIND ME</h2>
+    </footer>
 </html>
