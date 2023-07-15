@@ -185,22 +185,22 @@
 }
 
 @-webkit-keyframes scrollingDown {
-    from { -webkit-transform: translateY(-10vw);}
+    from { -webkit-transform: translateY(-100vh);}
     to { -webkit-transform: translateY(0);}
 }
 
 @-o-keyframes scrollingDown {
-    from { -o-transform: translateY(-10vw)}
+    from { -o-transform: translateY(-100vh)}
     to { -o-transform: translateY(0)}
 }
 
 @-moz-keyframes scrollingDown {
-    from { -moz-transform: translateY(-10vw)}
+    from { -moz-transform: translateY(-100vh)}
     to { -moz-transform: translateY(0)}
 }
 
 @keyframes scrollingDown {
-    from { transform: translateY(-10vw)}
+    from { transform: translateY(-100vh)}
     to { transform: translateY(0)}
 }
 
