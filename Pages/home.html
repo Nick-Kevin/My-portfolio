@@ -11,6 +11,11 @@
 	    <title>Nick Kevin - Home</title>
 	</head>
 	<body class="">
+		<audio id="background-audio" preload="auto" loop>
+            <source src="../assets/Music/piano-moment.mp3" type="audio/mp3">
+        </audio>
+        <button onclick="playAudio()">Lecture</button>
+		<button onclick="pauseAudio()">Pause</button>
 	    <div class="accueil screen">
 	        <div>
 	        	<!-- the return link -->
@@ -27,9 +32,9 @@
 	            </div>
 	            <!-- Turn on/off button -->
 	            <div class="other-width nk-right tooltip">
-	                <img id="soundOffInHome" class="other-width pointer" src="../assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
+	                <img id="soundOffInHome" class="soundOff other-width pointer" src="../assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
 	                <audio src="../assets/Music/piano-moment.mp3"></audio>
-	                <img id="soundOnInHome" class="other-width pointer" src="../assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
+	                <img id="soundOnInHome" class="soundOn other-width pointer" src="../assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 	                <p class="tooltiptext">Click to turn <span></span> the music</p>
 	            </div>
 	            <!-- links menu -->
@@ -74,7 +79,7 @@
 	            </p>
 	        </div>
 	    </div>
-
+	    <script type="text/javascript" src="../js/audio.js"></script>
 		<script type="text/javascript">
             // get id function
             id = (param) => {
@@ -103,20 +108,20 @@
 
             const burgerMenu = $(".accueil div:nth-child(1) div:nth-child(2) img"); // select the burger menu
             const closeMenu = $(".accueil div:nth-child(1) div:nth-child(4) img"); // close links menu selector
-            const audioOn = id("soundOffInHome"); // sound off icon selector
-            const audioOff = id("soundOnInHome"); // sound on icon selector
+            //const audioOn = id("soundOffInHome"); // sound off icon selector
+            //const audioOff = id("soundOnInHome"); // sound on icon selector
             const menu = $(".accueil div:nth-child(1) div:nth-child(4)"); // links menu selector
             const mainContent = $(".main-content"); // select the content
             const link = $(".link"); // the work and about links selector
 
             //Not display when the page is not loaded 
             displayMode(menu, 'none'); // the menu
-            displayMode(audioOff, 'none'); // the sound on icon
+            //displayMode(audioOff, 'none'); // the sound on icon
 
             window.addEventListener('load', () => {
             	addClass(mainContent, 'scrollingDown'); // add scrolling down animation to the content
             	addClass(link, 'scrollingRight'); // add scrolling right animation to links
-            	addClass(audioOn, 'playOpacity'); // add play opacity animation to sound off button
+            	//addClass(audioOn, 'playOpacity'); // add play opacity animation to sound off button
             	// show menu links and hidde burger menu when click it
             	burgerMenu.addEventListener('click', () => {
             		displayMode(burgerMenu, 'none'),
@@ -127,7 +132,7 @@
             		displayMode(menu, 'none');
             		displayMode(burgerMenu, 'initial');
             	})
-            	// show sound on icon when click on audio On button
+            	/*/ show sound on icon when click on audio On button
     			audioOn.addEventListener('click', () => {
     				displayMode(audioOn, 'none');
     				removeClass(audioOn, 'playOpacity');
@@ -140,7 +145,7 @@
     				removeClass(audioOff, 'playOpacity');
     				addClass(audioOn, 'playOpacity');
     				displayMode(audioOn, 'initial');
-    			})
+    			})*/
             })   
         </script>
 	</body>

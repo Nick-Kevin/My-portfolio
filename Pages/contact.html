@@ -9,8 +9,14 @@
 	    <link rel="stylesheet" href="./../styles/animation.css">
 	    <link rel="stylesheet" href="./../styles/responsive.css" media="(orientation: portrait)">
 	    <title>Nick Kevin - Contact</title>
+        <script type="text/javascript" src="../js/audio.js"></script>
 	</head>
 	<body id="contact" class="nk-text-thin screen">
+        <audio id="background-audio" preload="auto" loop>
+            <source src="../assets/Music/piano-moment.mp3" type="audio/mp3">
+        </audio>
+        <button onclick="playAudio()">Lecture</button>
+<button onclick="pauseAudio()">Pause</button>
         <!-------------------------- Buttons on the top right side -------------------------->
         <div>
             <!-- the burger menu -->
@@ -19,8 +25,8 @@
             </div>
             <!-- Turn on/off button -->
             <div class="other-width nk-right tooltip">
-                <img id="soundOffInContact" class="other-width pointer" src="../assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
-                <img id="soundOnInContact" class="other-width pointer" src="../assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
+                <img id="soundOffInContact" class="soundOff other-width pointer" src="../assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
+                <img id="soundOnInContact" class="soundOn other-width pointer" src="../assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
                 <p class="tooltiptext">Click to turn <span></span> the music</p>
             </div>
             <!-- links menu -->
@@ -86,6 +92,7 @@
         </div>
         <!----------------------------------------------------------------------------------->
 	<!--script src="../js/app.js"></script-->
+        <script type="text/javascript" src="../js/audio.js"></script>
 		<script type="text/javascript">
             // get id function
             id = (param) => {
@@ -115,12 +122,12 @@
             const burgerMenu = $("#contact div:nth-child(1) div:nth-child(1) img"); // select the burger menu
             const closeMenu = $("#contact div:nth-child(1) div:nth-child(3) img"); // close links menu selector
             const menu = $("#contact div:nth-child(1) div:nth-child(3)"); // links menu selector
-            const audioOn = id("soundOffInContact"); // sound off icon selector
-            const audioOff = id("soundOnInContact"); // sound on icon selector
+            //const audioOn = id("soundOffInContact"); // sound off icon selector
+            //const audioOff = id("soundOnInContact"); // sound on icon selector
 
             //Not display when the page is not loaded 
             displayMode(menu, 'none'); // the menu
-            displayMode(audioOff, 'none'); // the sound on icon
+            //displayMode(audioOff, 'none'); // the sound on icon
 
             window.addEventListener('load', () => {
             	// show menu links and hidde burger menu when click it
@@ -133,7 +140,7 @@
             		displayMode(menu, 'none');
             		displayMode(burgerMenu, 'initial');
             	})
-            	// show sound on icon when click on audio On button
+            	/*/ show sound on icon when click on audio On button
     			audioOn.addEventListener('click', () => {
     				displayMode(audioOn, 'none');
     				removeClass(audioOn, 'playOpacity');
@@ -146,7 +153,7 @@
     				removeClass(audioOff, 'playOpacity');
     				addClass(audioOn, 'playOpacity');
     				displayMode(audioOn, 'initial');
-    			})
+    			})*/
             })   
        </script>
 	</body>

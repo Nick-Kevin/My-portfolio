@@ -17,6 +17,10 @@
             <p class="paragraph">Loading...</p>
         </section>
     
+        <audio id="background-audio" preload="auto" loop>
+            <source src="assets/Music/piano-moment.mp3" type="audio/mp3">
+        </audio>
+
         <!-- Animation section in first view of the website -->
         <section id="firstPage" class="first-animation">
             <div class="text">
@@ -45,6 +49,7 @@
         </section>
 
         <!-- a little JavaScript for playing animations -->
+        <script type="text/javascript" src="./js/audio.js"></script>
 	    <script type="text/javascript">
             // get id function
             id = (param) => {
@@ -88,7 +93,9 @@
             ]; // selector for each letter in the nick kevin writing
             const btn = id("letsVisit"); // the let's visit link
             const copyright = $(".text p"); // selector for the copyright
+            //const myMusic = $("audio");
             displayMode(btn, 'none'); // not display the btn
+            //localStorage.setItem("myMusic", myMusic);
 
             // WHEN THE PAGE IS LOADED
             window.addEventListener('load', () => {

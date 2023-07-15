@@ -22,7 +22,6 @@ removeClass = (param, value) => {
 const firstAnimation = $(".first-animation")
 const secondPage = id("secondPage")
 const contactPage = id("contact")
-const section = $("section")
 const preloader = $(".preloader")
 const body = $("body")
 const btn = id("letsVisit")
@@ -67,6 +66,11 @@ const nickKevin = [
     $(".v"),
     $(".i2"),
     $(".n2")
+]
+const sections = [
+    firstAnimation,
+    secondPage,
+    contactPage
 ]
 var elementNotBlur = document.querySelectorAll('.accueil *:not(.accueil div:nth-child(1), .accueil div div:nth-child(4), .accueil div div:nth-child(4) a, .accueil div div:nth-child(4) img)')
 
@@ -132,6 +136,12 @@ isElementInViewport = (el) => {
     return (rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
 }
 
+showTheRightPage = () => {
+    sections.forEach((section) => {
+        isElementInViewport(section) ? displayMode(section, 'initial') : displayMode(section, 'none')
+    })
+}
+
 //enlever les éléments qui font du slide comme animation avant le chargement de la page
 displayMode(boyWithGlasses, 'none')
 displayMode(parameter, 'none')
@@ -139,21 +149,6 @@ makeFirstPageAnimation()
 
 // QUAND LA PAGE EST CHARGEE
 window.addEventListener("load", () => {
-    let x,y;
-    window.addEventListener('scroll', () => {
-        x = window.pageXOffset || document.documentElement.scrollLeft;
-        y = window.pageYOffset || document.documentElement.scrollTop;
-        console.log("scrolltop = "+y+", left = "+x)
-    })
-
-    window.addEventListener('resize', () => {
-        console.log("resize: top = "+y+", left = "+x)
-        //restoreScrollPosition()
-        firstAnimation.style.height = `${innerHeight}px`
-        secondPage.style.height = `${innerHeight}px`
-        contactPage.style.height = `${innerHeight}px`
-    })
-
     //initialiser les animations
     displayMode(btn, 'none')
     displayMode(preloader, 'none')
@@ -224,9 +219,13 @@ window.addEventListener("load", () => {
 
     btn.addEventListener('click', function (event) {
         event.preventDefault()
+        displayMode(secondPage, 'initial')
         secondPage.scrollIntoView({behavior: 'smooth'})
         removeFirstPageAnimation()
         makeSecondPageAnimation()
+        /*setTimeout(() => {
+            showTheRightPage()
+        }, 10000)*/
     })
 
     rtn.addEventListener('click', (event) => {
