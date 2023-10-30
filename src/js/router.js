@@ -17,4 +17,13 @@ export default const router = async () => {
 			view: () => alert("contact")	
 		}
 	];
+
+	const checkMatches = router.map(route => {
+	    return {
+	        route: route,
+	        isMatch: location.pathname === route.path
+	    }
+	})
+
+	console.log(checkMatches);
 }
