@@ -30,6 +30,10 @@ const router = async () => {
     })
 
     console.log(checkMatches);
+
+    const match = checkMatches.find(checkMatch => checkMatch.isMatch);
+
+    console.log(match);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
