@@ -36,8 +36,8 @@ export default class extends view {
 		            </div>
 		        </div>
 		        <div class="images">
-		            <img src="assets/SVG Images/boy-with-glasses-svgrepo-com.svg" alt="boy with glasses.svg" class="boy-glasses">
-		            <img src="assets/SVG Images/parameter-svgrepo-com.svg" alt="parameter.svg" class="parameter">
+		            <img src="static/assets/SVG Images/boy-with-glasses-svgrepo-com.svg" alt="boy with glasses.svg" class="boy-glasses">
+		            <img src="static/assets/SVG Images/parameter-svgrepo-com.svg" alt="parameter.svg" class="parameter">
 		        </div>   
 		    </section>
 		`;

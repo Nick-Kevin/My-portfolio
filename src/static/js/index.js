@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     router();
 })
 
-const id = (param) => {
+/*const id = (param) => {
     return document.getElementById(param)
 }
 
@@ -288,7 +288,7 @@ window.addEventListener("load", () => {
         /*setTimeout(() => {
             showTheRightPage()
         }, 10000)*/
-    })
+/*    })
 
     rtn.addEventListener('click', (event) => {
         event.preventDefault()
@@ -325,4 +325,4 @@ window.addEventListener("load", () => {
     } else {
         makeFirstPageAnimation()
     }
-})
+})*/
