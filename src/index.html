@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="./styles/firstAnimation.css">
-    <link rel="stylesheet" href="./styles/animation.css">
-    <link rel="stylesheet" href="./styles/responsive.css" media="(orientation: portrait)">
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="stylesheet" href="static/styles/firstAnimation.css">
+    <link rel="stylesheet" href="static/styles/animation.css">
+    <link rel="stylesheet" href="static/styles/responsive.css" media="(orientation: portrait)">
     <title>Nick Kevin</title>
 </head>
 <body style="overflow: hidden;">
@@ -33,7 +33,13 @@
             </h1>
             <p class="nk-text-color nk-text-thin">©Copyright 2023</p>
             <div class="slideUp">
-                <a id="letsVisit" href="#secondPage" class="boutton pointer" style="vertical-align:middle">
+                <a
+                    id        = "letsVisit"
+                    href      = "/home"
+                    class     = "boutton pointer"
+                    style     = "vertical-align:middle"
+                    data-link
+                >
                     <span class="pointer nk-black-color">Let's visit</span>
                 </a>
             </div>
@@ -49,7 +55,12 @@
         <div>
         <div>
             <div class="tooltip">
-                <a name="second" href="#firstPage" class="return no-border pointer flex-display align-items-center">
+                <a
+                    name      = "second"
+                    href      = "/"
+                    class     = "return no-border pointer flex-display align-items-center"
+                    data-link
+                >
                     <img src="assets/Images/MonLogo.gif" alt="Logo.gif">
                 </a>
                 <p class="tooltiptext">Return to the welcome page</p>
@@ -62,7 +73,7 @@
             <!-- Turn on/off button -->
             <div class="other-width nk-right tooltip">
                 <img id="soundOffInHome" class="other-width pointer" src="assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
-                <audio src="assets/Music/piano-moment.mp3"></audio>
+                <audio src="static/assets/Music/piano-moment.mp3"></audio>
                 <img id="soundOnInHome" class="other-width pointer" src="assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
                 <p class="tooltiptext">Click to turn <span></span> the music</p>
             </div>
@@ -70,10 +81,23 @@
             <div class="absolute" style="right: calc(35px + 1.2vw)">
                 <div class="menu">
                     <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="assets/SVG Images/close-svgrepo-com.svg"> <!-- close button -->
-                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#">Home</a>
+                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="/home" data-link>Home</a>
                     <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Work</a>
                     <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#">About</a>
-                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration contact-link" href="/contact" data-link>Contact</a>
+                    <a
+                        class     = "
+                            widen-width
+                            flex-display
+                            align-items-center
+                            nk-text-color
+                            none-decoration
+                            contact-link
+                        "
+                        href      = "/contact"
+                        data-link
+                    >
+                        Contact
+                    </a>
                 </div>
             </div>
             <!----------------------------------------------------------------------------------->
@@ -199,6 +223,6 @@
         </footer>
         <!----------------------------------------------------------------------------------->
     </section>
-    <script src="./js/app.js"></script>
+    <script src="static/js/app.js"></script>
 </body>
 </html>
