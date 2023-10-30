@@ -1,4 +1,8 @@
+import Welcome from './pages/Welcome.js';
 import Home from './pages/Home.js';
+import Work from './pages/Work.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
 
 const navigateTo = url => {
     history.pushState(null, null, url),
@@ -9,7 +13,7 @@ const router = async () => {
     const routes = [
         {
             path: "/",
-            view: () => alert("welcome")
+            view: Welcome
         },
         {
             path: "/home",
@@ -17,15 +21,15 @@ const router = async () => {
         },
         {
             path: "/work",
-            view: () => alert("work")
+            view: Work
         },
         {
             path: "/about",
-            view: () => alert("about")  
+            view: About  
         },
         {
             path: "/contact",
-            view: () => alert("contact")    
+            view: Contact   
         }
     ];
 
