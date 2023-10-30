@@ -1,3 +1,5 @@
+import router from './router';
+
 id = (param) => {
     return document.getElementById(param)
 }
