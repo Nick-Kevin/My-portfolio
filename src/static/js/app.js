@@ -1,4 +1,36 @@
-import router from './router';
+const router = async () => {
+    const routes = [
+        {
+            path: "/",
+            view: () => alert("welcome")
+        },
+        {
+            path: "/home",
+            view: () => alert("home")
+        },
+        {
+            path: "/work",
+            view: () => alert("work")
+        },
+        {
+            path: "/about",
+            view: () => alert("about")  
+        },
+        {
+            path: "/contact",
+            view: () => alert("contact")    
+        }
+    ];
+
+    const checkMatches = routes.map(route => {
+        return {
+            route: route,
+            isMatch: location.pathname === route.path
+        }
+    })
+
+    console.log(checkMatches);
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     router();
