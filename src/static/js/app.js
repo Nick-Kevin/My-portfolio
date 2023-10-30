@@ -34,6 +34,14 @@ const router = async () => {
     const match = checkMatches.find(checkMatch => checkMatch.isMatch);
 
     console.log(match);
+
+    if(!match){
+        match = {
+           route: routes[0]
+        }
+    }
+
+    console.log(match.route.view);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
