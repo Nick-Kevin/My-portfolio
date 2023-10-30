@@ -1,5 +1,9 @@
 import router from './router';
 
+document.addEventListener('DOMContentLoaded', () => {
+    router();
+})
+
 id = (param) => {
     return document.getElementById(param)
 }
