@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault();
                 navigateTo(e.target.href);
             } else if(e.target.closest('[data-link]')) {
+                // if the element itself doesn't have data-link, check if parent has it
                 e.preventDefault();
                 navigateTo(e.target.closest('[data-link]').getAttribute('href'));
             }
