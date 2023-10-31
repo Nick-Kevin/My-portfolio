@@ -4,6 +4,14 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
+const $ = (param) => {
+    return document.querySelector(param)
+}
+
+const addClass = (param, value) => {
+    return param.classList.add(value)
+}
+
 const navigateTo = url => {
     history.pushState(null, null, url),
     router();
@@ -45,6 +53,11 @@ const router = async () => {
     const view  = new match.route.view();
 
     document.querySelector("#home").innerHTML = await view.getHtml();
+
+    if(match.route.path === "/") {
+        const boyWithGlasses = $(".boy-glasses");
+        addClass(boyWithGlasses, 'scrollingRight');
+    }
 }
 
 document.addEventListener('popstate', router);
@@ -63,6 +76,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     router();
 })
+
+/*window.addEventListener('load', () => {
+    const boyWithGlasses = $(".boy-glasses");
+
+    console.log(boyWithGlasses)
+        addClass(boyWithGlasses, 'scrollingRight');
+})*/
 
 /*const id = (param) => {
     return document.getElementById(param)
