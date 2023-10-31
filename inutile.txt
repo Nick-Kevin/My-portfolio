@@ -1,3 +1,20 @@
+/*
+MY FIRST PALETTE COLOR
+    --main-color: #23095A;
+    --mainprime-color: #23095a81;
+    --child-color: #3c109c;
+    --childprime-color: #3c109c86;
+    --second-color: #faff06;
+*/
+
+
+
+
+
+
+
+
+
 /*const slideUp = $(".slideUp")
 const btnWidth = btn.offsetWidth + "px"
 var rect = btn.getBoundingClientRect()
