@@ -12,6 +12,11 @@ const addClass = (param, value) => {
     return param.classList.add(value)
 }
 
+const addAnimationToBoyWithGlasses = () => {
+    const boyWithGlasses = $(".boy-glasses");
+    addClass(boyWithGlasses, 'scrollingRight');
+}
+
 const navigateTo = url => {
     history.pushState(null, null, url),
     router();
@@ -55,8 +60,7 @@ const router = async () => {
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     if(match.route.path === "/") {
-        const boyWithGlasses = $(".boy-glasses");
-        addClass(boyWithGlasses, 'scrollingRight');
+        addAnimationToBoyWithGlasses();
     }
 }
 
