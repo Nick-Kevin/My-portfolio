@@ -27,6 +27,11 @@ const addAnimationToCopyright = () => {
     return addClass(copyright, 'makeOpacity');
 }
 
+const addChangeColorAnimationToMyName = () => {
+    const myNameInWhiteMilkFont = $('.white-milk');
+    return addClass(myNameInWhiteMilkFont, 'changeColor');
+}
+
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
@@ -73,6 +78,7 @@ const router = async () => {
         addAnimationToBoyWithGlassesImg();
         addAnimationToParameterImg();
         addAnimationToCopyright();
+        addChangeColorAnimationToMyName();
     }
 }
 
