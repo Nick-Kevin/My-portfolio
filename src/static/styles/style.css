@@ -457,6 +457,9 @@ section {
 .tooltip    {
     position: relative;
     margin: 50px;
+}
+
+.tooltip:nth-child(1) {
     float: left;
 }
 
