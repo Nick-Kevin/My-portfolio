@@ -19,7 +19,7 @@ export default class extends view {
 		                    class     = "return no-border pointer flex-display align-items-center"
 		                    data-link
 		                >
-		                    <img src="assets/Images/MonLogo.gif" alt="Logo.gif">
+		                    <img src="static/assets/Images/MonLogo.gif" alt="Logo.gif">
 		                </a>
 		                <p class="tooltiptext">Return to the welcome page</p>
 		            </div>
