@@ -52,46 +52,47 @@ const routes = [
     }
 ];
 
-const router = async () => {
-    const checkMatches = routes.map(route => {
-        return {
-            route: route,
-            isMatch: location.pathname === route.path
-        }
+const checkPathMatch = (path) => {
+    return location.pathname === path;
+}
+
+const setupWelcomePageAnimations = () => {
+    const boyWithGlassesImage = getElementBySelector(".boy-glasses");
+    addClassToElement('scrollingRight', boyWithGlassesImage);
+
+    const parameterImage = getElementBySelector(".parameter");
+    addClassToElement('scrollingLeft', parameterImage);
+
+    const copyright = getElementBySelector(".text p");
+    addClassToElement('makeOpacity', copyright);
+
+    const nickKevin = getElementBySelector('.white-milk');
+    addClassToElement('changeColor', nickKevin);
+
+    const nickKevinCaracter = [
+        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
+        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
+        getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
+    ];
+    addClassToEachElementInArray('zoom', nickKevinCaracter);
+
+    const LetIsVisitButton = getId("letsVisit");
+    setStyleDisplayToElement('none', LetIsVisitButton);
+    nickKevinCaracter[0].addEventListener('animationend', () => {
+        setStyleDisplayToElement('initial', LetIsVisitButton);
+        addClassToElement('scrollingUp', LetIsVisitButton);
     })
+}
 
-    const match = checkMatches.find(checkMatch => checkMatch.isMatch);
+const router = async () => {
+    const match = routes.find(route => checkPathMatch(route.path));
 
-    const view  = new match.route.view();
+    const view  = new match.view();
 
     document.querySelector("#home").innerHTML = await view.getHtml();
 
-    if(match.route.path === "/") {
-        const boyWithGlassesImage = getElementBySelector(".boy-glasses");
-        addClassToElement('scrollingRight', boyWithGlassesImage);
-
-        const parameterImage = getElementBySelector(".parameter");
-        addClassToElement('scrollingLeft', parameterImage);
-
-        const copyright = getElementBySelector(".text p");
-        addClassToElement('makeOpacity', copyright);
-
-        const nickKevin = getElementBySelector('.white-milk');
-        addClassToElement('changeColor', nickKevin);
-
-        const nickKevinCaracter = [
-            getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
-            getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
-            getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
-        ];
-        addClassToEachElementInArray('zoom', nickKevinCaracter);
-
-        const LetIsVisitButton = getId("letsVisit");
-        setStyleDisplayToElement('none', LetIsVisitButton);
-        nickKevinCaracter[0].addEventListener('animationend', () => {
-            setStyleDisplayToElement('initial', LetIsVisitButton);
-            addClassToElement('scrollingUp', LetIsVisitButton);
-        })
+    if(match.path === "/") {
+        setupWelcomePageAnimations();
     }
 }
 
