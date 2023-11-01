@@ -32,6 +32,17 @@ const addChangeColorAnimationToMyName = () => {
     return addClass(myNameInWhiteMilkFont, 'changeColor');
 }
 
+const addZoomAnimationToMyName = () => {
+    const nickKevin = [
+        $(".n1"), $(".i1"), $(".c"), $(".k1"), $(".k2"),
+        $(".e"), $(".v"), $(".i2"), $(".n2")
+    ];
+
+    return nickKevin.forEach((element) => {
+        addClass(element, 'zoom')
+    });
+}
+
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
@@ -79,6 +90,7 @@ const router = async () => {
         addAnimationToParameterImg();
         addAnimationToCopyright();
         addChangeColorAnimationToMyName();
+        addZoomAnimationToMyName();
     }
 }
 
