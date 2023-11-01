@@ -37,39 +37,12 @@ export default class extends view {
 		                <p class="tooltiptext">Return to the welcome page</p>
 		            </div>
 		            <!-------------------------- Buttons on the top right side -------------------------->
-		            <!-- the burger menu -->
-		            <div class="content nk-right">
-		                <img class="pointer" src="static/assets/SVG Images/burger-menu-right-svgrepo-com.svg" alt="menu">
-		            </div>
 		            <!-- Turn on/off button -->
 		            <div class="other-width nk-right tooltip">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
 		                <audio src="static/assets/Music/piano-moment.mp3"></audio>
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 		                <p class="tooltiptext">Click to turn <span></span> the music</p>
-		            </div>
-		            <!-- links menu -->
-		            <div class="absolute" style="right: calc(35px + 1.2vw)">
-		                <div class="menu">
-		                    <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="static/assets/SVG Images/close-svgrepo-com.svg"> <!-- close button -->
-		                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="/" data-link>Home</a>
-		                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="/work" data-link>Work</a>
-		                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="/about" data-link>About</a>
-		                    <a
-		                        class     = "
-		                            widen-width
-		                            flex-display
-		                            align-items-center
-		                            nk-text-color
-		                            none-decoration
-		                            contact-link
-		                        "
-		                        href      = "/contact"
-		                        data-link
-		                    >
-		                        Contact
-		                    </a>
-		                </div>
 		            </div>
 		            <!----------------------------------------------------------------------------------->
 		        </div>
