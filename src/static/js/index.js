@@ -105,6 +105,12 @@ const clickTheIconToHiddeItAndShowTheOther = (iconToHidde, iconToShow) => {
     })
 }
 
+const clickIconToCompleteTheTooltip = (icon, tooltip, tooltipValue) => {
+    icon.addEventListener('click', () => {
+        tooltip.innerHTML = tooltipValue;
+    });
+}
+
 const router                        = async ()                    => {
     const match = routes.find(route => checkPathMatch(route.path));
 
@@ -112,19 +118,27 @@ const router                        = async ()                    => {
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     switch(match.path) {
+
         case "/":
             setOverflowValueToBodyElement("hidden");
             setupWelcomePageAnimations();
             break;
+
         case "/home":
             const soundOffIcon = getId("soundOffInHome");
             const soundOnIcon  = getId("soundOnInHome");
+            const tooltip = getId("audio-tooltip");
+            tooltip.innerHTML = "on";
             setStyleDisplayToElement('none', soundOnIcon);
             clickTheIconToHiddeItAndShowTheOther(soundOffIcon, soundOnIcon);
             clickTheIconToHiddeItAndShowTheOther(soundOnIcon, soundOffIcon);
+            clickIconToCompleteTheTooltip(soundOffIcon, tooltip, "off");
+            clickIconToCompleteTheTooltip(soundOnIcon, tooltip, "on");
+
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
-            break;   
+            break; 
+
     }
 
     /*if(match.path === "/") {
