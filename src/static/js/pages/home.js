@@ -38,7 +38,7 @@ export default class extends view {
 		            <!-- links menu -->
 		            <div class="absolute" style="right: calc(35px + 1.2vw)">
 		                <div class="menu">
-		                    <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="assets/SVG Images/close-svgrepo-com.svg"> <!-- close button -->
+		                    <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="static/assets/SVG Images/close-svgrepo-com.svg"> <!-- close button -->
 		                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="/" data-link>Home</a>
 		                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="/work" data-link>Work</a>
 		                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="/about" data-link>About</a>
