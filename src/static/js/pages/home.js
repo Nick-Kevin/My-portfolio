@@ -16,8 +16,10 @@ export default class extends view {
 
 			    <div id="menu">
 			        <ul>
-			          <li><a href="#">Home</a></li>
-			          <li><a href="#">About Us</a></li>
+			          <li><a href="/home" data-link>Home</a></li>
+			          <li><a href="/work" data-link>Work</a></li>
+			          <li><a href="/about" data-link>About</a></li>
+			          <li><a href="/contact" data-link>Contact</a></li>
 			        </ul>
 			    </div>
 
