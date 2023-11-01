@@ -5,20 +5,25 @@ import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
 const $ = (param) => {
-    return document.querySelector(param)
+    return document.querySelector(param);
 }
 
 const addClass = (param, value) => {
-    return param.classList.add(value)
+    return param.classList.add(value);
 }
 
-const addAnimationToBoyWithGlasses = () => {
+const addAnimationToBoyWithGlassesImg = () => {
     const boyWithGlasses = $(".boy-glasses");
-    addClass(boyWithGlasses, 'scrollingRight');
+    return addClass(boyWithGlasses, 'scrollingRight');
+}
+
+const addAnimationToParameterImg = () => {
+    const parameter = $(".parameter"); 
+    return addClass(parameter, 'scrollingLeft')
 }
 
 const navigateTo = url => {
-    history.pushState(null, null, url),
+    history.pushState(null, null, url);
     router();
 }
 
@@ -60,7 +65,8 @@ const router = async () => {
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     if(match.route.path === "/") {
-        addAnimationToBoyWithGlasses();
+        addAnimationToBoyWithGlassesImg();
+        addAnimationToParameterImg();
     }
 }
 
