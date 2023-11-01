@@ -98,6 +98,13 @@ const setupBurgerMenuFeature        = ()                          => {
     });
 }
 
+const clickTheIconToHiddeItAndShowTheOther = (iconToHidde, iconToShow) => {
+    iconToHidde.addEventListener('click', () => {
+        setStyleDisplayToElement('none', iconToHidde);
+        setStyleDisplayToElement('initial', iconToShow);
+    })
+}
+
 const router                        = async ()                    => {
     const match = routes.find(route => checkPathMatch(route.path));
 
@@ -110,6 +117,11 @@ const router                        = async ()                    => {
             setupWelcomePageAnimations();
             break;
         case "/home":
+            const soundOffIcon = getId("soundOffInHome");
+            const soundOnIcon  = getId("soundOnInHome");
+            setStyleDisplayToElement('none', soundOnIcon);
+            clickTheIconToHiddeItAndShowTheOther(soundOffIcon, soundOnIcon);
+            clickTheIconToHiddeItAndShowTheOther(soundOnIcon, soundOffIcon);
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
             break;   
