@@ -29,8 +29,7 @@ const navigateTo = url => {
     router();
 }
 
-const router = async () => {
-    const routes = [
+const routes = [
         {
             path: "/",
             view: Welcome
@@ -53,6 +52,7 @@ const router = async () => {
         }
     ];
 
+const router = async () => {
     const checkMatches = routes.map(route => {
         return {
             route: route,
