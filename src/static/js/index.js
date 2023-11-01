@@ -111,8 +111,8 @@ const clickIconToCompleteTheTooltip = (icon, tooltip, tooltipValue) => {
     });
 }
 
-const turnOffTheAudio = (audio) => {
-    audio.pause();
+const isAudioPaused = (audio) => {
+    return audio.paused;
 }
 
 const router                        = async ()                    => {
@@ -133,12 +133,15 @@ const router                        = async ()                    => {
             const soundOnIcon  = getId("soundOnInHome");
             const tooltip = getId("audio-tooltip");
             const myMusic = getId("my-music");
-            tooltip.innerHTML = "on";
-            if(myMusic.play) {
-                setStyleDisplayToElement('none', soundOffIcon);
-            } else {
+            
+            if(isAudioPaused(myMusic)) {
+                tooltip.innerHTML = "on";
                 setStyleDisplayToElement('none', soundOnIcon);
+            } else {
+                tooltip.innerHTML = "off";
+                setStyleDisplayToElement('none', soundOffIcon);
             }
+
             clickTheIconToHiddeItAndShowTheOther(soundOffIcon, soundOnIcon);
             clickTheIconToHiddeItAndShowTheOther(soundOnIcon, soundOffIcon);
             clickIconToCompleteTheTooltip(soundOffIcon, tooltip, "off");
