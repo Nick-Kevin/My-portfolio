@@ -4,65 +4,24 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
-const getId = (param) => {
-    return document.getElementById(param);
+const getId = (element) => {
+    return document.getElementById(element);
 }
 
-const setStyleDisplay = (param, value) => {
-    return (param.style.display = value)
+const setStyleDisplayToElement = (displayValue, element) => {
+    return (element.style.display = displayValue);
 }
 
-const getElementBySelector = (param) => {
-    return document.querySelector(param);
+const getElementBySelector = (element) => {
+    return document.querySelector(element);
 }
 
-const addClassToElement = (value, param) => {
-    return param.classList.add(value);
+const addClassToElement = (classValue, element) => {
+    return element.classList.add(classValue);
 }
 
-const addAnimationToBoyWithGlassesImg = () => {
-    const boyWithGlasses = getElementBySelector(".boy-glasses");
-    return addClassToElement('scrollingRight', boyWithGlasses);
-}
-
-const addAnimationToParameterImg = () => {
-    const parameter = getElementBySelector(".parameter"); 
-    return addClassToElement('scrollingLeft', parameter)
-}
-
-const addAnimationToCopyright = () => {
-    const copyright = getElementBySelector(".text p");
-    return addClassToElement('makeOpacity', copyright);
-}
-
-const addChangeColorAnimationToMyName = () => {
-    const myNameInWhiteMilkFont = getElementBySelector('.white-milk');
-    return addClassToElement('changeColor', myNameInWhiteMilkFont);
-}
-
-const addZoomAnimationToMyName = () => {
-    const nickKevin = [
-        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
-        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
-        getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
-    ];
-
-    return nickKevin.forEach((element) => {
-        addClassToElement('zoom', element);
-    });
-}
-
-const addScrollAnimationToLetIsVisitBtn = () => {
-    const LetIsVisitBtn = getId("letsVisit");
-    const nickKevin = [
-        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
-        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
-        getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
-    ];
-    nickKevin[0].addEventListener('animationend', () => {
-        setStyleDisplay(LetIsVisitBtn, 'initial');
-        addClassToElement('scrollingUp', LetIsVisitBtn);
-    })
+const addClassToEachElementInArray = (classValue, arrayVariable) => {
+    arrayVariable.forEach(element => addClassToElement(classValue, element));
 }
 
 const navigateTo = url => {
@@ -108,14 +67,31 @@ const router = async () => {
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     if(match.route.path === "/") {
-        const LetIsVisitBtn = getId("letsVisit");
-        setStyleDisplay(LetIsVisitBtn, 'none');
-        addAnimationToBoyWithGlassesImg();
-        addAnimationToParameterImg();
-        addAnimationToCopyright();
-        addChangeColorAnimationToMyName();
-        addZoomAnimationToMyName();
-        addScrollAnimationToLetIsVisitBtn();
+        const boyWithGlassesImage = getElementBySelector(".boy-glasses");
+        addClassToElement('scrollingRight', boyWithGlassesImage);
+
+        const parameterImage = getElementBySelector(".parameter");
+        addClassToElement('scrollingLeft', parameterImage);
+
+        const copyright = getElementBySelector(".text p");
+        addClassToElement('makeOpacity', copyright);
+
+        const nickKevin = getElementBySelector('.white-milk');
+        addClassToElement('changeColor', nickKevin);
+
+        const nickKevinCaracter = [
+            getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
+            getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
+            getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
+        ];
+        addClassToEachElementInArray('zoom', nickKevinCaracter);
+
+        const LetIsVisitButton = getId("letsVisit");
+        setStyleDisplayToElement('none', LetIsVisitButton);
+        nickKevinCaracter[0].addEventListener('animationend', () => {
+            setStyleDisplayToElement('initial', LetIsVisitButton);
+            addClassToElement('scrollingUp', LetIsVisitButton);
+        })
     }
 }
 
