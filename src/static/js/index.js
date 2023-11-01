@@ -30,27 +30,27 @@ const navigateTo = url => {
 }
 
 const routes = [
-        {
-            path: "/",
-            view: Welcome
-        },
-        {
-            path: "/home",
-            view: Home
-        },
-        {
-            path: "/work",
-            view: Work
-        },
-        {
-            path: "/about",
-            view: About  
-        },
-        {
-            path: "/contact",
-            view: Contact   
-        }
-    ];
+    {
+        path: "/",
+        view: Welcome
+    },
+    {
+        path: "/home",
+        view: Home
+    },
+    {
+        path: "/work",
+        view: Work
+    },
+    {
+        path: "/about",
+        view: About  
+    },
+    {
+        path: "/contact",
+        view: Contact   
+    }
+];
 
 const router = async () => {
     const checkMatches = routes.map(route => {
