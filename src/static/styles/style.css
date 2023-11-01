@@ -20,6 +20,10 @@ body {
     margin: 0;
 }
 
+.wave-background {
+    background-image: url("../assets/SVG Images/wave-haikei.svg.xml");
+}
+
 @font-face {
     font-family: "White Milk";
     src: url("../assets/Fonts/White\ Milk.otf") format("opentype");
