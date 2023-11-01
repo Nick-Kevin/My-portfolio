@@ -220,26 +220,26 @@
 
 @-webkit-keyframes changeColor {
     from { color: white; -webkit-animation-timing-function: ease-in;}
-    50% { color: orange; -webkit-animation-timing-function: ease-in;}
+    50% { color: skyblue; -webkit-animation-timing-function: ease-in;}
     to { color: palevioletred; }
 }
 
 @-o-keyframes changeColor {
     from { color: white; -o-animation-timing-function: ease-in;}
-    50% { color: orange; -o-animation-timing-function: ease-in;}
+    50% { color: skyblue; -o-animation-timing-function: ease-in;}
     to { color: palevioletred; }
 }
 
 @-moz-keyframes changeColor {
     from { color: white; -moz-animation-timing-function: ease-in;}
-    50% { color: orange; -moz-animation-timing-function: ease-in;}
+    50% { color: skyblue; -moz-animation-timing-function: ease-in;}
     to { color: palevioletred; }
 }
 
 @keyframes changeColor {
     from { color: white; animation-timing-function: ease-in;}
-    50% { color: orange; animation-timing-function: ease-in;}
-    to { color: palevioletred; }
+    50% { color: skyblue; animation-timing-function: ease-in;}
+    to { color: #faff06; }
 }
 
 .changeColor {
