@@ -75,7 +75,7 @@ export default class extends view {
 		            </div>
 		            <div class="second-content other-margin-top">
 		                <div class="flex-display">
-		                    <img src="assets/Images/Kevin.jpg" alt="kevin.jpg">
+		                    <img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
 		                </div>
 		            </div>
 		        </div>
