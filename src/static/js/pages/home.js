@@ -42,7 +42,9 @@ export default class extends view {
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
 		                <audio src="static/assets/Music/piano-moment.mp3"></audio>
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
-		                <p class="tooltiptext">Click to turn <span></span> the music</p>
+		                <p class="tooltiptext">
+		                	Click to turn <span id="audio-tooltip"></span> the music
+		                </p>
 		            </div>
 		            <!----------------------------------------------------------------------------------->
 		        </div>
