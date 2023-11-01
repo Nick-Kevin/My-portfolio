@@ -22,6 +22,11 @@ const addAnimationToParameterImg = () => {
     return addClass(parameter, 'scrollingLeft')
 }
 
+const addAnimationToCopyright = () => {
+    const copyright = $(".text p");
+    return addClass(copyright, 'makeOpacity');
+}
+
 const navigateTo = url => {
     history.pushState(null, null, url);
     router();
@@ -67,6 +72,7 @@ const router = async () => {
     if(match.route.path === "/") {
         addAnimationToBoyWithGlassesImg();
         addAnimationToParameterImg();
+        addAnimationToCopyright();
     }
 }
 
