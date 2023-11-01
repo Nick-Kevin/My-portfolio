@@ -4,62 +4,64 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
-const id = (param) => {
+const getId = (param) => {
     return document.getElementById(param);
 }
 
-const displayMode = (param, value) => {
+const setStyleDisplay = (param, value) => {
     return (param.style.display = value)
 }
 
-const $ = (param) => {
+const getElementBySelector = (param) => {
     return document.querySelector(param);
 }
 
-const addClass = (param, value) => {
+const addClassToElement = (value, param) => {
     return param.classList.add(value);
 }
 
 const addAnimationToBoyWithGlassesImg = () => {
-    const boyWithGlasses = $(".boy-glasses");
-    return addClass(boyWithGlasses, 'scrollingRight');
+    const boyWithGlasses = getElementBySelector(".boy-glasses");
+    return addClassToElement('scrollingRight', boyWithGlasses);
 }
 
 const addAnimationToParameterImg = () => {
-    const parameter = $(".parameter"); 
-    return addClass(parameter, 'scrollingLeft')
+    const parameter = getElementBySelector(".parameter"); 
+    return addClassToElement('scrollingLeft', parameter)
 }
 
 const addAnimationToCopyright = () => {
-    const copyright = $(".text p");
-    return addClass(copyright, 'makeOpacity');
+    const copyright = getElementBySelector(".text p");
+    return addClassToElement('makeOpacity', copyright);
 }
 
 const addChangeColorAnimationToMyName = () => {
-    const myNameInWhiteMilkFont = $('.white-milk');
-    return addClass(myNameInWhiteMilkFont, 'changeColor');
+    const myNameInWhiteMilkFont = getElementBySelector('.white-milk');
+    return addClassToElement('changeColor', myNameInWhiteMilkFont);
 }
 
 const addZoomAnimationToMyName = () => {
     const nickKevin = [
-        $(".n1"), $(".i1"), $(".c"), $(".k1"), $(".k2"),
-        $(".e"), $(".v"), $(".i2"), $(".n2")
+        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
+        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
+        getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
     ];
 
     return nickKevin.forEach((element) => {
-        addClass(element, 'zoom')
+        addClassToElement('zoom', element);
     });
 }
 
 const addScrollAnimationToLetIsVisitBtn = () => {
-    const LetIsVisitBtn = id("letsVisit");
+    const LetIsVisitBtn = getId("letsVisit");
     const nickKevin = [
-        $(".n1"), $(".i1"), $(".c"), $(".k1"), $(".k2"),
-        $(".e"), $(".v"), $(".i2"), $(".n2")
+        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
+        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
+        getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
     ];
     nickKevin[0].addEventListener('animationend', () => {
-        displayMode(LetIsVisitBtn, 'initial')
-        addClass(LetIsVisitBtn, 'scrollingUp')
+        setStyleDisplay(LetIsVisitBtn, 'initial');
+        addClassToElement('scrollingUp', LetIsVisitBtn);
     })
 }
 
@@ -106,8 +108,8 @@ const router = async () => {
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     if(match.route.path === "/") {
-        const LetIsVisitBtn = id("letsVisit");
-        displayMode(LetIsVisitBtn, 'none');
+        const LetIsVisitBtn = getId("letsVisit");
+        setStyleDisplay(LetIsVisitBtn, 'none');
         addAnimationToBoyWithGlassesImg();
         addAnimationToParameterImg();
         addAnimationToCopyright();
