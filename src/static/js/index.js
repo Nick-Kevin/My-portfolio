@@ -47,9 +47,6 @@ const addClassToEachElementInArray = (classValue, arrayVariable) => {
     arrayVariable.forEach(element => addClassToElement(classValue, element));
 }
 
-var burgerMenu = getId('burger-menu');
-var overlay    = getId('menu')       ;
-
 const navigateTo                   = url                         => {
     history.pushState(null, null, url);
     router();
@@ -88,6 +85,9 @@ const setupWelcomePageAnimations   = ()                          => {
 }
 
 const setupBurgerMenuAnimation     = ()                          => {
+    var burgerMenu = getId('burger-menu');
+    var overlay    = getId('menu')       ;
+
     burgerMenu.addEventListener('click', function() {
       this.classList.toggle("close")     ;
       overlay.classList.toggle("overlay");
@@ -102,11 +102,11 @@ const router                       = async ()                    => {
 
     switch(match.path) {
         case "/":
-            setStyleDisplayToElement('none', burgerMenu);
+            document.body.style = 'overflow: hidden';
             setupWelcomePageAnimations();
             break;
         case "/home":
-            setStyleDisplayToElement('block', burgerMenu);
+            document.body.style = 'overflow: auto';
             setupBurgerMenuAnimation();
             break;   
     }
