@@ -9,7 +9,18 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<section id="secondPage" class="accueil screen scrollbar">
+			<section id="secondPage" class="accueil">
+				<div id="burger-menu">
+			      <span></span>
+			    </div>
+
+			    <div id="menu">
+			        <ul>
+			          <li><a href="#">Home</a></li>
+			          <li><a href="#">About Us</a></li>
+			        </ul>
+			    </div>
+
 		        <div>
 		        <div>
 		            <div class="tooltip">
@@ -89,7 +100,7 @@ export default class extends view {
 		                <span class="pointer">about</span>
 		            </p>
 		        </div>
-		        <div class="footer nk-text-light flex-display" style="height: 300px;">
+		        <div class="footer nk-text-light flex-display" style="height: 350px;">
 		            <div class="flex-display">
 		                <a class="none-decoration" href="#">Facebook</a>
 		                <a class="none-decoration" href="#">Instagram</a>
