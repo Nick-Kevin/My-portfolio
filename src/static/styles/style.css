@@ -41,7 +41,6 @@ body {
 }
 
 section {
-    width: 100vw;
     margin: 0;
     font-family: var(--standard-font);
 }
