@@ -47,6 +47,9 @@ const addClassToEachElementInArray = (classValue, arrayVariable) => {
     arrayVariable.forEach(element => addClassToElement(classValue, element));
 }
 
+var burgerMenu = getId('burger-menu');
+var overlay    = getId('menu')       ;
+
 const navigateTo                   = url                         => {
     history.pushState(null, null, url);
     router();
@@ -84,16 +87,33 @@ const setupWelcomePageAnimations   = ()                          => {
     })
 }
 
+const setupBurgerMenuAnimation     = ()                          => {
+    burgerMenu.addEventListener('click', function() {
+      this.classList.toggle("close")     ;
+      overlay.classList.toggle("overlay");
+    });
+}
+
 const router                       = async ()                    => {
     const match = routes.find(route => checkPathMatch(route.path));
 
     const view  = new match.view();
-
     document.querySelector("#home").innerHTML = await view.getHtml();
 
-    if(match.path === "/") {
-        setupWelcomePageAnimations();
+    switch(match.path) {
+        case "/":
+            setStyleDisplayToElement('none', burgerMenu);
+            setupWelcomePageAnimations();
+            break;
+        case "/home":
+            setStyleDisplayToElement('block', burgerMenu);
+            setupBurgerMenuAnimation();
+            break;   
     }
+
+    /*if(match.path === "/") {
+        setupWelcomePageAnimations();
+    }*/
 }
 
 document.addEventListener('popstate', router);
