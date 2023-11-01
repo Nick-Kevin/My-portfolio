@@ -63,7 +63,7 @@ export default class extends view {
 		        <div class="main-content block-container flex-display align-items-center">
 		            <div class="first-content flex-display align-items-center">
 		                <h1 class="nk-text-color nk-text-thin other-margin-bottom">Hello!
-		                    <span><img class="image-size" src="assets/SVG Images/waving-hand-svgrepo-com.svg"></span> 
+		                    <span><img class="image-size" src="static/assets/SVG Images/waving-hand-svgrepo-com.svg"></span> 
 		                    <span>I am Nick Kevin</span></h1>
 		                <h1 class="nk-text-color nk-text-thin my-margin">RAZAFINIRINA</h1>
 		                <div class="nk-text-style other-size my-margin flex-display align-items-center">
