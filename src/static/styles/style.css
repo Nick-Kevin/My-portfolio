@@ -456,6 +456,8 @@ section {
 
 .tooltip    {
     position: relative;
+    margin: 50px;
+    float: left;
 }
 
 .tooltip .tooltiptext   {
