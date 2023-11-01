@@ -39,8 +39,7 @@ export default class extends view {
 		            <!-------------------------- Buttons on the top right side -------------------------->
 		            <!-- Turn on/off button -->
 		            <div class="other-width nk-right tooltip">
-		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
-		                <audio src="static/assets/Music/piano-moment.mp3"></audio>
+		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 		                <p class="tooltiptext">
 		                	Click to turn <span id="audio-tooltip"></span> the music

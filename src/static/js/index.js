@@ -111,6 +111,10 @@ const clickIconToCompleteTheTooltip = (icon, tooltip, tooltipValue) => {
     });
 }
 
+const turnOffTheAudio = (audio) => {
+    audio.pause();
+}
+
 const router                        = async ()                    => {
     const match = routes.find(route => checkPathMatch(route.path));
 
@@ -128,12 +132,23 @@ const router                        = async ()                    => {
             const soundOffIcon = getId("soundOffInHome");
             const soundOnIcon  = getId("soundOnInHome");
             const tooltip = getId("audio-tooltip");
+            const myMusic = getId("my-music");
             tooltip.innerHTML = "on";
-            setStyleDisplayToElement('none', soundOnIcon);
+            if(myMusic.play) {
+                setStyleDisplayToElement('none', soundOffIcon);
+            } else {
+                setStyleDisplayToElement('none', soundOnIcon);
+            }
             clickTheIconToHiddeItAndShowTheOther(soundOffIcon, soundOnIcon);
             clickTheIconToHiddeItAndShowTheOther(soundOnIcon, soundOffIcon);
             clickIconToCompleteTheTooltip(soundOffIcon, tooltip, "off");
             clickIconToCompleteTheTooltip(soundOnIcon, tooltip, "on");
+            soundOffIcon.addEventListener('click', () => {
+                myMusic.play();
+            });
+            soundOnIcon.addEventListener('click', () => {
+                myMusic.pause();
+            })
 
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
