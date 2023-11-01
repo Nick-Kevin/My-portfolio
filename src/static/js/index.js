@@ -4,6 +4,14 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
+const id = (param) => {
+    return document.getElementById(param);
+}
+
+const displayMode = (param, value) => {
+    return (param.style.display = value)
+}
+
 const $ = (param) => {
     return document.querySelector(param);
 }
@@ -41,6 +49,18 @@ const addZoomAnimationToMyName = () => {
     return nickKevin.forEach((element) => {
         addClass(element, 'zoom')
     });
+}
+
+const addScrollAnimationToLetIsVisitBtn = () => {
+    const LetIsVisitBtn = id("letsVisit");
+    const nickKevin = [
+        $(".n1"), $(".i1"), $(".c"), $(".k1"), $(".k2"),
+        $(".e"), $(".v"), $(".i2"), $(".n2")
+    ];
+    nickKevin[0].addEventListener('animationend', () => {
+        displayMode(LetIsVisitBtn, 'initial')
+        addClass(LetIsVisitBtn, 'scrollingUp')
+    })
 }
 
 const navigateTo = url => {
@@ -86,11 +106,14 @@ const router = async () => {
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     if(match.route.path === "/") {
+        const LetIsVisitBtn = id("letsVisit");
+        displayMode(LetIsVisitBtn, 'none');
         addAnimationToBoyWithGlassesImg();
         addAnimationToParameterImg();
         addAnimationToCopyright();
         addChangeColorAnimationToMyName();
         addZoomAnimationToMyName();
+        addScrollAnimationToLetIsVisitBtn();
     }
 }
 
