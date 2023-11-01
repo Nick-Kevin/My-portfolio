@@ -27,36 +27,40 @@ const routes = [
     }
 ];
 
-const getId                        = (element)                   => {
+const getId                         = (element)                   => {
     return document.getElementById(element);
 }
 
-const setStyleDisplayToElement     = (displayValue, element)     => {
+const setStyleDisplayToElement      = (displayValue, element)     => {
     return (element.style.display = displayValue);
 }
 
-const getElementBySelector         = (element)                   => {
+const getElementBySelector          = (element)                   => {
     return document.querySelector(element);
 }
 
-const addClassToElement            = (classValue, element)       => {
+const addClassToElement             = (classValue, element)       => {
     return element.classList.add(classValue);
+}
+
+const setOverflowValueToBodyElement = (value)                     => {
+    document.body.style = `overflow: ${value}`;
 }
 
 const addClassToEachElementInArray = (classValue, arrayVariable) => {
     arrayVariable.forEach(element => addClassToElement(classValue, element));
 }
 
-const navigateTo                   = url                         => {
+const navigateTo                    = url                         => {
     history.pushState(null, null, url);
     router();
 }
 
-const checkPathMatch               = (path)                      => {
+const checkPathMatch                = (path)                      => {
     return location.pathname === path;
 }
 
-const setupWelcomePageAnimations   = ()                          => {
+const setupWelcomePageAnimations    = ()                          => {
     const boyWithGlassesImage = getElementBySelector(".boy-glasses");
     addClassToElement('scrollingRight', boyWithGlassesImage)        ;
 
@@ -84,7 +88,7 @@ const setupWelcomePageAnimations   = ()                          => {
     })
 }
 
-const setupBurgerMenuAnimation     = ()                          => {
+const setupBurgerMenuFeature        = ()                          => {
     var burgerMenu = getId('burger-menu');
     var overlay    = getId('menu')       ;
 
@@ -94,7 +98,7 @@ const setupBurgerMenuAnimation     = ()                          => {
     });
 }
 
-const router                       = async ()                    => {
+const router                        = async ()                    => {
     const match = routes.find(route => checkPathMatch(route.path));
 
     const view  = new match.view();
@@ -102,12 +106,12 @@ const router                       = async ()                    => {
 
     switch(match.path) {
         case "/":
-            document.body.style = 'overflow: hidden';
+            setOverflowValueToBodyElement("hidden");
             setupWelcomePageAnimations();
             break;
         case "/home":
-            document.body.style = 'overflow: auto';
-            setupBurgerMenuAnimation();
+            setOverflowValueToBodyElement("auto");
+            setupBurgerMenuFeature();
             break;   
     }
 
