@@ -32,7 +32,7 @@ export default class extends view {
 		            <div class="other-width nk-right tooltip">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
 		                <audio src="static/assets/Music/piano-moment.mp3"></audio>
-		                <img id="soundOnInHome" class="other-width pointer" src="assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
+		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 		                <p class="tooltiptext">Click to turn <span></span> the music</p>
 		            </div>
 		            <!-- links menu -->
