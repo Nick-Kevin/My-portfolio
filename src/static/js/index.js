@@ -1,24 +1,24 @@
 import Welcome from './pages/Welcome.js';
-import Home    from './pages/Home.js'   ;
-import Work    from './pages/Work.js'   ;
-import About   from './pages/About.js'  ;
+import Home from './pages/Home.js';
+import Work from './pages/Work.js';
+import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
 const routes = [
     {
-        path: "/"       ,
+        path: "/",
         view: Welcome
     },
     {
-        path: "/home"   ,
+        path: "/home",
         view: Home
     },
     {
-        path: "/work"   ,
+        path: "/work",
         view: Work
     },
     {
-        path: "/about"  ,
+        path: "/about",
         view: About  
     },
     {
@@ -27,23 +27,23 @@ const routes = [
     }
 ];
 
-const getId                         = (element)                   => {
+const getId = (element) => {
     return document.getElementById(element);
 }
 
-const setStyleDisplayToElement      = (displayValue, element)     => {
+const setStyleDisplayToElement = (displayValue, element) => {
     return (element.style.display = displayValue);
 }
 
-const getElementBySelector          = (element)                   => {
+const getElementBySelector = (element) => {
     return document.querySelector(element);
 }
 
-const addClassToElement             = (classValue, element)       => {
+const addClassToElement = (classValue, element) => {
     return element.classList.add(classValue);
 }
 
-const setOverflowValueToBodyElement = (value)                     => {
+const setOverflowValueToBodyElement = (value) => {
     document.body.style = `overflow: ${value}`;
 }
 
@@ -51,36 +51,36 @@ const addClassToEachElementInArray = (classValue, arrayVariable) => {
     arrayVariable.forEach(element => addClassToElement(classValue, element));
 }
 
-const navigateTo                    = url                         => {
+const navigateTo = url => {
     history.pushState(null, null, url);
     router();
 }
 
-const checkPathMatch                = (path)                      => {
+const checkPathMatch = (path) => {
     return location.pathname === path;
 }
 
-const setupWelcomePageAnimations    = ()                          => {
+const setupWelcomePageAnimations = () => {
     const boyWithGlassesImage = getElementBySelector(".boy-glasses");
-    addClassToElement('scrollingRight', boyWithGlassesImage)        ;
+    addClassToElement('scrollingRight', boyWithGlassesImage);
 
-    const parameterImage      = getElementBySelector(".parameter")  ;
-    addClassToElement('scrollingLeft', parameterImage)              ;
+    const parameterImage = getElementBySelector(".parameter");
+    addClassToElement('scrollingLeft', parameterImage);
 
-    const copyright           = getElementBySelector(".text p")     ;
-    addClassToElement('makeOpacity', copyright)                     ;
+    const copyright = getElementBySelector(".text p");
+    addClassToElement('makeOpacity', copyright);
 
-    const nickKevin           = getElementBySelector('.white-milk') ;
-    addClassToElement('changeColor', nickKevin)                     ;
+    const nickKevin = getElementBySelector('.white-milk') ;
+    addClassToElement('changeColor', nickKevin);
 
     const nickKevinCaracter = [
-        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c") ,
-        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e") ,
-        getElementBySelector(".v") , getElementBySelector(".i2"), getElementBySelector(".n2")
-    ]                                                               ;
-    addClassToEachElementInArray('zoom', nickKevinCaracter)         ;
+        getElementBySelector(".n1"), getElementBySelector(".i1"), getElementBySelector(".c"),
+        getElementBySelector(".k1"), getElementBySelector(".k2"), getElementBySelector(".e"),
+        getElementBySelector(".v"), getElementBySelector(".i2"), getElementBySelector(".n2")
+    ];
+    addClassToEachElementInArray('zoom', nickKevinCaracter);
 
-    const LetIsVisitButton    = getId("letsVisit")                  ;
+    const LetIsVisitButton = getId("letsVisit");
     setStyleDisplayToElement('none', LetIsVisitButton);
     nickKevinCaracter[0].addEventListener('animationend', () => {
         setStyleDisplayToElement('initial', LetIsVisitButton);
@@ -88,12 +88,12 @@ const setupWelcomePageAnimations    = ()                          => {
     })
 }
 
-const setupBurgerMenuFeature        = ()                          => {
+const setupBurgerMenuFeature = () => {
     var burgerMenu = getId('burger-menu');
-    var overlay    = getId('menu')       ;
+    var overlay = getId('menu');
 
     burgerMenu.addEventListener('click', function() {
-      this.classList.toggle("close")     ;
+      this.classList.toggle("close");
       overlay.classList.toggle("overlay");
     });
 }
@@ -115,10 +115,10 @@ const isAudioPaused = (audio) => {
     return audio.paused;
 }
 
-const router                        = async ()                    => {
+const router = async () => {
     const match = routes.find(route => checkPathMatch(route.path));
 
-    const view  = new match.view();
+    const view = new match.view();
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     switch(match.path) {
@@ -130,7 +130,7 @@ const router                        = async ()                    => {
 
         case "/home":
             const soundOffIcon = getId("soundOffInHome");
-            const soundOnIcon  = getId("soundOnInHome");
+            const soundOnIcon = getId("soundOnInHome");
             const tooltip = getId("audio-tooltip");
             const myMusic = getId("my-music");
             
@@ -158,10 +158,6 @@ const router                        = async ()                    => {
             break; 
 
     }
-
-    /*if(match.path === "/") {
-        setupWelcomePageAnimations();
-    }*/
 }
 
 document.addEventListener('popstate', router);
