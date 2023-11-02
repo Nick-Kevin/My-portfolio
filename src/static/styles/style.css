@@ -21,7 +21,9 @@ body {
 }
 
 .wave-background {
-    background-image: url("../assets/SVG Images/wave-haikei.svg.xml");
+    background-image: url("../assets/SVG Images/wave-haikei.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
 }
 
 @font-face {
