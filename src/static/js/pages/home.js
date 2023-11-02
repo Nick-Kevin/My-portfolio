@@ -10,7 +10,6 @@ export default class extends view {
 	async getHtml() {
 		return `
 			<section id="secondPage" class="accueil wave-background">
-				<img src="static/assets/SVG Images/wave-haikei.svg.xml">
 				<div id="burger-menu">
 			      <span></span>
 			    </div>
