@@ -9,7 +9,7 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<section id="secondPage" class="accueil wave-background">
+			<section id="secondPage" class="accueil">
 				<div id="burger-menu">
 			      <span></span>
 			    </div>
@@ -76,6 +76,11 @@ export default class extends view {
 		                <span class="pointer">about</span>
 		            </p>
 		        </div>
+		        <img
+		        	src = "static/assets/SVG Images/curve.svg"
+		        	alt = "sine wave"
+		        	style = "width: 100%;"
+		        >
 		        <div class="footer nk-text-light flex-display" style="height: 350px;">
 		            <div class="flex-display">
 		                <a class="none-decoration" href="#">Facebook</a>
