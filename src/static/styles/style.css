@@ -186,6 +186,10 @@ section {
     margin-top: 5rem;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
 /* BOTTOM */
 .my-margin {
     margin-bottom: 20px;
@@ -320,6 +324,10 @@ section {
 
 .px-1 {
     padding: 0 8px;
+}
+
+.px-2 {
+    padding: 0 16px;
 }
 
 /* RIGHT */
