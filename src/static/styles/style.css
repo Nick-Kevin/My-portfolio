@@ -68,6 +68,14 @@ section {
     min-height: 100vh;
 }
 
+#my-github-activity {
+    width: 350px;
+}
+
+#my-github-streak-stats {
+    width: 350px;
+}
+
 /**************************** Position *****************************/
 .p-relative {
     position: relative;
@@ -666,5 +674,5 @@ section {
 
 footer {
     padding: 32px;
-    background-color: var(--white-color);
+    background-color: var(--black-color);
 }
