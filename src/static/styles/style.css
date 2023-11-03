@@ -136,6 +136,10 @@ section {
 .nk-stheme-color {
     color: var(--second-color);
 }
+
+.c-white {
+    color: var(--white-color);
+}
 /************************************************************************/
 
 /***************************** Width ******************************/
@@ -213,6 +217,10 @@ section {
 
 .mb-5 {
     margin-bottom: 5rem;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
 }
 
 /* LEFT */
