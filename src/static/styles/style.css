@@ -535,11 +535,6 @@ section {
 .other-width {
     width: calc(12px + 0.8vw);
 }
-
-.footer {
-    padding: 32px;
-    background-color: var(--white-color);
-}
 /***************************************************************/
 
 /******************* turn on/off music buttons *****************/
@@ -668,3 +663,8 @@ section {
     text-decoration: none;
 }
 /*****************************************************************/
+
+footer {
+    padding: 32px;
+    background-color: var(--white-color);
+}
