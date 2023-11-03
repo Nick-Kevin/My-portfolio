@@ -101,19 +101,19 @@ export default class extends view {
 									    </a>
 									</div>
 			        			</div>
-								<div class="flex-display flex-column px-1">
+								<div class="flex-display flex-column px-2">
 									<h3 style="color: white;">My github contribution graph</h3>
 									<img
-										id = "my-github-activity"
+										id = "my-github-activity mt-8"
 										class = "w-100"
 										src = "https://github-readme-activity-graph.vercel.app/graph?username=Nick-Kevin&bg-color=fdfddc"
 										alt = "My github activity graph"
 									>
 								</div>
-								<div class="flex-display flex-column px-1">
+								<div class="flex-display flex-column px-2">
 									<h3 style="color: white;">My github streak stats</h3>
 									<img
-										id = "my-github-streak-stats"
+										id = "my-github-streak-stats mt-8"
 										class = "w-100"
 										src = "https://streak-stats.demolab.com/?user=Nick-Kevin"
 										alt = "My github streak stats"
