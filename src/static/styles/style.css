@@ -535,6 +535,10 @@ section {
 .other-width {
     width: calc(12px + 0.8vw);
 }
+
+.footer {
+    background-color: var(--white-color);
+}
 /***************************************************************/
 
 /******************* turn on/off music buttons *****************/
