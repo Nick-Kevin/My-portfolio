@@ -691,5 +691,5 @@ footer {
 
 footer .grid-container {
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 70% 30%;
 }
