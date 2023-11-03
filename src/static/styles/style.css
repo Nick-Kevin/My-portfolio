@@ -537,6 +537,7 @@ section {
 }
 
 .footer {
+    padding: 32px;
     background-color: var(--white-color);
 }
 /***************************************************************/
