@@ -49,16 +49,16 @@ export default class extends view {
 			        </div>
 			        <div class="main-content block-container flex-display align-items-center">
 			            <div class="first-content flex-display align-items-center">
-			                <h1 class="nk-text-color nk-text-thin other-margin-bottom">Hello!
+			                <h1 class="nk-text-color onest-regular other-margin-bottom">Hello!
 			                    <span><img class="image-size" src="static/assets/SVG Images/waving-hand-svgrepo-com.svg"></span> 
 			                    <span>I am Nick Kevin</span></h1>
-			                <h1 class="nk-text-color nk-text-thin my-margin">RAZAFINIRINA</h1>
+			                <h1 class="nk-text-color onest-regular my-margin">RAZAFINIRINA</h1>
 			                <div class="nk-text-style other-size my-margin flex-display align-items-center">
 			                    <p class="other-margin-bottom">Frontend Developer</p>
 			                    <p>& UI/UX designer</p>
 			                </div>
-			                <p class="nk-text-color nk-text-thin other-margin-bottom">Creating interfaces and providing good</p>
-			                <p class="nk-text-color nk-text-thin my-margin">user experience are my passion</p>
+			                <p class="nk-text-color onest-regular other-margin-bottom">Creating interfaces and providing good</p>
+			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p>
 			            </div>
 			            <div class="second-content other-margin-top">
 			                <div class="flex-display">
