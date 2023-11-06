@@ -175,6 +175,10 @@ section {
 }
 
 /***************************** Margin ******************************/
+
+.mx-4 {
+    margin: 0 32px;
+}
 /* TOP */
 .mt-1 {
     margin-top: 0.2rem;
@@ -645,13 +649,14 @@ section {
     flex-direction: column;    
 }
 
-.main-content div:nth-child(2) {    
+#front-end-ui-ux-design {    
     flex-direction: column;
     justify-content: center;    
     font-weight: thin;
     background: var(--second-color);
     /*width: calc(200px + 30vw);
     height: calc(145px + 8vh);*/
+    margin: 0 32px;
     padding: 48px calc(40px + 4vw);
     border-radius: 30px;
 }
