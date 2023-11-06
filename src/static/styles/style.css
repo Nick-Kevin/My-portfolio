@@ -637,7 +637,7 @@ section {
     margin-top: 100px;
 }
 
-.main-content .first-content .other-size {
+.other-size {
     font-size: calc(20px + 2.5vw);
 }
 
@@ -650,8 +650,9 @@ section {
     justify-content: center;    
     font-weight: thin;
     background: var(--second-color);
-    width: calc(200px + 30vw);
-    height: calc(145px + 8vh);
+    /*width: calc(200px + 30vw);
+    height: calc(145px + 8vh);*/
+    padding: 48px calc(40px + 4vw);
     border-radius: 30px;
 }
 
