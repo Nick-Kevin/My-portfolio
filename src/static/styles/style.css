@@ -694,7 +694,7 @@ section {
     border-radius: 30px;
 }
 
-.main-content .first-content div div{    
+#my-photo {    
     justify-content: center;
     align-content: center;
     width: calc(90px + 3vw);
