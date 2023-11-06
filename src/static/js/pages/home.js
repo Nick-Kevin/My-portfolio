@@ -60,7 +60,7 @@ export default class extends view {
 			                </p>			              
 			            </div>
 			            <div class="flex-display justify-content-end">
-			            	<div id="front-end-ui-ux-design" class="mr-8 other-margin-top nk-text-style other-size my-margin flex-display justify-content-center">
+			            	<div id="front-end-ui-ux-design" class="mr-8 nk-text-style other-size flex-display justify-content-center">
 			                	<p class="other-margin-bottom">Frontend Developer</p>
 			                    <p>& UI/UX designer</p>
 			                    <!--img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg"-->
