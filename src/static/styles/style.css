@@ -449,6 +449,10 @@ section {
     justify-content: space-evenly;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -465,6 +469,14 @@ section {
     flex-direction: column;
 }
 /*******************************************************************/
+
+.gird-display {
+    display: grid;
+}
+
+.col-div-2 {
+    grid-template-columns: 50% 50%;
+}
 
 .none-decoration {
     text-decoration: none;
@@ -668,9 +680,10 @@ section {
     flex-direction: column;
     justify-content: center;
     background: var(--second-color);
-    /*width: calc(200px + 30vw);
+    width: 50%;
+    /*width: calc(1000px + 32vw);
     height: calc(145px + 8vh);*/
-    padding: 48px calc(40px + 4vw);
+    padding: calc(32px + 2vw);
     border-radius: 30px;
 }
 
