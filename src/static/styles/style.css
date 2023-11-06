@@ -15,6 +15,7 @@
 
 body {
     background: var(--main-color) /*linear-gradient(to top right, coral, lightblue, pink)*/;
+    font-family: var(--onest-regular);
 }
 
 * {
@@ -54,7 +55,6 @@ body {
 
 section {
     margin: 0;
-    font-family: var(--standard-font);
 }
 
 .screen {
