@@ -67,7 +67,7 @@ export default class extends view {
 			            	</div>
 			            </div>
 			        </div>
-			        <div class="link other-margin-top flex-display">
+			        <div class="link other-margin-top flex-display my-8">
 			            <p class="nk-text-color nk-text-style flex-display align-items-center">
 			                <img class="image-size pointer" src="static/assets/SVG Images/link-chain-svgrepo-com.svg" alt="link.svg">
 			                <span class="pointer">my works</span>
