@@ -27,6 +27,11 @@ body {
 }
 
 @font-face {
+    font-family: "Onest-Regular";
+    src: url("../assets/Fonts/Onest-Regular.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "White Milk";
     src: url("../assets/Fonts/White\ Milk.otf") format("opentype");
 }
