@@ -275,10 +275,6 @@ section {
     padding-right: 0.8rem;
 }
 
-.mr-4 {
-    padding-right: 3rem;
-}
-
 .mr-5 {
     padding-right: 5rem;
 }
@@ -293,6 +289,10 @@ section {
 
 .ml-4 {
     margin-left: 32px;
+}
+
+.ml-8 {
+    margin-left: 64px;
 }
 /*******************************************************************/
 
@@ -688,7 +688,6 @@ section {
     flex-direction: column;
     justify-content: center;
     background: var(--second-color);
-    width: 50%;
     /*width: calc(1000px + 32vw);
     height: calc(145px + 8vh);*/
     padding: calc(32px + 2vw);
