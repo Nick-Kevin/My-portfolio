@@ -176,6 +176,9 @@ section {
 }
 
 /***************************** Margin ******************************/
+.m-8 {
+    margin: 64px;
+}
 
 .mx-4 {
     margin: 0 32px;
@@ -505,7 +508,6 @@ section {
 
 .tooltip    {
     position: relative;
-    margin: 50px;
 }
 
 .tooltip:nth-child(1) {
