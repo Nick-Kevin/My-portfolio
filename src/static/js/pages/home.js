@@ -56,7 +56,7 @@ export default class extends view {
 			                <p class="nk-text-color onest-regular other-margin-bottom">Creating interfaces and providing good</p>
 			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p-->
 			                <p class="nk-text-color mx-4">
-			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience. I take pride in turning innovative ideas into interactive, visually appealing web applications. With a keen eye for design, I'm committed to crafting beautiful and intuitive digital experiences that leave a lasting impression. Explore my portfolio to see how I blend creativity and technology to shape the web of tomorrow
+			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer and occasionaly UI/UX designer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience.
 			                </p>
 			                <div>			                    
 			                    <div class="flex-display">
