@@ -655,7 +655,7 @@ section {
     border-radius: 30px;
 }
 
-.second-content div{    
+.main-content .first-content div div{    
     justify-content: center;
     align-content: center;
     width: calc(90px + 3vw);
