@@ -47,7 +47,7 @@ export default class extends view {
 			            </div>
 			            <!----------------------------------------------------------------------------------->
 			        </div>
-			        <div class="main-content block-container flex-display align-items-center">
+			        <div class="main-content block-container gird-display col-div-2 justify-content-center">
 			            <div class="first-content flex-display align-items-center">
 			                <!--h1 class="nk-text-color onest-regular other-margin-bottom">Hello!
 			                    <span><img class="image-size" src="static/assets/SVG Images/waving-hand-svgrepo-com.svg"></span> 
@@ -64,10 +64,12 @@ export default class extends view {
 			                    </div>
 			                </div>
 			            </div>
-			            <div id="front-end-ui-ux-design" class="mr-8 other-margin-top nk-text-style other-size my-margin flex-display align-items-center">
+			            <div class="flex-display justify-content-end">
+			            	<div id="front-end-ui-ux-design" class="mr-8 other-margin-top nk-text-style other-size my-margin flex-display justify-content-center">
 			                	<p class="other-margin-bottom">Frontend Developer</p>
 			                    <p>& UI/UX designer</p>
 			                    <!--img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg"-->
+			            	</div>
 			            </div>
 			        </div>
 			        <div class="link other-margin-top flex-display">
