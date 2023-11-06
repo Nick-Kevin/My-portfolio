@@ -55,7 +55,7 @@ export default class extends view {
 			                <h1 class="nk-text-color onest-regular my-margin">RAZAFINIRINA</h1>
 			                <p class="nk-text-color onest-regular other-margin-bottom">Creating interfaces and providing good</p>
 			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p>
-			                <div class="second-content">			                    
+			                <div>			                    
 			                    <div class="flex-display">
 			                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
 			                    </div>
