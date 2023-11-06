@@ -57,12 +57,7 @@ export default class extends view {
 			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p-->
 			                <p class="nk-text-color ml-8">
 			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer and occasionaly UI/UX designer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience.
-			                </p>
-			                <div>			                    
-			                    <div class="flex-display">
-			                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
-			                    </div>
-			                </div>
+			                </p>			              
 			            </div>
 			            <div class="flex-display justify-content-end">
 			            	<div id="front-end-ui-ux-design" class="mr-8 other-margin-top nk-text-style other-size my-margin flex-display justify-content-center">
@@ -77,6 +72,11 @@ export default class extends view {
 			                <img class="image-size pointer" src="static/assets/SVG Images/link-chain-svgrepo-com.svg" alt="link.svg">
 			                <span class="pointer">my works</span>
 			            </p>
+			            <div>			                    
+		                    <div id="my-photo" class="flex-display">
+		                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
+		                    </div>
+		                </div>
 			            <p class="nk-text-color nk-text-style flex-display align-items-center">
 			                <img class="image-size pointer" src="static/assets/SVG Images/link-chain-svgrepo-com.svg" alt="link.svg">
 			                <span class="pointer">about</span>
