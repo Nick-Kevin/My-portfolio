@@ -55,7 +55,7 @@ export default class extends view {
 			                <h1 class="nk-text-color onest-regular my-margin">RAZAFINIRINA</h1>
 			                <p class="nk-text-color onest-regular other-margin-bottom">Creating interfaces and providing good</p>
 			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p-->
-			                <p class="nk-text-color mx-8">
+			                <p class="nk-text-color ml-8">
 			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer and occasionaly UI/UX designer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience.
 			                </p>
 			                <div>			                    
