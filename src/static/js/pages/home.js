@@ -76,7 +76,7 @@ export default class extends view {
 			                <span class="pointer">about</span>
 			            </p>
 			        </div>			     
-			        <footer class="nk-text-regular" style="height: 350px;">
+			        <footer style="height: 350px;">
 			        	<div>
 			        		<div class="grid-container">			        			
 								<div class="flex-display flex-column px-2">
