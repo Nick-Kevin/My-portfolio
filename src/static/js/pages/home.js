@@ -49,19 +49,22 @@ export default class extends view {
 			        </div>
 			        <div class="main-content block-container flex-display align-items-center">
 			            <div class="first-content flex-display align-items-center">
-			                <h1 class="nk-text-color onest-regular other-margin-bottom">Hello!
+			                <!--h1 class="nk-text-color onest-regular other-margin-bottom">Hello!
 			                    <span><img class="image-size" src="static/assets/SVG Images/waving-hand-svgrepo-com.svg"></span> 
 			                    <span>I am Nick Kevin</span></h1>
 			                <h1 class="nk-text-color onest-regular my-margin">RAZAFINIRINA</h1>
 			                <p class="nk-text-color onest-regular other-margin-bottom">Creating interfaces and providing good</p>
-			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p>
+			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p-->
+			                <p class="nk-text-color mx-4">
+			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience. I take pride in turning innovative ideas into interactive, visually appealing web applications. With a keen eye for design, I'm committed to crafting beautiful and intuitive digital experiences that leave a lasting impression. Explore my portfolio to see how I blend creativity and technology to shape the web of tomorrow
+			                </p>
 			                <div>			                    
 			                    <div class="flex-display">
 			                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
 			                    </div>
 			                </div>
 			            </div>
-			            <div class="other-margin-top nk-text-style other-size my-margin flex-display align-items-center">
+			            <div id="front-end-ui-ux-design" class="other-margin-top nk-text-style other-size my-margin flex-display align-items-center">
 			                	<p class="other-margin-bottom">Frontend Developer</p>
 			                    <p>& UI/UX designer</p>
 			                    <!--img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg"-->
