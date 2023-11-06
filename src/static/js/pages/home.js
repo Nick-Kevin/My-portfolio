@@ -62,11 +62,9 @@ export default class extends view {
 			                </div>
 			            </div>
 			            <div class="other-margin-top nk-text-style other-size my-margin flex-display align-items-center">
-			                <div class="flex-display">
 			                	<p class="other-margin-bottom">Frontend Developer</p>
 			                    <p>& UI/UX designer</p>
 			                    <!--img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg"-->
-			                </div>
 			            </div>
 			        </div>
 			        <div class="link other-margin-top flex-display">
