@@ -53,16 +53,19 @@ export default class extends view {
 			                    <span><img class="image-size" src="static/assets/SVG Images/waving-hand-svgrepo-com.svg"></span> 
 			                    <span>I am Nick Kevin</span></h1>
 			                <h1 class="nk-text-color onest-regular my-margin">RAZAFINIRINA</h1>
-			                <div class="nk-text-style other-size my-margin flex-display align-items-center">
-			                    <p class="other-margin-bottom">Frontend Developer</p>
-			                    <p>& UI/UX designer</p>
-			                </div>
 			                <p class="nk-text-color onest-regular other-margin-bottom">Creating interfaces and providing good</p>
 			                <p class="nk-text-color onest-regular my-margin">user experience are my passion</p>
+			                <div class="second-content">			                    
+			                    <div class="flex-display">
+			                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
+			                    </div>
+			                </div>
 			            </div>
-			            <div class="second-content other-margin-top">
+			            <div class="other-margin-top nk-text-style other-size my-margin flex-display align-items-center">
 			                <div class="flex-display">
-			                    <img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
+			                	<p class="other-margin-bottom">Frontend Developer</p>
+			                    <p>& UI/UX designer</p>
+			                    <!--img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg"-->
 			                </div>
 			            </div>
 			        </div>
