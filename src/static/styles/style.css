@@ -180,6 +180,10 @@ section {
     margin: 64px;
 }
 
+.my-8 {
+    margin: 64px 0;
+}
+
 .mx-4 {
     margin: 0 32px;
 }
