@@ -16,6 +16,7 @@
 body {
     background: var(--main-color) /*linear-gradient(to top right, coral, lightblue, pink)*/;
     font-family: var(--onest-regular);
+    font-size: 1.6em;
 }
 
 * {
@@ -649,10 +650,13 @@ section {
     flex-direction: column;    
 }
 
+.first-content p {
+    line-height: 1.4em;
+}
+
 #front-end-ui-ux-design {    
     flex-direction: column;
-    justify-content: center;    
-    font-weight: thin;
+    justify-content: center;
     background: var(--second-color);
     /*width: calc(200px + 30vw);
     height: calc(145px + 8vh);*/
