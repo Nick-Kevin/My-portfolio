@@ -396,6 +396,10 @@ section {
 .nk-text-regular {
     font-family: var(--standard-font);
 }
+
+.onest-regular {
+    font-family: var(--onest-regular);
+}
 /*******************************************************************/
 
 /**************************** Font-size *****************************/
