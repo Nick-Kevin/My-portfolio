@@ -73,8 +73,13 @@ img {
     text-align: center;
     /*font-size: calc(0.6em + 0.57vw);*/
     margin: 0;
-    padding: calc(5px + 0.6vw) calc(15px + 1.1vw);
+    /*padding: calc(5px + 0.6vw) calc(15px + 1.1vw);*/
+    padding: 8px 32px;
     transition: all 0.5s;
+}
+
+.first-animation .text div .boutton:hover {
+    padding-right: 16px;
 }
   
 .first-animation .text div .boutton span {
@@ -95,7 +100,7 @@ img {
   
 .first-animation .text div .boutton:hover span {
     padding-right: calc(15px + 0.75vw);
-  }
+}
   
 .first-animation .text div .boutton:hover span:after {
     opacity: 1;
