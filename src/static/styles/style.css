@@ -676,8 +676,9 @@ section {
     align-content: center;
     width: calc(90px + 3vw);
     height: calc(190px + 3vw);
-    border: 9px solid var(--white-color);
-    border-radius: 50%;
+    /*border: 9px solid var(--white-color);*/
+    border-radius: 10px;
+    box-shadow: 12px 12px 0 var(--black-color);
     overflow: hidden;
     z-index: 0;
 }
