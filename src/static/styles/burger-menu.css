@@ -5,7 +5,6 @@
   overflow: visible;
   position: relative;
   z-index: 2;
-  float: right;
 }
 #burger-menu span,
 #burger-menu span:before,
