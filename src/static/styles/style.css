@@ -649,7 +649,7 @@ section {
 }
 
 .other-size {
-    font-size: calc(20px + 2.5vw);
+    font-size: calc(16px + 2.4vw);
 }
 
 .first-content {    
