@@ -25,7 +25,7 @@ export default class extends view {
 
 		        <div>
 			        <div>
-			            <div class="tooltip m-8">
+			            <div id="return-button" class="tooltip m-8">
 			                <a
 			                    name      = "second"
 			                    href      = "/"
