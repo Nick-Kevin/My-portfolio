@@ -241,6 +241,10 @@ section {
     margin-bottom: 8px;
 }
 
+.mb-2 {
+    margin-bottom: 16px;
+}
+
 .mb-8 {
     margin-bottom: 64px;
 }
@@ -716,12 +720,12 @@ section {
 }
 /*****************************************************************/
 
-footer {
+.footer {
     padding: 32px;
     background-color: var(--black-color);
 }
 
-footer .grid-container {
+.footer .grid-container {
     display: grid;
     grid-template-columns: 70% 30%;
 }
