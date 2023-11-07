@@ -16,7 +16,7 @@
 body {
     background: var(--main-color) /*linear-gradient(to top right, coral, lightblue, pink)*/;
     font-family: var(--onest-regular);
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 * {
@@ -657,7 +657,6 @@ section {
 }
 
 .first-content p {
-    font-size: 1.3em;
     line-height: 1.4em;
 }
 
@@ -685,7 +684,7 @@ section {
 
 .link {    
     justify-content: space-evenly;
-    font-size: calc(0.625em + 1.5vw);
+    font-size: calc(16px + 0.6em);
 }
 
 .image-size {
