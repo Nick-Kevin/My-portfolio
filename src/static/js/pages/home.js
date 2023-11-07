@@ -16,10 +16,10 @@ export default class extends view {
 
 			    <div id="menu">
 			        <ul>
-			          <li><a href="/home" data-link>Home</a></li>
-			          <li><a href="/work" data-link>Work</a></li>
-			          <li><a href="/about" data-link>About</a></li>
-			          <li><a href="/contact" data-link>Contact</a></li>
+			          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
+			          <li><a href="/work" class="c-white" data-link>Work</a></li>
+			          <li><a href="/about" class="c-white" data-link>About</a></li>
+			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
 			        </ul>
 			    </div>
 
