@@ -22,7 +22,7 @@ export default class extends view {
 		                <span class="i2">i</span>
 		                <span class="n2">n</span>
 		            </h1>
-		            <p class="nk-text-color nk-text-thin">©Copyright 2023</p>
+		            <p class="nk-text-color">©Copyright 2023</p>
 		            <div class="slideUp">
 		                <a
 		                    id        = "letsVisit"
