@@ -518,10 +518,6 @@ section {
     position: relative;
 }
 
-.tooltip:nth-child(1) {
-    float: left;
-}
-
 .tooltip .tooltiptext   {
     visibility: hidden;
     position: absolute;
@@ -590,10 +586,6 @@ section {
 /***************************************************************/
 
 /******************* turn on/off music buttons *****************/
-.accueil .other-width, #contact .other-width {
-    margin-right: 20px;
-}
-
 .accueil .other-width img, #contact .other-width img {
     padding-top: calc(5px + 0.10vw);
 }
