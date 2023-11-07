@@ -54,6 +54,11 @@ body {
     src: url("../assets/Fonts/Roboto-Light.ttf") format("truetype");
 }
 
+#header {
+    display: grid;
+    grid-template-columns: 60% auto 27px;
+}
+
 section {
     margin: 0;
 }
