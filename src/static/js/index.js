@@ -88,6 +88,11 @@ const setupWelcomePageAnimations = () => {
     })
 }
 
+const setupHomePageAnimations = () => {
+    const mainContent = getElementBySelector(".main-content");
+    addClassToElement('scrollingDown', mainContent)
+}
+
 const setupBurgerMenuFeature = () => {
     var burgerMenu = getId('burger-menu');
     var overlay = getId('menu');
@@ -155,6 +160,7 @@ const router = async () => {
 
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
+            setupHomePageAnimations();
             break; 
 
     }
