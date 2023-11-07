@@ -38,7 +38,7 @@ export default class extends view {
 			            </div>
 			            <!-------------------------- Buttons on the top right side -------------------------->
 			            <!-- Turn on/off button -->
-			            <div class="nk-right tooltip mr-2 mt-8">
+			            <div id="sound-icon" class="nk-right tooltip mr-2 mt-8">
 			                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 			                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 			                <p class="tooltiptext">

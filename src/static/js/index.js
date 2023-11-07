@@ -104,6 +104,9 @@ const setupHomePageAnimations = () => {
 
     const returnBtn = getElementBySelector(".tooltip");
     addClassToElement('makeOpacity', returnBtn);
+
+    const soundIcon = getId("sound-icon");
+    addClassToElement('makeOpacity', soundIcon);
 }
 
 const setupBurgerMenuFeature = () => {
