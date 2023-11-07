@@ -10,7 +10,6 @@
     --standard-font-thin: Roboto-Thin;
     --standard-font-light:Roboto-Light;
     --onest-regular: Onest-Regular;
-    --pacifico: Pacifico-Regular;
     --main-font: "White Milk";
 }
 
@@ -38,11 +37,6 @@ body {
 @font-face {
     font-family: "White Milk";
     src: url("../assets/Fonts/White\ Milk.otf") format("opentype");
-}
-
-@font-face {
-    font-family: "Pacifico-Regular";
-    src: url("../assets/Fonts/Pacifico-Regular") format("truetype");
 }
 
 @font-face {
