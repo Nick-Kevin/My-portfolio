@@ -10,10 +10,6 @@ export default class extends view {
 	async getHtml() {
 		return `
 			<section id="secondPage" class="accueil">
-				<div id="burger-menu" class="mt-8 mr-8 mb-8">
-			      <span></span>
-			    </div>
-
 			    <div id="menu">
 			        <ul>
 			          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
@@ -24,7 +20,7 @@ export default class extends view {
 			    </div>
 
 		        <div>
-			        <div>
+			        <div id="header">
 			            <div id="return-button" class="tooltip m-8">
 			                <a
 			                    name      = "second"
@@ -38,7 +34,7 @@ export default class extends view {
 			            </div>
 			            <!-------------------------- Buttons on the top right side -------------------------->
 			            <!-- Turn on/off button -->
-			            <div id="sound-icon" class="nk-right tooltip mr-2 mt-8">
+			            <div id="sound-icon" class="tooltip mr-2 mt-8">
 			                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 			                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 			                <p class="tooltiptext">
@@ -46,6 +42,11 @@ export default class extends view {
 			                </p>
 			            </div>
 			            <!----------------------------------------------------------------------------------->
+			            <div class="flex-display justify-content-end align-items-center">
+			            	<div id="burger-menu" class="mt-8 mr-8 mb-8">
+						      <span></span>
+						    </div>
+			            </div>
 			        </div>
 			        <div class="main-content block-container gird-display col-div-2 justify-content-center">
 			            <div class="first-content flex-display align-items-center">
