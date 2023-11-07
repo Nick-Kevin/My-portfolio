@@ -101,6 +101,9 @@ const setupHomePageAnimations = () => {
 
     const menuBurger = getId("burger-menu");
     addClassToElement('makeOpacity', menuBurger);
+
+    const returnBtn = getElementBySelector(".tooltip");
+    addClassToElement('makeOpacity', returnBtn);
 }
 
 const setupBurgerMenuFeature = () => {
