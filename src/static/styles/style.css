@@ -528,7 +528,6 @@ section {
     width: calc(60px + 6vw);
     top: 3px;
     left: calc(-100px - 6vw);
-    font-family: var(--standard-font-light);
     font-size: calc(0.4em + 0.672vw);
     background-color: var(--white-color);
     color: var(--black-color);
