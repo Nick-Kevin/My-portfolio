@@ -156,28 +156,28 @@ img {
 }
 
 .first-animation .text .white-milk .e {
-    margin-left: calc(45px + 4.5vw);
+    margin-left: calc(48px + 5vw);
     -webkit-animation-delay: 2500ms;
     -moz-animation-delay: 2500ms;
     animation-delay: 2500ms;
 }
 
 .first-animation .text .white-milk .v {
-    margin-left: calc(70px + 7.65vw);
+    margin-left: calc(83px + 8.7vw);
     -webkit-animation-delay: 2800ms;
     -moz-animation-delay: 2800ms;
     animation-delay: 2800ms;
 }
 
 .first-animation .text .white-milk .i2 {
-    margin-left: calc(90px + 10.4vw);
+    margin-left: calc(115px + 11.3vw);
     -webkit-animation-delay: 3100ms;
     -moz-animation-delay: 3100ms;
     animation-delay: 3100ms;
 }
 
 .first-animation .text .white-milk .n2 {
-    margin-left: calc(105px + 13.3vw);
+    margin-left: calc(135px + 14.65vw);
     -webkit-animation-delay: 3400ms;
     -moz-animation-delay: 3400ms;
     animation-delay: 3400ms;
