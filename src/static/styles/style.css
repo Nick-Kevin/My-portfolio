@@ -60,6 +60,12 @@ body {
     margin: 64px;
 }
 
+#sound-icon {
+    display: flex;
+    justify-content: end;
+    margin: 0 48px 0 0;
+}
+
 section {
     margin: 0;
 }
