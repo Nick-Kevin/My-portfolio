@@ -84,7 +84,7 @@ export default class extends view {
 										id = "my-github-activity mt-1"
 										class = "w-100"
 										style = "border-radius: 8px"
-										src = "https://github-readme-activity-graph.vercel.app/graph?username=Nick-Kevin&theme=github-compact&line=faff06&point=FFFFFF&area=true&bg_color=010101&color=FFFFFF&title_color=FFFFFF"
+										src = "https://github-readme-activity-graph.vercel.app/graph?username=Nick-Kevin&theme=github-compact&line=faff06&point=FFFFFF&area=true&area_color=faff06&bg_color=010101&color=FFFFFF&title_color=FFFFFF"
 										alt = "My github activity graph"
 									>
 								</div>
