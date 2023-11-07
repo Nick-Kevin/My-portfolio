@@ -192,10 +192,6 @@ section {
     margin: 0 64px;
 }
 /* TOP */
-.mt-1 {
-    margin-top: 0.2rem;
-}
-
 .mt-2 {
     margin-top: 0.5rem;
 }
@@ -212,8 +208,12 @@ section {
     margin-top: 5rem;
 }
 
-.mt-8 {
+.mt-1 {
     margin-top: 8px;
+}
+
+.mt-8 {
+    margin-top: 64px;
 }
 
 /* BOTTOM */
