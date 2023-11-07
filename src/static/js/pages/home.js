@@ -10,7 +10,7 @@ export default class extends view {
 	async getHtml() {
 		return `
 			<section id="secondPage" class="accueil">
-				<div id="burger-menu" class="m-8">
+				<div id="burger-menu" class="mt-8 mr-8 mb-8">
 			      <span></span>
 			    </div>
 
