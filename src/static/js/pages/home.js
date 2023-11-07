@@ -84,7 +84,7 @@ export default class extends view {
 										id = "my-github-activity mt-1"
 										class = "w-100"
 										style = "border-radius: 8px"
-										src = "https://github-readme-activity-graph.vercel.app/graph?username=Nick-Kevin&theme=github-compact&line=faff06&point=FFFFFF&area=true&area_color=faff06&bg_color=010101&color=FFFFFF&title_color=FFFFFF"
+										src = "https://github-readme-activity-graph.vercel.app/graph?username=Nick-Kevin&theme=github-compact&line=FFFFFF&point=faff06&area=true&area_color=FFFFFF&bg_color=010101&color=FFFFFF&title_color=FFFFFF"
 										alt = "My github activity graph"
 									>
 								</div>
@@ -116,7 +116,7 @@ export default class extends view {
 									<img
 										id = "my-github-streak-stats mt-1"
 										class = "w-100"
-										src = "https://streak-stats.demolab.com/?user=Nick-Kevin"
+										src = "https://streak-stats.demolab.com/?user=Nick-Kevin&theme=highcontrast&ring=faff06"
 										alt = "My github streak stats"
 									>
 									</div>
