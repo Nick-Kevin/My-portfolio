@@ -121,14 +121,14 @@ img {
 }
 
 .first-animation .text .white-milk .n1 {
-    margin-left: calc(-95px - 12.90vw);  
+    margin-left: calc(-110px - 13.8vw);  
     -webkit-animation-delay: 1000ms;
     -moz-animation-delay: 1000ms;
     animation-delay: 1000ms;
 }
 
 .first-animation .text .white-milk .i1 {
-    margin-left: calc(-70px - 9.75vw);
+    margin-left: calc(-80px - 9.6vw);
     -webkit-animation-delay: 1300ms;
     -moz-animation-delay: 1300ms;
     animation-delay: 1300ms;
@@ -142,7 +142,7 @@ img {
 }
 
 .first-animation .text .white-milk .k1 {
-    margin-left: calc(-30px - 4.1vw);
+    margin-left: calc(-25px - 3.9vw);
     -webkit-animation-delay: 1900ms;
     -moz-animation-delay: 1900ms;
     animation-delay: 1900ms;
