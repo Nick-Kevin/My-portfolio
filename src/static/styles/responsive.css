@@ -1,13 +1,26 @@
-#return-button {
-    margin: 48px;
+#header {
+    display: grid;
+    grid-template-columns: 60% auto 27px;
+    margin: 40px;
+}
+
+#return-button {    
+    margin: 0;
+}
+
+.accueil .return {
+    height: 21px;
+    border-width: 3px;
 }
 
 #burger-menu {
-    margin: 48px 48px 48px 0;
+    margin: 0;
 }
 
 #sound-icon {
-    margin: 48px 8px 0 0;
+    display: flex;
+    justify-content: end;
+    margin: 0 32px 0 0;
 }
 
 .first-animation {
@@ -64,17 +77,12 @@
     position: relative;
 }
 
-.main-content {
-    margin-top: 0px;
+.main-content .first-content {
+    margin-top: 96px;
 }
 
-.main-content .first-content .my-margin {
-    margin-bottom: 30px;
-}
-
-.main-content .first-content .other-size {
-    width: calc(100vw - calc(calc(30px + 0.9vw)  * 2));
-    height: calc(100px + 3vh);
+.main-content .first-content p {
+    margin-left: 48px;
 }
 
 .other-margin-top {
