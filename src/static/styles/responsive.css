@@ -1,3 +1,8 @@
+body, html, section {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 #header {
     display: grid;
     grid-template-columns: 60% auto 27px;
@@ -77,8 +82,8 @@
     position: relative;
 }
 
-.main-content .first-content {
-    margin-top: 96px;
+.main-content {
+    margin-top: 0;
 }
 
 .main-content .first-content p {
