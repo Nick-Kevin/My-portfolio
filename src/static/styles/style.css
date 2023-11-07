@@ -40,6 +40,11 @@ body {
 }
 
 @font-face {
+    font-family: "Pacifico-Regular";
+    src: url("../assets/Fonts/Pacifico-Regular") format("truetype");
+}
+
+@font-face {
     font-family: Roboto-Regular;
     src: url("../assets/Fonts/Roboto-Regular.ttf") format("truetype");
 }
