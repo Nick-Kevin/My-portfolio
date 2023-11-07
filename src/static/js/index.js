@@ -90,7 +90,14 @@ const setupWelcomePageAnimations = () => {
 
 const setupHomePageAnimations = () => {
     const mainContent = getElementBySelector(".main-content");
-    addClassToElement('scrollingDown', mainContent)
+    addClassToElement('scrollingDown', mainContent);
+
+    const links = getElementBySelector(".link");
+    links.style.visibility = "hidden";
+    setTimeout(() => {
+        links.style.visibility = "visible";
+        addClassToElement('scrollingLeft', links);
+    }, 500);
 }
 
 const setupBurgerMenuFeature = () => {
