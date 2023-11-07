@@ -98,6 +98,9 @@ const setupHomePageAnimations = () => {
         links.style.visibility = "visible";
         addClassToElement('scrollingLeft', links);
     }, 500);
+
+    const menuBurger = getId("burger-menu");
+    addClassToElement('makeOpacity', menuBurger);
 }
 
 const setupBurgerMenuFeature = () => {
