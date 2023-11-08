@@ -7,6 +7,10 @@ body {
     font-size: 1.2em;
 }
 
+.first-content p {
+    line-height: 1.6em;
+}
+
 #header {
     display: grid;
     grid-template-columns: 60% auto 27px;
