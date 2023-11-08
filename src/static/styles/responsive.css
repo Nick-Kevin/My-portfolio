@@ -135,6 +135,14 @@ body {
     align-items: center;
 }
 
+.link p:nth-child(3) {
+    order: 2;
+}
+
+.link div {
+    order: 3;
+}
+
 .footer {
     margin-top: 9vh;
 }
