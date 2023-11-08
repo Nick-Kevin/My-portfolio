@@ -106,6 +106,7 @@ body {
 
 #front-end-ui-ux-design {
     padding: 16px;
+    font-size: calc(28px + 0.3em);
 }
 
 #front-end-ui-ux-design p {
