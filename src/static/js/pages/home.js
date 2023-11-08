@@ -109,7 +109,7 @@ export default class extends view {
 							    </a>
 							</div>
 	        			</div>
-	        			<div class="p-absolute" style="bottom:0">
+	        			<div>
 							<p class="mb-2 c-white">My github streak stats</p>
 							<img
 								id = "my-github-streak-stats mt-1"

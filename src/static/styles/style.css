@@ -730,4 +730,9 @@ section {
 .grid-container {
     display: grid;
     grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+}
+
+.footer div:first-child {
+    grid-row: 1 / span 2;
 }
