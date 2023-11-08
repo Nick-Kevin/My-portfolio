@@ -97,6 +97,7 @@ body {
 
 .main-content div:nth-child(2) {
     justify-content: center;
+    margin-bottom: 48px;
 }
 
 .main-content div:nth-child(2) div {
