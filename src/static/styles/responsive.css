@@ -3,6 +3,10 @@ body, html, section {
     overflow-x: hidden;
 }
 
+body {
+    font-size: 1.2em;
+}
+
 #header {
     display: grid;
     grid-template-columns: 60% auto 27px;
