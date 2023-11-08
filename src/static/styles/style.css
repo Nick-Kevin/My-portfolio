@@ -727,7 +727,7 @@ section {
     background-color: var(--black-color);
 }
 
-.footer .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: 70% 30%;
 }
