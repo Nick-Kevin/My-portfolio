@@ -76,7 +76,7 @@ export default class extends view {
 			                <span class="pointer">about</span>
 			            </p>
 			        </div>			     
-			        <div class="footer grid-container" style="height: 350px;">			        			
+			        <div class="footer grid-container">			        			
 						<div class="flex-display flex-column px-2">
 							<p class="mb-2 c-white">My github contribution graph</p>
 							<img
