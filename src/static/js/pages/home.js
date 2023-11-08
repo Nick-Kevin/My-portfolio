@@ -77,7 +77,7 @@ export default class extends view {
 			            </p>
 			        </div>			     
 			        <div class="footer grid-container">			        			
-						<div class="flex-display flex-column px-2">
+						<div class="flex-display flex-column">
 							<p class="mb-2 c-white">My github contribution graph</p>
 							<img
 								id = "my-github-activity mt-1"
