@@ -220,29 +220,26 @@ body {
     /*--------------------------------*/
 }
 /*******************************************************************/
+.second-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
-@media all {
-    .second-content {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
+.second-content div {
+    width: calc(120px + 30vw);
+    height: calc(120px + 30vw);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -7px -7px 0 var(--white-color);
+}
 
-    .second-content div {
-        width: calc(120px + 30vw);
-        height: calc(120px + 30vw);
-        border: none;
-        border-radius: 5px;
-        box-shadow: -7px -7px 0 var(--white-color);
-    }
-    
-    .link {
-        display: flex;
-        width: 100%;
-        margin: 0vh 0;
-    } 
+.link {
+    display: flex;
+    width: 100%;
+    margin: 0vh 0;
+} 
 
-    .footer {
-        margin-top: 0;
-    }   
+.footer {
+    margin-top: 0;
 }
