@@ -104,6 +104,10 @@ body {
     width: 100%;
 }
 
+#front-end-ui-ux-design {
+    padding: 16px;
+}
+
 #front-end-ui-ux-design p {
     text-align: center;
 }
