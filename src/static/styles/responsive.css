@@ -99,6 +99,15 @@ body {
     justify-content: center;
 }
 
+.main-content div:nth-child(2) div {
+    margin: 0;
+    width: 100%;
+}
+
+#front-end-ui-ux-design p {
+    text-align: center;
+}
+
 .other-margin-top {
     margin-top: 15px;
 }
