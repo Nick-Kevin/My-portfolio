@@ -253,7 +253,7 @@ body {
 }
 
 .grid-container div:first-child {
-    grid-row: 2;
+    grid-row: 3;
 }
 
 .grid-container div:nth-child(2) {
@@ -261,5 +261,5 @@ body {
 }
 
 .grid-container div:nth-child(3) {
-    grid-row: 3;
+    grid-row: 2;
 }
