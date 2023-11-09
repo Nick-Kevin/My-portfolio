@@ -244,6 +244,10 @@ body {
     box-shadow: -7px -7px 0 var(--white-color);
 }
 
+.footer {
+    padding: 40px;
+}
+
 .grid-container {
     grid-template-columns: auto;
 }
