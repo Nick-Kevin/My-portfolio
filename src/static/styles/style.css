@@ -729,9 +729,10 @@ section {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 62.5% auto;
+    grid-template-columns: 67% auto;
     grid-template-rows: 50% 50%;
     grid-column-gap: 40px;
+    grid-row-gap: 32px;
 }
 
 .footer div:first-child {
