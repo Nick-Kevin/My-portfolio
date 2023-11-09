@@ -142,6 +142,8 @@ const router = async () => {
     const view = new match.view();
     document.querySelector("#home").innerHTML = await view.getHtml();
 
+    let portraitMode = window.matchMedia("(orientation: portrait)");
+
     switch(match.path) {
 
         case "/":
@@ -176,7 +178,9 @@ const router = async () => {
 
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
-            setupHomePageAnimations();
+            if(portraitMode.matches === false) {
+                setupHomePageAnimations();
+            }
             break; 
 
     }
