@@ -248,7 +248,6 @@ body {
     box-shadow: -7px -7px 0 var(--white-color);
 }
 
-.footer div .grid-container {
-    display: flex;
-    flex-direction: column;
+.grid-container {
+    grid-template-columns: auto;
 }
