@@ -251,3 +251,15 @@ body {
 .grid-container {
     grid-template-columns: auto;
 }
+
+.grid-container div:first-child {
+    grid-row: 2;
+}
+
+.grid-container div:nth-child(2) {
+    grid-row: 1;
+}
+
+.grid-container div:nth-child(3) {
+    grid-row: 3;
+}
