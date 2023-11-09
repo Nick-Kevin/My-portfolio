@@ -248,6 +248,10 @@ body {
     padding: 24px 40px;
 }
 
+.footer div p {
+    margin-bottom: 8px;
+}
+
 .grid-container {
     grid-template-columns: auto;
 }
