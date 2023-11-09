@@ -254,6 +254,7 @@ body {
 
 .grid-container {
     grid-template-columns: auto;
+    grid-row-gap: 24px;
 }
 
 .grid-container div:first-child {
