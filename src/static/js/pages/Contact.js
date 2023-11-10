@@ -35,7 +35,7 @@ export default class extends view {
 		            </div>
 		        </div>
 		        <div class="bg-black c-white py-6">
-		            <h1 class="flex-display justify-content-center">Contact Nick Kevin</h1>
+		            <h1 class="flex-display justify-content-center mb-2">Contact Nick Kevin</h1>
 		            <p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p>
 		        </div>
 		        <div class="flex-display justify-content-center flex-wrap mt-4">
