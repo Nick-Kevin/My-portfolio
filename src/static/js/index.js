@@ -160,6 +160,32 @@ const isAudioPaused = (audio) => {
     return audio.paused;
 }
 
+const setupMusicPlayerFeature = () => {
+    const soundOffIcon = getId("soundOffInHome");
+    const soundOnIcon = getId("soundOnInHome");
+    const tooltip = getId("audio-tooltip");
+    const myMusic = getId("my-music");
+    
+    if(isAudioPaused(myMusic)) {
+        tooltip.innerHTML = "on";
+        setStyleDisplayToElement('none', soundOnIcon);
+    } else {
+        tooltip.innerHTML = "off";
+        setStyleDisplayToElement('none', soundOffIcon);
+    }
+
+    clickTheIconToHiddeItAndShowTheOther(soundOffIcon, soundOnIcon);
+    clickTheIconToHiddeItAndShowTheOther(soundOnIcon, soundOffIcon);
+    clickIconToCompleteTheTooltip(soundOffIcon, tooltip, "off");
+    clickIconToCompleteTheTooltip(soundOnIcon, tooltip, "on");
+    soundOffIcon.addEventListener('click', () => {
+        myMusic.play();
+    });
+    soundOnIcon.addEventListener('click', () => {
+        myMusic.pause();
+    })
+}
+
 const router = async () => {
     const match = routes.find(route => checkPathMatch(route.path));
 
@@ -176,30 +202,7 @@ const router = async () => {
             break;
 
         case "/home":
-            const soundOffIcon = getId("soundOffInHome");
-            const soundOnIcon = getId("soundOnInHome");
-            const tooltip = getId("audio-tooltip");
-            const myMusic = getId("my-music");
-            
-            if(isAudioPaused(myMusic)) {
-                tooltip.innerHTML = "on";
-                setStyleDisplayToElement('none', soundOnIcon);
-            } else {
-                tooltip.innerHTML = "off";
-                setStyleDisplayToElement('none', soundOffIcon);
-            }
-
-            clickTheIconToHiddeItAndShowTheOther(soundOffIcon, soundOnIcon);
-            clickTheIconToHiddeItAndShowTheOther(soundOnIcon, soundOffIcon);
-            clickIconToCompleteTheTooltip(soundOffIcon, tooltip, "off");
-            clickIconToCompleteTheTooltip(soundOnIcon, tooltip, "on");
-            soundOffIcon.addEventListener('click', () => {
-                myMusic.play();
-            });
-            soundOnIcon.addEventListener('click', () => {
-                myMusic.pause();
-            })
-
+            setupMusicPlayerFeature();
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
 
@@ -228,6 +231,7 @@ const router = async () => {
 
             break; 
         case "/contact":
+            setupMusicPlayerFeature();
             setupBurgerMenuFeature();
             break
     }
