@@ -88,6 +88,11 @@ const setupWelcomePageAnimations = () => {
     })
 }
 
+const setupHomePageAnimationsForPortraitMode = () => {
+    const firstContent = getElementBySelector(".first-content p");
+    addClassToElement('scrollingUp', firstContent);
+}
+
 const setupHomePageAnimationsForLandscapeMode = () => {
     const mainContent = getElementBySelector(".main-content");
     addClassToElement('scrollingDown', mainContent);
@@ -178,9 +183,13 @@ const router = async () => {
 
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
-            if(portraitMode.matches === false) {
+
+            if(portraitMode.matches === true) {
+                setupHomePageAnimationsForPortraitMode();                
+            } else {
                 setupHomePageAnimationsForLandscapeMode();
             }
+            
             break; 
 
     }
