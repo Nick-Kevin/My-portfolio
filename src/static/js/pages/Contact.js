@@ -39,14 +39,9 @@ export default class extends view {
 		        </div>
 		        <!----------------------------------------------------------------------------------->
 		        <!------------------------- Introduction Nick Kevin Contact ------------------------->
-		        <div class="p-relative bg-white pt-4 pb-4 mt-5 fs-2">
-		            <img class="p-absolute" style="width: calc(6.5vw + 20px); bottom: 10px; left: calc(2vw + 10px)" src="./assets/SVG Images/undraw_team_page_re_cffb.svg" alt="team" />
-		            <img class="p-absolute" style="width: calc(4vw + 10px); left: 30%;" src="./assets/SVG Images/undraw_work_chat_re_qes4.svg" alt="chat" />
-		            <img class="p-absolute" style="width: calc(4vw + 10px); left: 20%;" src="./assets/SVG Images/undraw_authentication_re_svpt.svg" alt="authentication" />
-		            <img class="p-absolute" style="height: 100%; top: 0; left: 75%;" src="./assets/SVG Images/undraw_remote_meeting_re_abe7.svg" alt="meeting" />
-		            <img class="p-absolute" style="width: calc(4vw + 10px); right: 10px;" src="./assets/SVG Images/undraw_sharing_knowledge_03vp(1).svg" alt="sharing" />
-		            <h1 class="flex-display justify-content-center mb-2">Contact Nick Kevin</h1>
-		            <p class="flex-display justify-content-center mt-2">Get in touch with me to get the ball rolling</p>
+		        <div class="bg-black c-white py-6">
+		            <h1 class="flex-display justify-content-center">Contact Nick Kevin</h1>
+		            <p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p>
 		        </div>
 		        <!----------------------------------------------------------------------------------->
 		        <!----------------------------------- Contact list ---------------------------------->
