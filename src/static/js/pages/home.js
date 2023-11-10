@@ -54,7 +54,7 @@ export default class extends view {
 			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer and occasionaly UI/UX designer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience.
 			                </p>			              
 			            </div>
-			            <div class="flex-display justify-content-end reveal">
+			            <div class="flex-display justify-content-end">
 			            	<div id="front-end-ui-ux-design" class="mr-8 nk-text-style other-size flex-display justify-content-center">
 			                	<p class="other-margin-bottom">Frontend Developer</p>
 			                    <p>& UI/UX designer</p>
@@ -62,16 +62,16 @@ export default class extends view {
 			            </div>
 			        </div>
 			        <div class="link other-margin-top flex-display my-8">
-			            <p class="nk-text-color nk-text-style flex-display align-items-center reveal">
+			            <p class="nk-text-color nk-text-style flex-display align-items-center">
 			                <img class="image-size pointer" src="static/assets/SVG Images/link-chain-svgrepo-com.svg" alt="link.svg">
 			                <span class="pointer">my works</span>
 			            </p>
-			            <div class="reveal">			                    
+			            <div>			                    
 		                    <div id="my-photo" class="flex-display">
 		                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
 		                    </div>
 		                </div>
-			            <p class="nk-text-color nk-text-style flex-display align-items-center reveal">
+			            <p class="nk-text-color nk-text-style flex-display align-items-center">
 			                <img class="image-size pointer" src="static/assets/SVG Images/link-chain-svgrepo-com.svg" alt="link.svg">
 			                <span class="pointer">about</span>
 			            </p>
