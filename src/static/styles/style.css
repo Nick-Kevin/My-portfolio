@@ -294,6 +294,15 @@ section {
 /*******************************************************************/
 
 /***************************** Padding ******************************/
+.py-4 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py-6 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 /* TOP */
 .pt-1 {
     padding-top: 0.2rem;
