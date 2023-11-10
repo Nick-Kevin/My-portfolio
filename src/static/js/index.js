@@ -207,6 +207,20 @@ const router = async () => {
             addClassToElement('makeOpacity', header);
 
             if(portraitMode.matches) {
+                const frontEndAndUiUxDesigner = getElementBySelector(".main-content div:nth-child(2)");
+                const workLink = getElementBySelector(".link p:first-child");
+                const aboutLink = getElementBySelector(".link p:nth-child(3)");
+                const myPhoto = getElementBySelector(".link div");
+
+                const reveals = [
+                    frontEndAndUiUxDesigner,
+                    workLink,
+                    aboutLink,
+                    myPhoto
+                ]
+
+                reveals.map(reveal => addClassToElement('reveal', reveal));
+
                 setupHomePageAnimationsForPortraitMode();                
             } else {
                 setupHomePageAnimationsForLandscapeMode();
