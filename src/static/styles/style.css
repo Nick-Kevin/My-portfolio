@@ -699,11 +699,15 @@ section {
     height: calc(25px + 0.2vw);
 }
 
-.link p .image-size {
+.link a {
+    text-decoration: none;
+}
+
+.link a .image-size {
     margin-right: 5px;
 }
 
-.link p span:hover {
+.link a span:hover {
     text-decoration: overline;
 }
 /******************** Style for the contact page ********************/
