@@ -88,7 +88,7 @@ const setupWelcomePageAnimations = () => {
     })
 }
 
-const setupHomePageAnimations = () => {
+const setupHomePageAnimationsForLandscapeMode = () => {
     const mainContent = getElementBySelector(".main-content");
     addClassToElement('scrollingDown', mainContent);
 
@@ -179,7 +179,7 @@ const router = async () => {
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
             if(portraitMode.matches === false) {
-                setupHomePageAnimations();
+                setupHomePageAnimationsForLandscapeMode();
             }
             break; 
 
