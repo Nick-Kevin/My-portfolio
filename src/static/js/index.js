@@ -130,16 +130,7 @@ const setupHomePageAnimationsForLandscapeMode = () => {
     setTimeout(() => {
         links.style.visibility = "visible";
         addClassToElement('scrollingLeft', links);
-    }, 500);
-
-    /*const menuBurger = getId("burger-menu");
-    addClassToElement('makeOpacity', menuBurger);
-
-    const returnBtn = getElementBySelector(".tooltip");
-    addClassToElement('makeOpacity', returnBtn);
-
-    const soundIcon = getId("sound-icon");
-    addClassToElement('makeOpacity', soundIcon);*/    
+    }, 500);  
 }
 
 const setupBurgerMenuFeature = () => {
