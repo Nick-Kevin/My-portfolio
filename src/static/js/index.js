@@ -184,12 +184,12 @@ const router = async () => {
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
 
-            if(portraitMode.matches === true) {
+            if(portraitMode.matches) {
                 setupHomePageAnimationsForPortraitMode();                
             } else {
                 setupHomePageAnimationsForLandscapeMode();
             }
-            
+
             break; 
 
     }
