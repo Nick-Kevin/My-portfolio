@@ -354,3 +354,14 @@
     animation-name: widen-width;
     animation-duration: 0.5s;
 }
+
+.reveal {
+    transform: translateY(100vh);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
