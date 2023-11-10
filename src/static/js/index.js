@@ -117,6 +117,8 @@ const setupWelcomePageAnimations = () => {
 const setupHomePageAnimationsForPortraitMode = () => {
     const firstContent = getElementBySelector(".first-content p");
     addClassToElement('scrollingUp', firstContent);
+
+    window.addEventListener('scroll', revealElementBySlideUp);
 }
 
 const setupHomePageAnimationsForLandscapeMode = () => {
