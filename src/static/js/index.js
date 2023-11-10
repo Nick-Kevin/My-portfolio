@@ -78,7 +78,7 @@ const revealElementBySlideUp = () => {
     var reveals = document.querySelectorAll(".reveal");
 
     reveals.forEach(reveal => {
-        if(isElementOnAreaToReveal(reveal)) {
+        if(isElementOnAreaToReveal(reveal, 100)) {
             addClassToElement("active", reveal);
         } else {
             removeClassToElement("active", reveal);
