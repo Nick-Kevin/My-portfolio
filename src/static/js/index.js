@@ -227,7 +227,9 @@ const router = async () => {
             }
 
             break; 
-
+        case "/contact":
+            setupBurgerMenuFeature();
+            break
     }
 }
 
