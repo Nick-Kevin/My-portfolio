@@ -132,14 +132,14 @@ const setupHomePageAnimationsForLandscapeMode = () => {
         addClassToElement('scrollingLeft', links);
     }, 500);
 
-    const menuBurger = getId("burger-menu");
+    /*const menuBurger = getId("burger-menu");
     addClassToElement('makeOpacity', menuBurger);
 
     const returnBtn = getElementBySelector(".tooltip");
     addClassToElement('makeOpacity', returnBtn);
 
     const soundIcon = getId("sound-icon");
-    addClassToElement('makeOpacity', soundIcon);
+    addClassToElement('makeOpacity', soundIcon);*/    
 }
 
 const setupBurgerMenuFeature = () => {
@@ -211,6 +211,9 @@ const router = async () => {
 
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
+
+            const header = getId("header");
+            addClassToElement('makeOpacity', header);
 
             if(portraitMode.matches) {
                 setupHomePageAnimationsForPortraitMode();                
