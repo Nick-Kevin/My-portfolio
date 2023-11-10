@@ -208,7 +208,7 @@ const router = async () => {
 
             if(portraitMode.matches) {
                 const frontEndAndUiUxDesigner = getElementBySelector(".main-content div:nth-child(2)");
-                const workLink = getElementBySelector(".link p:first-child");
+                const workLink = getElementBySelector(".link a:first-child");
                 const aboutLink = getElementBySelector(".link p:nth-child(3)");
                 const myPhoto = getElementBySelector(".link div");
 
