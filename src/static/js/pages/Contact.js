@@ -9,7 +9,7 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<section id="contact" class="p-relative screen oy-a nk-text-thin accueil">
+			<section id="contact" class="accueil">
 				<div id="menu">
 			        <ul>
 			          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
