@@ -45,6 +45,10 @@ const addClassToElement = (classValue, element) => {
     return element.classList.add(classValue);
 }
 
+const removeClassToElement = (classValue, element) => {
+    return element.classList.remove(classValue);
+}
+
 const setOverflowValueToBodyElement = (value) => {
     document.body.style = `overflow: ${value}`;
 }
@@ -68,6 +72,18 @@ const distanceFromViewportTop = (element) => {
 
 const isElementOnAreaToReveal = (element, heightToRevealTheElement) => {
     return distanceFromViewportTop(element) < windowHeight - heightToRevealTheElement;
+}
+
+const revealElementBySlideUp = () => {
+    var reveals = document.querySelectorAll(".reveal");
+
+    reveals.forEach(reveal => {
+        if(isElementOnAreaToReveal(reveal)) {
+            addClassToElement("active", reveal);
+        } else {
+            removeClassToElement("active", reveal);
+        }
+    })
 }
 
 const setupWelcomePageAnimations = () => {
