@@ -680,7 +680,7 @@ section {
 #my-photo {    
     justify-content: center;
     align-content: center;
-    width: calc(90px + 3vw);
+    width: calc(190px + 3vw);
     height: calc(190px + 3vw);
     /*border: 9px solid var(--white-color);*/
     border-radius: 10px;
