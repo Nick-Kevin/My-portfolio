@@ -18,10 +18,8 @@ export default class extends view {
 			          <li><a href="/contact" class="nk-stheme-color" data-link>Contact</a></li>
 			        </ul>
 			    </div>
-		        <!-------------------------- Buttons on the top right side -------------------------->
 		        <div id="header">
 		        	<div></div>
-		            <!-------------------------- Buttons on the top right side -------------------------->
 		            <!-- Turn on/off button -->
 		            <div id="sound-icon" class="tooltip">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
@@ -30,21 +28,16 @@ export default class extends view {
 		                	Click to turn <span id="audio-tooltip"></span> the music
 		                </p>
 		            </div>
-		            <!----------------------------------------------------------------------------------->
 		            <div class="flex-display justify-content-end align-items-center">
 		            	<div id="burger-menu">
 					      <span></span>
 					    </div>
 		            </div>
 		        </div>
-		        <!----------------------------------------------------------------------------------->
-		        <!------------------------- Introduction Nick Kevin Contact ------------------------->
 		        <div class="bg-black c-white py-6">
 		            <h1 class="flex-display justify-content-center">Contact Nick Kevin</h1>
 		            <p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p>
 		        </div>
-		        <!----------------------------------------------------------------------------------->
-		        <!----------------------------------- Contact list ---------------------------------->
 		        <div class="flex-display justify-content-center flex-wrap mt-4">
 		            <div class="ml-4 mr-4 mb-4 flex-display flex-column align-items-center">
 		                <div class="contact-image bg-black br-50 flex-display justify-content-center">
@@ -81,13 +74,10 @@ export default class extends view {
 		                <h3 class="flex-display justify-content-center nk-stheme-color mt-3 mb-3">LINKEDIN</h3>
 		                <a href="https://www.linkedin.com/in/nick-kevin-razafinirina-988b34248" class="flex-display justify-content-center nk-text-color">Nick Kevin Razafinrina</a>
 		            </div>
-		        </div>
-		        <!----------------------------------------------------------------------------------->
-		        <!--------------------------------------- Footer ------------------------------------>
+		        </div>µ
 		        <footer class="mt-5 flex-display justify-content-center mb-4 pb-2" style="bottom: calc(3.25vh + 25px);">
 		            <h2 class="nk-text-color white-bt-1 pt-3 pl-4 pr-4">FIND ME</h2>
 		        </footer>
-		        <!----------------------------------------------------------------------------------->
 		    </section>
 		`;
 	}
