@@ -78,10 +78,10 @@ export default class extends view {
 		                    	<img src="static/assets/Images/Kevin.jpg" alt="kevin.jpg">
 		                    </div>
 		                </div>
-			            <p class="nk-text-color nk-text-style flex-display align-items-center">
+			            <a href="/about" class="nk-text-color nk-text-style flex-display align-items-center" data-link>
 			                <img class="image-size pointer" src="static/assets/SVG Images/link-chain-svgrepo-com.svg" alt="link.svg">
 			                <span class="pointer">about</span>
-			            </p>
+			            </a>
 			        </div>			     
 			        <div class="footer grid-container">			        			
 						<div class="flex-display flex-column">
