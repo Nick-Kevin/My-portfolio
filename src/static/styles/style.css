@@ -13,6 +13,11 @@
     --main-font: "White Milk";
 }
 
+body, html, section {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     background: var(--main-color) /*linear-gradient(to top right, coral, lightblue, pink)*/;
     font-family: var(--onest-regular);
