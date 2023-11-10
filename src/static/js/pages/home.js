@@ -58,13 +58,6 @@ export default class extends view {
 			            	<div id="front-end-ui-ux-design" class="mr-8 nk-text-style other-size flex-display justify-content-center p-relative">
 			                	<p class="other-margin-bottom p-relative">Frontend Developer</p>
 			                    <p class="p-relative">& UI/UX designer</p>
-			                    <div class="blobs_1"></div>
-								<div class="blobs_2"></div>
-								<div class="blobs_3"></div>
-								<div class="blobs_4"></div>
-								<div class="blobs_5"></div>
-								<div class="blobs_6"></div>
-								<div class="blobs_7"></div>
 			            	</div>
 			            </div>
 			        </div>

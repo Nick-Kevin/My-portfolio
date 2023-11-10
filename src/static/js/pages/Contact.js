@@ -9,28 +9,42 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<section id="contact" class="p-relative screen oy-a nk-text-thin">
+			<section id="contact" class="p-relative screen oy-a nk-text-thin accueil">
+				<div id="menu">
+			        <ul>
+			          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
+			          <li><a href="/work" class="c-white" data-link>Work</a></li>
+			          <li><a href="/about" class="c-white" data-link>About</a></li>
+			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
+			        </ul>
+			    </div>
 		        <!-------------------------- Buttons on the top right side -------------------------->
-		        <div>
-		            <!-- the burger menu -->
-		            <div class="content nk-right">
-		                <img class="pointer" src="assets/SVG Images/burger-menu-right-svgrepo-com.svg" alt="menu">
+		        <div id="header">
+		            <div id="return-button" class="tooltip">
+		                <a
+		                    name      = "second"
+		                    href      = "/"
+		                    class     = "return no-border pointer flex-display align-items-center"
+		                    data-link
+		                >
+		                    <img src="static/assets/Images/MonLogo.gif" alt="Logo.gif">
+		                </a>
+		                <p class="tooltiptext">Return to the welcome page</p>
 		            </div>
+		            <!-------------------------- Buttons on the top right side -------------------------->
 		            <!-- Turn on/off button -->
-		            <div class="other-width nk-right tooltip">
-		                <img id="soundOffInContact" class="other-width pointer" src="assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>
-		                <img id="soundOnInContact" class="other-width pointer" src="assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
-		                <p class="tooltiptext">Click to turn <span></span> the music</p>
+		            <div id="sound-icon" class="tooltip">
+		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
+		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
+		                <p class="tooltiptext">
+		                	Click to turn <span id="audio-tooltip"></span> the music
+		                </p>
 		            </div>
-		            <!-- links menu -->
-		            <div class="absolute" style="right: calc(35px + 1.2vw)">
-		                <div class="menu p-relative">
-		                    <img class="absolute pointer playOpacity" style="animation-duration: 0.5s;" src="assets/SVG Images/close-svgrepo-com.svg"> <!-- close button -->
-		                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#secondPage">Home</a>
-		                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Work</a>
-		                    <a class="widen-height flex-display align-items-center nk-text-color none-decoration" href="#">About</a>
-		                    <a class="widen-width flex-display align-items-center nk-text-color none-decoration" href="#">Contact</a>
-		                </div>
+		            <!----------------------------------------------------------------------------------->
+		            <div class="flex-display justify-content-end align-items-center">
+		            	<div id="burger-menu">
+					      <span></span>
+					    </div>
 		            </div>
 		        </div>
 		        <!----------------------------------------------------------------------------------->
