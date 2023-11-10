@@ -4,6 +4,8 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 
+var windowHeight = window.innerHeight;
+
 const routes = [
     {
         path: "/",
@@ -62,6 +64,10 @@ const checkPathMatch = (path) => {
 
 const distanceFromViewportTop = (element) => {
     return element.getBoundingClientRect().top;
+}
+
+const isElementOnAreaToReveal = (element, heightToRevealTheElement) => {
+    return distanceFromViewportTop(element) < windowHeight - heightToRevealTheElement;
 }
 
 const setupWelcomePageAnimations = () => {
