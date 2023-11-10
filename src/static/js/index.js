@@ -60,6 +60,10 @@ const checkPathMatch = (path) => {
     return location.pathname === path;
 }
 
+const distanceFromViewportTop = (element) => {
+    return element.getBoundingClientRect().top;
+}
+
 const setupWelcomePageAnimations = () => {
     const boyWithGlassesImage = getElementBySelector(".boy-glasses");
     addClassToElement('scrollingRight', boyWithGlassesImage);
