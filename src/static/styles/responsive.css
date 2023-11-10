@@ -136,7 +136,7 @@ body {
     padding: 0 48px;
 }
 
-.link p:nth-child(3) {
+.link a:nth-child(3) {
     margin: 24px 0;
     order: 2;
 }
