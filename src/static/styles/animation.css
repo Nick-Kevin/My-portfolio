@@ -356,7 +356,8 @@
 }
 
 .reveal {
-    transform: translateY(100vh);
+    position: relative;
+    transform: translateY(150px);
     opacity: 0;
     transition: 2s all ease;
 }
