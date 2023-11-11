@@ -299,6 +299,11 @@ section {
     padding-top: 48px;
     padding-bottom: 48px;
 }
+
+.py-8 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 /* TOP */
 .pt-1 {
     padding-top: 0.2rem;
