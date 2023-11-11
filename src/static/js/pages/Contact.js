@@ -18,9 +18,9 @@ export default class extends view {
 			          <li><a href="/contact" class="nk-stheme-color" data-link>Contact</a></li>
 			        </ul>
 			    </div>
-		        <div class="bg-black c-white py-6 p-relative">
+		        <div class="bg-black c-white py-8 p-relative">
 		        	<!-- Turn on/off button -->
-		            <div id="sound-icon" class="tooltip nk-right mt-2" style="margin-right: 139px">
+		            <div id="sound-icon" class="tooltip nk-right" style="margin-right: 139px">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 		                <p class="tooltiptext">
@@ -35,8 +35,8 @@ export default class extends view {
 					      <span></span>
 					    </div>
 		            </div>
-		            <h1 class="flex-display justify-content-center mb-2">Contact Nick Kevin</h1>
-		            <p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p>
+		            <h1 class="flex-display justify-content-center mb-2 w-100">Contact Nick Kevin</h1>
+		            <!--p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p-->
 		        </div>
 		        <div class="flex-display justify-content-center flex-wrap mt-4">
 		            <div class="ml-4 mr-4 mb-4 flex-display flex-column align-items-center">
