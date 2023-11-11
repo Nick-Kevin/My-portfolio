@@ -18,7 +18,7 @@ export default class extends view {
 			          <li><a href="/contact" class="nk-stheme-color" data-link>Contact</a></li>
 			        </ul>
 			    </div>
-		        <div class="bg-black c-white py-6">
+		        <div class="bg-black c-white py-6 p-relative">
 		        	<!-- Turn on/off button -->
 		            <div id="sound-icon" class="tooltip">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
@@ -27,7 +27,10 @@ export default class extends view {
 		                	Click to turn <span id="audio-tooltip"></span> the music
 		                </p>
 		            </div>
-		            <div class="flex-display justify-content-end align-items-center">
+		            <div	
+		            	class = "flex-display justify-content-end align-items-center mt-8 mr-8 p-absolute"
+		            	style = "top: 0; right: 0"
+		            >
 		            	<div id="burger-menu">
 					      <span></span>
 					    </div>
