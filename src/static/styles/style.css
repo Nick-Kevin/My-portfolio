@@ -68,7 +68,7 @@ body {
 #sound-icon {
     display: flex;
     justify-content: end;
-    margin: 0 48px 0 0;
+    margin-right: 48px;
 }
 
 section {
@@ -209,10 +209,6 @@ section {
     margin: 0 64px;
 }
 /* TOP */
-.mt-2 {
-    margin-top: 0.5rem;
-}
-
 .mt-3 {
     margin-top: 1rem;
 }
@@ -227,6 +223,10 @@ section {
 
 .mt-1 {
     margin-top: 8px;
+}
+
+.mt-2 {
+    margin-top: 16px;
 }
 
 .mt-8 {
