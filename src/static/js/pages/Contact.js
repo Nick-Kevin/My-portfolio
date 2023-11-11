@@ -20,7 +20,7 @@ export default class extends view {
 			    </div>
 		        <div class="bg-black c-white py-6 p-relative">
 		        	<!-- Turn on/off button -->
-		            <div id="sound-icon" class="tooltip">
+		            <div id="sound-icon" class="tooltip nk-right mt-2" style="margin-right: 139px">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 		                <p class="tooltiptext">
