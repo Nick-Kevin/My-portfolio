@@ -18,9 +18,8 @@ export default class extends view {
 			          <li><a href="/contact" class="nk-stheme-color" data-link>Contact</a></li>
 			        </ul>
 			    </div>
-		        <div id="header">
-		        	<div></div>
-		            <!-- Turn on/off button -->
+		        <div class="bg-black c-white py-6">
+		        	<!-- Turn on/off button -->
 		            <div id="sound-icon" class="tooltip">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
@@ -33,8 +32,6 @@ export default class extends view {
 					      <span></span>
 					    </div>
 		            </div>
-		        </div>
-		        <div class="bg-black c-white py-6">
 		            <h1 class="flex-display justify-content-center mb-2">Contact Nick Kevin</h1>
 		            <p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p>
 		        </div>
