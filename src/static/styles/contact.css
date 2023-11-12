@@ -1,4 +1,4 @@
-.card {
+.contact-card {
   position: relative;
   width: 400px;
   height: 400px;
@@ -139,16 +139,16 @@
   transition-delay: 0.6s;
 }
 
-.card:hover {
+.contact-card:hover {
   transform: scale(1.1);
 }
 
-.card:hover .box {
+.contact-card:hover .box {
   bottom: -1px;
   left: -1px;
 }
 
-.card:hover .logo {
+.contact-card:hover .logo {
   transform: translate(70px, -120px);
   letter-spacing: 0px;
 }
