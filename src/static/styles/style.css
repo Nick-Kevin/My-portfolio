@@ -493,6 +493,12 @@ section {
     grid-template-columns: 50% 50%;
 }
 
+.justify-items-center {
+    justify-items: center;
+}
+
+.ali
+
 .none-decoration {
     text-decoration: none;
 }
