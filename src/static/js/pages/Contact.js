@@ -40,7 +40,7 @@ export default class extends view {
 		        </div>
 		        <div class="gird-display col-div-2">
 		        	<div class="flex-display justify-content-center align-items-center">
-		        		<div class="card">
+		        		<div class="contact-card">
 			        		<div class="background">
 							  </div>
 							  <div class="logo">
