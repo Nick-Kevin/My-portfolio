@@ -40,6 +40,7 @@ export default class extends view {
 		        </div>
 		        <div class="gird-display col-div-2 justify-content-center">
 		        	<div>
+		        		<h1 style="color:white">Hello World!</h1>
 		        	</div>
 		        	<div>
 		        		<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
