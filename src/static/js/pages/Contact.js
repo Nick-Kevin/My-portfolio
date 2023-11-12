@@ -38,7 +38,7 @@ export default class extends view {
 		            <h1 class="flex-display justify-content-center mb-2 w-100">Contact Nick Kevin</h1>
 		            <!--p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p-->
 		        </div>
-		        <div class="gird-display col-div-2 justify-content-center">
+		        <div class="gird-display col-div-2">
 		        	<div>
 		        		<div class="card">
 			        		<div class="background">
