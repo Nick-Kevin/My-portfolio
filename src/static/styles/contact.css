@@ -150,6 +150,6 @@
 }
 
 .card:hover .logo {
-  transform: translate(70px, -52px);
+  transform: translate(70px, -120px);
   letter-spacing: 0px;
 }
