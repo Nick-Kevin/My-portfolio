@@ -668,7 +668,7 @@ export default class extends view {
 						</svg>
 		        	</div>
 		        </div>
-		        <footer class="mt-5 flex-display justify-content-center mb-4 pb-2" style="bottom: calc(3.25vh + 25px);">
+		        <footer class="flex-display justify-content-center py-4">
 		            <h2 class="nk-text-color white-bt-1 pt-3 pl-4 pr-4">FIND ME</h2>
 		        </footer>
 		    </section>
