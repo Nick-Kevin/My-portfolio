@@ -39,7 +39,7 @@ export default class extends view {
 		            <!--p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p-->
 		        </div>
 		        <div class="gird-display col-div-2">
-		        	<div>
+		        	<div class="flex-display justify-content-center align-items-center">
 		        		<div class="card">
 			        		<div class="background">
 							  </div>
