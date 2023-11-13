@@ -168,6 +168,11 @@ body {
     order: 3;
 }
 
+.contact-card {
+    width: 100%;
+    margin: 40px 40px 0;
+}
+
 #my-photo {
     width: 252.53px;
     margin: 0 48px;
