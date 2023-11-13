@@ -232,10 +232,12 @@ const router = async () => {
             break; 
         case "/contact":
             const box = getElementBySelector(".contact-card");
-
+            const boxes = document.querySelectorAll(".box");
             box.addEventListener('click', () => {
                 addClassToElement('click-card', box);
-            })
+                boxes.forEach(boxe => addClassToElement('click-box', boxe));
+            });
+
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
             break
