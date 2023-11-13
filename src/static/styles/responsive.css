@@ -17,10 +17,6 @@ body {
     border-width: 3px;
 }
 
-#burger-menu {
-    margin: 0;
-}
-
 #sound-icon {
     display: flex;
     justify-content: end;
@@ -122,6 +118,14 @@ body {
 .second-content div {
     width: calc(60px + 4vw);
     height: calc(140px + 3vw);
+}
+
+.mt-8 {
+    margin-top: 48px;
+}
+
+.mr-8 {
+    margin-right: 48px;
 }
 
 .link {
