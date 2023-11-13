@@ -4,8 +4,15 @@ body {
 
 #header, #contact > div:nth-child(2) {
     display: grid;
-    grid-template-columns: 60% auto 27px;
+    grid-template-columns: 60% auto 27px;  
+}
+
+#header {
     margin: 40px;
+}
+
+#contact > div:nth-child(2) {
+    padding: 40px;
 }
 
 #contact > div:nth-child(2) div:first-child {
@@ -159,11 +166,6 @@ body {
 #my-photo {
     width: 252.53px;
     margin: 0 48px;
-}
-
-#contact > div:nth-child(2) {
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 #contact #sound-icon {
