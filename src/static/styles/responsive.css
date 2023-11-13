@@ -149,6 +149,11 @@ body {
     margin: 0 48px;
 }
 
+#contact>div:nth-child(2) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 @media (min-width: 780px) {
     .main-content .first-content .other-size {
         width: calc(83vw - calc(calc(30px + 0.9vw)  * 2));
