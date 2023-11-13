@@ -154,6 +154,10 @@ body {
     padding-bottom: 40px;
 }
 
+#contact #sound-icon {
+    margin-top: 16px;
+}
+
 @media (min-width: 780px) {
     .main-content .first-content .other-size {
         width: calc(83vw - calc(calc(30px + 0.9vw)  * 2));
