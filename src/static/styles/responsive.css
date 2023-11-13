@@ -27,6 +27,11 @@ body {
     grid-column: 1;
 }
 
+#contact > div:nth-child(3) {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
 #return-button {    
     margin: 0;
 }
