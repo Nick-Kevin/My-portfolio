@@ -231,6 +231,11 @@ const router = async () => {
 
             break; 
         case "/contact":
+            const box = getElementBySelector(".contact-card");
+
+            box.addEventListener('click', () => {
+                addClassToElement('click-card', box);
+            })
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
             break
