@@ -235,6 +235,13 @@ const router = async () => {
 
             break; 
         case "/contact":
+            const boxLabel = getElementBySelector(".logo");
+            if(portraitMode.matches) {
+                boxLabel.innerHTML = "Click me";
+            } else {
+                boxLabel.innerHTML = "Hover me";
+            }
+
             const box = getElementBySelector(".contact-card");
             const boxes = document.querySelectorAll(".box");
             box.addEventListener('click', () => {
