@@ -164,6 +164,12 @@ const getElementArea = (verticalArea, horizentalArea) => {
     return verticalArea && horizentalArea;
 }
 
+const isTouchEnabled = () => {
+    return ('ontouchstart' in window) ||
+        ( navigator.maxTouchPoint > 0 ) ||
+        ( navigator.msMaxTouchPoints > 0);
+}
+
 const setupMusicPlayerFeature = () => {
     const soundOffIcon = getId("soundOffInHome");
     const soundOnIcon = getId("soundOnInHome");
@@ -241,7 +247,7 @@ const router = async () => {
             } else {
                 boxLabel.innerHTML = "Hover me";
             }
-
+            console.log(isTouchEnabled());
             const box = getElementBySelector(".contact-card");
             const boxes = document.querySelectorAll(".box");
             box.addEventListener('click', () => {
