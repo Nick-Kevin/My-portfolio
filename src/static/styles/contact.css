@@ -12,7 +12,7 @@
 .background {
   position: absolute;
   inset: 0;
-  background-color: var(--black-color);
+  background-color: var(--second-color);
 }
 
 .logo {
@@ -23,7 +23,7 @@
   transition: all 0.6s ease-in-out;
   font-size: 1.3em;
   font-weight: 600;
-  color: #ffffff;
+  color: black;
   letter-spacing: 3px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .icon .svg {
-  fill: rgba(255, 255, 255, 0.797);
+  fill: black;
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
