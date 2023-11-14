@@ -148,7 +148,7 @@
   left: -1px;
 }
 
-.contact-card:hover .logo {
+.contact-card:hover .logo, .change-position {
   transform: translate(70px, -120px);
   letter-spacing: 0px;
 }

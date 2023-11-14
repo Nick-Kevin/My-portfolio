@@ -240,7 +240,7 @@ const router = async () => {
             }
 
             break; 
-            
+
         case "/contact":
             const boxLabel = getElementBySelector(".logo");
             if(isTouchEnabled()) {
@@ -255,9 +255,11 @@ const router = async () => {
                 const isBoxClicked = box.contains(event.target);
 
                 if(isBoxClicked) {
+                    addClassToElement('change-position', boxLabel);
                     addClassToElement('click-card', box);
                     boxes.forEach(boxe => addClassToElement('click-box', boxe));    
                 } else {
+                    removeClassToElement('change-position', boxLabel);
                     removeClassToElement('click-card', box);
                     boxes.forEach(boxe => removeClassToElement('click-box', boxe));
                 }
