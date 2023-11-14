@@ -240,19 +240,17 @@ const router = async () => {
             }
 
             break; 
+            
         case "/contact":
             const boxLabel = getElementBySelector(".logo");
-            if(portraitMode.matches) {
+            if(isTouchEnabled()) {
                 boxLabel.innerHTML = "Click me";
             } else {
                 boxLabel.innerHTML = "Hover me";
             }
-            console.log(isTouchEnabled());
+
             const box = getElementBySelector(".contact-card");
             const boxes = document.querySelectorAll(".box");
-            box.addEventListener('click', () => {
-                
-            });
             document.body.addEventListener('click', event => {
                 const isBoxClicked = box.contains(event.target);
 
