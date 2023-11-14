@@ -160,6 +160,10 @@ const isAudioPaused = (audio) => {
     return audio.paused;
 }
 
+const getElementArea = (verticalArea, horizentalArea) => {
+    return verticalArea && horizentalArea;
+}
+
 const setupMusicPlayerFeature = () => {
     const soundOffIcon = getId("soundOffInHome");
     const soundOnIcon = getId("soundOnInHome");
@@ -235,6 +239,8 @@ const router = async () => {
             const boxes = document.querySelectorAll(".box");
             box.addEventListener('click', () => {
                 addClassToElement('click-card', box);
+                const clickCard = getElementBySelector(".click-card");
+                console.log(clickCard.getBoundingClientRect());
                 boxes.forEach(boxe => addClassToElement('click-box', boxe));
             });
 
