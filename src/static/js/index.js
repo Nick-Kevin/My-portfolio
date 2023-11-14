@@ -238,11 +238,19 @@ const router = async () => {
             const box = getElementBySelector(".contact-card");
             const boxes = document.querySelectorAll(".box");
             box.addEventListener('click', () => {
-                addClassToElement('click-card', box);
-                const clickCard = getElementBySelector(".click-card");
-                console.log(clickCard.getBoundingClientRect());
-                boxes.forEach(boxe => addClassToElement('click-box', boxe));
+                
             });
+            document.body.addEventListener('click', event => {
+                const isBoxClicked = box.contains(event.target);
+
+                if(isBoxClicked) {
+                    addClassToElement('click-card', box);
+                    boxes.forEach(boxe => addClassToElement('click-box', boxe));    
+                } else {
+                    removeClassToElement('click-card', box);
+                    boxes.forEach(boxe => removeClassToElement('click-box', boxe));
+                }
+            })
 
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
