@@ -67,8 +67,15 @@ body {
 
 #sound-icon {
     display: flex;
-    justify-content: end;
+    justify-content: end;    
+}
+
+#secondPage #sound-icon {
     margin-right: 48px;
+}
+
+#contact #sound-icon {
+    margin-right: 139px;
 }
 
 section {
