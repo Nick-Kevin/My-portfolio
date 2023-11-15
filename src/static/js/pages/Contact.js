@@ -18,9 +18,9 @@ export default class extends view {
 			          <li><a href="/contact" class="nk-stheme-color" data-link>Contact</a></li>
 			        </ul>
 			    </div>
-				<div id="header">
-		            <div id="return-button" class="tooltip">
-		                <h1>Contact Nick Kevin</h1>
+				<div id="header" class="bg-black">
+		            <div>
+		                <h1 class="nk-text-color">Contact Nick Kevin</h1>
 		            </div>
 		            <!-------------------------- Buttons on the top right side -------------------------->
 		            <!-- Turn on/off button -->
