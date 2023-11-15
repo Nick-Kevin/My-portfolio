@@ -62,7 +62,7 @@ body {
 #header {
     display: grid;
     grid-template-columns: 60% auto 27px;
-    margin: 64px;
+    padding: 64px;
 }
 
 #sound-icon {
