@@ -70,7 +70,7 @@
   visibility: visible;
   opacity: 1;
   padding-top: 100px;
-  background: #23095ADD;
+  background: #23095AF2;
 }
 #menu ul {
   padding: 0;
@@ -80,7 +80,6 @@
 }
 #menu a {
   display: block;
-  font-size: 32px;
   margin-bottom: 40px;
   text-decoration: none;
 }
