@@ -20,15 +20,7 @@ export default class extends view {
 			    </div>
 				<div id="header">
 		            <div id="return-button" class="tooltip">
-		                <a
-		                    name      = "second"
-		                    href      = "/"
-		                    class     = "return no-border pointer flex-display align-items-center"
-		                    data-link
-		                >
-		                    <img src="static/assets/Images/MonLogo.gif" alt="Logo.gif">
-		                </a>
-		                <p class="tooltiptext">Return to the welcome page</p>
+		                <h1>Contact Nick Kevin</h1>
 		            </div>
 		            <!-------------------------- Buttons on the top right side -------------------------->
 		            <!-- Turn on/off button -->
