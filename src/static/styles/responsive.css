@@ -9,6 +9,7 @@ body {
 
 #header {
     margin: 40px;
+    padding: 0;
 }
 
 #contact > div:nth-child(2) {
