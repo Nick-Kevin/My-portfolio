@@ -685,7 +685,7 @@ export default class extends view {
 		        	</div>
 		        </div>
 		        <footer class="flex-display justify-content-center py-4">
-		            <h2 class="nk-text-color white-bt-1 pt-3 pl-4 pr-4">FIND ME</h2>
+		            <p class="nk-text-color white-bt-1 pt-3 pl-4 pr-4">FIND ME</p>
 		        </footer>
 		    </section>
 		`;
