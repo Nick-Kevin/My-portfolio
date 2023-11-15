@@ -21,10 +21,7 @@
   bottom: 50%;
   transform: translate(50%, 50%);
   transition: all 0.6s ease-in-out;
-  font-size: 1.3em;
-  font-weight: 600;
   color: black;
-  letter-spacing: 3px;
 }
 
 .logo .logo-svg {
