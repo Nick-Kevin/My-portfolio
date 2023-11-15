@@ -43,8 +43,8 @@ export default class extends view {
 		        		<div class="contact-card">
 			        		<div class="background">
 							  </div>
-							  <div class="logo">
-							  </div>
+							  <h2 class="logo">
+							  </h2>
 
 							  <a href="#"><div class="box box1">
 								  <span class="icon">
