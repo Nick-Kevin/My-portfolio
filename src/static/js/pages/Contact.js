@@ -18,25 +18,33 @@ export default class extends view {
 			          <li><a href="/contact" class="nk-stheme-color" data-link>Contact</a></li>
 			        </ul>
 			    </div>
-		        <div class="bg-black c-white py-8 p-relative">
-		        	<!-- Turn on/off button -->
-		            <div id="sound-icon" class="tooltip nk-right">
+				<div id="header">
+		            <div id="return-button" class="tooltip">
+		                <a
+		                    name      = "second"
+		                    href      = "/"
+		                    class     = "return no-border pointer flex-display align-items-center"
+		                    data-link
+		                >
+		                    <img src="static/assets/Images/MonLogo.gif" alt="Logo.gif">
+		                </a>
+		                <p class="tooltiptext">Return to the welcome page</p>
+		            </div>
+		            <!-------------------------- Buttons on the top right side -------------------------->
+		            <!-- Turn on/off button -->
+		            <div id="sound-icon" class="tooltip">
 		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
 		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
 		                <p class="tooltiptext">
 		                	Click to turn <span id="audio-tooltip"></span> the music
 		                </p>
 		            </div>
-		            <div	
-		            	class = "flex-display justify-content-end align-items-center mt-8 mr-8 p-absolute"
-		            	style = "top: 0; right: 0"
-		            >
+		            <!----------------------------------------------------------------------------------->
+		            <div class="flex-display justify-content-end align-items-center">
 		            	<div id="burger-menu">
 					      <span></span>
 					    </div>
 		            </div>
-		            <h1 class="flex-display justify-content-center mb-2 w-100">Contact Nick Kevin</h1>
-		            <!--p class="flex-display justify-content-center">Get in touch with me to get the ball rolling</p-->
 		        </div>
 		        <div class="gird-display col-div-2">
 		        	<div class="flex-display justify-content-center align-items-center">
