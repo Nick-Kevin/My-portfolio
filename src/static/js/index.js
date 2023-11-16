@@ -575,9 +575,7 @@ Ball.prototype.getBounds = function(){
                
                particles.forEach(move);
                particles.forEach(draw);
-           }())
-        
-       console.log(canva)
+           }());
        break;
     }
 }
