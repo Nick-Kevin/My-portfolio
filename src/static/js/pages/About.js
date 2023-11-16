@@ -9,7 +9,7 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<canvas id="canvas" style="background:#000;"></canvas>
+			<canvas id="canvas"></canvas>
 		`;
 	}
 } 
