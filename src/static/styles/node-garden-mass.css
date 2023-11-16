@@ -1,4 +1,5 @@
 canvas {
 	background-color: var(--main-color);
 	position: fixed;
+	filter: blur(2px);
 }
