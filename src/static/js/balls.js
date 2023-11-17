@@ -1,4 +1,4 @@
-function Ball(radius,color){
+export function Ball(radius,color){
     if(radius === undefined) {radius = 40;}
     if(color === undefined){color = '#00ff00';}
     this.x = 0;
