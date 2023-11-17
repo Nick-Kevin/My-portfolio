@@ -1,21 +1,25 @@
-if(!window.requestAnimationFrame){
-    window.requestAnimationFrame =(window.webkitRequestAnimationFrame||
-                                   window.mozRequestAnimationFrame||
-                                   window.oRequestAnimationFrame||
-                                   window.msRequestAnimationFrame||
-                                  function(callback){
-                                       return window.setTimeout(callback,1000/60); 
-                                 });
-    
+export const notRequestAnimationFrame = () => {
+    if(!window.requestAnimationFrame){
+        window.requestAnimationFrame =(window.webkitRequestAnimationFrame||
+                                       window.mozRequestAnimationFrame||
+                                       window.oRequestAnimationFrame||
+                                       window.msRequestAnimationFrame||
+                                      function(callback){
+                                           return window.setTimeout(callback,1000/60); 
+                                     });
+        
+    }
 }
 
-if (!window.cancelAnimationFrame) {
-  window.cancelAnimationFrame = (window.cancelRequestAnimationFrame ||
-                                 window.webkitCancelAnimationFrame || window.webkitCancelRequestAnimationFrame ||
-                                 window.mozCancelAnimationFrame || window.mozCancelRequestAnimationFrame ||
-                                 window.msCancelAnimationFrame || window.msCancelRequestAnimationFrame ||
-                                 window.oCancelAnimationFrame || window.oCancelRequestAnimationFrame ||
-                                 window.clearTimeout);
+export const notCancelAnimationFrame = () => {
+    if (!window.cancelAnimationFrame) {
+        window.cancelAnimationFrame = (window.cancelRequestAnimationFrame ||
+                                     window.webkitCancelAnimationFrame || window.webkitCancelRequestAnimationFrame ||
+                                     window.mozCancelAnimationFrame || window.mozCancelRequestAnimationFrame ||
+                                     window.msCancelAnimationFrame || window.msCancelRequestAnimationFrame ||
+                                     window.oCancelAnimationFrame || window.oCancelRequestAnimationFrame ||
+                                     window.clearTimeout);
+    }
 }
 
 
@@ -26,7 +30,6 @@ function RotationToMouse(mx,my,ox,oy){
     var angle = Math.atan2(dy,dx);
     return angle;
 }
-
 
 window.utils = {};
 //捕获坐标
