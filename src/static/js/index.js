@@ -299,7 +299,7 @@ const router = async () => {
                
                 particles.push(ball);
             }
-            console.log(context)
+            console.log(width)
             /*nodeGardenMass();
 
             window.addEventListener("resize", nodeGardenMass);*/

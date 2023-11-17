@@ -97,19 +97,20 @@ export default class nodeGardenMass {
 	}*/
 
 	nodeGardenMassCanvas = document.getElementById('node-garden-mass');
+
 	context = this.nodeGardenMassCanvas.getContext('2d');
 	particles = [];
     numParticles = portraitMode.matches ? 35 : 50;
     minDist = 100;
     springAmount = 0.0001;
 
+    width = this.nodeGardenMassCanvas.width;
+    height = this.nodeGardenMassCanvas.height;
+
 	constructor() {
 		this.nodeGardenMassCanvas.width = window.innerWidth;
     	this.nodeGardenMassCanvas.height = window.innerHeight;
 
-    	var width = this.nodeGardenMassCanvas.width;
-    	var height = this.nodeGardenMassCanvas.height;
-           
             for(var i=0; i<this.numParticles; i++){
                 var color = Math.random()*(0xffffff);
                 var size = portraitMode.matches ? Math.random()*5 + 2 : Math.random()*5 + 5;
@@ -126,6 +127,6 @@ export default class nodeGardenMass {
 	}
 
     showMessage() {
-    	console.log(this.context);
+    	console.log(this.width);
     }
 }
