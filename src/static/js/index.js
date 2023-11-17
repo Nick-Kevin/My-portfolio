@@ -287,14 +287,7 @@ const router = async () => {
            
             for(var i=0; i<numParticles; i++){
                 var color = Math.random()*(0xffffff);
-
-                let size;
-                if(portraitMode.matches) {
-                    size = Math.random()*5 + 2;
-                } else {
-                    size = Math.random()*5 + 5;
-                }
-
+                var size = portraitMode.matches ? Math.random()*5 + 2 : Math.random()*5 + 5;
                 var ball = new Ball(size, color);
                
                     ball.x = Math.random()*width;
