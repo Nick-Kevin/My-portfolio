@@ -48,7 +48,7 @@ export default class extends view {
 	            	Having completed a comprehensive internship that involved dual
 	            	roles as a front-end and back-end developer,
 	            	I have actively contributed to various web development projects throughout my
-	            	academic tenure. My overarching goal is to ascend to the ranks of top-tier
+	            	academic tenure.My overarching goal is to ascend to the ranks of top-tier
 	            	front-end developers, leveraging modern and popular technologies
 	            	to create high-quality products. Beyond the world of coding,
 	            	I find solace in listening to pop music and indulging in
