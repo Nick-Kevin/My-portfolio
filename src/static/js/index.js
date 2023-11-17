@@ -273,7 +273,8 @@ const router = async () => {
 
         case "/about":
             setupBurgerMenuFeature();
-            
+            setupMusicPlayerFeature();
+
             var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
             nodeGardenMassCanvas.width = window.innerWidth;
