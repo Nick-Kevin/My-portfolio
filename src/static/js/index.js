@@ -304,7 +304,9 @@ const router = async () => {
 
             window.addEventListener("resize", nodeGardenMass);*/
             const nodeGardenMassInstance = new nodeGardenMass;
-            nodeGardenMassInstance.showMessage();
+            //nodeGardenMassInstance.draw();
+            nodeGardenMassInstance.drawFrmae();
+            nodeGardenMassInstance.show();
        break;
     }
 }
