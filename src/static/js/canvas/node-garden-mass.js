@@ -100,7 +100,7 @@ export default class nodeGardenMass {
 
 	context = this.nodeGardenMassCanvas.getContext('2d');
 	particles = [];
-    numParticles = portraitMode.matches ? 35 : 50;
+    particlesLength = portraitMode.matches ? 35 : 50;
     minDist = 100;
     springAmount = 0.0001;
 
@@ -111,7 +111,7 @@ export default class nodeGardenMass {
 		this.nodeGardenMassCanvas.width = window.innerWidth;
     	this.nodeGardenMassCanvas.height = window.innerHeight;
 
-            for(var i=0; i<this.numParticles; i++){
+            for(var i=0; i<this.particlesLength; i++){
                 var color = Math.random()*(0xffffff);
                 var size = portraitMode.matches ? Math.random()*5 + 2 : Math.random()*5 + 5;
                 var ball = new Ball(size, color);
@@ -122,11 +122,11 @@ export default class nodeGardenMass {
                     ball.vy = Math.random()*2 - 1;
                     ball.mass = size;
                
-                this.particles.push(this.ball);
+                this.particles.push(ball);
             }
 	}
 
     showMessage() {
-    	console.log(this.width);
+    	console.log(this.particles);
     }
 }
