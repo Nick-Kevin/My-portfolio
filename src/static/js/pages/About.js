@@ -10,33 +10,34 @@ export default class extends view {
 	async getHtml() {
 		return `
 			<canvas id="node-garden-mass"></canvas>
-			<div id="menu">
-		        <ul>
-		          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
-		          <li><a href="/work" class="c-white" data-link>Work</a></li>
-		          <li><a href="/about" class="c-white" data-link>About</a></li>
-		          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
-		        </ul>
-		    </div>
-			<div id="header">
-	            <div>
-	                <h1>About me</h1>
-	            </div>
-	            <!-------------------------- Buttons on the top right side -------------------------->
-	            <!-- Turn on/off button -->
-	            <div id="sound-icon" class="tooltip">
-	                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
-	                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
-	                <p class="tooltiptext">
-	                	Click to turn <span id="audio-tooltip"></span> the music
-	                </p>
-	            </div>
-	            <!----------------------------------------------------------------------------------->
-	            <div class="flex-display justify-content-end align-items-center">
-	            	<div id="burger-menu">
-				      <span></span>
-				    </div>
-	            </div>
+			<div id="about-content">
+				<div id="menu">
+			        <ul>
+			          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
+			          <li><a href="/work" class="c-white" data-link>Work</a></li>
+			          <li><a href="/about" class="c-white" data-link>About</a></li>
+			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
+			        </ul>
+			    </div>
+				<div id="header">
+		            <div>
+		                <h1 class="nk-text-color">About me</h1>
+		            </div>
+		            <!-------------------------- Buttons on the top right side -------------------------->
+		            <!-- Turn on/off button -->
+		            <div id="sound-icon" class="tooltip">
+		                <img id="soundOffInHome" class="other-width pointer" src="static/assets/SVG Images//sound-off-svgrepo-com.svg" alt="sounf off.svg"/>		                
+		                <img id="soundOnInHome" class="other-width pointer" src="static/assets/SVG Images/sound-on-svgrepo-com.svg" alt="sound on.svg"/>
+		                <p class="tooltiptext">
+		                	Click to turn <span id="audio-tooltip"></span> the music
+		                </p>
+		            </div>
+		            <!----------------------------------------------------------------------------------->
+		            <div class="flex-display justify-content-end align-items-center">
+		            	<div id="burger-menu">
+					      <span></span>
+					    </div>
+		            </div>
 	        </div>
 		`;
 	}
