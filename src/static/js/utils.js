@@ -1,4 +1,4 @@
-export const notRequestAnimationFrame = () => {
+const notRequestAnimationFrame = () => {
     if(!window.requestAnimationFrame){
         window.requestAnimationFrame =(window.webkitRequestAnimationFrame||
                                        window.mozRequestAnimationFrame||
@@ -11,7 +11,7 @@ export const notRequestAnimationFrame = () => {
     }
 }
 
-export const notCancelAnimationFrame = () => {
+const notCancelAnimationFrame = () => {
     if (!window.cancelAnimationFrame) {
         window.cancelAnimationFrame = (window.cancelRequestAnimationFrame ||
                                      window.webkitCancelAnimationFrame || window.webkitCancelRequestAnimationFrame ||
