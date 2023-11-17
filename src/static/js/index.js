@@ -281,12 +281,7 @@ const router = async () => {
                 minDist = 100,
                 springAmount = 0.001;
 
-            let numParticles
-            if(portraitMode.matches) {
-                numParticles = 25;
-            } else {
-                numParticles = 50;
-            }
+            var numParticles = portraitMode.matches ? 25 : 50;
            
             var width = nodeGardenMassCanvas.width;
             var height = nodeGardenMassCanvas.height;
