@@ -1,7 +1,7 @@
 import { portraitMode } from '../index.js';
 import { Ball } from './balls.js';
 
-export default function nodeGardenMass() {
+/*export default function nodeGardenMass() {
 	var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
             nodeGardenMassCanvas.width = window.innerWidth;
@@ -87,4 +87,28 @@ export default function nodeGardenMass() {
                 particles.forEach(move);
                 particles.forEach(draw);
             }());
+}*/
+
+export default class nodeGardenMass {
+	/*message = "hi! I'm training to tunr it to poo";
+
+	showMessage() {
+		alert(this.message);
+	}*/
+
+	nodeGardenMassCanvas = document.getElementById('node-garden-mass');
+	particles = [];
+    numParticles = portraitMode.matches ? 35 : 50;
+    minDist = 100;
+    springAmount = 0.0001;
+
+	constructor() {
+		this.nodeGardenMassCanvas.width = window.innerWidth;
+    	this.nodeGardenMassCanvas.height = window.innerHeight;
+    	var context = this.nodeGardenMassCanvas.getContext('2d');
+	}
+
+    showMessage() {
+    	console.log(this.numParticles);
+    }
 }

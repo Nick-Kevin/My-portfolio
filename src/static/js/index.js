@@ -272,9 +272,11 @@ const router = async () => {
             break;
 
         case "/about":
-            nodeGardenMass();
+            /*nodeGardenMass();
 
-            window.addEventListener("resize", nodeGardenMass);
+            window.addEventListener("resize", nodeGardenMass);*/
+            const nodeGardenMassInstance = new nodeGardenMass;
+            nodeGardenMassInstance.showMessage();
        break;
     }
 }
