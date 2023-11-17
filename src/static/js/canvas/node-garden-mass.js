@@ -82,8 +82,8 @@ export default class nodeGardenMass {
         ball.draw(this.context);
     }
 
-    drawFrmae() {
-        window.requestAnimationFrame(this.drawFrmae.bind(this), this.nodeGardenMassCanvas);
+    drawFrame() {
+        window.requestAnimationFrame(this.drawFrame.bind(this), this.nodeGardenMassCanvas);
         this.context.clearRect(0, 0, this.width, this.height);
        
         this.particles.forEach(this.move.bind(this));
