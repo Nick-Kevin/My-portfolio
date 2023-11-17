@@ -272,6 +272,34 @@ const router = async () => {
             break;
 
         case "/about":
+            var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
+
+            nodeGardenMassCanvas.width = window.innerWidth;
+            nodeGardenMassCanvas.height = window.innerHeight;            
+
+            var context = nodeGardenMassCanvas.getContext('2d'),
+                particles = [],
+                numParticles = portraitMode.matches ? 35 : 50,
+                minDist = 100,
+                springAmount = 0.0001;
+           
+            var width = nodeGardenMassCanvas.width;
+            var height = nodeGardenMassCanvas.height;
+           
+            for(var i=0; i<numParticles; i++){
+                var color = Math.random()*(0xffffff);
+                var size = portraitMode.matches ? Math.random()*5 + 2 : Math.random()*5 + 5;
+                var ball = new Ball(size, color);
+               
+                    ball.x = Math.random()*width;
+                    ball.y = Math.random()*height;
+                    ball.vx = Math.random()*2 - 1;
+                    ball.vy = Math.random()*2 - 1;
+                    ball.mass = size;
+               
+                particles.push(ball);
+            }
+            console.log(context)
             /*nodeGardenMass();
 
             window.addEventListener("resize", nodeGardenMass);*/
