@@ -272,6 +272,8 @@ const router = async () => {
             break;
 
         case "/about":
+            setupBurgerMenuFeature();
+            
             var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
             nodeGardenMassCanvas.width = window.innerWidth;
@@ -288,9 +290,7 @@ const router = async () => {
             window.addEventListener("resize", () => {
                 const nodeGardenMassInstance = new nodeGardenMass;
                 nodeGardenMassInstance.drawFrame();
-            });
-
-            setupBurgerMenuFeature();
+            });            
        break;
     }
 }
