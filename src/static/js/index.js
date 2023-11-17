@@ -3,6 +3,7 @@ import Home from './pages/Home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
+import { Ball } from './balls.js'
 
 var windowHeight = window.innerHeight;
 
@@ -447,7 +448,7 @@ window.utils.intersects = function(rectA, rectB){
     
      
 
-            function Ball(radius,color){
+            /*function Ball(radius,color){
     if(radius === undefined) {radius = 40;}
     if(color === undefined){color = '#00ff00';}
     this.x = 0;
@@ -489,7 +490,7 @@ Ball.prototype.getBounds = function(){
         width: this.radius*2,
         height: this.radius*2
     };
-}
+}*/
             var canva = document.getElementById('canvas');
 
 
