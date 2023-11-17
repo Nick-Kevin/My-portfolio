@@ -306,6 +306,17 @@ const router = async () => {
             const nodeGardenMassInstance = new nodeGardenMass;
             //nodeGardenMassInstance.draw();
             nodeGardenMassInstance.drawFrmae();
+            document.addEventListener("resize", () => {
+                const nodeGardenMassInstance = new nodeGardenMass;
+            //nodeGardenMassInstance.draw();
+            nodeGardenMassInstance.drawFrmae();
+            })
+
+            window.addEventListener("resize", () => {
+                const nodeGardenMassInstance = new nodeGardenMass;
+            //nodeGardenMassInstance.draw();
+            nodeGardenMassInstance.drawFrmae();
+            })
             nodeGardenMassInstance.show();
        break;
     }
