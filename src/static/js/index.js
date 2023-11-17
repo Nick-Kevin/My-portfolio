@@ -274,7 +274,7 @@ const router = async () => {
             var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
             nodeGardenMassCanvas.width = window.innerWidth;
-            nodeGardenMassCanvas.height = window.innerHeight;
+            nodeGardenMassCanvas.height = window.innerHeight;            
 
             var context = nodeGardenMassCanvas.getContext('2d'),
                 particles = [],
@@ -287,7 +287,14 @@ const router = async () => {
            
             for(var i=0; i<numParticles; i++){
                 var color = Math.random()*(0xffffff);
-                var size = Math.random()*5 + 5;
+
+                let size;
+                if(portraitMode.matches) {
+                    size = Math.random()*5 + 2;
+                } else {
+                    size = Math.random()*5 + 5;
+                }
+
                 var ball = new Ball(size, color);
                
                     ball.x = Math.random()*width;
@@ -356,6 +363,19 @@ const router = async () => {
                 particles.forEach(move);
                 particles.forEach(draw);
             }());
+
+            window.addEventListener("resize", () => {
+                nodeGardenMassCanvas.width = window.innerWidth;
+                nodeGardenMassCanvas.height = window.innerHeight; 
+
+                (function drawFrmae(){
+                window.requestAnimationFrame(drawFrmae, nodeGardenMassCanvas);
+                context.clearRect(0, 0, width, height);
+               
+                particles.forEach(move);
+                particles.forEach(draw);
+            }());  
+            })
        break;
     }
 }
