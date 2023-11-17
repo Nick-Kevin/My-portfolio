@@ -278,9 +278,9 @@ const router = async () => {
 
             var context = nodeGardenMassCanvas.getContext('2d'),
                 particles = [],
-                numParticles = portraitMode.matches ? 25 : 50,
-                minDist = portraitMode.matches ? 120 : 100,
-                springAmount = 0.001;
+                numParticles = portraitMode.matches ? 35 : 50,
+                minDist = 100,
+                springAmount = 0.0001;
            
             var width = nodeGardenMassCanvas.width;
             var height = nodeGardenMassCanvas.height;
@@ -292,8 +292,8 @@ const router = async () => {
                
                     ball.x = Math.random()*width;
                     ball.y = Math.random()*height;
-                    ball.vx = Math.random()*6 - 3;
-                    ball.vy = Math.random()*6 - 3;
+                    ball.vx = Math.random()*2 - 1;
+                    ball.vy = Math.random()*2 - 1;
                     ball.mass = size;
                
                 particles.push(ball);
