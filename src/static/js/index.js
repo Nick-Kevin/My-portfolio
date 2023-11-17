@@ -3,7 +3,7 @@ import Home from './pages/Home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
-import { Ball } from './balls.js';
+import { Ball } from './canvas/balls.js';
 
 var windowHeight = window.innerHeight;
 
