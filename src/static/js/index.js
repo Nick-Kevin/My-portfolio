@@ -289,8 +289,6 @@ const router = async () => {
                 const nodeGardenMassInstance = new nodeGardenMass;
                 nodeGardenMassInstance.drawFrame();
             });
-
-            nodeGardenMassInstance.show();
        break;
     }
 }
