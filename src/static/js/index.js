@@ -3,8 +3,8 @@ import Home from './pages/Home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
-import { Ball } from './balls.js'
-import { notRequestAnimationFrame, notCancelAnimationFrame} from './utils.js'
+import { Ball } from './balls.js';
+import { notRequestAnimationFrame, notCancelAnimationFrame} from './utils.js';
 
 var windowHeight = window.innerHeight;
 
@@ -272,8 +272,8 @@ const router = async () => {
             break;
 
         case "/about":
-            notRequestAnimationFrame()
-            notCancelAnimationFrame()
+            notRequestAnimationFrame();
+            notCancelAnimationFrame();
 //mx = mouse.x | my = mouse.y | ox = object.x | oy = object.y
 function RotationToMouse(mx,my,ox,oy){
     var dx = mx - ox;
