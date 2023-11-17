@@ -271,20 +271,19 @@ const router = async () => {
             break;
 
         case "/about":
-            var canva = document.getElementById('canvas');
+            var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
 
-        canva.width = window.innerWidth;
-        canva.height = window.innerHeight;
-           var canvas = document.getElementById('canvas'),
-               context = canvas.getContext('2d'),
+        nodeGardenMassCanvas.width = window.innerWidth;
+        nodeGardenMassCanvas.height = window.innerHeight;
+           var context = nodeGardenMassCanvas.getContext('2d'),
                particles = [],
                numParticles = 50,
                minDist = 100,
                springAmount = 0.001;
            
-           var width = canvas.width;
-           var height = canvas.height;
+           var width = nodeGardenMassCanvas.width;
+           var height = nodeGardenMassCanvas.height;
            
            for(var i=0; i<numParticles; i++){
                var color = Math.random()*(0xffffff);
@@ -326,15 +325,15 @@ const router = async () => {
            function move(ballA, i){
                ballA.x += ballA.vx;
                ballA.y += ballA.vy;
-               if (ballA.x > canvas.width) {
+               if (ballA.x > nodeGardenMassCanvas.width) {
                       ballA.x = 0;
                     } else if (ballA.x < 0) {
-                      ballA.x = canvas.width;
+                      ballA.x = nodeGardenMassCanvas.width;
                     }
-                    if (ballA.y > canvas.height) {
+                    if (ballA.y > nodeGardenMassCanvas.height) {
                       ballA.y = 0;
                     } else if (ballA.y < 0) {
-                      ballA.y = canvas.height;
+                      ballA.y = nodeGardenMassCanvas.height;
                     }
                
                for(var ballB, j=i+1; j<numParticles; j++){
@@ -351,7 +350,7 @@ const router = async () => {
            }
            
            (function drawFrmae(){
-               window.requestAnimationFrame(drawFrmae, canvas);
+               window.requestAnimationFrame(drawFrmae, nodeGardenMassCanvas);
                context.clearRect(0, 0, width, height);
                
                particles.forEach(move);
