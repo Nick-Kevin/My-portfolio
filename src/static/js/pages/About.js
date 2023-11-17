@@ -53,7 +53,8 @@ export default class extends view {
 	            	to create high-quality products. Beyond the world of coding,
 	            	I find solace in listening to pop music and indulging in
 	            	series whenever I'm away from my computer.
-	            </p>	            
+	            </p>
+	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>	            
 	        </div>
 
 		`;
