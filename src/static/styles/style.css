@@ -71,6 +71,11 @@ body {
     margin-right: 48px;    
 }
 
+#about-content {
+    position: relative;
+    z-index: 1000;
+}
+
 section {
     margin: 0;
 }
