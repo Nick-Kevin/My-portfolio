@@ -289,6 +289,8 @@ const router = async () => {
                 const nodeGardenMassInstance = new nodeGardenMass;
                 nodeGardenMassInstance.drawFrame();
             });
+
+            setupBurgerMenuFeature();
        break;
     }
 }
