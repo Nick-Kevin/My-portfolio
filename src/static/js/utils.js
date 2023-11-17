@@ -115,29 +115,6 @@ window.utils.parseColor = function (color, toNumber) {
   }
 };
 
-//颜色解析函数
-/*window.utils.parseColor = function(color,toNumber){
-    if(toNumber === true){
-        if(typeof color === 'number'){
-            return (color | 0); // num | 0 -> num
-        }
-        if(typeof color === 'string' && color[0] === '#'){
-            color = color.slice(1); //如果传入的是#fff000,那么得到的是fff000，将#剪切掉
-        }
-        return window.parseInt(color,16); //如果color='fff000',得到 16773120
-    }else{
-        if(typeof color === 'number'){
-            //比如：color = 100; 
-            //(color | 0).toString(16) -> 64
-            //'00000' + (color | 0).toString(16) ->'0000064';
-            //'#'+('00000' + (color | 0).toString(16)).substr(-6); ->'#000064';
-            
-            color = '#' +('00000' + (color | 0).toString(16)).substr(-6);
-        }
-        return color;
-    }
-};*/
-
 //将16进制颜色转换成rgb
 window.utils.colorToRGB = function(color,alpha){
     //如果是字符串格式，转换为数字
