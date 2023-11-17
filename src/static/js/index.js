@@ -278,16 +278,16 @@ const router = async () => {
             nodeGardenMassCanvas.height = window.innerHeight;
             
             const nodeGardenMassInstance = new nodeGardenMass;
-            nodeGardenMassInstance.drawFrmae();
+            nodeGardenMassInstance.drawFrame();
 
             document.addEventListener("resize", () => {
                 const nodeGardenMassInstance = new nodeGardenMass;
-                nodeGardenMassInstance.drawFrmae();
+                nodeGardenMassInstance.drawFrame();
             });
 
             window.addEventListener("resize", () => {
                 const nodeGardenMassInstance = new nodeGardenMass;
-                nodeGardenMassInstance.drawFrmae();
+                nodeGardenMassInstance.drawFrame();
             });
 
             nodeGardenMassInstance.show();
