@@ -13,9 +13,9 @@ export default class extends view {
 			<div id="about-content">
 				<div id="menu">
 			        <ul>
-			          <li><a href="/home" class="nk-stheme-color" data-link>Home</a></li>
+			          <li><a href="/home" class="c-white" data-link>Home</a></li>
 			          <li><a href="/work" class="c-white" data-link>Work</a></li>
-			          <li><a href="/about" class="c-white" data-link>About</a></li>
+			          <li><a href="/about" class="nk-stheme-color" data-link>About</a></li>
 			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
 			        </ul>
 			    </div>
