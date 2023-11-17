@@ -279,7 +279,7 @@ const router = async () => {
             var context = nodeGardenMassCanvas.getContext('2d'),
                 particles = [],
                 numParticles = portraitMode.matches ? 25 : 50,
-                minDist = 100,
+                minDist = portraitMode.matches ? 120 : 100,
                 springAmount = 0.001;
            
             var width = nodeGardenMassCanvas.width;
