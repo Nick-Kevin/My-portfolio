@@ -9,7 +9,7 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<canvas id="canvas"></canvas>
+			<canvas id="node-garden-mass"></canvas>
 		`;
 	}
 } 
