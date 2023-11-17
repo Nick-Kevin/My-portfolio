@@ -4,6 +4,7 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import { Ball } from './balls.js'
+import { notRequestAnimationFrame, notCancelAnimationFrame} from './utils.js'
 
 var windowHeight = window.innerHeight;
 
@@ -271,25 +272,8 @@ const router = async () => {
             break;
 
         case "/about":
-            if(!window.requestAnimationFrame){
-    window.requestAnimationFrame =(window.webkitRequestAnimationFrame||
-                                   window.mozRequestAnimationFrame||
-                                   window.oRequestAnimationFrame||
-                                   window.msRequestAnimationFrame||
-                                  function(callback){                                    
-                                       return window.setTimeout(callback,1000/60); 
-                                 });
-    
-}
-
-if (!window.cancelAnimationFrame) {
-  window.cancelAnimationFrame = (window.cancelRequestAnimationFrame ||
-                                 window.webkitCancelAnimationFrame || window.webkitCancelRequestAnimationFrame ||
-                                 window.mozCancelAnimationFrame || window.mozCancelRequestAnimationFrame ||
-                                 window.msCancelAnimationFrame || window.msCancelRequestAnimationFrame ||
-                                 window.oCancelAnimationFrame || window.oCancelRequestAnimationFrame ||
-                                 window.clearTimeout);
-}
+            notRequestAnimationFrame()
+            notCancelAnimationFrame()
 //mx = mouse.x | my = mouse.y | ox = object.x | oy = object.y
 function RotationToMouse(mx,my,ox,oy){
     var dx = mx - ox;
