@@ -4,7 +4,6 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import { Ball } from './balls.js';
-import { notRequestAnimationFrame, notCancelAnimationFrame} from './utils.js';
 
 var windowHeight = window.innerHeight;
 
@@ -283,7 +282,7 @@ function RotationToMouse(mx,my,ox,oy){
 }
 
 
-window.utils = {};
+/*window.utils = {};
 //捕获坐标
 window.utils.captureMouse = function(element){
         var mouse = {x:0,y:0};
@@ -391,7 +390,7 @@ window.utils.parseColor = function (color, toNumber) {
         }
         return color;
     }
-};*/
+};*
 
 //将16进制颜色转换成rgb
 window.utils.colorToRGB = function(color,alpha){
@@ -427,7 +426,7 @@ window.utils.intersects = function(rectA, rectB){
              rectB.x + rectB.width < rectA.x ||
              rectA.y + rectA.height < rectB.y ||
              rectB.y + rectB.height < rectA.y);
-}
+}*/
             var canva = document.getElementById('canvas');
 
 
