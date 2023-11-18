@@ -55,7 +55,7 @@ export default class extends view {
 		            	I find solace in listening to pop music and indulging in
 		            	series whenever I'm away from my computer.
 		            </p>
-		            <div class="bg-white">
+		            <div class="bg-white mt-8 br-1 flex-display justify-content-center">
 		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
 		            </div>
 		        </div>
