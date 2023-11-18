@@ -3,7 +3,7 @@
   width: 400px;
   height: 400px;
   background: lightgrey;
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 20px 20px var(--second-color);
   transition: all 1s ease-in-out;
@@ -21,6 +21,7 @@
   bottom: 50%;
   transform: translate(50%, 50%);
   transition: all 0.6s ease-in-out;
+  color: var(--second-color);
 }
 
 .logo .logo-svg {
