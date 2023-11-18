@@ -53,10 +53,6 @@ const removeClassToElement = (classValue, element) => {
     return element.classList.remove(classValue);
 }
 
-const getHeight = (element) => {
-    return element.getBoundingClientRect().height;
-}
-
 const setOverflowValueToBodyElement = (value) => {
     document.body.style = `overflow: ${value}`;
 }
@@ -278,12 +274,6 @@ const router = async () => {
         case "/about":
             setupBurgerMenuFeature();
             setupMusicPlayerFeature();
-
-            const aboutMeParagraph = getElementBySelector(".book .cover");
-            const aboutMeParagraphHeight = getHeight(aboutMeParagraph);
-            const book = getElementBySelector(".book");
-            book.style.height = aboutMeParagraphHeight + "px";
-            console.log(book.style.height)
 
             var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
