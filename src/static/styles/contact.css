@@ -5,14 +5,14 @@
   background: lightgrey;
   border-radius: 30px;
   overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: 20px 20px var(--second-color);
   transition: all 1s ease-in-out;
 }
 
 .background {
   position: absolute;
   inset: 0;
-  background-color: var(--second-color);
+  background-color: var(--black-color);
 }
 
 .logo {
@@ -21,7 +21,6 @@
   bottom: 50%;
   transform: translate(50%, 50%);
   transition: all 0.6s ease-in-out;
-  color: black;
 }
 
 .logo .logo-svg {
