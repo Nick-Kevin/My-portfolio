@@ -1,6 +1,6 @@
 canvas {
 	background-color: var(--main-color);
 	position: fixed;
-	filter: blur(11px);
+	filter: blur(5px);
 	z-index: 0;
 }
