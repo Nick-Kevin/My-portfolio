@@ -277,9 +277,10 @@ const router = async () => {
 
             const aboutMeParagraph = getElementBySelector("#about-content > div:nth-child(3) p");
             gsap.to(aboutMeParagraph, {
-                duration: 10,
+                duration: 14,
+                ease: "none",
                 text: {
-                    value: "I am a dedicated computer science student currently pursuing my Master's degree at the Institut Supérieur Polytechnique de Madagascar (ISPM). My academic journey has fueled my passion for front-end development and UI/UX design, although I thrive in the dynamic realm of web development, boasting proficiency in both front-end and back-end technologies. Having completed a comprehensive internship that involved dual roles as a front-end and back-end developer, I have actively contributed to various web development projects throughout my academic tenure.My overarching goal is to ascend to the ranks of top-tier front-end developers, leveraging modern and popular technologies to create high-quality products. Beyond the world of coding, I find solace in listening to pop music and indulging in series whenever I'm away from my computer.",
+                    value: "I am a dedicated computer science student currently pursuing my Master's degree at the Institut Supérieur Polytechnique de Madagascar (ISPM). My academic journey has fueled my passion for front-end development and UI/UX design, although I thrive in the dynamic realm of web development, boasting proficiency in both front-end and back-end technologies. Having completed a comprehensive internship that involved dual roles as a front-end and back-end developer, I have actively contributed to various web development projects throughout my academic tenure.My overarching goal is to ascend to the ranks of top-tier front-end developers, leveraging modern and popular technologies to create high-quality products. Beyond the world of coding, I find solace in listening to pop music and indulging in series whenever I'm away from my computer.",                    
                 },
             });
 
