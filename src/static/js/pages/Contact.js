@@ -44,15 +44,29 @@ export default class extends view {
 			        		<div class="background">
 							  </div>
 							  <h2 class="logo">
+							  	
 							  </h2>
 
 							  <a href="#">
 							  	<div class="box box1">
 									  <span class="icon">
-									    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg">
-									      <path d="M0 0h24v24H0z" fill="none"/>
-									      <path d="M21 4H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zM12 15.586L3.707 7.293a1 1 0 1 1 1.414-1.414L12 13.172l7.879-7.88a1 1 0 1 1 1.414 1.414L12 15.586z"/>
-									    </svg>
+									    <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <title>email [#1572]</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+
+</defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -922.000000)" fill="#000">
+            <g id="icons" transform="translate(56.000000, 160.000000)">
+                <path d="M294,774.474 L284,765.649 L284,777 L304,777 L304,765.649 L294,774.474 Z M294.001,771.812 L284,762.981 L284,762 L304,762 L304,762.981 L294.001,771.812 Z" id="email-[#1572]">
+
+</path>
+            </g>
+        </g>
+    </g>
+</svg>
 									  </span>
 									</div>
 								</a>
@@ -60,9 +74,23 @@ export default class extends view {
 							  <a href="##">
 							  	<div class="box box2">
 									  <span class="icon">
-									    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg">
-									      <path d="M20.9999 3H3.00012C2.44724 3 2.00012 3.44713 2.00012 4V20C2.00012 20.5529 2.44724 21 3.00012 21H20.9999C21.5528 21 21.9999 20.5529 21.9999 20V4C21.9999 3.44713 21.5528 3 20.9999 3ZM8.99988 18.0001H6.99988V9.00012H8.99988V18.0001ZM7.99988 8.25012C7.31079 8.25012 6.74988 7.68921 6.74988 7.00012C6.74988 6.31096 7.31079 5.75012 7.99988 5.75012C8.68904 5.75012 9.24988 6.31096 9.24988 7.00012C9.24988 7.68921 8.68904 8.25012 7.99988 8.25012ZM18.9999 18.0001H16.9999V13.4991C16.9999 12.0862 16.9728 9.99912 14.4999 9.99912C12.0251 9.99912 11.8109 11.3721 11.8109 13.2491V18.0001H9.81088V9.00012H11.4999V10.5491H11.554C11.7763 10.1187 12.2826 9.00012 14.4999 9.00012C18.0286 9.00012 19 11.2851 19 14.4991V18.0001H18.9999Z"></path>
-									    </svg>
+									    <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <title>linkedin [#161]</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+
+</defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)" fill="#000000">
+            <g id="icons" transform="translate(56.000000, 160.000000)">
+                <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]">
+
+</path>
+            </g>
+        </g>
+    </g>
+</svg>
 									  </span>
 									</div>
 								</a>
@@ -70,8 +98,7 @@ export default class extends view {
 							  <a href="###">
 							  	<div class="box box3">
 									  <span class="icon">
-									    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="svg">
-									      <path d="M18 2H6C4.346 2 3 3.346 3 5v14c0 1.654 1.346 3 3 3h6v-7H8V11h4V9c0-2.206 1.794-4 4-4h3v2h-3c-1.104 0-2 .896-2 2v2h5l-1 4h-4v7h5c1.654 0 3-1.346 3-3V5c0-1.654-1.346-3-3-3z"/>
+									    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
 									    </svg>
 									  </span>
 									</div>
