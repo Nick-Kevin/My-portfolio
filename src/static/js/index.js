@@ -53,6 +53,10 @@ const removeClassToElement = (classValue, element) => {
     return element.classList.remove(classValue);
 }
 
+const getInformationOfElement = (information, element) => {
+    return element.getBoundingClientRect().information;
+}
+
 const setOverflowValueToBodyElement = (value) => {
     document.body.style = `overflow: ${value}`;
 }
