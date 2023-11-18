@@ -37,7 +37,7 @@
 }
 
 .icon .svg {
-  fill: black;
+  fill: white;
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
@@ -113,6 +113,7 @@
   bottom: -30%;
   left: -30%;
   transition-delay: 0.4s;
+  background-color: #3B5998;
 }
 
 .box3::before {
