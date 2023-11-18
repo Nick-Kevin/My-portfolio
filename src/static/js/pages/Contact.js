@@ -20,7 +20,7 @@ export default class extends view {
 			    </div>
 				<div id="header" class="bg-black">
 		            <div>
-		                <h1 class="nk-stheme-color">Contact Nick Kevin</h1>
+		                <h1>Contact Nick Kevin</h1>
 		            </div>
 		            <!-------------------------- Buttons on the top right side -------------------------->
 		            <!-- Turn on/off button -->
