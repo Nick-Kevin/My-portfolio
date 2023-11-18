@@ -39,7 +39,7 @@ export default class extends view {
 					    </div>
 		            </div>	
 		        </div>
-		        <div class="ml-8 mr-8 gird-display col-div-2">
+		        <div class="ml-8 mr-8 gird-display col-div-2 justify-items-center">
 		        	<p>
 		            	I am a dedicated computer science student currently pursuing my Master's degree
 		            	at the Institut Supérieur Polytechnique de Madagascar (ISPM).
