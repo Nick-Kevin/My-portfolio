@@ -167,6 +167,10 @@ body {
     margin: 0 48px;
 }
 
+#about-content h1 {
+    font-size: 1.6em;
+}
+
 #about-content p {
     margin-right: 40px;
     margin-left: 40px;
