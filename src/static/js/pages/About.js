@@ -54,6 +54,9 @@ export default class extends view {
 	            	I find solace in listening to pop music and indulging in
 	            	series whenever I'm away from my computer.
 	            </p>
+	            <div class="mt-8 mr-8 ml-8 mb-8">
+	            	<img src="static/assets/Images/MonLogo.gif" alt="My logo">
+	            </div>
 	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>	            
 	        </div>
 
