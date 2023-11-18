@@ -284,6 +284,7 @@ const router = async () => {
                 },
             });
 
+
             var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
             nodeGardenMassCanvas.width = window.innerWidth;
