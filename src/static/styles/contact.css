@@ -73,6 +73,7 @@
   height: 70%;
   bottom: -70%;
   left: -70%;
+  background-color: #c71610;
 }
 
 .box1::before {
