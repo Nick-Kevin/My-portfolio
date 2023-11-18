@@ -499,11 +499,17 @@ section {
     grid-template-columns: 50% 50%;
 }
 
+.col-60-auto {
+    grid-template-columns: 60% auto;
+}
+
 .justify-items-center {
     justify-items: center;
 }
 
-.ali
+.col-gap-8 {
+    grid-column-gap: 64px;
+}
 
 .none-decoration {
     text-decoration: none;
