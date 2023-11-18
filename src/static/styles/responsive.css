@@ -175,7 +175,7 @@ body {
     margin: 40px;
 } 
 
-#about-content p {
+#about-content > div:nth-child(3) {
     margin-right: 40px;
     margin-left: 40px;
 }
