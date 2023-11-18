@@ -41,7 +41,6 @@ export default class extends view {
 		        </div>
 		        <div class="ml-8 mr-8 col-gap-8 justify-items-center">
 		        	<p>
-		            	
 		            </p>
 		            <div class="bg-white mt-8 br-1 flex-display justify-content-center">
 		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
