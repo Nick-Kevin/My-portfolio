@@ -39,7 +39,7 @@ export default class extends view {
 					    </div>
 		            </div>	
 		        </div>
-		        <div class="ml-8 mr-8 gird-display col-div-2 justify-items-center">
+		        <div class="ml-8 mr-8 col-gap-8 justify-items-center">
 		        	<p>
 		            	I am a dedicated computer science student currently pursuing my Master's degree
 		            	at the Institut Supérieur Polytechnique de Madagascar (ISPM).
@@ -55,7 +55,9 @@ export default class extends view {
 		            	I find solace in listening to pop music and indulging in
 		            	series whenever I'm away from my computer.
 		            </p>
-		            <img src="static/assets/Images/second-logo.gif" alt="My second logo">
+		            <div class="bg-white">
+		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
+		            </div>
 		        </div>
 	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>	            
 	        </div>
