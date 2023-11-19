@@ -42,7 +42,9 @@ export default class extends view {
 		        	<div class="flex-display justify-content-center align-items-center">
 		        		<div class="contact-card">
 						    <div class="contact-card">
-							  	<div class="bg"></div>
+							  	<div class="bg">
+							  		<a class="fab fa-facebook-f nk-black-color none-decoration" href="#"></a>
+							  	</div>
 							  	<div class="blob"></div>
 							</div>
 						</div>
