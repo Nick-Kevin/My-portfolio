@@ -44,7 +44,7 @@ export default class extends view {
 						    <div class="contact-card">
 							  	<div class="bg">
 							  		<div class="flex-display justify-content-evenly mt-8">
-							  			<a class="fa-solid fa-envelope nk-black-color none-decoration" href="#"></a>
+							  			<a class="icon-envelope nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-facebook-f nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-linkedin-in nk-black-color none-decoration" href="#"></a>
 							  		</div>
