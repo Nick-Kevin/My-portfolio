@@ -43,7 +43,11 @@ export default class extends view {
 		        		<div class="contact-card">
 						    <div class="contact-card">
 							  	<div class="bg">
-							  		<a class="fab fa-facebook-f nk-black-color none-decoration" href="#"></a>
+							  		<div class="flex-display justify-content-evenly mt-8">
+							  			<a class="fa-solid fa-envelope nk-black-color none-decoration" href="#"></a>
+							  			<a class="fab fa-facebook-f nk-black-color none-decoration" href="#"></a>
+							  			<a class="fab fa-linkedin-in nk-black-color none-decoration" href="#"></a>
+							  		</div>
 							  	</div>
 							  	<div class="blob"></div>
 							</div>
