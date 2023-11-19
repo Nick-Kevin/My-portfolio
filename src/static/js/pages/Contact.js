@@ -43,10 +43,14 @@ export default class extends view {
 		        		<div class="contact-card">
 						    <div class="contact-card">
 							  	<div class="bg">
-							  		<div class="flex-display justify-content-evenly mt-8">
+							  		<div class="gird-display col-div-3 justify-items-center mt-8">
 							  			<a class="icon-envelope nk-black-color none-decoration" href="#"></a>
-							  			<a class="fab fa-facebook-f nk-black-color none-decoration" href="#"></a>
+							  			<a class="icon-facebook nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-linkedin-in nk-black-color none-decoration" href="#"></a>
+							  		</div>
+							  		<div class="gird-display col-div-2 justify-items-center mt-8">
+							  			<a class="icon-instagram nk-black-color none-decoration" href="#"></a>
+							  			<a class="icon-github nk-black-color none-decoration" href="#"></a>
 							  		</div>
 							  	</div>
 							  	<div class="blob"></div>
