@@ -41,12 +41,11 @@ export default class extends view {
 		        <div class="gird-display col-div-2">
 		        	<div class="flex-display justify-content-center align-items-center">
 		        		<div class="contact-card">
-    <div class="contact-card">
-  <div class="bg"></div>
-  <div class="blob"></div>
-</div>
-
-</div>
+						    <div class="contact-card">
+							  	<div class="bg"></div>
+							  	<div class="blob"></div>
+							</div>
+						</div>
 		        	</div>
 		        	<div>
 		        		<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
