@@ -41,58 +41,12 @@ export default class extends view {
 		        <div class="gird-display col-div-2">
 		        	<div class="flex-display justify-content-center align-items-center">
 		        		<div class="contact-card">
-			        		<div class="background">
-							  </div>
-							  <h2 class="logo">
-							  	
-							  </h2>
+    <div class="contact-card">
+  <div class="bg"></div>
+  <div class="blob"></div>
+</div>
 
-							  <a href="#">
-							  	<div class="box box1">
-									  <span class="icon">
-									    <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-										    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-										        <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -922.000000)" fill="white">
-										            <g id="icons" transform="translate(56.000000, 160.000000)">
-										                <path d="M294,774.474 L284,765.649 L284,777 L304,777 L304,765.649 L294,774.474 Z M294.001,771.812 L284,762.981 L284,762 L304,762 L304,762.981 L294.001,771.812 Z" id="email-[#1572]">
-
-										</path>
-										            </g>
-										        </g>
-										    </g>
-										</svg>
-									  </span>
-									</div>
-								</a>
-
-							  <a href="##">
-							  	<div class="box box2">
-									  <span class="icon">
-									    <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-										    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-										        <g id="Dribbble-Light-Preview" transform="translate(-180.000000, -7479.000000)" fill="white">
-										            <g id="icons" transform="translate(56.000000, 160.000000)">
-										                <path d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z" id="linkedin-[#161]">
-
-										</path>
-										            </g>
-										        </g>
-										    </g>
-										</svg>
-									  </span>
-									</div>
-								</a>
-
-							  <a href="###">
-							  	<div class="box box3">
-									  <span class="icon">
-									    <svg fill="white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
-									    </svg>
-									  </span>
-									</div>
-								</a>
-							  <div class="box box4"></div>
-			        	</div>
+</div>
 		        	</div>
 		        	<div>
 		        		<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

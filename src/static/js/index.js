@@ -244,29 +244,6 @@ const router = async () => {
             break; 
 
         case "/contact":
-            const boxLabel = getElementBySelector(".logo");
-            if(isTouchEnabled()) {
-                boxLabel.innerHTML = "Click me";
-            } else {
-                boxLabel.innerHTML = "Hover me";
-            }
-
-            const box = getElementBySelector(".contact-card");
-            const boxes = document.querySelectorAll(".box");
-            document.body.addEventListener('click', event => {
-                const isBoxClicked = box.contains(event.target);
-
-                if(isBoxClicked) {
-                    addClassToElement('change-position', boxLabel);
-                    addClassToElement('click-card', box);
-                    boxes.forEach(boxe => addClassToElement('click-box', boxe));    
-                } else {
-                    removeClassToElement('change-position', boxLabel);
-                    removeClassToElement('click-card', box);
-                    boxes.forEach(boxe => removeClassToElement('click-box', boxe));
-                }
-            })
-
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
             break;
