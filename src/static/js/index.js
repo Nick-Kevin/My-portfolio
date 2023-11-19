@@ -209,7 +209,7 @@ const router = async () => {
     switch(match.path) {
 
         case "/":
-            setOverflowValueToBodyElement("hidden");
+            document.body.style.overflow = "hidden";
             setupWelcomePageAnimations();
             break;
 
