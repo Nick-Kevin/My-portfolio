@@ -99,7 +99,8 @@ section {
 }
 
 #code-gif {
-    width: 50%;
+    width: 100%;
+    border-radius: 14px 14px 0 0;
 }
 
 /**************************** Position *****************************/
