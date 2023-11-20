@@ -43,7 +43,7 @@ export default class extends view {
 		        		<div class="contact-card">
 						    <div class="contact-card">
 							  	<div class="bg">
-							  		<img src="https://images.app.goo.gl/gvhWTVZMo6XcD9gTA" atl="front-end developper">
+							  		<img id="code-gif" src="https://i.postimg.cc/90t2vMTt/code.gif" atl="front-end developper">
 							  		<div class="gird-display col-div-3 justify-items-center mt-8">
 							  			<a class="icon-envelope nk-black-color none-decoration" href="#"></a>
 							  			<a class="icon-facebook nk-black-color none-decoration" href="#"></a>
