@@ -98,6 +98,10 @@ section {
     min-height: 100vh;
 }
 
+#code-gif {
+    width: 50%;
+}
+
 /**************************** Position *****************************/
 .p-relative {
     position: relative;
