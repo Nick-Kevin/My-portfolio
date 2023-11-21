@@ -244,6 +244,13 @@ const router = async () => {
             break; 
 
         case "/contact":
+            const cardContent = getElementBySelector(".bg");
+            const cardContentHeight = cardContent.getBoundingClientRect().height;
+            const cardContainer = getElementBySelector(".contact-card .contact-card");
+            cardContainer.style.height = cardContentHeight + 20 + "px";
+            console.log(cardContentHeight);
+            console.log(cardContainer.getBoundingClientRect().height)
+
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
             break;
