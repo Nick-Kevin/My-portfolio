@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: 80%;
   border-radius: 14px;
   z-index: 1111;
   overflow: hidden;
@@ -14,7 +13,7 @@
 
 .bg {
   position: absolute;
-  width: 96%;
+  width: 35vw;
   z-index: 2;
   background: #fdfddcf3 ;
   backdrop-filter: blur(24px);
