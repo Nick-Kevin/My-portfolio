@@ -16,7 +16,6 @@
 .bg {
   position: absolute;
   width: 96%;
-  height: 96%;
   z-index: 2;
   background: #fdfddcf3 ;
   backdrop-filter: blur(24px);
