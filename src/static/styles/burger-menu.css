@@ -4,7 +4,7 @@
   width: 27px;
   overflow: visible;
   position: relative;
-  z-index: 2;
+  z-index: 1001;
 }
 #burger-menu span,
 #burger-menu span:before,
@@ -54,7 +54,7 @@
 }
 
 #menu {
-  z-index: 1;
+  z-index: 1000;
   min-width: 100%;
   min-height: 100%;
   position: fixed;
