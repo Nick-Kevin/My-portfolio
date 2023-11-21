@@ -51,7 +51,7 @@ export default class extends view {
 							  			<a class="icon-facebook nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-linkedin-in nk-black-color none-decoration" href="#"></a>
 							  		</div>
-							  		<div class="gird-display col-div-3 justify-items-center mt-2">
+							  		<div class="gird-display col-div-3 justify-items-center mt-2 mb-4">
 							  			<a class="icon-instagram nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-whatsapp nk-black-color none-decoration" href="#"></a>
 							  			<a class="icon-github nk-black-color none-decoration" href="#"></a>
