@@ -246,10 +246,10 @@ const router = async () => {
         case "/contact":
             const cardContent = getElementBySelector(".bg");
             const cardContentHeight = cardContent.getBoundingClientRect().height;
+            const cardContentWidth = cardContent.getBoundingClientRect().width;
             const cardContainer = getElementBySelector(".contact-card .contact-card");
             cardContainer.style.height = cardContentHeight + 20 + "px";
-            console.log(cardContentHeight);
-            console.log(cardContainer.getBoundingClientRect().height)
+            cardContainer.style.width = cardContentWidth + 20 + "px";
 
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
