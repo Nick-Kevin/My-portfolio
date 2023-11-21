@@ -248,8 +248,13 @@ const router = async () => {
             const cardContentHeight = cardContent.getBoundingClientRect().height;
             const cardContentWidth = cardContent.getBoundingClientRect().width;
             const cardContainer = getElementBySelector(".contact-card .contact-card");
-            cardContainer.style.height = cardContentHeight + 20 + "px";
-            cardContainer.style.width = cardContentWidth + 20 + "px";
+            if(portraitMode.matches) {
+                cardContainer.style.height = cardContentHeight + 10 + "px";
+                cardContainer.style.width = cardContentWidth + 10 + "px";
+            } else {
+                cardContainer.style.height = cardContentHeight + 20 + "px";
+                cardContainer.style.width = cardContentWidth + 20 + "px";
+            }
 
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
