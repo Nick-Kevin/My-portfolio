@@ -82,7 +82,7 @@ body {
     width: 18%;
 }
 
-#about-content .skills-container {
+#about-content .skills-container > div {
     background-color: var(--main-beta-color);
 }
 
