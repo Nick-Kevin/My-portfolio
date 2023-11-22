@@ -42,13 +42,13 @@ export default class extends view {
 		        <div class="ml-8 mr-8 col-gap-8 justify-items-center">
 		        	<p>
 		            </p>
-		            <div class="bg-white mt-8 br-1 flex-display justify-content-center">
+		            <div class="bg-white mt-8 br-2 flex-display justify-content-center">
 		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
 		            </div>
 		        </div>
 	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>
 	            <div class="skills-container">
-	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-1">
+	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
