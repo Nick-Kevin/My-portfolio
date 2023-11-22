@@ -55,6 +55,26 @@ export default class extends view {
 	            				<img src="static/assets/Images/Front end/html.jpg" alt="HTML logo">
 	            				<h6 class="mt-2">HTML</h6>
 	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Front end/css.png" alt="CSS logo">
+	            				<h6 class="mt-2">CSS</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Front end/javascript.png" alt="JavaScript logo">
+	            				<h6 class="mt-2">JavaScript</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Front end/bootstrap.svg" alt="Bootstrap logo">
+	            				<h6 class="mt-2">Bootstrap</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Front end/react.png" alt="React logo">
+	            				<h6 class="mt-2">React</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Front end/mui.png" alt="MUI logo">
+	            				<h6 class="mt-2">Material UI</h6>
+	            			</div>
 	            		</div>
 	            	</div>
 	            </div>            
