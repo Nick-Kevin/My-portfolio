@@ -86,6 +86,10 @@ body {
     background-color: var(--main-beta-color);
 }
 
+#about-content .skills-container .skills-box {
+    flex-wrap: wrap;
+}
+
 #about-content .skill img {
     width: 100px;
     height: 100px;
