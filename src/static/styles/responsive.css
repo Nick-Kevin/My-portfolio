@@ -183,6 +183,11 @@ body {
     margin-top: 20px;
 }
 
+#about-content .skill {
+    width: 90px;
+    height: 90px;
+}
+
 #about-content .skill img {
     width: 50px;
     height: 50px;
