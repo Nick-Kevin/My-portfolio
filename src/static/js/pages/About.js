@@ -47,13 +47,13 @@ export default class extends view {
 		            </div>
 		        </div>
 	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>
-	            <div class="skills-container ml-8 mr-8 mb-8 px-3 py-3">
-	            	<div id="front-end">
-	            		<h5 class="nk-stheme-color">Frontend</h5>
+	            <div class="skills-container">
+	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-1">
+	            		<h4 class="nk-stheme-color">Frontend</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Front end/html.jpg" alt="HTML logo">
-	            				<h6>HTML</h6>
+	            				<h6 class="mt-2">HTML</h6>
 	            			</div>
 	            		</div>
 	            	</div>
