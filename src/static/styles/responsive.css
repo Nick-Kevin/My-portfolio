@@ -169,7 +169,8 @@ body {
     margin: 40px;
 } 
 
-#about-content > div:nth-child(3) {
+#about-content > div:nth-child(3),
+#about-content .skills-container > div {
     margin-right: 40px;
     margin-left: 40px;
 }
