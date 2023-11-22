@@ -1,6 +1,7 @@
 :root {
     --main-color: #23095A;
     --mainprime-color: #23095a81;
+    --main-beta-color: #200657;
     --child-color: #3c109c;
     --childprime-color: #3c109c86;
     --second-color: #faff06;
@@ -79,6 +80,10 @@ body {
 
 #about-content #second-logo {
     width: 18%;
+}
+
+#about-content .skills-container {
+    background-color: var(--main-beta-color);
 }
 
 section {
