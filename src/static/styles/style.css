@@ -1,7 +1,7 @@
 :root {
     --main-color: #23095A;
     --mainprime-color: #23095a81;
-    --main-beta-color: #200657;
+    --main-beta-color: #27135E;
     --child-color: #3c109c;
     --childprime-color: #3c109c86;
     --second-color: #faff06;
@@ -84,6 +84,11 @@ body {
 
 #about-content .skills-container {
     background-color: var(--main-beta-color);
+}
+
+#about-content .skill img {
+    width: 100px;
+    height: 100px;
 }
 
 section {
@@ -319,6 +324,11 @@ section {
 /*******************************************************************/
 
 /***************************** Padding ******************************/
+.py-3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .py-4 {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -402,6 +412,11 @@ section {
 
 .px-2 {
     padding: 0 16px;
+}
+
+.px-3 {
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 /* RIGHT */
