@@ -77,6 +77,10 @@ body {
     z-index: 1000;
 }
 
+#about-content #second-logo {
+    width: 18%;
+}
+
 section {
     margin: 0;
 }
