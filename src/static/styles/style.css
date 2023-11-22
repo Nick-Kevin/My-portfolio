@@ -453,6 +453,11 @@ section {
 .br-1 {
     border-radius: 5px;
 }
+
+.br-2 {
+    border-radius: 10px;
+}
+
 .br-50 {
     border-radius: 50%;
 }
