@@ -84,13 +84,15 @@ body {
 
 #about-content .skills-container .skills-box {
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 40px;
 }
 
 #about-content .skill {
     width: 11rem;
     height: 11rem;    
 }
+
+
 
 #about-content .skill img {
     width: 50px;
