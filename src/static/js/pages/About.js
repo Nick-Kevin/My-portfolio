@@ -112,6 +112,19 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
+	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            		<h4 class="nk-stheme-color">DataBase</h4>
+	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/SGBD/mysql.png" alt="HTML logo">
+	            				<h6 class="mt-2">MySQL</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/SGBD/postgresql.png" alt="CSS logo">
+	            				<h6 class="mt-2">PostgreSQL</h6>
+	            			</div>
+	            		</div>
+	            	</div>
 	            </div>            
 	        </div>
 
