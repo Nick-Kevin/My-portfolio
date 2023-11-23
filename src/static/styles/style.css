@@ -82,9 +82,9 @@ body {
     width: 18%;
 }
 
-#about-content .skills-container > div {
+/*#about-content .skills-container > div {
     background-color: var(--main-beta-color);
-}
+}*/
 
 #about-content .skills-container .skills-box {
     flex-wrap: wrap;
