@@ -87,6 +87,31 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
+	            	<div id="back-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            		<h4 class="nk-stheme-color">Backend</h4>
+	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Back end/node.png" alt="HTML logo">
+	            				<h6 class="mt-2">Node.js</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Back end/express.png" alt="CSS logo">
+	            				<h6 class="mt-2">Express</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Back end/php.png" alt="JavaScript logo">
+	            				<h6 class="mt-2">PHP</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Back end/laravel.png" alt="Bootstrap logo">
+	            				<h6 class="mt-2">Laravel</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Back end/codeigniter.png" alt="React logo">
+	            				<h6 class="mt-2">Codeigniter</h6>
+	            			</div>
+	            		</div>
+	            	</div>
 	            </div>            
 	        </div>
 
