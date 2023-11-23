@@ -74,7 +74,7 @@ export default class extends view {
 	            				<h6 class="mt-2">JavaScript</h6>
 	            			</div>
 	            			<div class="skill ml-8 flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Front end/bootstrap.svg" alt="Bootstrap logo">
+	            				<img class="bs" src="static/assets/Images/Front end/bootstrap.svg" alt="Bootstrap logo">
 	            				<h6 class="mt-2">Bootstrap</h6>
 	            			</div>
 	            			<div class="skill ml-8 flex-display flex-column align-items-center">
@@ -82,7 +82,7 @@ export default class extends view {
 	            				<h6 class="mt-2">React</h6>
 	            			</div>
 	            			<div class="skill ml-8  flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Front end/mui.png" alt="MUI logo">
+	            				<img class="bs" src="static/assets/Images/Front end/mui.png" alt="MUI logo">
 	            				<h6 class="mt-2">Material UI</h6>
 	            			</div>
 	            		</div>
