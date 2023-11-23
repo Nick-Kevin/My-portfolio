@@ -175,8 +175,8 @@ body {
     margin-left: 40px;
 }
 
-#about-content .skill {
-    margin: 8px;
+#about-content .skills-container > div {
+    padding: 0;
 }
 
 #about-content .skills-container .skills-box {
