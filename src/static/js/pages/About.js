@@ -60,7 +60,7 @@ export default class extends view {
 	            <div class="skills-container">
 	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
-	            		<div class="skills-box flex-display mt-3">
+	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img class="bg-white br-1" src="static/assets/Images/Front end/html5.png" alt="HTML logo">
 	            				<h6 class="mt-2">HTML</h6>
@@ -89,7 +89,7 @@ export default class extends view {
 	            	</div>
 	            	<div id="back-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Backend</h4>
-	            		<div class="skills-box flex-display mt-3">
+	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Back end/node.png" alt="Node.js logo">
 	            				<h6 class="mt-2">Node.js</h6>
@@ -114,7 +114,7 @@ export default class extends view {
 	            	</div>
 	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">DataBase</h4>
-	            		<div class="skills-box flex-display mt-3">
+	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/SGBD/mysql.png" alt="MySQL logo">
 	            				<h6 class="mt-2">MySQL</h6>
@@ -136,7 +136,7 @@ export default class extends view {
 	            	</div>
 	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Others</h4>
-	            		<div class="skills-box flex-display mt-3">
+	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Others/git.png" alt="Git logo">
 	            				<h6 class="mt-2">Git</h6>
