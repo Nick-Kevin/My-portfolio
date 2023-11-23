@@ -62,7 +62,7 @@ export default class extends view {
 	            		<h4 class="nk-stheme-color">Frontend</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Front end/html.jpg" alt="HTML logo">
+	            				<img class="bg-white br-1" src="static/assets/Images/Front end/html5.png" alt="HTML logo">
 	            				<h6 class="mt-2">HTML</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
