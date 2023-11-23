@@ -126,7 +126,7 @@ export default class extends view {
 	            		</div>
 	            	</div>
 	            	<div id="ui-ux" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
-	            		<h4 class="nk-stheme-color">DataBase</h4>
+	            		<h4 class="nk-stheme-color">UI/UX design</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/UI-UX design/figma.png" alt="HTML logo">
@@ -134,6 +134,23 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
+	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            		<h4 class="nk-stheme-color">Others</h4>
+	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Others/git.png" alt="HTML logo">
+	            				<h6 class="mt-2">Git</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Others/github.png" alt="CSS logo">
+	            				<h6 class="mt-2">GitHub</h6>
+	            			</div>
+	            			<div class="skill flex-display flex-column align-items-center">
+	            				<img src="static/assets/Images/Others/trello.png" alt="CSS logo">
+	            				<h6 class="mt-2">Trello</h6>
+	            			</div>
+	            		</div>
+	            	</div>	            	
 	            </div>            
 	        </div>
 
