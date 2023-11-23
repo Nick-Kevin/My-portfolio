@@ -82,18 +82,13 @@ body {
     width: 18%;
 }
 
-/*#about-content .skills-container > div {
-    background-color: var(--main-beta-color);
-}*/
-
 #about-content .skills-container .skills-box {
     flex-wrap: wrap;
 }
 
 #about-content .skill {
     width: 11rem;
-    height: 11rem;
-    border-radius: 8px;
+    height: 11rem;    
 }
 
 #about-content .skill img {
