@@ -84,6 +84,7 @@ body {
 
 #about-content .skills-container .skills-box {
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 #about-content .skill {
