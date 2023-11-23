@@ -90,6 +90,13 @@ body {
     flex-wrap: wrap;
 }
 
+#about-content .skill {
+    width: 11rem;
+    height: 11rem;
+    background-color: var(--black-color);
+    border-radius: 8px;
+}
+
 #about-content .skill img {
     width: 50px;
     height: 50px;
