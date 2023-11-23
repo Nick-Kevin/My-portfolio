@@ -151,7 +151,8 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>	            	
-	            </div>            
+	            </div>
+	            <h1 class="ml-8 mt-8 mb-8">Resume</h1>           
 	        </div>
 
 		`;
