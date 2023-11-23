@@ -52,36 +52,36 @@ export default class extends view {
 		        		Beyond the world of coding,
 		        		I find solace in listening to pop music and indulging in series whenever I'm away from my computer.
 		            </p>
-		            <div class="bg-white mt-8 br-2 flex-display justify-content-center">
+		            <!--div class="bg-white mt-8 br-2 flex-display justify-content-center">
 		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
-		            </div>
+		            </div-->
 		        </div>
 	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>
 	            <div class="skills-container">
 	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
-	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            		<div class="skills-box flex-display mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img class="bg-white br-1" src="static/assets/Images/Front end/html5.png" alt="HTML logo">
 	            				<h6 class="mt-2">HTML</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Front end/css.png" alt="CSS logo">
 	            				<h6 class="mt-2">CSS</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Front end/javascript.png" alt="JavaScript logo">
 	            				<h6 class="mt-2">JavaScript</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Front end/bootstrap.svg" alt="Bootstrap logo">
 	            				<h6 class="mt-2">Bootstrap</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Front end/react.png" alt="React logo">
 	            				<h6 class="mt-2">React</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8  flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Front end/mui.png" alt="MUI logo">
 	            				<h6 class="mt-2">Material UI</h6>
 	            			</div>
@@ -89,24 +89,24 @@ export default class extends view {
 	            	</div>
 	            	<div id="back-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Backend</h4>
-	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            		<div class="skills-box flex-display mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Back end/node.png" alt="Node.js logo">
 	            				<h6 class="mt-2">Node.js</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Back end/express.png" alt="Express logo">
 	            				<h6 class="mt-2">Express</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Back end/php.png" alt="PHP logo">
 	            				<h6 class="mt-2">PHP</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Back end/laravel.png" alt="Laravel logo">
 	            				<h6 class="mt-2">Laravel</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Back end/codeigniter.png" alt="Codeigniter logo">
 	            				<h6 class="mt-2">Codeigniter</h6>
 	            			</div>
@@ -114,12 +114,12 @@ export default class extends view {
 	            	</div>
 	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">DataBase</h4>
-	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            		<div class="skills-box flex-display mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/SGBD/mysql.png" alt="MySQL logo">
 	            				<h6 class="mt-2">MySQL</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/SGBD/postgresql.png" alt="PostgreSQL logo">
 	            				<h6 class="mt-2">PostgreSQL</h6>
 	            			</div>
@@ -127,7 +127,7 @@ export default class extends view {
 	            	</div>
 	            	<div id="ui-ux" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">UI/UX design</h4>
-	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            		<div class="skills-box flex-display mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/UI-UX design/figma.png" alt="Figma logo">
 	            				<h6 class="mt-2">Figma</h6>
@@ -136,16 +136,16 @@ export default class extends view {
 	            	</div>
 	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Others</h4>
-	            		<div class="skills-box flex-display justify-content-around mt-3">
+	            		<div class="skills-box flex-display mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Others/git.png" alt="Git logo">
 	            				<h6 class="mt-2">Git</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Others/github.png" alt="GitHub logo">
 	            				<h6 class="mt-2">GitHub</h6>
 	            			</div>
-	            			<div class="skill flex-display flex-column align-items-center">
+	            			<div class="skill ml-8 flex-display flex-column align-items-center">
 	            				<img src="static/assets/Images/Others/trello.png" alt="Trello logo">
 	            				<h6 class="mt-2">Trello</h6>
 	            			</div>
