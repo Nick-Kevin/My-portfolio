@@ -244,6 +244,13 @@ const router = async () => {
             break; 
 
         case "/contact":
+            const contactNickKevin = getElementBySelector("#header div:first-child h1");
+            gsap.to(contactNickKevin, {
+                text: {
+                    value: "Contact Nick Kevin",
+                    speed: 1,
+                },
+            });
             const cardContent = getElementBySelector(".bg");
             const cardContentHeight = cardContent.getBoundingClientRect().height;
             const cardContentWidth = cardContent.getBoundingClientRect().width;
