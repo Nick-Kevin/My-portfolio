@@ -91,23 +91,23 @@ export default class extends view {
 	            		<h4 class="nk-stheme-color">Backend</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Back end/node.png" alt="HTML logo">
+	            				<img src="static/assets/Images/Back end/node.png" alt="Node.js logo">
 	            				<h6 class="mt-2">Node.js</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Back end/express.png" alt="CSS logo">
+	            				<img src="static/assets/Images/Back end/express.png" alt="Express logo">
 	            				<h6 class="mt-2">Express</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Back end/php.png" alt="JavaScript logo">
+	            				<img src="static/assets/Images/Back end/php.png" alt="PHP logo">
 	            				<h6 class="mt-2">PHP</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Back end/laravel.png" alt="Bootstrap logo">
+	            				<img src="static/assets/Images/Back end/laravel.png" alt="Laravel logo">
 	            				<h6 class="mt-2">Laravel</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Back end/codeigniter.png" alt="React logo">
+	            				<img src="static/assets/Images/Back end/codeigniter.png" alt="Codeigniter logo">
 	            				<h6 class="mt-2">Codeigniter</h6>
 	            			</div>
 	            		</div>
@@ -116,11 +116,11 @@ export default class extends view {
 	            		<h4 class="nk-stheme-color">DataBase</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/SGBD/mysql.png" alt="HTML logo">
+	            				<img src="static/assets/Images/SGBD/mysql.png" alt="MySQL logo">
 	            				<h6 class="mt-2">MySQL</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/SGBD/postgresql.png" alt="CSS logo">
+	            				<img src="static/assets/Images/SGBD/postgresql.png" alt="PostgreSQL logo">
 	            				<h6 class="mt-2">PostgreSQL</h6>
 	            			</div>
 	            		</div>
@@ -129,7 +129,7 @@ export default class extends view {
 	            		<h4 class="nk-stheme-color">UI/UX design</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/UI-UX design/figma.png" alt="HTML logo">
+	            				<img src="static/assets/Images/UI-UX design/figma.png" alt="Figma logo">
 	            				<h6 class="mt-2">Figma</h6>
 	            			</div>
 	            		</div>
@@ -138,15 +138,15 @@ export default class extends view {
 	            		<h4 class="nk-stheme-color">Others</h4>
 	            		<div class="skills-box flex-display justify-content-around mt-3">
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Others/git.png" alt="HTML logo">
+	            				<img src="static/assets/Images/Others/git.png" alt="Git logo">
 	            				<h6 class="mt-2">Git</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Others/github.png" alt="CSS logo">
+	            				<img src="static/assets/Images/Others/github.png" alt="GitHub logo">
 	            				<h6 class="mt-2">GitHub</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center">
-	            				<img src="static/assets/Images/Others/trello.png" alt="CSS logo">
+	            				<img src="static/assets/Images/Others/trello.png" alt="Trello logo">
 	            				<h6 class="mt-2">Trello</h6>
 	            			</div>
 	            		</div>
