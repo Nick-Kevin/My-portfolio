@@ -1,4 +1,4 @@
-a {
+#about-content a {
   all: unset;
   display: flex;
   align-items: center;
@@ -16,19 +16,19 @@ a {
   user-select: none;
 }
 
-a p {
+#about-content a p {
   z-index: 1;
 }
 
-a:hover {
+#about-content a:hover {
   color: #212121;
 }
 
-a:active {
+#about-content a:active {
   border-color: teal;
 }
 
-a::after, a::before {
+#about-content a::after, #about-content a::before {
   content: "";
   position: absolute;
   width: 9em;
@@ -39,25 +39,25 @@ a::after, a::before {
   transition: transform 500ms, background 300ms;
 }
 
-a::before {
+#about-content a::before {
   left: 0;
   transform: translateX(-8em);
 }
 
-a::after {
+#about-content a::after {
   right: 0;
   transform: translateX(8em);
 }
 
-a:hover:before {
+#about-content a:hover:before {
   transform: translateX(-1em);
 }
 
-a:hover:after {
+#about-content a:hover:after {
   transform: translateX(1em);
 }
 
-a:active:before,
-a:active:after {
+#about-content a:active:before,
+#about-content a:active:after {
   background: teal;
 }
