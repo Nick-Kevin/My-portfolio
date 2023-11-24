@@ -181,7 +181,7 @@ body {
 
 #about-content .skills-container .skills-box {
     margin-top: 20px;
-    gap: 24px;
+    justify-content: space-between;
 }
 
 #about-content .skill {
