@@ -95,7 +95,7 @@ export default class extends view {
 	            				<h6 class="mt-2">Node.js</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
-	            				<img src="static/assets/Images/Back end/express.png" alt="Express logo">
+	            				<img style="background: white; padding: 0 7px; border-radius: 4px" src="static/assets/Images/Back end/express.png" alt="Express logo">
 	            				<h6 class="mt-2">Express</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
