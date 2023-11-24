@@ -155,7 +155,7 @@ export default class extends view {
 	            <h1 class="ml-8 mt-8 mb-8">Resume</h1>
 	            <div class="ml-8 mr-8 mb-8">
 	            	<span>My curriculum vitae:</span>
-	            	<button style="padding: 8px 16px">Doawnload</button>
+	            	<a style="padding: 8px 16px" href="static/assets/File/CV.pdf" download>Doawnload</a>
 	            </div>       
 	        </div>
 
