@@ -49,11 +49,11 @@
 }
 
 #about-content a:hover:before {
-  transform: translateX(-1em);
+  transform: translateX(-0.5em);
 }
 
 #about-content a:hover:after {
-  transform: translateX(1em);
+  transform: translateX(0.5em);
 }
 
 #about-content a:active:before,
