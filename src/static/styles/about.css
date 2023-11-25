@@ -1,3 +1,8 @@
+#ispm {
+  text-decoration: none;
+  color: var(--second-color);
+}
+
 #about-content .resume a {
   width: 180px;
   display: flex;
