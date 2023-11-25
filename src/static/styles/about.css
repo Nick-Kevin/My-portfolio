@@ -1,4 +1,4 @@
-#about-content a {
+#about-content .resume a {
   width: 180px;
   display: flex;
   align-items: center;
@@ -13,21 +13,21 @@
   text-decoration: none;
 }
 
-#about-content a p {
+#about-content .resume a p {
   z-index: 1;
   width: 100%;
   text-align: center;
 }
 
-#about-content a:hover {
+#about-content .resume a:hover {
   color: black;
 }
 
-#about-content a:active {
+#about-content .resume a:active {
   border-color: teal;
 }
 
-#about-content a::after, #about-content a::before {
+#about-content .resume a::after, #about-content .resume a::before {
   content: "";
   position: absolute;
   width: 9em;
@@ -38,25 +38,25 @@
   transition: transform 500ms, background 300ms;
 }
 
-#about-content a::before {
+#about-content .resume a::before {
   left: 0;
   transform: translateX(-8em);
 }
 
-#about-content a::after {
+#about-content .resume a::after {
   right: 0;
   transform: translateX(8em);
 }
 
-#about-content a:hover:before {
+#about-content .resume a:hover:before {
   transform: translateX(-0.5em);
 }
 
-#about-content a:hover:after {
+#about-content .resume a:hover:after {
   transform: translateX(0.5em);
 }
 
-#about-content a:active:before,
-#about-content a:active:after {
+#about-content .resume a:active:before,
+#about-content .resume a:active:after {
   background: teal;
 }
