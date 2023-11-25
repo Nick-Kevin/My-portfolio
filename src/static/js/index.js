@@ -4,7 +4,7 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import { Ball } from './canvas/balls.js';
-import nodeGardenMass from './canvas/node-garden-mass.js'
+import nodeGardenMass from './canvas/node-garden-mass.js';
 
 var windowHeight = window.innerHeight;
 
