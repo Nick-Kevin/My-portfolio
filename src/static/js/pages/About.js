@@ -42,7 +42,7 @@ export default class extends view {
 		        <div class="ml-8 mr-8 col-gap-8 justify-items-center">
 		        	<p>
 		        		I am a dedicated computer science student currently pursuing my
-		        		Master's degree at the Institut Supérieur Polytechnique de Madagascar (ISPM).
+		        		Master's degree at the <a id="ispm" href="#">Institut Supérieur Polytechnique de Madagascar (ISPM)</a>.
 		        		My academic journey has fueled my passion for front-end development and UI/UX design,
 		        		although I thrive in the dynamic realm of web development,
 		        		boasting proficiency in both front-end and back-end technologies.
