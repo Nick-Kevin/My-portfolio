@@ -10,6 +10,7 @@
   overflow: hidden;
   transition: border 300ms, color 300ms;
   user-select: none;
+  text-decoration: none;
 }
 
 #about-content a p {
