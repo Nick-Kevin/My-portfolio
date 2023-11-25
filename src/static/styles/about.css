@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   position: relative;
-  border: mediumspringgreen solid 1px;
-  border-radius: 0.25em;
+  border: mediumspringgreen solid 2px;
+  border-radius: 5px;
   color: mediumspringgreen;
   cursor: pointer;
   overflow: hidden;
@@ -14,6 +14,8 @@
 
 #about-content a p {
   z-index: 1;
+  width: 100%;
+  text-align: center;
 }
 
 #about-content a:hover {
