@@ -16,6 +16,7 @@
   transition: border 300ms, color 300ms;
   user-select: none;
   text-decoration: none;
+  background: var(--black-color);
 }
 
 #about-content .resume a p {
