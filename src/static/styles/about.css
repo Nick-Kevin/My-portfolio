@@ -1,15 +1,11 @@
 #about-content a {
-  all: unset;
+  width: 180px;
   display: flex;
   align-items: center;
   position: relative;
-  padding: 5px 2em;
-  border: mediumspringgreen solid 0.15em;
+  border: mediumspringgreen solid 1px;
   border-radius: 0.25em;
   color: mediumspringgreen;
-  font-family: poppins;
-  font-size: 1.5em;
-  font-weight: 600;
   cursor: pointer;
   overflow: hidden;
   transition: border 300ms, color 300ms;
