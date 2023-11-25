@@ -3,9 +3,9 @@
   display: flex;
   align-items: center;
   position: relative;
-  border: mediumspringgreen solid 2px;
+  border: var(--second-color) solid 2px;
   border-radius: 5px;
-  color: mediumspringgreen;
+  color: var(--second-color);
   cursor: pointer;
   overflow: hidden;
   transition: border 300ms, color 300ms;
@@ -32,7 +32,7 @@
   position: absolute;
   width: 9em;
   aspect-ratio: 1;
-  background: mediumspringgreen;
+  background: var(--second-color);
   opacity: 50%;
   border-radius: 50%;
   transition: transform 500ms, background 300ms;
