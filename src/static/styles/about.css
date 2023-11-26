@@ -5,6 +5,20 @@
 
 #about-content .resume a {
   width: 180px;
+  border-radius: 5px;
+  color: var(--black-color);
+  background: var(--second-color);
+  text-decoration: none;
+}
+
+#about-content .resume a p {
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+/*#about-content .resume a {
+  width: 180px;
   display: flex;
   align-items: center;
   position: relative;
@@ -65,4 +79,4 @@
 #about-content .resume a:active:before,
 #about-content .resume a:active:after {
   background: teal;
-}
+}*/
