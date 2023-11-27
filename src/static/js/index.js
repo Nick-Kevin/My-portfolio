@@ -248,6 +248,14 @@ const router = async () => {
         case "/work":
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
+
+            const main = getElementBySelector('main');
+            const mainWidth = main.getBoundingClientRect().width;
+
+            const workHeader = getId('header');
+            const workHeaderPaddingLeftAndRight = 64 * 2;
+            workHeader.style.width = mainWidth - workHeaderPaddingLeftAndRight + 'px';
+
             break;
 
         case "/contact":
