@@ -26,6 +26,7 @@
 }
 
 #my-work .work-card button {
+	width: 45%;
 	padding: 8px 24px;
 	background-color: var(--second-color);
 	font-family: var(--onest-regular);
