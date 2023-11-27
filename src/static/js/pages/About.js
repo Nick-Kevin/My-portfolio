@@ -56,7 +56,7 @@ export default class extends view {
 		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
 		            </div-->
 		        </div>
-	            <h1 class="ml-8 mt-8 mb-8">My skills</h1>
+	            <h1 class="ml-8 mt-8 mb-8 reveal">My skills</h1>
 	            <div class="skills-container">
 	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
