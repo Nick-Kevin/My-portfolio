@@ -10,10 +10,10 @@ export default class extends view {
 	async getHtml() {
 		return `
 			<main id="my-work">								
-				<section class="flex-display align-items-center justify-content-center p-relative">
+				<section class="flex-display flex-column align-items-center justify-content-center p-relative">
 					<div id="header" class="p-absolute" style="top: 0">
 			            <div>
-			                <h1 class="nk-text-color">About me</h1>
+			                <h1 class="nk-text-color">My work</h1>
 			            </div>
 			            <!-------------------------- Buttons on the top right side -------------------------->
 			            <!-- Turn on/off button -->
@@ -31,7 +31,8 @@ export default class extends view {
 						    </div>
 			            </div>	
 			        </div>					
-					<h1>Web development (front-end & back-end) &#8595;</h1>
+					<h1>Web development</h1>
+					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
 				<section>
