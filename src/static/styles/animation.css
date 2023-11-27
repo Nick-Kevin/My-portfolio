@@ -313,6 +313,40 @@
     animation-duration: 3.5s;
 }
 
+@-webkit-keyframes makeOpacity-2 {
+    from { opacity: 0; -webkit-animation-timing-function: ease-in;}
+    to { opacity: 1; }
+}
+
+@-o-keyframes makeOpacity-2 {
+    from { opacity: 0; -o-animation-timing-function: ease-in;}
+    to { opacity: 1;}
+}
+
+@-moz-keyframes makeOpacity-2 {
+    from { opacity: 0; -moz-animation-timing-function: ease-in;}
+    to { opacity: 1;}
+}
+
+@keyframes makeOpacity-2 {
+    from { opacity: 0; animation-timing-function: ease-in;}
+    to { opacity: 1; }
+}
+
+.makeOpacity-2 {
+    -webkit-animation-name: makeOpacity-2;
+    -webkit-animation-duration: 1s;
+
+    -o-animation-name: makeOpacity-2;
+    -o-animation-duration: 1s;
+
+    -moz-animation-name: makeOpacity-2;
+    -moz-animation-duration: 1s;
+
+    animation-name: makeOpacity-2;
+    animation-duration: 1s;
+}
+
 @keyframes playOpacity {
     from { opacity: 0;}
     12.5% { opacity: 1;}

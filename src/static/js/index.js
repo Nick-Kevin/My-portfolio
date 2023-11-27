@@ -271,7 +271,7 @@ const router = async () => {
 
         case "/about":
             const aboutHeader = getId('header');
-            addClassToElement('littleScrollingUp', aboutHeader);
+            addClassToElement('makeOpacity-2', aboutHeader);
 
             const aboutMeParagraph = getElementBySelector("#about-content div:nth-child(3) p");
             addClassToElement('opacity-0', aboutMeParagraph);
