@@ -36,13 +36,16 @@ export default class extends view {
 				</section>
 
 				<section class="flex-display justify-content-around align-items-center">
-					<div class="card br-4">
+					<div class="work-card br-4 grid-display">
+						<img src="static/assets/Work images/bh_1.png" alt="beach hotel welcome page">
+						<div>
+						</div>
 					</div>
 
-					<div class="card br-4">
+					<div class="work-card br-4 grid-display">
 					</div>
 
-					<div class="card br-4">
+					<div class="work-card br-4 grid-display">
 					</div>
 				</section>
 
@@ -52,13 +55,13 @@ export default class extends view {
 				</section>
 
 				<section class="flex-display justify-content-around align-items-center">
-					<div class="card br-4">
+					<div class="work-card br-4 grid-display">
 					</div>
 
-					<div class="card br-4">
+					<div class="work-card br-4 grid-display">
 					</div>
 
-					<div class="card br-4">
+					<div class="work-card br-4 grid-display">
 					</div>
 				</section>
 
