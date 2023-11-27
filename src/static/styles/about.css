@@ -15,6 +15,11 @@
   background-color: #faff06F1;
 }
 
+#about-content .resume a:active {
+  background-color: var(--second-color);
+
+}
+
 #about-content .resume a p {
   z-index: 1;
   width: 100%;
