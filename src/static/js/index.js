@@ -78,11 +78,14 @@ const isElementOnAreaToReveal = (element, heightToRevealTheElement) => {
     return distanceFromViewportTop(element) < windowHeight - heightToRevealTheElement;
 }
 
-const revealElementBySlideUp = () => {
+const revealElementOnArea = (areaHeight) => {
     var reveals = document.querySelectorAll(".reveal");
 
     reveals.forEach(reveal => {
-        if(isElementOnAreaToReveal(reveal, 100)) {
+        console.log(reveal)
+        console.log(areaHeight)
+        console.log(isElementOnAreaToReveal(reveal, areaHeight))
+        if(isElementOnAreaToReveal(reveal, areaHeight)) {            
             addClassToElement("active", reveal);
         } else {
             removeClassToElement("active", reveal);
@@ -122,7 +125,7 @@ const setupHomePageAnimationsForPortraitMode = () => {
     const firstContent = getElementBySelector(".first-content p");
     addClassToElement('scrollingUp', firstContent);
 
-    window.addEventListener('scroll', revealElementBySlideUp);
+    window.addEventListener('scroll', revealElementOnArea(100));
 }
 
 const setupHomePageAnimationsForLandscapeMode = () => {
@@ -135,6 +138,10 @@ const setupHomePageAnimationsForLandscapeMode = () => {
         links.style.visibility = "visible";
         addClassToElement('scrollingLeft', links);
     }, 500);  
+}
+
+const setupAboutPageAnimations = () => {
+
 }
 
 const setupBurgerMenuFeature = () => {
@@ -282,6 +289,11 @@ const router = async () => {
 
             setupBurgerMenuFeature();
             setupMusicPlayerFeature();
+
+            const aboutAreaHeigt = windowHeight;
+            window.addEventListener('scroll', () => {
+                revealElementOnArea(50);
+            });
 
             var nodeGardenMassCanvas = document.getElementById('node-garden-mass');
 
