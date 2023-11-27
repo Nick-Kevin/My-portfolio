@@ -9,9 +9,18 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<main id="my-work">
-				<section class="flex-display align-items-center p-relative">
-					<div id="header" class="p-absolute">
+			<main id="my-work" class="p-relative">
+				<div id="menu">
+			        <ul>
+			          <li><a href="/home" class="c-white" data-link>Home</a></li>
+			          <li><a href="/work" class="nk-stheme-color" data-link>Work</a></li>
+			          <li><a href="/about" class="c-white" data-link>About</a></li>
+			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
+			        </ul>
+			    </div>				
+
+				<main>
+					<div id="header">
 			            <div>
 			                <h1 class="nk-text-color">About me</h1>
 			            </div>
@@ -30,21 +39,21 @@ export default class extends view {
 						      <span></span>
 						    </div>
 			            </div>	
-			        </div>
+			        </div>					
 					<h1>Front end and web development &#8595;</h1>
-				</section>
+				</main>
 
-				<section>
+				<main>
 					here are my accomplishment
-				</section>
+				</main>
 
-				<section class="flex-display align-items-center">
+				<main>
 					<h1>UI/UX design &#8595;</h1>
-				</section>
+				</main>
 
-				<section>
+				<main>
 					here are my accomplishment
-				</section>
+				</main>
 			</main>
 		`;
 	}
