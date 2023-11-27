@@ -9,7 +9,23 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<h1>Work page</h1>
+			<main id="my-work">
+				<section class="flex-display align-items-center p-relative">
+					<h1>Front end and web development &#8595;</h1>
+				</section>
+
+				<section>
+					here are my accomplishment
+				</section>
+
+				<section class="flex-display align-items-center">
+					<h1>UI/UX design &#8595;</h1>
+				</section>
+
+				<section>
+					here are my accomplishment
+				</section>
+			</main>
 		`;
 	}
 } 
