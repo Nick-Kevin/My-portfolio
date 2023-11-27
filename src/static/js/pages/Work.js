@@ -9,9 +9,9 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<main id="my-work" class="p-relative">								
-				<section>
-					<div id="header">
+			<main id="my-work">								
+				<section class="flex-display align-items-center justify-content-center p-relative">
+					<div id="header" class="p-absolute" style="top: 0">
 			            <div>
 			                <h1 class="nk-text-color">About me</h1>
 			            </div>
