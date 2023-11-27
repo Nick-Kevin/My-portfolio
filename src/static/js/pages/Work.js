@@ -35,8 +35,15 @@ export default class extends view {
 					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
-				<section>
-					here are my accomplishment
+				<section class="flex-display justify-content-around align-items-center">
+					<div class="card">
+					</div>
+
+					<div class="card">
+					</div>
+
+					<div class="card">
+					</div>
 				</section>
 
 				<section class="flex-display flex-column align-items-center justify-content-center p-relative">
