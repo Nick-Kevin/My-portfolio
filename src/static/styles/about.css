@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+#about-content .resume a:hover {
+  background-color: #faff06F1;
+}
+
 #about-content .resume a p {
   z-index: 1;
   width: 100%;
