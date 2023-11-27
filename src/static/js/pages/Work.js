@@ -39,8 +39,9 @@ export default class extends view {
 					here are my accomplishment
 				</section>
 
-				<section>
-					<h1>UI/UX design &#8595;</h1>
+				<section class="flex-display flex-column align-items-center justify-content-center p-relative">
+					<h1>UI/UX design</h1>
+					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
 				<section>
