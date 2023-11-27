@@ -1,7 +1,7 @@
-#my-work main {
+#my-work section {
 	min-height: 100vh;
 }
 
-#my-work main:nth-child(even) {
+#my-work section:nth-child(even) {
 	background-color: var(--black-color);
 }
