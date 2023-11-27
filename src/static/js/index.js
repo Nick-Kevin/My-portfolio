@@ -78,11 +78,11 @@ const isElementOnAreaToReveal = (element, heightToRevealTheElement) => {
     return distanceFromViewportTop(element) < windowHeight - heightToRevealTheElement;
 }
 
-const revealElementOnArea = (heihtToCancelTheWindowHeightToRevealElements) => {
+const revealElementOnArea = (heihtToRemoveFromTheWindowHeightToRevealElements) => {
     var reveals = document.querySelectorAll(".reveal");
 
     reveals.forEach(reveal => {
-        if(isElementOnAreaToReveal(reveal, heihtToCancelTheWindowHeightToRevealElements)) {            
+        if(isElementOnAreaToReveal(reveal, heihtToRemoveFromTheWindowHeightToRevealElements)) {            
             addClassToElement("active", reveal);
         } else {
             removeClassToElement("active", reveal);
