@@ -270,8 +270,15 @@ const router = async () => {
             break;
 
         case "/about":
-            const aboutHeader = getId("header");
-            addClassToElement("littleScrollingUp", aboutHeader);
+            const aboutHeader = getId('header');
+            addClassToElement('littleScrollingUp', aboutHeader);
+
+            const aboutMeParagraph = getElementBySelector("#about-content div:nth-child(3) p");
+            addClassToElement('opacity-0', aboutMeParagraph);
+            aboutHeader.addEventListener('animationend', () => {
+                addClassToElement('littleScrollingUp', aboutMeParagraph);
+                removeClassToElement('opacity-0', aboutMeParagraph);
+            });
 
             setupBurgerMenuFeature();
             setupMusicPlayerFeature();
