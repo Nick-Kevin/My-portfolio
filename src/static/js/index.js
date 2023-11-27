@@ -220,8 +220,8 @@ const router = async () => {
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
 
-            const header = getId("header");
-            addClassToElement('makeOpacity', header);
+            const homeHeader = getId("header");
+            addClassToElement('makeOpacity', homeHeader);
 
             if(portraitMode.matches) {
                 const frontEndAndUiUxDesigner = getElementBySelector(".main-content div:nth-child(2)");
@@ -270,6 +270,9 @@ const router = async () => {
             break;
 
         case "/about":
+            const aboutHeader = getId("header");
+            addClassToElement("littleScrollingUp", aboutHeader);
+
             setupBurgerMenuFeature();
             setupMusicPlayerFeature();
 
