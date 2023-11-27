@@ -5,3 +5,9 @@
 #my-work section:nth-child(even) {
 	background-color: var(--black-color);
 }
+
+#my-work .card {
+	width: 250px;
+	height: 250px;
+	background-color: var(--main-color);
+}
