@@ -36,13 +36,13 @@ export default class extends view {
 				</section>
 
 				<section class="flex-display justify-content-around align-items-center">
-					<div class="card">
+					<div class="card br-4">
 					</div>
 
-					<div class="card">
+					<div class="card br-4">
 					</div>
 
-					<div class="card">
+					<div class="card br-4">
 					</div>
 				</section>
 
