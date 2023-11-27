@@ -19,7 +19,7 @@ export default class extends view {
 			        </ul>
 			    </div>				
 
-				<main>
+				<section>
 					<div id="header">
 			            <div>
 			                <h1 class="nk-text-color">About me</h1>
@@ -41,19 +41,19 @@ export default class extends view {
 			            </div>	
 			        </div>					
 					<h1>Front end and web development &#8595;</h1>
-				</main>
+				</section>
 
-				<main>
+				<section>
 					here are my accomplishment
-				</main>
+				</section>
 
-				<main>
+				<section>
 					<h1>UI/UX design &#8595;</h1>
-				</main>
+				</section>
 
-				<main>
+				<section>
 					here are my accomplishment
-				</main>
+				</section>
 			</main>
 		`;
 	}
