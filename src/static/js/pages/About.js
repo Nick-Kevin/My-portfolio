@@ -58,9 +58,9 @@ export default class extends view {
 		        </div>
 	            <h1 class="ml-8 mt-8 mb-8 reveal">My skills</h1>
 	            <div class="skills-container">
-	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
-	            		<h4 class="nk-stheme-color reveal">Frontend</h4>
-	            		<div class="skills-box flex-display mt-5 reveal">
+	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
+	            		<h4 class="nk-stheme-color">Frontend</h4>
+	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Front end/html5.png" alt="HTML logo">
 	            				<h6 class="mt-2">HTML</h6>
@@ -87,7 +87,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="back-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            	<div id="back-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Backend</h4>
 	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -112,7 +112,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">DataBase</h4>
 	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -125,7 +125,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="ui-ux" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            	<div id="ui-ux" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">UI/UX design</h4>
 	            		<div class="skills-box flex-display mt-3">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -134,7 +134,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2">
+	            	<div id="others" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Others</h4>
 	            		<div class="skills-box flex-display mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -152,8 +152,8 @@ export default class extends view {
 	            		</div>
 	            	</div>	            	
 	            </div>
-	            <h1 class="ml-8 mt-8 mb-8">Resume</h1>
-	            <div class="resume ml-8 mr-8 mb-8 flex-display align-items-center">
+	            <h1 class="ml-8 mt-8 mb-8 reveal">Resume</h1>
+	            <div class="resume ml-8 mr-8 mb-8 flex-display align-items-center reveal">
 	            	<span class="mr-2">My curriculum vitae:</span>
 	            	<a style="padding: 8px 16px" href="static/assets/File/CV.pdf" download>
 	            		<p>Download</p>
