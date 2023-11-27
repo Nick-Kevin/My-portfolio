@@ -473,6 +473,14 @@ section {
     border-radius: 10px;
 }
 
+.br-3 {
+    border-radius: 15px;
+}
+
+.br-4 {
+    border-radius: 20px;
+}
+
 .br-50 {
     border-radius: 50%;
 }
