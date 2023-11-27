@@ -31,7 +31,7 @@ export default class extends view {
 						    </div>
 			            </div>	
 			        </div>					
-					<h1>Front end and web development &#8595;</h1>
+					<h1>Web development (front-end & back-end) &#8595;</h1>
 				</section>
 
 				<section>
