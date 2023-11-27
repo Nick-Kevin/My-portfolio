@@ -116,6 +116,45 @@
     animation-duration: 2s;
 }
 
+@-webkit-keyframes littleScrollingUp {
+    from { -webkit-transform: translateY(100px); opacity: 0; }
+    to { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-o-keyframes littleScrollingUp {
+    from { -o-transform: translateY(100px); opacity: 0; }
+    to { -o-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes littleScrollingUp {
+    from { -moz-transform: translateY(100px); opacity: 0; }
+    to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes littleScrollingUp {
+    from { transform: translateY(100px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.littleScrollingUp {
+    -webkit-animation-name: littleScrollingUp;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 1s;
+
+
+    -o-animation-name: littleScrollingUp;
+    -o-animation-timing-function: ease-out;
+    -o-animation-duration: 1s;
+
+    -moz-animation-name: littleScrollingUp;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 1s;
+
+    animation-name: littleScrollingUp;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+}
+
 @-webkit-keyframes scrollingRight {
     from { -webkit-transform: translateX(-50vw);}
     to { -webkit-transform: translateX(0);}
