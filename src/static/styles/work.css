@@ -6,8 +6,15 @@
 	background-color: var(--black-color);
 }
 
-#my-work .card {
+#my-work .work-card {
 	width: 340px;
 	height: 400px;
 	background-color: var(--main-color);
+	grid-template-columns: 100%;
+	grid-template-rows: 38% auto;
+}
+
+#my-work .work-card img {
+	width: 100%;
+	border-radius: 20px 20px 0 0;
 }
