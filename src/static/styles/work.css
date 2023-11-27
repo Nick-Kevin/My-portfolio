@@ -1,0 +1,7 @@
+#my-work section {
+	min-height: 100vh;
+}
+
+#my-work section:nth-child(2) {
+	background-color: var(--black-color);
+}
