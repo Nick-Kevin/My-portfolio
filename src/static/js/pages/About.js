@@ -152,13 +152,15 @@ export default class extends view {
 	            		</div>
 	            	</div>	            	
 	            </div>
-	            <h1 class="ml-8 mt-8 mb-8 reveal">Resume</h1>
-	            <div class="resume ml-8 mr-8 mb-8 flex-display align-items-center reveal">
-	            	<span class="mr-2">My curriculum vitae:</span>
-	            	<a style="padding: 8px 16px" href="static/assets/File/CV.pdf" download>
-	            		<p>Download</p>
-	            	</a>
-	            </div>       
+	            <div class="reveal">
+	            	<h1 class="ml-8 mt-8 mb-8">Resume</h1>
+		            <div class="resume ml-8 mr-8 mb-8 flex-display align-items-center">
+		            	<span class="mr-2">My curriculum vitae:</span>
+		            	<a style="padding: 8px 16px" href="static/assets/File/CV.pdf" download>
+		            		<p>Download</p>
+		            	</a>
+		            </div> 
+	            </div>   
 	        </div>
 
 		`;
