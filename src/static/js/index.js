@@ -245,6 +245,11 @@ const router = async () => {
 
             break; 
 
+        case "/work":
+            setupMusicPlayerFeature();
+            setupBurgerMenuFeature();
+            break;
+
         case "/contact":
             const contactNickKevin = getElementBySelector("#header div:first-child h1");
             gsap.to(contactNickKevin, {
