@@ -1,3 +1,5 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');*/
+
 #my-work section {
 	min-height: 100vh;
 }
@@ -21,8 +23,7 @@
 
 #my-work .work-card h6 {
 	line-height: 1.6rem;
-	font-family: roboto;
-	font-weight: 400;
+	font-weight: lighter;
 }
 
 #my-work .work-card button {
