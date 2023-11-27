@@ -78,14 +78,11 @@ const isElementOnAreaToReveal = (element, heightToRevealTheElement) => {
     return distanceFromViewportTop(element) < windowHeight - heightToRevealTheElement;
 }
 
-const revealElementOnArea = (areaHeight) => {
+const revealElementOnArea = (heihtToCancelTheWindowHeightToRevealElements) => {
     var reveals = document.querySelectorAll(".reveal");
 
     reveals.forEach(reveal => {
-        console.log(reveal)
-        console.log(areaHeight)
-        console.log(isElementOnAreaToReveal(reveal, areaHeight))
-        if(isElementOnAreaToReveal(reveal, areaHeight)) {            
+        if(isElementOnAreaToReveal(reveal, heihtToCancelTheWindowHeightToRevealElements)) {            
             addClassToElement("active", reveal);
         } else {
             removeClassToElement("active", reveal);
@@ -138,10 +135,6 @@ const setupHomePageAnimationsForLandscapeMode = () => {
         links.style.visibility = "visible";
         addClassToElement('scrollingLeft', links);
     }, 500);  
-}
-
-const setupAboutPageAnimations = () => {
-
 }
 
 const setupBurgerMenuFeature = () => {
