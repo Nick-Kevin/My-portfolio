@@ -219,7 +219,8 @@ body {
 } 
 
 #about-content > div:nth-child(3),
-#about-content .skills-container > div {
+#about-content .skills-container > div,
+#about-content #resume div {
     margin-right: 40px;
     margin-left: 40px;
 }
