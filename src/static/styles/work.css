@@ -13,7 +13,7 @@
 	height: 400px;
 	background-color: var(--main-color);
 	grid-template-columns: 100%;
-	grid-template-rows: 38% 64%;
+	grid-template-rows: 38% 62%;
 }
 
 #my-work .work-card img {

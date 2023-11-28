@@ -181,7 +181,19 @@ body {
 }
 
 #my-work .work-card > div {
-    grid-template-rows: 47% 63%;
+    height: auto;
+    grid-template-rows: 40% 60%;
+    padding: 16px;
+}
+
+#my-work .work-card > div div {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#my-work .work-card button {
+    width: 100%;
 }
 
 #about-content h1 {
