@@ -166,12 +166,14 @@ body {
     display: grid;
     justify-items: center;
     grid-template-columns: 100%;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 360px 360px 360px;
     grid-row-gap: 58px;
 }
 
 #my-work .work-card {
     width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 #about-content h1 {
