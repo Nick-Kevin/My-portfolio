@@ -183,7 +183,7 @@ body {
 #my-work .work-card > div {
     height: auto;
     grid-template-rows: 45% 55%;
-    padding: 16px;
+    padding: 24px;
 }
 
 #my-work .work-card > div div {
