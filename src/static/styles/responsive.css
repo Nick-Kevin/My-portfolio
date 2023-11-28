@@ -252,6 +252,10 @@ body {
     align-items: start;
 }
 
+#about-content #resume div a {
+    margin-top: 24px;
+}
+
 .bg {
     width: 85vw;
 }
