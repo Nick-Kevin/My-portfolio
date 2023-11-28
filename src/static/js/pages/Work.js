@@ -80,9 +80,6 @@ export default class extends view {
 
 					<div class="work-card br-4 grid-display">
 					</div>
-
-					<div class="work-card br-4 grid-display">
-					</div>
 				</section>
 
 				<div id="menu">
