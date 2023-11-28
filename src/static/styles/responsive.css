@@ -176,6 +176,10 @@ body {
     border-radius: 5px;
 }
 
+#my-work .work-card img {
+    border-radius: 5px 5px 0 0;
+}
+
 #about-content h1 {
     font-size: 1.6em;
 }
