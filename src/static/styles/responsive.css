@@ -11,8 +11,8 @@ body {
     padding: 40px;
 }
 
-#header {
-    padding: 40px;
+#about-content #header {
+    padding-bottom: 32px;
 }
 
 #contact > div:nth-child(3) {
@@ -214,8 +214,8 @@ body {
     font-size: 1.6em;
 }
 
-#about-content > h1 {
-    margin: 40px;
+#about-content h1 {
+    margin: 40px 40px 32px;
 } 
 
 #about-content > div:nth-child(3),
