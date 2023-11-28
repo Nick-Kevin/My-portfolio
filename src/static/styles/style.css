@@ -150,6 +150,10 @@ section {
 .bg-black {
     background-color: var(--black-color);
 }
+
+.bg-second-theme {
+    background-color: var(--second-color);
+}
 /*******************************************************************/
 .scrollbar {
     overflow-y: scroll;
@@ -304,6 +308,10 @@ section {
 }
 
 /* LEFT */
+.ml-2 {
+    margin-left: 16px;
+}
+
 .ml-4 {
     margin-left: 32px;
 }
