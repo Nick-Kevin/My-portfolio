@@ -170,6 +170,10 @@ body {
     grid-row-gap: 58px;
 }
 
+#my-work .work-card {
+    width: 100%;
+}
+
 #about-content h1 {
     font-size: 1.6em;
 }
