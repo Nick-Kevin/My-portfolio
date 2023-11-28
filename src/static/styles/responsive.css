@@ -161,13 +161,20 @@ body {
     margin: 0 48px;
 }
 
-#my-work section:nth-child(2) {
+#my-work section:nth-child(even) {
     padding: 58px;
     display: grid;
     justify-items: center;
     grid-template-columns: 100%;
-    grid-template-rows: 360px 360px 360px;
     grid-row-gap: 58px;
+}
+
+#my-work section:nth-child(2) {    
+    grid-template-rows: 360px 360px 360px;
+}
+
+#my-work section:nth-child(4) {    
+    grid-template-rows: 360px 360px;
 }
 
 #my-work .work-card {
