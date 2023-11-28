@@ -37,7 +37,7 @@ export default class extends view {
 
 				<section class="flex-display justify-content-around align-items-center">
 					<div class="work-card br-4 grid-display">
-						<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
+						<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h6 class="center-text">Conception d'une application web de gestion pour gérer l'école du dimanche au sein de l'église FJKM Andavoahangy Fivavahana</h6>
 							<div class="flex-display justify-content-center w-100">
