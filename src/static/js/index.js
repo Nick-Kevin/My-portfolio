@@ -253,7 +253,14 @@ const router = async () => {
             const mainWidth = main.getBoundingClientRect().width;
 
             const workHeader = getId('header');
-            const workHeaderPaddingLeftAndRight = 64 * 2;
+            let workHeaderPaddingLeftAndRight;
+
+            if (portraitMode.matches) {
+                workHeaderPaddingLeftAndRight = 40 * 2;
+            } else {
+                workHeaderPaddingLeftAndRight = 64 * 2;
+            }
+
             workHeader.style.width = mainWidth - workHeaderPaddingLeftAndRight + 'px';
 
             break;
