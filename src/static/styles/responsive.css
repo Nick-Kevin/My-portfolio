@@ -247,6 +247,11 @@ body {
     margin-top: 8px;
 }
 
+#about-content #resume div {
+    flex-direction: column;
+    align-items: start;
+}
+
 .bg {
     width: 85vw;
 }
