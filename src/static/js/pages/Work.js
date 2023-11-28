@@ -41,7 +41,7 @@ export default class extends view {
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h6 class="center-text">Conception d'une application web de gestion pour gérer l'école du dimanche au sein de l'église FJKM Andavoahangy Fivavahana</h6>
 							<div class="flex-display justify-content-center w-100">
-								<button class="br-1">View more</button>
+								<button class="br-1 bg-second-theme">View more</button>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,8 @@ export default class extends view {
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h6 class="center-text">Beach hotel</h6>
 							<div class="flex-display justify-content-center w-100">
-								<button class="br-1">View more</button>
+								<button class="br-1 bg-black nk-text-color mr-2">Source code</button>
+								<button class="br-1 bg-second-theme">View more</button>
 							</div>
 						</div>
 					</div>
