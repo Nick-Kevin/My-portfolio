@@ -48,7 +48,7 @@ export default class extends view {
 						    </div>
 			            </div>
 			        </div>
-			        <div class="main-content block-container gird-display col-div-2 justify-content-center">
+			        <div class="main-content block-container grid-display col-div-2 justify-content-center">
 			            <div class="first-content flex-display align-items-center">
 			                <p class="nk-text-color ml-8">
 			                	Hello, I'm Nick Kevin RAZAFINIRINA, and I'm a dedicated front-end developer and occasionaly UI/UX designer. My journey in the world of web development has been driven by a burning passion for creating exceptional user interfaces and ensuring a seamless user experience.
