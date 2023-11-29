@@ -246,6 +246,7 @@ const router = async () => {
             break; 
 
         case "/work":
+            document.body.style.backgroundColor = "var(--black-color)";
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
 
