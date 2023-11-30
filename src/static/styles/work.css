@@ -16,7 +16,6 @@
 
 #my-work .work-card {
 	width: 340px;
-	height: 400px;
 	background-color: #23095ADD;
 	grid-template-columns: 100%;
 	grid-template-rows: 38% 62%;
