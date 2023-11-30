@@ -51,10 +51,11 @@
 
 #my-work .work-card > div div {
 	width: 100%;
+	row-gap: 24px;
 }
 
 #my-work .work-card button {
-	width: 45%;
+	width: 100%;
 	padding: 8px 24px;
 	font-family: var(--onest-regular);
 	border: unset;
