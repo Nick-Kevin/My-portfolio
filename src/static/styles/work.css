@@ -54,6 +54,18 @@
 	row-gap: 24px;
 }
 
+@media (orientation: landscape) {
+
+	#my-work section:nth-child(2) div:first-child {
+		height: 380.343px;
+	}
+
+	#my-work section:nth-child(2) div:first-child img {
+		height: 169.367px;
+	}
+
+}
+
 #my-work .work-card button {
 	width: 100%;
 	padding: 8px 24px;
