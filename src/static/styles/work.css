@@ -58,6 +58,10 @@
  background-color: #23095AAA;
 }
 
+#my-work .work-card div .github:hover {
+ background-color: #faff06AA;
+}
+
 @media (orientation: landscape) {
 
 	#my-work section:nth-child(2) div:first-child {
