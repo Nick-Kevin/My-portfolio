@@ -62,7 +62,7 @@ export default class extends view {
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h1 class="center-text mb-3">2048 game</h1>
 							<div class="flex-display flex-column justify-content-center w-100">
-								<button class="bg-second-theme br-1">Github</button>
+								<button class="bg-second-theme br-1 github">Github</button>
 								<button class="bg-theme br-1 nk-text-color view-more">View more</button>
 							</div>
 						</div>
