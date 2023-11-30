@@ -101,7 +101,7 @@ export default class extends view {
 			          <li><a href="/home" class="c-white" data-link>Home</a></li>
 			          <li><a href="/work" class="nk-stheme-color" data-link>Work</a></li>
 			          <li><a href="/about" class="c-white" data-link>About</a></li>
-			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
+			          <li><a href="/contact" class="c-white view-more" data-link>Contact</a></li>
 			        </ul>
 			    </div>
 			</main>
