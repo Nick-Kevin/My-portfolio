@@ -57,13 +57,13 @@ export default class extends view {
 						</div>
 					</div>
 
-					<div class="work-card br-4 grid-display">
+					<div class="work-card br-1 grid-display">
 						<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h6 class="center-text">2048 game</h6>
 							<div class="flex-display justify-content-center w-100">
-								<button class="br-1 bg-black nk-text-color mr-2">Github</button>
-								<button class="br-1 bg-second-theme">View more</button>
+								<button class="bg-black nk-text-color mr-2">Github</button>
+								<button class="bg-second-theme">View more</button>
 							</div>
 						</div>
 					</div>
