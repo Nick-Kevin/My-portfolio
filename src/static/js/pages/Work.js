@@ -90,7 +90,7 @@ export default class extends view {
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h1 class="center-text">Porte parole (ODD)</h1>
 							<div class="flex-display justify-content-center w-100">
-								<button class="bg-theme nk-text-color br-1 mt-3">View more</button>
+								<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
 							</div>
 						</div>
 					</div>
@@ -101,7 +101,7 @@ export default class extends view {
 			          <li><a href="/home" class="c-white" data-link>Home</a></li>
 			          <li><a href="/work" class="nk-stheme-color" data-link>Work</a></li>
 			          <li><a href="/about" class="c-white" data-link>About</a></li>
-			          <li><a href="/contact" class="c-white view-more" data-link>Contact</a></li>
+			          <li><a href="/contact" class="c-white" data-link>Contact</a></li>
 			        </ul>
 			    </div>
 			</main>
