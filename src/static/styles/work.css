@@ -5,12 +5,12 @@
 }
 
 #my-work section:nth-child(odd) {
-	background-image: url("../assets/Images/blob-scene-haikei.png");
+	background-image: url("../assets/Images/layered-peaks-haikei.svg");
 	background-size: cover;
 }
 
 #my-work section:nth-child(even) {
-	background-image: url("../assets/Images/layered-steps-haikei.png");
+	background-image: url("../assets/Images/low-poly-grid-haikei.svg");
 	background-size: cover;
 }
 
