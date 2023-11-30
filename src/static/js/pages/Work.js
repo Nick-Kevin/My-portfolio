@@ -39,7 +39,7 @@ export default class extends view {
 					<div class="work-card br-1 grid-display">
 						<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h6 class="center-text">Sunday school</h6>
+							<h1 class="center-text mb-3">Sunday school</h1>
 							<div class="flex-display justify-content-center w-100">
 								<button class="bg-second-theme">View more</button>
 							</div>
@@ -49,7 +49,7 @@ export default class extends view {
 					<div class="work-card br-1 grid-display">
 						<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h6 class="center-text">Beach hotel</h6>
+							<h1 class="center-text mb-3">Beach hotel</h1>
 							<div class="flex-display justify-content-center w-100">
 								<button class="bg-black nk-text-color mr-2">Github</button>
 								<button class="bg-second-theme">View more</button>
@@ -60,7 +60,7 @@ export default class extends view {
 					<div class="work-card br-1 grid-display">
 						<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h6 class="center-text">2048 game</h6>
+							<h1 class="center-text mb-3">2048 game</h1>
 							<div class="flex-display justify-content-center w-100">
 								<button class="bg-black nk-text-color mr-2">Github</button>
 								<button class="bg-second-theme">View more</button>
@@ -78,7 +78,7 @@ export default class extends view {
 					<div class="work-card br-1 grid-display">
 						<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h6 class="center-text">Sunday school</h6>
+							<h1 class="center-text">Sunday school</h1>
 							<div class="flex-display justify-content-center w-100">
 								<button class="bg-second-theme">View more</button>
 							</div>
@@ -88,7 +88,7 @@ export default class extends view {
 					<div class="work-card br-1 grid-display">
 						<img src="static/assets/Work images/Porte parole/accueil.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h6 class="center-text">Porte parole (ODD)</h6>
+							<h1 class="center-text">Porte parole (ODD)</h1>
 							<div class="flex-display justify-content-center w-100">
 								<button class="bg-second-theme">View more</button>
 							</div>
