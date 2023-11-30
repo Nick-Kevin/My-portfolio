@@ -13,7 +13,7 @@ export default class extends view {
 				<section class="flex-display flex-column align-items-center justify-content-center p-relative">
 					<div id="header" class="p-absolute" style="top: 0">
 			            <div>
-			                <h1 class="nk-black-color">My work</h1>
+			                <h1 class="nk-text-color">My work</h1>
 			            </div>
 			            <!-------------------------- Buttons on the top right side -------------------------->
 			            <!-- Turn on/off button -->
