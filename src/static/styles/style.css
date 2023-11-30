@@ -96,6 +96,7 @@ body {
 
 section {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .screen {
