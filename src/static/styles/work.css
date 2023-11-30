@@ -10,7 +10,7 @@
 }
 
 #my-work section:nth-child(even) {
-	background-image: url("../assets/SVG Images/Polygon scatter/polygon-scatter-haikei-2.svg");
+	background-image: url("../assets/Images/low-poly-grid-haikei.svg");
 	background-size: auto 100%;
 }
 
@@ -21,6 +21,7 @@
 	grid-template-columns: 100%;
 	grid-template-rows: 38% 62%;
 	border: 1px dotted var(--main-color);
+	box-shadow: 13px 13px 0px var(--black-color);
 }
 
 #my-work .work-card:hover {
