@@ -216,6 +216,7 @@ const router = async () => {
             break;
 
         case "/home":
+            document.body.style.backgroundColor = "var(--main-color)";
             setupMusicPlayerFeature();
             setOverflowValueToBodyElement("auto");
             setupBurgerMenuFeature();
@@ -267,6 +268,7 @@ const router = async () => {
             break;
 
         case "/contact":
+            document.body.style.backgroundColor = "var(--main-color)";
             const contactNickKevin = getElementBySelector("#header div:first-child h1");
             gsap.to(contactNickKevin, {
                 text: {
@@ -291,6 +293,7 @@ const router = async () => {
             break;
 
         case "/about":
+            document.body.style.backgroundColor = "var(--main-color)";
             const aboutHeader = getId('header');
             addClassToElement('makeOpacity-2', aboutHeader);
 
