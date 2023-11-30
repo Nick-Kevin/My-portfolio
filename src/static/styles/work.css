@@ -64,6 +64,10 @@
 		height: 169.367px;
 	}
 
+	#my-work section:nth-child(4) div:first-child {
+		height: 429.667px;
+	}
+
 }
 
 #my-work .work-card button {
