@@ -5,18 +5,19 @@
 }
 
 #my-work section:nth-child(odd) {
-	background-image: url("../assets/Images/dark-sky.jpg");
+	background-image: url("../assets/Images/blob-scene-haikei.png");
 	background-size: cover;
 }
 
 #my-work section:nth-child(even) {
-	background-color: var(--black-color);
+	background-image: url("../assets/Images/layered-steps-haikei.png");
+	background-size: cover;
 }
 
 #my-work .work-card {
 	width: 340px;
 	height: 400px;
-	background-color: var(--main-color);
+	background-color: var(--black-color);
 	grid-template-columns: 100%;
 	grid-template-rows: 38% 62%;
 }
