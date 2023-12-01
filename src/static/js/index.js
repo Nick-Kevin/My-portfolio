@@ -1,11 +1,11 @@
-import Welcome from './pages/Welcome.js';
+import   Welcome from './pages/Welcome.js'
 import Home from './pages/Home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import { Ball } from './canvas/balls.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
-
+console.log("Hello");
 var windowHeight = window.innerHeight;
 
 export const portraitMode = window.matchMedia("(orientation: portrait)");
@@ -32,7 +32,6 @@ const routes = [
         view: Contact   
     }
 ];
-
 const getId = (element) => {
     return document.getElementById(element);
 }
@@ -197,8 +196,8 @@ const setupMusicPlayerFeature = () => {
     });
     soundOnIcon.addEventListener('click', () => {
         myMusic.pause();
-    })
-}
+    });
+};
 
 const router = async () => {
     const match = routes.find(route => checkPathMatch(route.path));
