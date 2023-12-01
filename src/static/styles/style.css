@@ -439,6 +439,11 @@ section {
     padding-left: 24px;
 }
 
+.px-4 {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
 /* RIGHT */
 .pr-1 {
     padding-right: 0.2rem;
