@@ -29,7 +29,7 @@
 }
 
 #my-work .work-card:hover {
-	background-color: var(--black-color);
+	background-color: #010101A9;
 }
 
 #my-work .work-card img {
