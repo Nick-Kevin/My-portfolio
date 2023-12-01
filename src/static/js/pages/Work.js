@@ -36,28 +36,24 @@ export default class extends view {
 				</section>
 
 				<section>
-					<div class="grid-display justify-items-center mr-8 ml-8 mt-8 mb-8">
-						<div class="w-100">
-							<div class="work-card grid-display">
-								<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
-								<div class="grid-display justify-content-center align-items-center px-3 py-3">
-									<h1 class="center-text mb-3">Sunday school</h1>
-									<div class="flex-display justify-content-center w-100">
-										<button class="bg-theme nk-text-color view-more">View more</button>
-									</div>
+					<div class="grid-display justify-items-center ml-8 mr-8 mt-8 mb-8">
+						<div class="work-card grid-display">
+							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
+							<div class="grid-display justify-content-center align-items-center px-3 py-3">
+								<h1 class="center-text mb-3">Sunday school</h1>
+								<div class="flex-display justify-content-center w-100">
+									<button class="bg-theme nk-text-color view-more">View more</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="w-100">
-							<div class="work-card grid-display">
-								<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
-								<div class="grid-display justify-content-center align-items-center px-3 py-3">
-									<h1 class="center-text mb-3">Beach hotel</h1>
-									<div class="flex-display flex-column justify-content-center w-100">
-										<button class="bg-second-theme github">Github</button>
-										<button class="bg-theme nk-text-color view-more">View more</button>
-									</div>
+						<div class="work-card grid-display">
+							<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
+							<div class="grid-display justify-content-center align-items-center px-3 py-3">
+								<h1 class="center-text mb-3">Beach hotel</h1>
+								<div class="flex-display flex-column justify-content-center w-100">
+									<button class="bg-second-theme github">Github</button>
+									<button class="bg-theme nk-text-color view-more">View more</button>
 								</div>
 							</div>
 						</div>
