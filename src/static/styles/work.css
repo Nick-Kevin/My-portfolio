@@ -17,12 +17,12 @@
 
 #my-work .work-card {
 	width: 340px;
-	background-color: #010101FF;
+	background-color: #23095A30;
 	grid-template-columns: 100%;
 	grid-template-rows: 38% 62%;
 	--tw-shadow: 0 25px 50px -12px rgb(80 80 180 / .25);
 	--tw-shadow-colored: 0 25px 50px -12px rgb(80 80 180 / .25);
-	box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+	/*box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);*/
 }
 
 #my-work .work-card:hover {
