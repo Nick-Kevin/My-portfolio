@@ -15,7 +15,7 @@
 	background-color: var(--black-color);
 }
 
-#my-work section > div {
+#my-work section:nth-child(2) > div {
 	grid-template-columns: auto auto;
 	grid-column-gap: 64px;
 }
@@ -65,11 +65,7 @@
 @media (orientation: landscape) {
 
 	#my-work section:nth-child(2) div:first-child {
-		height: 380.343px;
-	}
-
-	#my-work section:nth-child(2) div:first-child img {
-		height: 169.367px;
+		height: 650px;
 	}
 
 	#my-work section:nth-child(4) div:first-child {
