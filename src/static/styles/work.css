@@ -50,6 +50,10 @@
 	grid-template-columns: 100%;
 }
 
+#my-work .work-card > div div {
+	column-gap: 24px;
+}
+
 #my-work .work-card div .view-more:hover {
  background-color: #23095AAA;
 }
