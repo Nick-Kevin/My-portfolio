@@ -24,7 +24,7 @@
 #my-work .work-card {
 	width: 100%;
 	background-color: #01010190;
-	opacity: 0.8;
+	opacity: 0.85;
 	--tw-shadow: 0 25px 50px -12px rgb(80 80 180 / .25);
 	--tw-shadow-colored: 0 25px 50px -12px rgb(80 80 180 / .25);
 	/*box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);*/
