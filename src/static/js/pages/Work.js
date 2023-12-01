@@ -36,7 +36,7 @@ export default class extends view {
 				</section>
 
 				<section>
-					<div class="grid-display col-div-2">
+					<div class="grid-display col-div-2 justify-items-center">
 						<div class="work-card grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
