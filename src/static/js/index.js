@@ -1,20 +1,20 @@
-import Welcome from './pages/Welcome';
-import Home from './pages/Home';
-import Work from './pages/Work';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import { Ball } from './canvas/balls';
-import nodeGardenMass from './canvas/node-garden-mass';
+import Welcome from './pages/Welcome.js';
+import Home from './pages/Home.js';
+import Work from './pages/Work.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
+import { Ball } from './canvas/balls.js';
+import nodeGardenMass from './canvas/node-garden-mass.js';
 
-let windowHeight = window.innerHeight;
+var windowHeight = window.innerHeight;
 
 export const portraitMode = window.matchMedia("(orientation: portrait)");
 
 const routes = [
-  {
-    path: "/",
-    view: Welcome,
-  },
+    {
+        path: "/",
+        view: Welcome
+    },
     {
         path: "/home",
         view: Home
