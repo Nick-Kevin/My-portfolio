@@ -76,23 +76,25 @@ export default class extends view {
 					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
-				<section class="flex-display justify-content-around align-items-center">
-					<div class="work-card br-1 grid-display">
-						<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
-						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h1 class="center-text">Sunday school</h1>
-							<div class="flex-display justify-content-center w-100">
-								<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
+				<section>
+					<div class="grid-display justify-items-center ml-8 mr-8 mt-8 mb-8">
+						<div class="work-card br-1 grid-display">
+							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
+							<div class="grid-display justify-content-center align-items-center px-3 py-3">
+								<h1 class="center-text">Sunday school</h1>
+								<div class="flex-display justify-content-center w-100">
+									<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="work-card br-1 grid-display">
-						<img src="static/assets/Work images/Porte parole/accueil.png" alt="beach hotel welcome page">
-						<div class="grid-display justify-content-center align-items-center px-3 py-3">
-							<h1 class="center-text">Porte parole (ODD)</h1>
-							<div class="flex-display justify-content-center w-100">
-								<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
+						<div class="work-card br-1 grid-display">
+							<img src="static/assets/Work images/Porte parole/accueil.png" alt="beach hotel welcome page">
+							<div class="grid-display justify-content-center align-items-center px-3 py-3">
+								<h1 class="center-text">Porte parole (ODD)</h1>
+								<div class="flex-display justify-content-center w-100">
+									<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
+								</div>
 							</div>
 						</div>
 					</div>

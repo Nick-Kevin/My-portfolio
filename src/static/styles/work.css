@@ -15,7 +15,7 @@
 	background-color: var(--main-color);
 }
 
-#my-work section:nth-child(2) > div {
+#my-work section:nth-child(even) > div {
 	grid-template-columns: auto auto;
 	grid-column-gap: 64px;
 	grid-row-gap: 64px;
