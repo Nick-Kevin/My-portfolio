@@ -23,6 +23,7 @@
 
 #my-work .work-card {
 	width: 100%;
+	height: 100%;
 	background-color: #01010190;
 	opacity: 0.85;
 	--tw-shadow: 0 25px 50px -12px rgb(80 80 180 / .25);
@@ -67,13 +68,8 @@
 
 @media (orientation: landscape) {
 
-
 	#my-work section:nth-child(2) div:first-child img {
 		height: 300px;
-	}
-
-	#my-work section:nth-child(4) div:first-child {
-		height: 429.667px;
 	}
 
 }
