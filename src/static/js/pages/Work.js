@@ -76,7 +76,7 @@ export default class extends view {
 					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
-				<section>
+				<section class="flex-display align-content-center">
 					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 mt-8 mb-8">
 						<div class="work-card br-1 grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
