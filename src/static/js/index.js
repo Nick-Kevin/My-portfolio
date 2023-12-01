@@ -3,10 +3,9 @@ import Home from './pages/Home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
-import { Ball } from './canvas/balls.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
 
-var windowHeight = window.innerHeight;
+const windowHeight = window.innerHeight;
 
 export const portraitMode = window.matchMedia("(orientation: portrait)");
 
