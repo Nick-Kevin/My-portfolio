@@ -57,9 +57,7 @@ export default class extends view {
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="grid-display col-div-2 justify-items-center mb-8">
 						<div class="work-card grid-display">
 							<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
@@ -69,9 +67,6 @@ export default class extends view {
 									<button class="bg-theme nk-text-color view-more">View more</button>
 								</div>
 							</div>
-						</div>
-						
-						<div>
 						</div>
 					</div>
 				</section>
