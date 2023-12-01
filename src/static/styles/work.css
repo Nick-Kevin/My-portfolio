@@ -12,7 +12,7 @@
 #my-work section:nth-child(even) {
 	/*background-image: url("../assets/SVG Images/Polygon scatter/polygon-scatter-haikei-2.svg");
 	background-size: auto 100%;*/
-	background-color: var(--black-color);
+	background-color: var(--main-color);
 }
 
 #my-work section:nth-child(2) > div {
