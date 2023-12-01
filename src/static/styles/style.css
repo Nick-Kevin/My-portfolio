@@ -422,6 +422,10 @@ section {
     padding-left: 5rem;
 }
 
+.pl-8 {
+    padding-left: 64px;
+}
+
 .px-1 {
     padding: 0 8px;
 }
@@ -454,6 +458,10 @@ section {
 
 .pr-5 {
     padding-right: 5rem;
+}
+
+.pr-8 {
+    padding-right: 64px;
 }
 /*******************************************************************/
 
