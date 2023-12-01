@@ -24,13 +24,14 @@
 #my-work .work-card {
 	width: 100%;
 	background-color: #01010190;
+	opacity: 0.8;
 	--tw-shadow: 0 25px 50px -12px rgb(80 80 180 / .25);
 	--tw-shadow-colored: 0 25px 50px -12px rgb(80 80 180 / .25);
 	/*box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);*/
 }
 
 #my-work .work-card:hover {
-	background-color: #010101A9;
+	opacity: 1;
 }
 
 #my-work .work-card img {
