@@ -36,34 +36,34 @@ export default class extends view {
 				</section>
 
 				<section class="flex-display justify-content-around align-items-center">
-					<div class="work-card br-2 grid-display">
+					<div class="work-card grid-display">
 						<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h1 class="center-text mb-3">Sunday school</h1>
 							<div class="flex-display justify-content-center w-100">
-								<button class="bg-theme nk-text-color br-1 view-more">View more</button>
+								<button class="bg-theme nk-text-color view-more">View more</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="work-card br-2 grid-display">
+					<div class="work-card grid-display">
 						<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h1 class="center-text mb-3">Beach hotel</h1>
 							<div class="flex-display flex-column justify-content-center w-100">
-								<button class="bg-second-theme br-1 github">Github</button>
-								<button class="bg-theme nk-text-color br-1 view-more">View more</button>
+								<button class="bg-second-theme github">Github</button>
+								<button class="bg-theme nk-text-color view-more">View more</button>
 							</div>
 						</div>
 					</div>
 
-					<div class="work-card br-2 grid-display">
+					<div class="work-card grid-display">
 						<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 						<div class="grid-display justify-content-center align-items-center px-3 py-3">
 							<h1 class="center-text mb-3">2048 game</h1>
 							<div class="flex-display flex-column justify-content-center w-100">
-								<button class="bg-second-theme br-1 github">Github</button>
-								<button class="bg-theme br-1 nk-text-color view-more">View more</button>
+								<button class="bg-second-theme github">Github</button>
+								<button class="bg-theme nk-text-color view-more">View more</button>
 							</div>
 						</div>
 					</div>
