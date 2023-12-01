@@ -58,13 +58,13 @@ export default class extends view {
 							</div>
 						</div>
 
-						<div class="work-card grid-display">
+						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text mb-3">2048 game</h1>
 								<div class="flex-display justify-content-center w-100">
-									<button class="bg-second-theme github">Github</button>
-									<button class="bg-theme nk-text-color view-more">View more</button>
+									<button class="bg-second-theme br-1 github">Github</button>
+									<button class="bg-theme br-1 nk-text-color view-more">View more</button>
 								</div>
 							</div>
 						</div>
@@ -78,22 +78,22 @@ export default class extends view {
 
 				<section class="flex-display align-content-center">
 					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 mt-8 mb-8">
-						<div class="work-card br-1 grid-display">
+						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
-									<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
+									<button class="bg-theme br-1 nk-text-color br-1 mt-3 view-more">View more</button>
 								</div>
 							</div>
 						</div>
 
-						<div class="work-card br-1 grid-display">
+						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/Porte parole/accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text">Porte parole (ODD)</h1>
 								<div class="flex-display justify-content-center w-100">
-									<button class="bg-theme nk-text-color br-1 mt-3 view-more">View more</button>
+									<button class="bg-theme br-1 nk-text-color br-1 mt-3 view-more">View more</button>
 								</div>
 							</div>
 						</div>
