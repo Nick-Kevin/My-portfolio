@@ -46,9 +46,8 @@
 	font-weight: lighter;
 }
 
-#my-work .work-card > div div {
-	width: 100%;
-	row-gap: 24px;
+#my-work .work-card > div {
+	grid-template-columns: 100%;
 }
 
 #my-work .work-card div .view-more:hover {
