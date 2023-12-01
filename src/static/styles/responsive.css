@@ -161,7 +161,7 @@ body {
     margin: 0 48px;
 }
 
-#my-work section:nth-child(even) {
+#my-work section:nth-child(even) > div {
     padding: 58px;
     display: grid;
     justify-items: center;
