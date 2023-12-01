@@ -62,7 +62,7 @@ export default class extends view {
 							<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text mb-3">2048 game</h1>
-								<div class="flex-display flex-column justify-content-center w-100">
+								<div class="flex-display justify-content-center w-100">
 									<button class="bg-second-theme github">Github</button>
 									<button class="bg-theme nk-text-color view-more">View more</button>
 								</div>
