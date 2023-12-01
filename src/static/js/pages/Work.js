@@ -37,7 +37,7 @@ export default class extends view {
 
 				<section>
 					<div class="grid-display justify-items-center ml-8 mr-8 mt-8 mb-8">
-						<div class="work-card grid-display">
+						<div class="work-card">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text mb-3">Sunday school</h1>
@@ -47,7 +47,7 @@ export default class extends view {
 							</div>
 						</div>
 
-						<div class="work-card grid-display">
+						<div class="work-card">
 							<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text mb-3">Beach hotel</h1>
