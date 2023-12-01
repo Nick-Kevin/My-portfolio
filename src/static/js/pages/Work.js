@@ -77,7 +77,7 @@ export default class extends view {
 				</section>
 
 				<section>
-					<div class="grid-display justify-items-center ml-8 mr-8 mt-8 mb-8">
+					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 mt-8 mb-8">
 						<div class="work-card br-1 grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
