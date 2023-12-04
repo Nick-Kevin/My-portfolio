@@ -176,6 +176,7 @@ body {
 @media (min-width: 480px) {
     #my-work section:nth-child(even) > div {
         margin: 80px 128px;
+        grid-row-gap: 80px;
     }
 }
 
