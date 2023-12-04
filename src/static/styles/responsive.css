@@ -177,6 +177,10 @@ body {
     grid-template-rows: 360px 360px;
 }
 
+#my-work section:nth-child(2) .work-card {
+    display: grid;
+}
+
 #my-work .work-card {
     width: 100%;
     height: 100%;
