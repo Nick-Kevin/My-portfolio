@@ -10,9 +10,8 @@
 }
 
 #my-work section:nth-child(even) {
-	/*background-image: url("../assets/SVG Images/Polygon scatter/polygon-scatter-haikei-2.svg");
-	background-size: auto 100%;*/
-	background-color: var(--main-color);
+	background-image: url("../assets/SVG Images/BGJar/Meteor-1.svg");
+	background-size: cover;
 }
 
 #my-work section:nth-child(even) > div {
@@ -24,7 +23,7 @@
 #my-work .work-card {
 	width: 100%;
 	height: 100%;
-	background-color: #01010190;
+	background-color: #010101F7;
 	opacity: 0.85;
 	--tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);
 	--tw-shadow-colored: 0 25px 50px -12px rgb(0 0 0 / .25);
