@@ -162,7 +162,7 @@ body {
 }
 
 #my-work section:nth-child(even) > div {
-    padding: 58px;
+    margin: 48px;
     display: grid;
     justify-items: center;
     grid-template-columns: 100%;
