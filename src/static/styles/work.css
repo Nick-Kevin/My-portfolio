@@ -10,7 +10,7 @@
 }
 
 #my-work section:nth-child(even) {
-	background-image: url("../assets/SVG Images/BGJar/Meteor-1.svg");
+	background-image: url("../assets/SVG Images/BGJar/Sprinkle-for-portfolio.svg");
 	background-size: cover;
 }
 
@@ -23,7 +23,7 @@
 #my-work .work-card {
 	width: 100%;
 	height: 100%;
-	background-color: #010101F7;
+	background-color: #01010190;
 	opacity: 0.85;
 	--tw-shadow: 0 25px 50px -12px rgb(0 0 0 / .25);
 	--tw-shadow-colored: 0 25px 50px -12px rgb(0 0 0 / .25);
