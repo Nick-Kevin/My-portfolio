@@ -1,3 +1,7 @@
+:root {
+    --max-phone-device: 480px;
+}
+
 body {
     font-size: 1.2em;
 }
@@ -167,6 +171,12 @@ body {
     justify-items: center;
     grid-template-columns: 100%;
     grid-row-gap: 58px;
+}
+
+@media (min-width: 480px) {
+    #my-work section:nth-child(even) > div {
+        margin: 80px 128px;
+    }
 }
 
 #my-work section:nth-child(2) {    
