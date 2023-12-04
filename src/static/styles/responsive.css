@@ -182,6 +182,7 @@ body {
 
 #my-work section:nth-child(2) {    
     grid-template-rows: 360px 360px 360px;
+    background-size: auto;
 }
 
 #my-work section:nth-child(4) {    
