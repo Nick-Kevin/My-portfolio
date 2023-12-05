@@ -219,8 +219,9 @@ body {
     justify-content: space-around;
 }
 
-#my-work .work-card button {
+#my-work .work-card button, #my-work .work-card a {
     width: 100%;
+    padding: 5px 0;
 }
 
 #my-work .work-card h6 {
