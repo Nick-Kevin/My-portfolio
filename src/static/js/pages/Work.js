@@ -52,8 +52,8 @@ export default class extends view {
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text mb-4">Beach hotel</h1>
 								<div class="flex-display justify-content-center w-100">
-									<button class="bg-second-theme br-1 github">Github</button>
-									<button class="bg-theme br-1 nk-text-color view-more">View more</button>
+									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
+									<a href="#" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
@@ -63,8 +63,8 @@ export default class extends view {
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text mb-3">2048 game</h1>
 								<div class="flex-display justify-content-center w-100">
-									<button class="bg-second-theme br-1 github">Github</button>
-									<button class="bg-theme br-1 nk-text-color view-more">View more</button>
+									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
+									<a href="#"" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a href="#">
 								</div>
 							</div>
 						</div>
