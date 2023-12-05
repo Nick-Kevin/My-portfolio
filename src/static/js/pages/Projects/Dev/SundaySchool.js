@@ -1,4 +1,4 @@
-import view from './view.js';
+import view from '../../view.js';
 
 export default class extends view {
 	constructor() {
