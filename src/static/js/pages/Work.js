@@ -42,7 +42,7 @@ export default class extends view {
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text mb-4">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
-									<button class="bg-theme br-1 nk-text-color view-more">View more</button>
+									<a href="#" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
