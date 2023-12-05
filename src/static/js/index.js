@@ -3,6 +3,7 @@ import Home from './pages/Home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
+import SundaySchool from './pages/Projects/Dev/SundaySchool.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
 
 const windowHeight = window.innerHeight;
@@ -29,6 +30,10 @@ const routes = [
     {
         path: "/contact",
         view: Contact   
+    },
+    {
+        path: "/sunday-school",
+        view: SundaySchool
     }
 ];
 const getId = (element) => {
