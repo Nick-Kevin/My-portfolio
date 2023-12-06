@@ -15,6 +15,28 @@ export default class extends view {
 				<div class="mt-8 image-overview">
 					<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="Sunday school" class="w-100 br-4">
 				</div>
+				<div class="mt-8 grid-display description">
+					<div class="grid-display">
+						<h3>Year</h3>
+						<p>2023</p>
+						<h3>Technologie</h3>
+						<ul>
+							<li>React</li>
+							<li>Laravel</li>
+							<li>MySQL</li>
+						</ul>
+					</div>
+					<p>
+						I am a dedicated computer science student currently pursuing my
+						Master's degree at the <a id="ispm" href="#">Institut Supérieur Polytechnique de Madagascar (ISPM)</a>.
+						My academic journey has fueled my passion for front-end development and UI/UX design,
+						although I thrive in the dynamic realm of web development,
+						boasting proficiency in both front-end and back-end technologies.
+						Having completed a comprehensive internship that involved dual roles as a front-end and back-end developer,
+						I have actively contributed to various web development projects throughout my academic tenure. 
+						My overarching goal is
+					</p>
+				</div>
 			</main>
 		`;
 	}
