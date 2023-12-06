@@ -231,6 +231,14 @@ body {
     text-overflow: ellipsis;
 }
 
+#sunday-school {
+    padding: 48px;
+}
+
+#sunday-school h1 {
+    font-size: calc(30px + 1.2vw);
+}
+
 #about-content h1 {
     font-size: 1.6em;
 }
