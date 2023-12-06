@@ -843,6 +843,19 @@ section {
     color: var(--white-color);
 }
 
+#sunday-school .description {
+    grid-template-columns: 35% 65%;
+}
+
+#sunday-school .description .grid-display {
+    grid-template-columns: 55% 45%;
+}
+
+#sunday-school .description ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
 .link {    
     justify-content: space-evenly;
     font-size: calc(16px + 0.6em);
