@@ -9,7 +9,7 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<main id="my-work">
+			<main id="sunday-school" class="pr-8 pl-8 py-8">
 				<a href="/work" class="none-decoration nk-text-color py-3 px-4 bg-black p-fixed" data-link>Retour</a>					
 				<h1>Sunday school</h1>
 			</main>
