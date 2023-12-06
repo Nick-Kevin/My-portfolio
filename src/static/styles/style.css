@@ -490,6 +490,10 @@ section {
 .dashed-line-top {
     border-top: 1px dashed var(--white-color);
 }
+
+.dashed-line-bottom {
+    border-bottom: 1px dashed var(--white-color);
+}
 /*******************************************************************/
 
 .opacity-1 {
