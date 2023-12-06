@@ -486,6 +486,10 @@ section {
 .white-bt-1 {
     border-top: 1px solid white;
 }
+
+.dashed-line-top {
+    border-top: 1px dashed var(--white-color);
+}
 /*******************************************************************/
 
 .opacity-1 {
