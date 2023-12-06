@@ -19,7 +19,7 @@ export default class extends view {
 					<div class="grid-display">
 						<h3 class="nk-text-style">Year</h3>
 						<p>2023</p>
-						<h3 class="nk-text-style">Technologie</h3>
+						<h3 class="nk-text-style">Technologies</h3>
 						<ul>
 							<li>React</li>
 							<li>Laravel</li>
