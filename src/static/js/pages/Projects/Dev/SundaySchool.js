@@ -9,7 +9,8 @@ export default class extends view {
 
 	async getHtml() {
 		return `
-			<main id="my-work">								
+			<main id="my-work">
+				<a href="/work" data-link>Retour</a>					
 				<h1>Sunday school</h1>
 			</main>
 		`;
