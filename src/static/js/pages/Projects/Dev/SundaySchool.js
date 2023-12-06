@@ -15,7 +15,7 @@ export default class extends view {
 				<div class="mt-8 image-overview">
 					<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="Sunday school" class="w-100 br-4">
 				</div>
-				<div class="mt-8 grid-display description">
+				<div class="mt-8 grid-display description dashed-line-top">
 					<div class="grid-display">
 						<h3>Year</h3>
 						<p>2023</p>
