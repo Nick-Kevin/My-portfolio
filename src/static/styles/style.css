@@ -831,11 +831,16 @@ section {
 }
 
 #sunday-school > a:first-child {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 #sunday-school > a:first-child:hover {
     color: var(--second-color);
+}
+
+#sunday-school > a:first-child:active {
+    background-color: #01010190;
+    color: var(--white-color);
 }
 
 .link {    
