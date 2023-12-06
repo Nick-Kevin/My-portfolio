@@ -830,6 +830,14 @@ section {
     z-index: 0;
 }
 
+#sunday-school > a:first-child {
+    margin-top: 10px;
+}
+
+#sunday-school > a:first-child:hover {
+    color: var(--second-color);
+}
+
 .link {    
     justify-content: space-evenly;
     font-size: calc(16px + 0.6em);
