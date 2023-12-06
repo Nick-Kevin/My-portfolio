@@ -340,6 +340,16 @@ section {
 /*******************************************************************/
 
 /***************************** Padding ******************************/
+.py-1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 .py-3 {
     padding-top: 24px;
     padding-bottom: 24px;
