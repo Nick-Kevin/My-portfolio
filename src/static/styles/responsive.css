@@ -246,6 +246,16 @@ body {
         font-size: calc(23px + 1.2vw);
         margin-left: 64px;
     }
+
+    #sunday-school .image-overview img {
+        border-radius: 3px;
+    }
+}
+
+@media (min-width: 480px) {
+    #sunday-school .image-overview img {
+        border-radius: 10px;
+    }
 }
 
 #about-content h1 {
