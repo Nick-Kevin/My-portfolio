@@ -231,19 +231,21 @@ body {
     text-overflow: ellipsis;
 }
 
-#sunday-school {
-    padding: 48px;
-}
-
-#sunday-school > a:first-child {
-    padding: 10px;
-    margin-top: 0;
-    border-radius: 50%;
-}
-
-#sunday-school h1 {
-    font-size: calc(23px + 1.2vw);
-    margin-left: 64px;
+@media (max-width: 480px) {
+    #sunday-school {
+        padding: 48px;
+    }
+    
+    #sunday-school > a:first-child {
+        padding: 10px;
+        margin-top: 0;
+        border-radius: 50%;
+    }
+    
+    #sunday-school h1 {
+        font-size: calc(23px + 1.2vw);
+        margin-left: 64px;
+    }
 }
 
 #about-content h1 {
