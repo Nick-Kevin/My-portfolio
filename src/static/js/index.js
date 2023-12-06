@@ -333,6 +333,9 @@ const router = async () => {
                 nodeGardenMassInstance.drawFrame();
             });            
        break;
+
+       case '/sunday-school':
+            document.body.style.backgroundColor = "var(--main-color)";
     }
 }
 
