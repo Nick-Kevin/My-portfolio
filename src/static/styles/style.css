@@ -864,6 +864,10 @@ section {
     padding: 0;
 }
 
+#sunday-school .description h2 {
+    font-weight: 100;
+}
+
 .link {    
     justify-content: space-evenly;
     font-size: calc(16px + 0.6em);
