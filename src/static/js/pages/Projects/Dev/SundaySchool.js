@@ -17,9 +17,9 @@ export default class extends view {
 				</div>
 				<div class="mt-8 grid-display description dashed-line-top dashed-line-bottom py-4">
 					<div class="grid-display">
-						<h3>Year</h3>
+						<h3 class="nk-text-style">Year</h3>
 						<p>2023</p>
-						<h3>Technologie</h3>
+						<h3 class="nk-text-style">Technologie</h3>
 						<ul>
 							<li>React</li>
 							<li>Laravel</li>
