@@ -11,7 +11,7 @@ export default class extends view {
 		return `
 			<main id="sunday-school" class="pr-8 pl-8 py-8">
 				<a href="/work" class="none-decoration nk-text-color py-3 px-4 bg-black p-fixed" data-link>Retour</a>					
-				<h1>Sunday school</h1>
+				<h1 class="center-text">Sunday school</h1>
 			</main>
 		`;
 	}
