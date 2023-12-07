@@ -1,12 +1,16 @@
 export default class {
 	constructor (
 		title,
-		imagePresentationSource,
-		imagePresentationAlt
+		imageOverviewSource,
+		imageOverviewAlt,
+        year,
+        technologies,
 	) {
 		this.title = title;
-		this.imagePresentationSource = imagePresentationSource;
-		this.imagePresentationAlt = imagePresentationAlt;
+		this.imageOverviewSource = imageOverviewSource;
+		this.imageOverviewAlt = imageOverviewAlt;
+        this.year = year;
+        this.technologies = technologies;
 	}
 
 	async getHtml() {
@@ -15,17 +19,15 @@ export default class {
 				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left py-1 br-1 fs-2 px-4 bg-black p-fixed" data-link></a>
 				<h1 class="center-text">${ this.title }</h1>
 				<div class="mt-8 image-overview">
-					<img src=${ this.imagePresentationSource } alt=${ this.imagePresentationAlt } class="w-100 br-4">
+					<img src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt } class="w-100 br-4">
 				</div>
 				<div class="mt-8 grid-display description dashed-line-top dashed-line-bottom py-4">
 					<div class="grid-display">
 						<h3 class="nk-text-style">Year</h3>
-						<p>2023</p>
+						<p> ${ this.year} </p>
 						<h3 class="nk-text-style">Technologies</h3>
 						<ul>
-							<li>React</li>
-							<li>Laravel</li>
-							<li>MySQL</li>
+							${ this.technologies }
 						</ul>
 					</div>
 					<p>
