@@ -10,12 +10,6 @@ const windowHeight = window.innerHeight;
 
 export const portraitMode = window.matchMedia("(orientation: portrait)");
 
-const theInstance = new SundaySchool(
-    'Sunday school',
-    'static/assets/Work-images/Ecole-du-dimanche/Page-d-accueil.png',
-    'Sunday&nbsp;school&nbsp;welcome&nbsp;page',
-
-);
 const routes = [
     {
         path: "/",
@@ -44,7 +38,7 @@ const routes = [
     },
     {
         path: "/sunday-school",
-        view: theInstance,
+        view: SundaySchool,
         instance: true
     }
 ];
