@@ -10,30 +10,42 @@ const windowHeight = window.innerHeight;
 
 export const portraitMode = window.matchMedia("(orientation: portrait)");
 
+const theInstance = new SundaySchool(
+    'Sunday school',
+    'static/assets/Work-images/Ecole-du-dimanche/Page-d-accueil.png',
+    'Sunday&nbsp;school&nbsp;welcome&nbsp;page',
+
+);
 const routes = [
     {
         path: "/",
-        view: Welcome
+        view: Welcome,
+        instance: false
     },
     {
         path: "/home",
-        view: Home
+        view: Home,
+        instance: false
     },
     {
         path: "/work",
-        view: Work
+        view: Work,
+        instance: false
     },
     {
         path: "/about",
-        view: About  
+        view: About,
+        instance: false
     },
     {
         path: "/contact",
-        view: Contact   
+        view: Contact,
+        instance: false   
     },
     {
         path: "/sunday-school",
-        view: SundaySchool
+        view: theInstance,
+        instance: true
     }
 ];
 const getId = (element) => {
@@ -206,7 +218,12 @@ const setupMusicPlayerFeature = () => {
 const router = async () => {
     const match = routes.find(route => checkPathMatch(route.path));
 
-    const view = new match.view();
+    let view;
+    if (match.instance) {        
+        view = match.view;
+    } else {
+        view = new match.view();
+    }
     document.querySelector("#home").innerHTML = await view.getHtml();
 
     switch(match.path) {
