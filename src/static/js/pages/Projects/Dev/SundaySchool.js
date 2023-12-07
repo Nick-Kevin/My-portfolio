@@ -1,23 +1,21 @@
-import view from '../../view.js';
-
-export default class extends view {
-	constructor() {
-		super();
-		// set the title to Home to reflect the view
-		this.setTitle("Sunday school");
-	}
-
-	projectTitle(title) {
-		return title;
+export default class {
+	constructor (
+		title,
+		imagePresentationSource,
+		imagePresentationAlt
+	) {
+		this.title = title;
+		this.imagePresentationSource = imagePresentationSource;
+		this.imagePresentationAlt = imagePresentationAlt;
 	}
 
 	async getHtml() {
 		return `
 			<main id="sunday-school" class="pr-8 pl-8 py-8">
 				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left py-1 br-1 fs-2 px-4 bg-black p-fixed" data-link></a>
-				<h1 class="center-text">${ this.projectTitle('Sunday School') }</h1>
+				<h1 class="center-text">${ this.title }</h1>
 				<div class="mt-8 image-overview">
-					<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="Sunday school" class="w-100 br-4">
+					<img src=${ this.imagePresentationSource } alt=${ this.imagePresentationAlt } class="w-100 br-4">
 				</div>
 				<div class="mt-8 grid-display description dashed-line-top dashed-line-bottom py-4">
 					<div class="grid-display">
