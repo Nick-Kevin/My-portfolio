@@ -842,34 +842,38 @@ section {
     z-index: 0;
 }
 
-#sunday-school > a:first-child {
+#project > a:first-child {
     margin-top: 8px;
 }
 
-#sunday-school > a:first-child:hover {
+#project > a:first-child:hover {
     color: var(--second-color);
 }
 
-#sunday-school > a:first-child:active {
+#project > a:first-child:active {
     background-color: #01010190;
     color: var(--white-color);
 }
 
-#sunday-school .description {
+#project .description {
     grid-template-columns: 35% 65%;
 }
 
-#sunday-school .description .grid-display {
+#project .description .grid-display {
     grid-template-columns: 55% 45%;
 }
 
-#sunday-school .description ul {
+#project .description ul {
     list-style-position: inside;
     padding: 0;
 }
 
-#sunday-school .description h2 {
+#project .description h2 {
     font-weight: 100;
+}
+
+#project .carousel-indicator {
+    top: 110%;
 }
 
 .link {    
