@@ -8,6 +8,7 @@ export default class {
         projectDescription,
 		carouselItemNumber,
 		carouselItemImageSource,
+		carouselIndicatorLabel,
 	) {
 		this.title = title;
 		this.imageOverviewSource = imageOverviewSource;
@@ -17,10 +18,11 @@ export default class {
         this.projectDescription = projectDescription;
 		this.carouselItemNumber = carouselItemNumber;
 		this.carouselItemImageSource = carouselItemImageSource;
+		this.carouselIndicatorLabel = carouselIndicatorLabel;
 	}
 
 	carouselItem () {
-		let item = "";
+		let item = '';
 		for (let itemNumber = 0; itemNumber < this.carouselItemNumber; itemNumber++) {
 			item += `
 				<div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -29,6 +31,18 @@ export default class {
 			`;
 		}
 		return item;
+	}
+
+	carouselIndicator () {
+		let indicator = '';
+		for (let itemNumber = 0; itemNumber < this.carouselItemNumber; itemNumber++) {
+			indicator += `
+			<button type="button" class="my-mr-2 nk-black-color rounded-full" aria-current=${ itemNumber === 0 ? "true" : "false" } aria-label="Slide ${itemNumber + 1}" data-carousel-slide-to="${ itemNumber }">
+				${ this.carouselIndicatorLabel[itemNumber] }
+			</button>
+			`;
+		}
+		return indicator;
 	}
 
 	async getHtml() {
@@ -56,13 +70,12 @@ export default class {
 				<div id="default-carousel" class="relative w-full my-mt-8" data-carousel="slide">
 					<!-- Carousel wrapper -->
 					<div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-						<!-- Item 1 -->
+						<!-- Items -->
 						${ this.carouselItem() }
 					</div>
 					<!-- Slider indicators -->
 					<div class="absolute carousel-indicator z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-						<button type="button" class="my-mr-2 nk-black-color rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0">Image 1</button>
-						<button type="button" class="my-mr-2 nk-black-color rounded-full" aria-current="true" aria-label="Slide 2" data-carousel-slide-to="1">Image 2</button>
+						${ this.carouselIndicator() }
 					</div>
 					<!-- Slider controls -->
 					<button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full my-px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
