@@ -80,7 +80,7 @@ export default class extends view {
 						<div class="flex-display flex-column">
 							<p class="mb-2 c-white">My github contribution graph</p>
 							<img
-								id = "my-github-activity mt-1"
+								id = "my-github-activity my-mt-1"
 								class = "w-100"
 								style = "border-radius: 8px"
 								src = "https://github-readme-activity-graph.vercel.app/graph?username=Nick-Kevin&theme=github-compact&line=FFFFFF&point=faff06&area=true&area_color=FFFFFF&bg_color=010101&color=FFFFFF&title_color=FFFFFF"
@@ -112,7 +112,7 @@ export default class extends view {
 	        			<div>
 							<p class="mb-2 c-white">My github streak stats</p>
 							<img
-								id = "my-github-streak-stats mt-1"
+								id = "my-github-streak-stats my-mt-1"
 								class = "w-100"
 								src = "https://streak-stats.demolab.com/?user=Nick-Kevin&theme=highcontrast&ring=faff06"
 								alt = "My github streak stats"
