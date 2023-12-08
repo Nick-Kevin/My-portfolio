@@ -309,15 +309,15 @@ section {
 }
 
 /* LEFT */
-.ml-2 {
+.my-ml-2 {
     margin-left: 16px;
 }
 
-.ml-4 {
+.my-ml-4 {
     margin-left: 32px;
 }
 
-.ml-8 {
+.my-ml-8 {
     margin-left: 64px;
 }
 
