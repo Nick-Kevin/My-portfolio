@@ -36,7 +36,7 @@ export default class extends view {
 				</section>
 
 				<section>
-					<div class="grid-display justify-items-center ml-8 my-mr-8 my-mt-8 my-mb-8">
+					<div class="grid-display justify-items-center my-ml-8 my-mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
@@ -77,7 +77,7 @@ export default class extends view {
 				</section>
 
 				<section class="flex-display align-content-center">
-					<div class="grid-display justify-items-center align-items-center ml-8 my-mr-8 my-mt-8 my-mb-8">
+					<div class="grid-display justify-items-center align-items-center my-ml-8 my-mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
