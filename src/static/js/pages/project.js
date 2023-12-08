@@ -33,7 +33,7 @@ export default class {
 
 	async getHtml() {
 		return `
-			<main id="sunday-school" class="my-pr-8 my-pl-8 my-py-8">
+			<main id="project" class="my-pr-8 my-pl-8 my-py-8">
 				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black p-fixed" data-link></a>
 				<h1 class="center-text">${ this.title }</h1>
 				<div class="my-mt-8 image-overview">
@@ -60,9 +60,9 @@ export default class {
 						${ this.carouselItem() }
 					</div>
 					<!-- Slider indicators -->
-					<div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-						<button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-						<button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+					<div class="absolute carousel-indicator z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+						<button type="button" class="my-mr-2 nk-black-color rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0">Image 1</button>
+						<button type="button" class="my-mr-2 nk-black-color rounded-full" aria-current="true" aria-label="Slide 2" data-carousel-slide-to="1">Image 2</button>
 					</div>
 					<!-- Slider controls -->
 					<button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full my-px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
