@@ -25,6 +25,10 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: unset !important;
+}
+
 .wave-background {
     background-image: url("../assets/SVG Images/wave-haikei.svg");
     background-position: bottom;
@@ -234,15 +238,15 @@ section {
     margin: 64px;
 }
 
-.my-8 {
+.my-my-8 {
     margin: 64px 0;
 }
 
-.mx-4 {
+.my-mx-4 {
     margin: 0 32px;
 }
 
-.mx-8 {
+.my-mx-8 {
     margin: 0 64px;
 }
 /* TOP */
