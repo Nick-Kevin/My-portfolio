@@ -11,5 +11,9 @@ export default new project(
     [
         'static/assets/Work-images/beach-hotel/bh_1.png',
         'static/assets/Work-images/beach-hotel/bh_2.png'
+    ],
+    [
+        'Welcome page',
+        'Next page'
     ]
 );
