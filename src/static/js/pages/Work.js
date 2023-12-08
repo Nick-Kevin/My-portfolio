@@ -32,15 +32,15 @@ export default class extends view {
 			            </div>	
 			        </div>					
 					<h1>Web development</h1>
-					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
+					<h1 class="nk-stheme-color my-mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
 				<section>
-					<div class="grid-display justify-items-center ml-8 mr-8 my-mt-8 mb-8">
+					<div class="grid-display justify-items-center ml-8 mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
-								<h1 class="center-text mb-4">Sunday school</h1>
+								<h1 class="center-text my-mb-4">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="/sunday-school" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
 								</div>
@@ -50,7 +50,7 @@ export default class extends view {
 						<div class="work-card br-2">
 							<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
-								<h1 class="center-text mb-4">Beach hotel</h1>
+								<h1 class="center-text my-mb-4">Beach hotel</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
 									<a href="#" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
@@ -61,7 +61,7 @@ export default class extends view {
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
-								<h1 class="center-text mb-3">2048 game</h1>
+								<h1 class="center-text my-mb-3">2048 game</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
 									<a href="#"" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a href="#">
@@ -73,11 +73,11 @@ export default class extends view {
 
 				<section class="flex-display flex-column align-items-center justify-content-center p-relative">
 					<h1>UI/UX design</h1>
-					<h1 class="nk-stheme-color mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
+					<h1 class="nk-stheme-color my-mb-8 p-absolute" style="bottom: 0; font-size: 4rem">&#8595;</h1>
 				</section>
 
 				<section class="flex-display align-content-center">
-					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 my-mt-8 mb-8">
+					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
