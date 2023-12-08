@@ -52,108 +52,108 @@ export default class extends view {
 		        		Beyond the world of coding,
 		        		I find solace in listening to pop music and indulging in series whenever I'm away from my computer.
 		            </p>
-		            <!--div class="bg-white mt-8 br-2 flex-display justify-content-center">
+		            <!--div class="bg-white my-mt-8 br-2 flex-display justify-content-center">
 		            	<img id="second-logo" src="static/assets/Images/second-logo.gif" alt="My second logo">
 		            </div-->
 		        </div>
-	            <h1 class="ml-8 mt-8 mb-8 reveal">My skills</h1>
+	            <h1 class="ml-8 my-mt-8 mb-8 reveal">My skills</h1>
 	            <div class="skills-container">
 	            	<div id="front-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
-	            		<div class="skills-box flex-display mt-5">
+	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Front end/html5.png" alt="HTML logo">
-	            				<h6 class="mt-2">HTML</h6>
+	            				<h6 class="my-mt-2">HTML</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Front end/css.png" alt="CSS logo">
-	            				<h6 class="mt-2">CSS</h6>
+	            				<h6 class="my-mt-2">CSS</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Front end/javascript.png" alt="JavaScript logo">
-	            				<h6 class="mt-2">JavaScript</h6>
+	            				<h6 class="my-mt-2">JavaScript</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img class="bs" src="static/assets/Images/Front end/bootstrap.svg" alt="Bootstrap logo">
-	            				<h6 class="mt-2">Bootstrap</h6>
+	            				<h6 class="my-mt-2">Bootstrap</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Front end/react.png" alt="React logo">
-	            				<h6 class="mt-2">React</h6>
+	            				<h6 class="my-mt-2">React</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img class="bs" src="static/assets/Images/Front end/mui.png" alt="MUI logo">
-	            				<h6 class="mt-2">Material UI</h6>
+	            				<h6 class="my-mt-2">Material UI</h6>
 	            			</div>
 	            		</div>
 	            	</div>
 	            	<div id="back-end" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Backend</h4>
-	            		<div class="skills-box flex-display mt-5">
+	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Back end/node.png" alt="Node.js logo">
-	            				<h6 class="mt-2">Node.js</h6>
+	            				<h6 class="my-mt-2">Node.js</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img style="background: white; padding: 0 7px; border-radius: 4px" src="static/assets/Images/Back end/express.png" alt="Express logo">
-	            				<h6 class="mt-2">Express</h6>
+	            				<h6 class="my-mt-2">Express</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Back end/php.png" alt="PHP logo">
-	            				<h6 class="mt-2">PHP</h6>
+	            				<h6 class="my-mt-2">PHP</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Back end/laravel.png" alt="Laravel logo">
-	            				<h6 class="mt-2">Laravel</h6>
+	            				<h6 class="my-mt-2">Laravel</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Back end/codeigniter.png" alt="Codeigniter logo">
-	            				<h6 class="mt-2">Codeigniter</h6>
+	            				<h6 class="my-mt-2">Codeigniter</h6>
 	            			</div>
 	            		</div>
 	            	</div>
 	            	<div id="sgbd" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">DataBase</h4>
-	            		<div class="skills-box flex-display mt-5">
+	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/SGBD/mysql.png" alt="MySQL logo">
-	            				<h6 class="mt-2">MySQL</h6>
+	            				<h6 class="my-mt-2">MySQL</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/SGBD/postgresql.png" alt="PostgreSQL logo">
-	            				<h6 class="mt-2">PostgreSQL</h6>
+	            				<h6 class="my-mt-2">PostgreSQL</h6>
 	            			</div>
 	            		</div>
 	            	</div>
 	            	<div id="ui-ux" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">UI/UX design</h4>
-	            		<div class="skills-box flex-display mt-3">
+	            		<div class="skills-box flex-display my-mt-3">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/UI-UX design/figma.png" alt="Figma logo">
-	            				<h6 class="mt-2">Figma</h6>
+	            				<h6 class="my-mt-2">Figma</h6>
 	            			</div>
 	            		</div>
 	            	</div>
 	            	<div id="others" class="ml-8 mr-8 mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Others</h4>
-	            		<div class="skills-box flex-display mt-5">
+	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Others/git.png" alt="Git logo">
-	            				<h6 class="mt-2">Git</h6>
+	            				<h6 class="my-mt-2">Git</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Others/github.png" alt="GitHub logo">
-	            				<h6 class="mt-2">GitHub</h6>
+	            				<h6 class="my-mt-2">GitHub</h6>
 	            			</div>
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
 	            				<img src="static/assets/Images/Others/trello.png" alt="Trello logo">
-	            				<h6 class="mt-2">Trello</h6>
+	            				<h6 class="my-mt-2">Trello</h6>
 	            			</div>
 	            		</div>
 	            	</div>	            	
 	            </div>
 	            <div id="resume" class="reveal">
-	            	<h1 class="ml-8 mt-8 mb-8">Resume</h1>
+	            	<h1 class="ml-8 my-mt-8 mb-8">Resume</h1>
 		            <div class="resume ml-8 mr-8 mb-8 flex-display align-items-center">
 		            	<span class="mr-2">My curriculum vitae:</span>
 		            	<a style="padding: 8px 16px" href="static/assets/File/Nick Kevin - CV.pdf" download>
