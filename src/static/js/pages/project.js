@@ -6,6 +6,8 @@ export default class {
         year,
         technologies,
         projectDescription,
+		carouselItemNumber,
+		carouselItemImageSource,
 	) {
 		this.title = title;
 		this.imageOverviewSource = imageOverviewSource;
@@ -13,6 +15,20 @@ export default class {
         this.year = year;
         this.technologies = technologies;
         this.projectDescription = projectDescription;
+		this.carouselItemNumber = carouselItemNumber;
+		this.carouselItemImageSource = carouselItemImageSource;
+	}
+
+	carouselItem () {
+		let item = "";
+		for (let itemNumber = 0; itemNumber < this.carouselItemNumber; itemNumber++) {
+			item += `
+				<div class="hidden duration-700 ease-in-out" data-carousel-item>
+					<img src="${ this.carouselItemImageSource[itemNumber] }" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+				</div>
+			`;
+		}
+		return item;
 	}
 
 	async getHtml() {
@@ -36,21 +52,12 @@ export default class {
 						${ this.projectDescription }
 					</p>
 				</div>
-				<div class="bg-blue-500 text-white p-4">
-					Hello world!
-				</div>
 
-				<div id="default-carousel" class="relative w-full" data-carousel="slide">
+				<div id="default-carousel" class="relative w-full my-mt-8" data-carousel="slide">
 					<!-- Carousel wrapper -->
 					<div class="relative h-56 overflow-hidden rounded-lg md:h-96">
 						<!-- Item 1 -->
-						<div class="hidden duration-700 ease-in-out" data-carousel-item>
-							<img src="static/assets/Images/dark-sky.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-						</div>
-						<!-- Item 2 -->
-						<div class="hidden duration-700 ease-in-out" data-carousel-item>
-							<img src="static/assets/Images/Kevin.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-						</div>
+						${ this.carouselItem() }
 					</div>
 					<!-- Slider indicators -->
 					<div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
