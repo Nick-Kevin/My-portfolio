@@ -38,7 +38,7 @@ export default class extends view {
 				<section>
 					<div class="grid-display justify-items-center my-ml-8 my-mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2">
-							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
+							<img src="static/assets/Work-images/école-du-dimanche/page-d-accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text my-mb-4">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
@@ -48,7 +48,7 @@ export default class extends view {
 						</div>
 
 						<div class="work-card br-2">
-							<img src="static/assets/Work images/Beach hotel/bh_1.png" alt="beach hotel welcome page">
+							<img src="static/assets/Work-images/beach-hotel/bh_1.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text my-mb-4">Beach hotel</h1>
 								<div class="flex-display justify-content-center w-100">
@@ -59,7 +59,7 @@ export default class extends view {
 						</div>
 
 						<div class="work-card br-2 grid-display">
-							<img src="static/assets/Work images/2048/2048.png" alt="beach hotel welcome page">
+							<img src="static/assets/Work-images/2048/2048.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
 								<h1 class="center-text my-mb-3">2048 game</h1>
 								<div class="flex-display justify-content-center w-100">
@@ -79,7 +79,7 @@ export default class extends view {
 				<section class="flex-display align-content-center">
 					<div class="grid-display justify-items-center align-items-center my-ml-8 my-mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2 grid-display">
-							<img src="static/assets/Work-images/Ecole-du-dimanche/Page-d-accueil.png" alt="beach hotel welcome page">
+							<img src="static/assets/Work-images/école-du-dimanche/page-d-accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
@@ -89,7 +89,7 @@ export default class extends view {
 						</div>
 
 						<div class="work-card br-2 grid-display">
-							<img src="static/assets/Work-images/Porte parole/accueil.png" alt="beach hotel welcome page">
+							<img src="static/assets/Work-images/porte-parole/accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text">Porte parole (ODD)</h1>
 								<div class="flex-display justify-content-center w-100">
