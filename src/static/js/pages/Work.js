@@ -39,7 +39,7 @@ export default class extends view {
 					<div class="grid-display justify-items-center my-ml-8 my-mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2">
 							<img src="static/assets/Work-images/école-du-dimanche/page-d-accueil.png" alt="beach hotel welcome page">
-							<div class="grid-display justify-content-center align-items-center px-4 my-py-4">
+							<div class="grid-display justify-content-center align-items-center my-px-4 my-py-4">
 								<h1 class="center-text my-mb-4">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="/sunday-school" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
@@ -49,7 +49,7 @@ export default class extends view {
 
 						<div class="work-card br-2">
 							<img src="static/assets/Work-images/beach-hotel/bh_1.png" alt="beach hotel welcome page">
-							<div class="grid-display justify-content-center align-items-center px-4 my-py-4">
+							<div class="grid-display justify-content-center align-items-center my-px-4 my-py-4">
 								<h1 class="center-text my-mb-4">Beach hotel</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
@@ -60,7 +60,7 @@ export default class extends view {
 
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work-images/2048/2048.png" alt="beach hotel welcome page">
-							<div class="grid-display justify-content-center align-items-center px-4 my-py-4">
+							<div class="grid-display justify-content-center align-items-center my-px-4 my-py-4">
 								<h1 class="center-text my-mb-3">2048 game</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
@@ -80,7 +80,7 @@ export default class extends view {
 					<div class="grid-display justify-items-center align-items-center my-ml-8 my-mr-8 my-mt-8 my-mb-8">
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work-images/école-du-dimanche/page-d-accueil.png" alt="beach hotel welcome page">
-							<div class="grid-display justify-content-center align-items-center px-3 my-py-3">
+							<div class="grid-display justify-content-center align-items-center my-px-3 my-py-3">
 								<h1 class="center-text">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-theme br-1 nk-text-color br-1 my-mt-3 view-more" data-link>View more</a>
@@ -90,7 +90,7 @@ export default class extends view {
 
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work-images/porte-parole/accueil.png" alt="beach hotel welcome page">
-							<div class="grid-display justify-content-center align-items-center px-3 my-py-3">
+							<div class="grid-display justify-content-center align-items-center my-px-3 my-py-3">
 								<h1 class="center-text">Porte parole (ODD)</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-theme br-1 nk-text-color br-1 my-mt-3 view-more" data-link>View more</a>
