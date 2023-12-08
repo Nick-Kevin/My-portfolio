@@ -58,7 +58,7 @@ export default class extends view {
 		        </div>
 	            <h1 class="my-ml-8 my-mt-8 my-mb-8 reveal">My skills</h1>
 	            <div class="skills-container">
-	            	<div id="front-end" class="my-ml-8 my-mr-8 my-mb-8 px-3 my-py-3 br-2 reveal">
+	            	<div id="front-end" class="my-ml-8 my-mr-8 my-mb-8 my-px-3 my-py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -87,7 +87,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="back-end" class="my-ml-8 my-mr-8 my-mb-8 px-3 my-py-3 br-2 reveal">
+	            	<div id="back-end" class="my-ml-8 my-mr-8 my-mb-8 my-px-3 my-py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Backend</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -112,7 +112,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="sgbd" class="my-ml-8 my-mr-8 my-mb-8 px-3 my-py-3 br-2 reveal">
+	            	<div id="sgbd" class="my-ml-8 my-mr-8 my-mb-8 my-px-3 my-py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">DataBase</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -125,7 +125,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="ui-ux" class="my-ml-8 my-mr-8 my-mb-8 px-3 my-py-3 br-2 reveal">
+	            	<div id="ui-ux" class="my-ml-8 my-mr-8 my-mb-8 my-px-3 my-py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">UI/UX design</h4>
 	            		<div class="skills-box flex-display my-mt-3">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -134,7 +134,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="others" class="my-ml-8 my-mr-8 my-mb-8 px-3 my-py-3 br-2 reveal">
+	            	<div id="others" class="my-ml-8 my-mr-8 my-mb-8 my-px-3 my-py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Others</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
