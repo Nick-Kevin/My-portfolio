@@ -37,7 +37,7 @@ export default class {
 		let indicator = '';
 		for (let itemNumber = 0; itemNumber < this.carouselItemNumber; itemNumber++) {
 			indicator += `
-			<button type="button" class="my-mr-2 nk-black-color rounded-full" aria-current=${ itemNumber === 0 ? "true" : "false" } aria-label="Slide ${itemNumber + 1}" data-carousel-slide-to="${ itemNumber }">
+			<button type="button" class="my-mr-2 my-px-3 my-py-1 text-sm nk-black-color rounded-full" aria-current=${ itemNumber === 0 ? "true" : "false" } aria-label="Slide ${itemNumber + 1}" data-carousel-slide-to="${ itemNumber }">
 				${ this.carouselIndicatorLabel[itemNumber] }
 			</button>
 			`;
@@ -48,7 +48,7 @@ export default class {
 	async getHtml() {
 		return `
 			<main id="project" class="my-pr-8 my-pl-8 my-py-8">
-				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black p-fixed" data-link></a>
+				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black" data-link></a>
 				<h1 class="center-text">${ this.title }</h1>
 				<div class="my-mt-8 image-overview">
 					<img src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt } class="w-100 br-4">
@@ -69,7 +69,7 @@ export default class {
 
 				<div id="default-carousel" class="relative w-full my-mt-8" data-carousel="slide">
 					<!-- Carousel wrapper -->
-					<div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+					<div class="relative overflow-hidden br-4" style="height: 618.2px">
 						<!-- Items -->
 						${ this.carouselItem() }
 					</div>
