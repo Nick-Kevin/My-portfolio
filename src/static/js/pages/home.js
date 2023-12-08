@@ -55,7 +55,7 @@ export default class extends view {
 			                </p>			              
 			            </div>
 			            <div class="flex-display justify-content-end">
-			            	<div id="front-end-ui-ux-design" class="nk-black-color mr-8 nk-text-style other-size flex-display justify-content-center p-relative">
+			            	<div id="front-end-ui-ux-design" class="nk-black-color my-mr-8 nk-text-style other-size flex-display justify-content-center p-relative">
 			                	<p class="other-margin-bottom p-relative">Frontend Developer</p>
 			                    <p class="p-relative">& UI/UX designer</p>
 			            	</div>
