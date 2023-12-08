@@ -46,12 +46,12 @@ export default class extends view {
 							  		<div class="justify-content-center flex-display">
 							  			<img id="code-gif" src="https://i.postimg.cc/90t2vMTt/code.gif" atl="front-end developper">
 							  		</div>
-							  		<div class="grid-display col-div-3 justify-items-center mt-5">
+							  		<div class="grid-display col-div-3 justify-items-center my-mt-5">
 							  			<a class="icon-envelope nk-black-color none-decoration" href="#"></a>
 							  			<a class="icon-facebook nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-linkedin-in nk-black-color none-decoration" href="#"></a>
 							  		</div>
-							  		<div class="grid-display col-div-3 justify-items-center mt-5 mb-5">
+							  		<div class="grid-display col-div-3 justify-items-center my-mt-5 mb-5">
 							  			<a class="icon-instagram nk-black-color none-decoration" href="#"></a>
 							  			<a class="fab fa-whatsapp nk-black-color none-decoration" href="#"></a>
 							  			<a class="icon-github nk-black-color none-decoration" href="#"></a>
