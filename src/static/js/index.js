@@ -347,8 +347,8 @@ const router = async () => {
 
        case '/sunday-school':
             document.body.style.backgroundColor = "var(--main-color)";
-            const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
-            
+            /*const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
+
             let observer = new MutationObserver( function (mutations ) {
                 mutations.forEach(function (mutation) {
                     if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
@@ -364,7 +364,7 @@ const router = async () => {
             let config =  { attributes: true };
             carouselIndicator.forEach( indicator => {
                 observer.observe(indicator, config);
-            })
+            })*/
     }
 }
 
