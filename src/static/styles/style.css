@@ -436,20 +436,20 @@ section {
     padding-left: 64px;
 }
 
-.px-1 {
+.my-px-1 {
     padding: 0 8px;
 }
 
-.px-2 {
+.my-px-2 {
     padding: 0 16px;
 }
 
-.px-3 {
+.my-px-3 {
     padding-right: 24px;
     padding-left: 24px;
 }
 
-.px-4 {
+.my-px-4 {
     padding-right: 32px;
     padding-left: 32px;
 }
