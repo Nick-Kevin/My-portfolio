@@ -873,7 +873,7 @@ section {
 }
 
 #project .carousel-indicator {
-    top: 110%;
+    top: unset;
 }
 
 .link {    
