@@ -17,7 +17,7 @@ export default class {
 
 	async getHtml() {
 		return `
-			<main id="sunday-school" class="pr-8 pl-8 py-8">
+			<main id="sunday-school" class="my-pr-8 my-pl-8 py-8">
 				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left py-1 br-1 fs-2 px-4 bg-black p-fixed" data-link></a>
 				<h1 class="center-text">${ this.title }</h1>
 				<div class="my-mt-8 image-overview">
