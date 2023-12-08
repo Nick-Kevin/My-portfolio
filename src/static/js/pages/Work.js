@@ -11,7 +11,7 @@ export default class extends view {
 		return `
 			<main id="my-work">								
 				<section class="flex-display flex-column align-items-center justify-content-center p-relative">
-					<div id="header" class="p-absolute" style="top: 0">
+					<div id="header" class="p-absolute my-pt-8 my-pb-8 my-pl-8 my-pr-8 w-100" style="top: 0">
 			            <div>
 			                <h1 class="nk-text-color">My work</h1>
 			            </div>
