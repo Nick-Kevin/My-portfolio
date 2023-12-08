@@ -39,7 +39,7 @@ export default class extends view {
 					    </div>
 		            </div>	
 		        </div>
-		        <div class="ml-8 mr-8 col-gap-8 justify-items-center">
+		        <div class="ml-8 my-mr-8 col-gap-8 justify-items-center">
 		        	<p>
 		        		I am a dedicated computer science student currently pursuing my
 		        		Master's degree at the <a id="ispm" href="#">Institut Supérieur Polytechnique de Madagascar (ISPM)</a>.
@@ -58,7 +58,7 @@ export default class extends view {
 		        </div>
 	            <h1 class="ml-8 my-mt-8 my-mb-8 reveal">My skills</h1>
 	            <div class="skills-container">
-	            	<div id="front-end" class="ml-8 mr-8 my-mb-8 px-3 py-3 br-2 reveal">
+	            	<div id="front-end" class="ml-8 my-mr-8 my-mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Frontend</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -87,7 +87,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="back-end" class="ml-8 mr-8 my-mb-8 px-3 py-3 br-2 reveal">
+	            	<div id="back-end" class="ml-8 my-mr-8 my-mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Backend</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -112,7 +112,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="sgbd" class="ml-8 mr-8 my-mb-8 px-3 py-3 br-2 reveal">
+	            	<div id="sgbd" class="ml-8 my-mr-8 my-mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">DataBase</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -125,7 +125,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="ui-ux" class="ml-8 mr-8 my-mb-8 px-3 py-3 br-2 reveal">
+	            	<div id="ui-ux" class="ml-8 my-mr-8 my-mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">UI/UX design</h4>
 	            		<div class="skills-box flex-display my-mt-3">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -134,7 +134,7 @@ export default class extends view {
 	            			</div>
 	            		</div>
 	            	</div>
-	            	<div id="others" class="ml-8 mr-8 my-mb-8 px-3 py-3 br-2 reveal">
+	            	<div id="others" class="ml-8 my-mr-8 my-mb-8 px-3 py-3 br-2 reveal">
 	            		<h4 class="nk-stheme-color">Others</h4>
 	            		<div class="skills-box flex-display my-mt-5">
 	            			<div class="skill flex-display flex-column align-items-center justify-content-center bg-black br-2">
@@ -154,8 +154,8 @@ export default class extends view {
 	            </div>
 	            <div id="resume" class="reveal">
 	            	<h1 class="ml-8 my-mt-8 my-mb-8">Resume</h1>
-		            <div class="resume ml-8 mr-8 my-mb-8 flex-display align-items-center">
-		            	<span class="mr-2">My curriculum vitae:</span>
+		            <div class="resume ml-8 my-mr-8 my-mb-8 flex-display align-items-center">
+		            	<span class="my-mr-2">My curriculum vitae:</span>
 		            	<a style="padding: 8px 16px" href="static/assets/File/Nick Kevin - CV.pdf" download>
 		            		<p>Download</p>
 		            	</a>
