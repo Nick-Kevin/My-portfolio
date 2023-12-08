@@ -36,7 +36,7 @@ export default class extends view {
 				</section>
 
 				<section>
-					<div class="grid-display justify-items-center ml-8 mr-8 mt-8 mb-8">
+					<div class="grid-display justify-items-center ml-8 mr-8 my-mt-8 mb-8">
 						<div class="work-card br-2">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-4 py-4">
@@ -77,13 +77,13 @@ export default class extends view {
 				</section>
 
 				<section class="flex-display align-content-center">
-					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 mt-8 mb-8">
+					<div class="grid-display justify-items-center align-items-center ml-8 mr-8 my-mt-8 mb-8">
 						<div class="work-card br-2 grid-display">
 							<img src="static/assets/Work images/Ecole du dimanche/Page d'accueil.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
-									<a href="#" class="bg-theme br-1 nk-text-color br-1 mt-3 view-more" data-link>View more</a>
+									<a href="#" class="bg-theme br-1 nk-text-color br-1 my-mt-3 view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
@@ -93,7 +93,7 @@ export default class extends view {
 							<div class="grid-display justify-content-center align-items-center px-3 py-3">
 								<h1 class="center-text">Porte parole (ODD)</h1>
 								<div class="flex-display justify-content-center w-100">
-									<a href="#" class="bg-theme br-1 nk-text-color br-1 mt-3 view-more" data-link>View more</a>
+									<a href="#" class="bg-theme br-1 nk-text-color br-1 my-mt-3 view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
