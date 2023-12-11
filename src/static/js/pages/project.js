@@ -75,7 +75,7 @@ export default class {
 							${ this.carouselItem() }
 						</div>
 						<!-- Slider indicators -->
-						<div class="absolute ox-s w-full pb-4 z-30 flex -translate-x-1/2 top-100 left-1/2 space-x-3 rtl:space-x-reverse">
+						<div class="absolute ox-s scrollbar-perso w-full pb-4 z-30 flex -translate-x-1/2 top-100 left-1/2 space-x-3 rtl:space-x-reverse">
 							<div class="carousel-indicator flex">
 								${ this.carouselIndicator() }
 							</div>
