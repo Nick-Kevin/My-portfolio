@@ -50,8 +50,8 @@ export default class {
 			<main id="project" class="my-pr-8 my-pl-8 my-py-8">
 				<a href="/work" class="none-decoration nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black" data-link></a>
 				<h1 class="center-text">${ this.title }</h1>
-				<div class="my-mt-8 image-overview">
-					<img src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt } class="w-100 br-4">
+				<div class="my-mt-8 flex-display justify-content-center image-overview">
+					<img id="overview" src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt } class="w-100 br-4">
 				</div>
 				<div class="my-mt-8 grid-display description dashed-line-top dashed-line-bottom my-py-4">
 					<div class="grid-display">
