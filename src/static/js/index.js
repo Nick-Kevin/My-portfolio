@@ -356,7 +356,10 @@ const router = async () => {
                     if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
                         if (mutation.target.getAttribute('aria-current') === "true") {
                             const scrollLeftValue = mutation.target.offsetLeft - carouselIndicatorContainer.offsetLeft;
-                            carouselIndicatorContainer.scrollLeft = scrollLeftValue;
+                            carouselIndicatorContainer.scrollTo({
+                                left: scrollLeftValue,
+                                behavior: 'smooth'
+                            })
                         }
                     }
                 });
