@@ -488,8 +488,8 @@ section {
 }
 /*******************************************************************/
 
-.top-80 {
-    top: 88% !important;
+.top-100 {
+    top: 67% !important;
 }
 /****************************** Border *****************************/
 /* TOP */
@@ -935,4 +935,17 @@ section {
 
 .footer div:first-child {
     grid-row: 1 / span 2;
+}
+
+#project #default-carousel {
+    width: 85%;
+}
+
+#project [aria-current="false"] {
+    background-color: #fdfddc90 !important;
+    border: 1px solid #01010180;
+}
+
+#project [aria-current="true"] {
+    background-color: #faff0660 !important;
 }
