@@ -347,15 +347,16 @@ const router = async () => {
 
        case '/sunday-school':
             document.body.style.backgroundColor = "var(--main-color)";
-            /*const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
+
+            const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
+            const carouselIndicatorContainer = getElementBySelector('#default-carousel .ox-s');
 
             let observer = new MutationObserver( function (mutations ) {
                 mutations.forEach(function (mutation) {
                     if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
                         if (mutation.target.getAttribute('aria-current') === "true") {
-                            addClassToElement('nk-stheme-color', mutation.target);
-                        } else {
-                            removeClassToElement('nk-stheme-color', mutation.target);
+                            const scrollLeftValue = mutation.target.offsetLeft - carouselIndicatorContainer.offsetLeft;
+                            carouselIndicatorContainer.scrollLeft = scrollLeftValue;
                         }
                     }
                 });
@@ -364,7 +365,7 @@ const router = async () => {
             let config =  { attributes: true };
             carouselIndicator.forEach( indicator => {
                 observer.observe(indicator, config);
-            })*/
+            })
     }
 }
 
