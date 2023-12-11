@@ -952,3 +952,7 @@ section {
 #project [aria-current="true"]{
     background-color: #faff0660 !important;
 }
+
+.scrollbar-perso {
+    scrollbar-width: unset;
+}
