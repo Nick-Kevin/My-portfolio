@@ -937,7 +937,7 @@ section {
     grid-row: 1 / span 2;
 }
 
-#project #default-carousel {
+#project #default-carousel, #project #overview {
     width: 85%;
 }
 
