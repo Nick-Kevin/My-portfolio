@@ -169,6 +169,10 @@ section {
     overflow-y: auto;
 }
 
+.ox-s {
+    overflow-x: scroll;
+}
+
 .inline {
     display: inline;
 } 
@@ -484,6 +488,9 @@ section {
 }
 /*******************************************************************/
 
+.top-80 {
+    top: 88% !important;
+}
 /****************************** Border *****************************/
 /* TOP */
 /* White */
