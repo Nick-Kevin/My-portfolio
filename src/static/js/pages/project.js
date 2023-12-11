@@ -67,15 +67,17 @@ export default class {
 					</p>
 				</div>
 
-				<div id="default-carousel" class="relative w-full my-mt-8" data-carousel="slide">
+				<div id="default-carousel" class="relative overflow-hidden w-full my-mt-8" data-carousel="slide">
 					<!-- Carousel wrapper -->
 					<div class="relative overflow-hidden br-4" style="height: 618.2px">
 						<!-- Items -->
 						${ this.carouselItem() }
 					</div>
 					<!-- Slider indicators -->
-					<div class="absolute carousel-indicator z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-						${ this.carouselIndicator() }
+					<div class="absolute ox-s w-full z-30 flex -translate-x-1/2 top-80 left-1/2 space-x-3 rtl:space-x-reverse">
+						<div class="carousel-indicator flex">
+							${ this.carouselIndicator() }
+						</div>
 					</div>
 					<!-- Slider controls -->
 					<button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full my-px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
