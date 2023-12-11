@@ -942,10 +942,13 @@ section {
 }
 
 #project [aria-current="false"] {
-    background-color: #fdfddc90 !important;
-    border: 1px solid #01010180;
+    background-color: #fdfddc45 !important;
 }
 
-#project [aria-current="true"] {
+#project button span {
+    background-color: #fdfddc70 !important;
+}
+
+#project [aria-current="true"]{
     background-color: #faff0660 !important;
 }
