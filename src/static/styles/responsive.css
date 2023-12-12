@@ -247,6 +247,14 @@ body {
         font-size: calc(23px + 1.2vw);
     }
 
+    #project > div:nth-child(3) {
+        margin-top: 32px;
+    }
+
+    #project > div:nth-child(3) img {
+        width: 100% !important;
+    }
+
     #project .image-overview img {
         border-radius: 3px;
     }
