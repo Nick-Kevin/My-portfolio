@@ -165,14 +165,16 @@ section {
     overflow-x: hidden;
 }
 
-.oy-a {
+.oy-a, body, html {
     overflow-y: auto;
+    scrollbar-color: #010101AA var(--main-color);
+    scrollbar-width: thin;
 }
 
 .ox-s {
     overflow-x: scroll;
     scrollbar-width: thin;
-    scrollbar-color: #faff0660 #01010160;
+    scrollbar-color: #01010185 var(--main-color);
 }
 
 .inline {
