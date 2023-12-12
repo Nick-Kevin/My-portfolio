@@ -953,10 +953,11 @@ section {
     background-color: #fdfddc70 !important;
 }
 
-#project [aria-current="true"]{
-    background-color: #faff0660 !important;
+#project [aria-current="false"]{
+    opacity: 0.3575 !important;
 }
 
 #project #default-carousel .carousel-indicator button {
     width: max-content;
+    background-color: transparent !important;
 }
