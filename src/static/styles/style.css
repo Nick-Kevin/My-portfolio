@@ -257,6 +257,11 @@ section {
 .my-mx-8 {
     margin: 0 64px;
 }
+
+.my-mx-9 {
+    margin-left: 96px;
+    margin-right: 96px;
+}
 /* TOP */
 
 .my-mt-1 {
