@@ -49,15 +49,15 @@ export default class {
 		return `
 			<main id="project" class="my-pr-8 my-pl-8 my-py-8">
 				<a href="/work" class="none-decoration p-fixed nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black" data-link></a>
-				<h1 class="center-text text-5xl font-bold">${ this.title }</h1>
+				<h1 class="center-text text-5xl font-bold leading-7">${ this.title }</h1>
 				<div class="my-mt-8 flex-display justify-content-center image-overview">
 					<img id="overview" src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt } class="w-100 br-4">
 				</div>
 				<div class="my-mt-8 my-mx-9 grid-display description dashed-line-top dashed-line-bottom my-py-4">
 					<div class="grid-display">
-						<h3 class="nk-text-style">Year</h3>
+						<h3 class="nk-text-style nk-stheme-color">Year</h3>
 						<p> ${ this.year} </p>
-						<h3 class="nk-text-style">Technologies</h3>
+						<h3 class="nk-text-style nk-stheme-color">Technologies</h3>
 						<ul>
 							${ this.technologies }
 						</ul>
