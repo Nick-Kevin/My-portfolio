@@ -37,7 +37,7 @@ export default class {
 		let indicator = '';
 		for (let itemNumber = 0; itemNumber < this.carouselItemNumber; itemNumber++) {
 			indicator += `
-			<button type="button" class="my-mr-2 text-sm nk-black-color rounded-full" aria-current=${ itemNumber === 0 ? "true" : "false" } aria-label="Slide ${itemNumber + 1}" data-carousel-slide-to="${ itemNumber }">
+			<button type="button" class="text-xl rounded-full" aria-current=${ itemNumber === 0 ? "true" : "false" } aria-label="Slide ${itemNumber + 1}" data-carousel-slide-to="${ itemNumber }">
 				${ this.carouselIndicatorLabel[itemNumber] }
 			</button>
 			`;
@@ -76,7 +76,7 @@ export default class {
 						</div>
 						<!-- Slider indicators -->
 						<div class="absolute ox-s scrollbar-perso w-full pb-4 z-30 flex -translate-x-1/2 top-100 left-1/2 space-x-3 rtl:space-x-reverse">
-							<div class="carousel-indicator flex">
+							<div class="carousel-indicator flex gap-x-10">
 								${ this.carouselIndicator() }
 							</div>
 						</div>
