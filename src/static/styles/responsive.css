@@ -252,6 +252,7 @@ body {
     }
 
     #project > div:nth-child(4) {
+        grid-template-columns: 100%;
         margin-top: 40px;
         margin-left: 0;
         margin-right: 0;
