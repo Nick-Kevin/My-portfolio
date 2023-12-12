@@ -171,6 +171,8 @@ section {
 
 .ox-s {
     overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #faff0660 #01010160;
 }
 
 .inline {
@@ -951,8 +953,4 @@ section {
 
 #project [aria-current="true"]{
     background-color: #faff0660 !important;
-}
-
-.scrollbar-perso {
-    scrollbar-width: unset;
 }
