@@ -251,6 +251,12 @@ body {
         margin-top: 32px;
     }
 
+    #project > div:nth-child(4) {
+        margin-top: 32px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     #project > div:nth-child(3) img {
         width: 100% !important;
     }
