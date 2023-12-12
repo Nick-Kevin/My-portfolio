@@ -231,7 +231,7 @@ body {
     text-overflow: ellipsis;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 850px) {
     #project {
         padding: 48px;
     }
@@ -269,6 +269,15 @@ body {
 
     #project .image-overview img {
         border-radius: 3px;
+    }
+
+    #project #default-carousel {
+        margin-top: 0;
+        height: 200px !important;
+    }
+
+    #project #default-carousel div:nth-child(2) {
+        height: 70px !important;
     }
 }
 
