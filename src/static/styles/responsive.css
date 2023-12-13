@@ -280,6 +280,7 @@ body {
 
     #project #default-carousel div:nth-child(1) {
         height: 133px !important;
+        border-radius: 5px;
     }
 
     #project #default-carousel div:nth-child(2) {
