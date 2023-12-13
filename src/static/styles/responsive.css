@@ -310,10 +310,6 @@ body {
     }
 }
 
-@media ((max-width: 1105px) and (min-width: 601px)) {
-    padding: 56px !important;
-}
-
 @media (min-width: 480px) {
     #project .image-overview img {
         border-radius: 10px;
