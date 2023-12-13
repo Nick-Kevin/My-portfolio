@@ -287,6 +287,10 @@ body {
         top: 45% !important;
     }
 
+    #project #default-carousel div:nth-child(2) button {
+        font-size: 16px;
+    }
+
     #project #default-carousel > button {
         padding: 20% 8px 0;        
     }
