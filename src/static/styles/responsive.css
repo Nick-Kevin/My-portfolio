@@ -276,8 +276,8 @@ body {
         height: 200px !important;
     }
 
-    #project #default-carousel div:nth-child(2) {
-        height: 70px !important;
+    #project #default-carousel div:nth-child(1) {
+        height: 133px !important;
     }
 }
 
