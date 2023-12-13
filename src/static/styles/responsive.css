@@ -288,7 +288,17 @@ body {
     }
 
     #project #default-carousel > button {
-        padding: 20% 0 8px;        
+        padding: 20% 8px 0;        
+    }
+
+    #project #default-carousel > button span {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    #project #default-carousel > button span svg {
+        width: 0.6rem;
+        height: 0.6rem;
     }
 }
 
