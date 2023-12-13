@@ -286,6 +286,10 @@ body {
     #project #default-carousel div:nth-child(2) {
         top: 45% !important;
     }
+
+    #project #default-carousel > button {
+        padding: 20% 0 8px;        
+    }
 }
 
 @media (min-width: 480px) {
