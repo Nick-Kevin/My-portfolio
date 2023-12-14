@@ -9,6 +9,7 @@ export default class {
 		carouselItemNumber,
 		carouselItemImageSource,
 		carouselIndicatorLabel,
+		carouselTitle
 	) {
 		this.title = title;
 		this.imageOverviewSource = imageOverviewSource;
@@ -19,6 +20,7 @@ export default class {
 		this.carouselItemNumber = carouselItemNumber;
 		this.carouselItemImageSource = carouselItemImageSource;
 		this.carouselIndicatorLabel = carouselIndicatorLabel;
+		this.carouselTitle = carouselTitle;
 	}
 
 	carouselsItems () {		
@@ -65,6 +67,7 @@ export default class {
 
 		for (let carouselIndex = 0; carouselIndex < carouselLength; carouselIndex++) {
 			carouselSection += `
+				${ this.carouselTitle ? this.carouselTitle[carouselIndex] : '' }
 				<div class="flex justify-center">
 					<div class="default-carousel relative overflow-x-hidden overflow-y-clip my-mt-8" data-carousel="slide">
 						<!-- Carousel wrapper -->

@@ -43,5 +43,8 @@ export default new project(
             'Welcome page 13',
             'Welcome page 14',
         ],
+    ],
+    [
+        'front-office'
     ]
 );
