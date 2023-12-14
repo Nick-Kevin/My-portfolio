@@ -946,8 +946,16 @@ section {
     grid-row: 1 / span 2;
 }
 
+#project #default-carousel {
+    height: 575px;
+}
+
 #project #default-carousel, #project #overview {
     width: 85%;
+}
+
+#project #default-carousel > div:nth-child(1) {
+    height: 500px;
 }
 
 #project [aria-current="false"] {
