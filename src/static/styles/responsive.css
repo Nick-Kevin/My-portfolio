@@ -259,6 +259,14 @@ body {
         padding: 16px 0;
     }
 
+    #project > h3 {
+        margin: 48px 0 16px;
+    }
+
+    #project > div:nth-child(6) {
+        margin-top: 0 !important;
+    }
+
     #project > div:nth-child(4), #project > div:nth-child(4) div {
         grid-row-gap: 16px;   
     }
@@ -272,10 +280,8 @@ body {
     }
 
     #project .default-carousel {
-        margin-top: 0;
         height: 200px !important;
-        width: 100%;
-        margin-top: 48px;
+        width: 100%;        
     }
 
     #project .default-carousel div:nth-child(1) {
