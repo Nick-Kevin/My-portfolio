@@ -67,11 +67,11 @@ export default class {
 
 		for (let carouselIndex = 0; carouselIndex < carouselLength; carouselIndex++) {
 			carouselSection += `
-				<h3 class="my-mx-9">
+				<h3 class="my-mx-9 my-mt-8 text-3xl">
 					${ this.carouselTitle ? this.carouselTitle[carouselIndex] : '' }
 				</h3>
-				<div class="flex justify-center">
-					<div class="default-carousel relative overflow-x-hidden overflow-y-clip my-mt-8" data-carousel="slide">
+				<div class="flex justify-center mt-6">
+					<div class="default-carousel relative overflow-x-hidden overflow-y-clip" data-carousel="slide">
 						<!-- Carousel wrapper -->
 						<div class="relative overflow-hidden br-4">
 							<!-- Items -->
