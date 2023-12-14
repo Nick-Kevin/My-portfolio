@@ -24,15 +24,20 @@ export default class {
 	}
 
 	carouselItem () {
-		let item = '';
-		for (let itemNumber = 0; itemNumber < this.carouselItemNumber; itemNumber++) {
-			item += `
-				<div class="hidden duration-700 ease-in-out" data-carousel-item>
-					<img src="${ this.carouselItemImageSource[itemNumber] }" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-				</div>
-			`;
-		}
-		return item;
+		let itemArray = [];
+		this.carouselItemNumber.map ((itemsNumber, index) => {
+			let item;
+			for (let itemNumber = 0; itemNumber < itemsNumber; itemNumber++) {
+				item += `
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+						<img src="${ this.carouselItemImageSource[index][itemNumber] }" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+				`;
+			}
+			itemArray.push(item);
+		})
+		
+		return itemArray;
 	}
 
 	carouselIndicator () {
@@ -49,7 +54,7 @@ export default class {
 			indicatorArray.push(indicatorItems);
 		})
 		
-		return indicator;
+		return indicatorArray;
 	}
 
 	carousel () {
