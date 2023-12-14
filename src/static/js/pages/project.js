@@ -6,7 +6,6 @@ export default class {
         year,
         technologies,
         projectDescription,
-		carouselNummber,
 		carouselItemNumber,
 		carouselItemImageSource,
 		carouselIndicatorLabel,
@@ -17,13 +16,12 @@ export default class {
         this.year = year;
         this.technologies = technologies;
         this.projectDescription = projectDescription;
-		this.carouselNummber = carouselNummber;
 		this.carouselItemNumber = carouselItemNumber;
 		this.carouselItemImageSource = carouselItemImageSource;
 		this.carouselIndicatorLabel = carouselIndicatorLabel;
 	}
 
-	carouselItem () {
+	carouselsItems () {		
 		let itemArray = [];
 		this.carouselItemNumber.map ((itemsNumber, index) => {
 			let item;
@@ -40,7 +38,7 @@ export default class {
 		return itemArray;
 	}
 
-	carouselIndicator () {
+	carouselsIndicators () {
 		let indicatorArray = [];
 		this.carouselItemNumber.map ((itemsNumber, index) => {
 			let indicatorItems = '';
@@ -57,21 +55,27 @@ export default class {
 		return indicatorArray;
 	}
 
-	carousel () {
+	carousel () {		
 		let carouselSection = '';
-		for (let carouselIndex = 0; carouselIndex < this.carouselNummber; carouselIndex++) {
+		const carouselLength = this.carouselItemNumber.length;		
+		const carouselItems = this.carouselsItems();
+		this.carouselsItems();
+		//console.log(carouselItems[0]);
+		const carouselIndicators = this.carouselsIndicators();
+
+		for (let carouselIndex = 0; carouselIndex < carouselLength; carouselIndex++) {
 			carouselSection += `
 				<div class="flex justify-center">
 					<div class="default-carousel relative overflow-x-hidden overflow-y-clip my-mt-8" data-carousel="slide">
 						<!-- Carousel wrapper -->
 						<div class="relative overflow-hidden br-4">
 							<!-- Items -->
-							${ this.carouselItem() }
+							${ carouselItems[carouselIndex] }
 						</div>
 						<!-- Slider indicators -->
 						<div class="absolute ox-s scrollbar-perso w-full pb-4 z-30 flex -translate-x-1/2 top-91 left-1/2 space-x-3 rtl:space-x-reverse">
 							<div class="carousel-indicator flex gap-x-10">
-								${ this.carouselIndicator() }
+								${ carouselIndicators[carouselIndex] }
 							</div>
 						</div>
 						<!-- Slider controls -->
