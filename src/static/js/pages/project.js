@@ -68,9 +68,9 @@ export default class {
 				</div>
 
 				<div class="flex justify-center">
-					<div id="default-carousel" class="relative overflow-x-hidden overflow-y-clip my-mt-8" data-carousel="slide" style="height: 800px;">
+					<div id="default-carousel" class="relative overflow-x-hidden overflow-y-clip my-mt-8" data-carousel="slide">
 						<!-- Carousel wrapper -->
-						<div class="relative overflow-hidden br-4" style="height: 500px">
+						<div class="relative overflow-hidden br-4">
 							<!-- Items -->
 							${ this.carouselItem() }
 						</div>
