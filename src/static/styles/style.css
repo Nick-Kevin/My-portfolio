@@ -946,15 +946,15 @@ section {
     grid-row: 1 / span 2;
 }
 
-#project #default-carousel {
+#project .default-carousel {
     height: 575px;
 }
 
-#project #default-carousel, #project #overview {
+#project .default-carousel, #project #overview {
     width: 85%;
 }
 
-#project #default-carousel > div:nth-child(1) {
+#project .default-carousel > div:nth-child(1) {
     height: 500px;
 }
 
@@ -970,7 +970,7 @@ section {
     opacity: 0.3575 !important;
 }
 
-#project #default-carousel .carousel-indicator button {
+#project .default-carousel .carousel-indicator button {
     width: max-content;
     background-color: transparent !important;
 }

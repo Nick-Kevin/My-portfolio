@@ -271,40 +271,40 @@ body {
         border-radius: 3px;
     }
 
-    #project #default-carousel {
+    #project .default-carousel {
         margin-top: 0;
         height: 200px !important;
         width: 100%;
         margin-top: 48px;
     }
 
-    #project #default-carousel div:nth-child(1) {
+    #project .default-carousel div:nth-child(1) {
         height: 133px !important;
         border-radius: 5px;
     }
 
-    #project #default-carousel div:nth-child(2) {
+    #project .default-carousel div:nth-child(2) {
         top: 45% !important;
     }
 
-    #project #default-carousel div:nth-child(2) button {
+    #project .default-carousel div:nth-child(2) button {
         font-size: 16px;
     }
 
-    #project #default-carousel .carousel-indicator {
+    #project .default-carousel .carousel-indicator {
         column-gap: 1rem;
     }
 
-    #project #default-carousel > button {
+    #project .default-carousel > button {
         padding: 20% 8px 0;        
     }
 
-    #project #default-carousel > button span {
+    #project .default-carousel > button span {
         width: 1.7rem;
         height: 1.7rem;
     }
 
-    #project #default-carousel > button span svg {
+    #project .default-carousel > button span svg {
         width: 0.6rem;
         height: 0.6rem;
     }
