@@ -70,7 +70,7 @@ export default class {
 				<h3 class="my-mx-9 my-mt-8 nk-text-style text-end text-3xl decor">
 					${ this.carouselTitle ? this.carouselTitle[carouselIndex] : '' }
 				</h3>
-				<div class="flex justify-center mt-6">
+				<div class="flex justify-center ${ this.carouselTitle ? 'mt-6' : 'mt-16' }">
 					<div class="default-carousel relative overflow-x-hidden overflow-y-clip" data-carousel="slide">
 						<!-- Carousel wrapper -->
 						<div class="relative overflow-hidden br-4">
