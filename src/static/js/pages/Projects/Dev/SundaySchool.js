@@ -45,6 +45,6 @@ export default new project(
         ],
     ],
     [
-        'front-office'
+        'Front-office'
     ]
 );

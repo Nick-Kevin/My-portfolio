@@ -67,7 +67,7 @@ export default class {
 
 		for (let carouselIndex = 0; carouselIndex < carouselLength; carouselIndex++) {
 			carouselSection += `
-				<h3 class="my-mx-9 my-mt-8 text-3xl">
+				<h3 class="my-mx-9 my-mt-8 nk-text-style text-end text-3xl decor">
 					${ this.carouselTitle ? this.carouselTitle[carouselIndex] : '' }
 				</h3>
 				<div class="flex justify-center mt-6">
