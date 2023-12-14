@@ -44,7 +44,4 @@ export default new project(
             'Welcome page 14',
         ],
     ],
-    [
-        'Front-office'
-    ]
 );
