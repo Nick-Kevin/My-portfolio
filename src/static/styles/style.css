@@ -171,6 +171,10 @@ section {
     scrollbar-width: thin;
 }
 
+.oy-h {
+    overflow-y: hidden;
+}
+
 .ox-s {
     overflow-x: scroll;
     scrollbar-width: thin;

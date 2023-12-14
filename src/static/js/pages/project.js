@@ -71,7 +71,7 @@ export default class {
 					${ this.carouselTitle ? this.carouselTitle[carouselIndex] : '' }
 				</h3>
 				<div class="flex justify-center ${ this.carouselTitle ? 'mt-6' : 'mt-16' }">
-					<div class="default-carousel relative overflow-x-hidden overflow-y-clip" data-carousel="slide">
+					<div class="default-carousel oy-h relative overflow-x-hidden overflow-y-clip" data-carousel="slide">
 						<!-- Carousel wrapper -->
 						<div class="relative overflow-hidden br-4">
 							<!-- Items -->
