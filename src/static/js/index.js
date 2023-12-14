@@ -349,17 +349,19 @@ const router = async () => {
             document.body.style.backgroundColor = "var(--main-color)";
 
             const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
-            const carouselIndicatorContainer = getElementBySelector('#default-carousel .ox-s');
+            const carouselIndicatorContainer = document.querySelectorAll('.default-carousel .ox-s');;
 
             let observer = new MutationObserver( function (mutations ) {
                 mutations.forEach(function (mutation) {
                     if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
                         if (mutation.target.getAttribute('aria-current') === "true") {
-                            const scrollLeftValue = mutation.target.offsetLeft - carouselIndicatorContainer.offsetLeft;
-                            carouselIndicatorContainer.scrollTo({
-                                left: scrollLeftValue,
-                                behavior: 'smooth'
-                            })
+                            for (let indicatorContainerIndex = 0; indicatorContainerIndex < carouselIndicatorContainer.length; indicatorContainerIndex++) {
+                                const scrollLeftValue = mutation.target.offsetLeft - carouselIndicatorContainer[indicatorContainerIndex].offsetLeft;
+                                carouselIndicatorContainer[indicatorContainerIndex].scrollTo({
+                                    left: scrollLeftValue,
+                                    behavior: 'smooth'
+                                });
+                            }
                         }
                     }
                 });
