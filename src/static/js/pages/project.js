@@ -23,6 +23,23 @@ export default class {
 		this.carouselTitle = carouselTitle;
 	}
 
+	downloadPDF () {
+		let downloadSection = '';
+
+		if (this.carouselItemNumber[0] === 'ui-ux') {
+			downloadSection += `
+			<div class="resume my-ml-8 my-mr-8 my-mb-8 flex-display align-items-center">
+				<span class="my-mr-2">Sketch as PDF:</span>
+				<a style="padding: 8px 16px" href="static/assets/File/Nick Kevin - CV.pdf" download>
+					<p>Download</p>
+				</a>
+			</div>
+			`;
+		}
+
+		return downloadSection;
+	}
+
 	carouselsItems () {		
 		let itemArray = [];
 		this.carouselItemNumber.map ((itemsNumber, index) => {
@@ -60,7 +77,7 @@ export default class {
 	carousel () {		
 		let carouselSection = '';
 		
-		if (this.carouselItemNumber) {
+		if (this.carouselItemNumber && this.carouselItemNumber[0] !== 'ui-ux') {
 			const carouselLength = this.carouselItemNumber.length;		
 			const carouselItems = this.carouselsItems();
 			this.carouselsItems();
@@ -132,6 +149,7 @@ export default class {
 						${ this.projectDescription }
 					</p>
 				</div>
+				${ this.downloadPDF() }
 				${ this.carousel() }
 			</main>
 		`;
