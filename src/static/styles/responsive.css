@@ -289,7 +289,7 @@ body {
         border-radius: 5px;
     }
 
-    #project .default-carousel div:nth-child(2) {
+    #project .default-carousel > div:nth-child(2) {
         top: 45% !important;
     }
 
