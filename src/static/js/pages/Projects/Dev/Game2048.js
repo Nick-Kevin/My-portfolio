@@ -6,5 +6,5 @@ export default new project(
     '2048',
 	'2021',
 	'<li>HTML</li><li>CSS</li><li>Javascript</li>',
-	'During my academic journey, I embarked on the development of the Beach Hotel project, an innovative hotel management application. This application streamlines the reservation process for rooms at the Beach Hotel, offering a seamless and efficient solution for guests and hotel staff alike. Through this project, I honed my skills in system design and database management, gaining valuable insights into the practical application of software development within the hospitality industry. The Beach Hotel project reflects my commitment to merging theoretical knowledge with hands-on experience, contributing to my growth as a versatile developer',
+	'I proudly present my 2048 Game project, a captivating and strategic puzzle game that I developed as part of my portfolio. The 2048 Game offers players a challenging and entertaining experience, requiring tactical thinking and numerical skill. This project not only showcases my proficiency in game development but also demonstrates my commitment to creating engaging and user-friendly applications. Through the 2048 Game, I\'ve blended creativity with technical expertise, aiming to provide users with an immersive and enjoyable gaming experience.',
 );
