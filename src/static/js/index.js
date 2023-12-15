@@ -5,6 +5,7 @@ import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import SundaySchool from './pages/Projects/Dev/SundaySchool.js';
 import BeachHotel from './pages/Projects/Dev/BeachHotel.js';
+import Game2048 from './pages/Projects/Dev/Game2048.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
 
 const windowHeight = window.innerHeight;
@@ -45,6 +46,11 @@ const routes = [
     {
         path: "/beach-hotel",
         view: BeachHotel,
+        instance: true
+    },
+    {
+        path: "/2048",
+        view: Game2048,
         instance: true
     }
 ];
