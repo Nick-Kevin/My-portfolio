@@ -64,7 +64,7 @@ export default class extends view {
 								<h1 class="center-text my-mb-3">2048 game</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
-									<a href="#"" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a href="#">
+									<a href="/2048" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a href="#">
 								</div>
 							</div>
 						</div>
