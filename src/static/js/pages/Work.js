@@ -48,12 +48,12 @@ export default class extends view {
 						</div>
 
 						<div class="work-card br-2">
-							<img src="static/assets/Work-images/beach-hotel/bh_1.png" alt="beach hotel welcome page">
+							<img src="static/assets/Work-images/beach-hotel/front-office/welcome.png" alt="beach hotel welcome page">
 							<div class="grid-display justify-content-center align-items-center my-px-4 my-py-4">
 								<h1 class="center-text my-mb-4">Beach hotel</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
-									<a href="#" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
+									<a href="/beach-hotel" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
