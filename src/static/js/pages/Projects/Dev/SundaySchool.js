@@ -7,7 +7,7 @@ export default new project(
 	'2023',
 	'<li>React</li><li>Laravel</li><li>MySQL</li>',
 	'I undertook a transformative 6 months project at the Information Technology department of FJKM Andravoahangy Fivavahana Church in Antananarivo, Madagascar, where I developed a web application catered specifically for the Sunday School program. This locally hosted server application serves the unique needs of the church\'s Sunday School, providing a tailored solution for managing various aspects of their educational programs.',
-    [ 2, 14 ],
+    [ 2, 14, 11 ],
     [
         [
             'static/assets/Work-images/école-du-dimanche/authentication/Inscription.png',
@@ -28,6 +28,19 @@ export default new project(
             'static/assets/Work-images/école-du-dimanche/front-office/param-edit-account.png',
             'static/assets/Work-images/école-du-dimanche/front-office/account-historics.png',
             'static/assets/Work-images/école-du-dimanche/front-office/choose-langage.png'
+        ],
+        [
+            'static/assets/Work-images/école-du-dimanche/back-office/dashboard-part1.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/dashboard-part2.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/monitors.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/register.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/historic.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/classes-historics.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/students.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/budget.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/classes-setting.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/functions-setting.png',
+            'static/assets/Work-images/école-du-dimanche/back-office/current-school-year-setting.png'
         ]
     ],
     [
@@ -46,14 +59,28 @@ export default new project(
             'Student register',
             'Student historic',
             'Student Bulletin',
-            'Students list',
+            'Students on current school year table',
             'Edit account information',
             'Account historic',
             'Choose langage'
+        ],
+        [
+            'Dashboard part 1',
+            'Dashboard part 2',
+            'Monitors table',
+            'Monitor register',
+            'Monitor historic',
+            'Classes historics',
+            'Student table',
+            'Budget',
+            'Classes setting',
+            'Functions and langages settings',
+            'School year setting',
         ]
     ],
     [
         'authentication',
-        'front-office'
+        'front-office',
+        'back-office'
     ]
 );
