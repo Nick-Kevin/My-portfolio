@@ -28,9 +28,9 @@ export default class {
 
 		if (this.carouselItemNumber[0] === 'ui-ux') {
 			downloadSection += `
-			<div class="resume my-ml-8 my-mr-8 my-mb-8 flex-display align-items-center">
+			<div class="resume my-ml-8 my-mr-8 mt-10 flex-display align-items-center">
 				<span class="my-mr-2">Sketch as PDF:</span>
-				<a style="padding: 8px 16px" href="static/assets/File/Nick Kevin - CV.pdf" download>
+				<a style="padding: 8px 16px" class="bg-black br-1 " href="static/assets/File/Nick Kevin - CV.pdf" download>
 					<p>Download</p>
 				</a>
 			</div>
