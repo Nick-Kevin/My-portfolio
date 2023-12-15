@@ -4,6 +4,7 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import SundaySchool from './pages/Projects/Dev/SundaySchool.js';
+import BeachHotel from './pages/Projects/Dev/BeachHotel.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
 
 const windowHeight = window.innerHeight;
@@ -39,6 +40,11 @@ const routes = [
     {
         path: "/sunday-school",
         view: SundaySchool,
+        instance: true
+    },
+    {
+        path: "/beach-hotel",
+        view: BeachHotel,
         instance: true
     }
 ];
@@ -209,6 +215,34 @@ const setupMusicPlayerFeature = () => {
     });
 };
 
+const setupCarouselItemsSlider = () => {
+    document.body.style.backgroundColor = "var(--main-color)";
+
+    const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
+    const carouselIndicatorContainer = document.querySelectorAll('.default-carousel .ox-s');;
+
+    let observer = new MutationObserver( function (mutations ) {
+        mutations.forEach(function (mutation) {
+            if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
+                if (mutation.target.getAttribute('aria-current') === "true") {
+                    for (let indicatorContainerIndex = 0; indicatorContainerIndex < carouselIndicatorContainer.length; indicatorContainerIndex++) {
+                        const scrollLeftValue = mutation.target.offsetLeft - carouselIndicatorContainer[indicatorContainerIndex].offsetLeft;
+                        carouselIndicatorContainer[indicatorContainerIndex].scrollTo({
+                            left: scrollLeftValue,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            }
+        });
+    });
+
+    let config =  { attributes: true };
+    carouselIndicator.forEach( indicator => {
+        observer.observe(indicator, config);
+    });
+}
+
 const router = async () => {
     const match = routes.find(route => checkPathMatch(route.path));
 
@@ -227,7 +261,7 @@ const router = async () => {
             welcomePageSection.style.overflow = 'hidden';
 
             setupWelcomePageAnimations();
-            break;
+        break;
 
         case "/home":
             document.body.style.backgroundColor = "var(--main-color)";
@@ -257,8 +291,7 @@ const router = async () => {
             } else {
                 setupHomePageAnimationsForLandscapeMode();
             }
-
-            break; 
+        break; 
 
         case "/work":
             document.body.style.backgroundColor = "var(--black-color)";
@@ -278,8 +311,7 @@ const router = async () => {
             }*/
 
             //workHeader.style.width = mainWidth - workHeaderPaddingLeftAndRight + 'px';
-
-            break;
+        break;
 
         case "/contact":
             document.body.style.backgroundColor = "var(--main-color)";
@@ -304,7 +336,7 @@ const router = async () => {
 
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
-            break;
+        break;
 
         case "/about":
             document.body.style.backgroundColor = "var(--main-color)";
@@ -345,32 +377,13 @@ const router = async () => {
             });            
        break;
 
-       case '/sunday-school':
-            document.body.style.backgroundColor = "var(--main-color)";
+        case '/sunday-school':
+            setupCarouselItemsSlider();
+        break;
 
-            const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
-            const carouselIndicatorContainer = document.querySelectorAll('.default-carousel .ox-s');;
-
-            let observer = new MutationObserver( function (mutations ) {
-                mutations.forEach(function (mutation) {
-                    if (mutation.type === 'attributes' && mutation.attributeName === 'aria-current') {
-                        if (mutation.target.getAttribute('aria-current') === "true") {
-                            for (let indicatorContainerIndex = 0; indicatorContainerIndex < carouselIndicatorContainer.length; indicatorContainerIndex++) {
-                                const scrollLeftValue = mutation.target.offsetLeft - carouselIndicatorContainer[indicatorContainerIndex].offsetLeft;
-                                carouselIndicatorContainer[indicatorContainerIndex].scrollTo({
-                                    left: scrollLeftValue,
-                                    behavior: 'smooth'
-                                });
-                            }
-                        }
-                    }
-                });
-            });
-
-            let config =  { attributes: true };
-            carouselIndicator.forEach( indicator => {
-                observer.observe(indicator, config);
-            })
+        case '/beach-hotel':
+            setupCarouselItemsSlider();
+        break;
     }
 }
 
