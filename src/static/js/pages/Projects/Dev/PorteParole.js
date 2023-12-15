@@ -6,6 +6,6 @@ export default new project(
     'Welcome page',
 	'2022',
 	'<li>Figma</li>',
-	'I proudly present my 2048 Game project, a captivating and strategic puzzle game that I developed as part of my portfolio. The 2048 Game offers players a challenging and entertaining experience, requiring tactical thinking and numerical skill. This project not only showcases my proficiency in game development but also demonstrates my commitment to creating engaging and user-friendly applications. Through the 2048 Game, I\'ve blended creativity with technical expertise, aiming to provide users with an immersive and enjoyable gaming experience.',
+	'Presenting Porte-parole, a significant UI/UX design project I crafted during my academic journey, specifically for my UI/UX design course. Porte-parole is a meticulously designed prototype centered around the Sustainable Development Goal (SDG) of gender equality. This project showcases my skills in user interface and experience design, addressing the crucial theme of equal rights between men and women. Through thoughtful design choices and user-centric approaches, Porte-parole exemplifies my dedication to creating visually compelling and purposeful digital experiences that contribute to meaningful social causes, encapsulating the essence of UI/UX design in the realm of Sustainable Development Goals.',
     [ 'ui-ux']
 );
