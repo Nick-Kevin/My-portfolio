@@ -53,7 +53,7 @@ export default class extends view {
 								<h1 class="center-text my-mb-4">My portolio</h1>
 								<div class="flex-display justify-content-center w-100">
 									<a href="#" class="bg-second-theme nk-black-color br-1 github" data-link>Github</a>
-									<a href="/beach-hotel" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
+									<a href="/my-portfolio" class="bg-theme br-1 nk-text-color view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
