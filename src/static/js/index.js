@@ -4,7 +4,7 @@ import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
 import SundaySchool from './pages/Projects/Dev/SundaySchool.js';
-import BeachHotel from './pages/Projects/Dev/BeachHotel.js';
+import MyPortfolio from './pages/Projects/Dev/MyPortfolio.js';
 import Game2048 from './pages/Projects/Dev/Game2048.js';
 import PorteParole from './pages/Projects/Dev/PorteParole.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
@@ -45,8 +45,8 @@ const routes = [
         instance: true
     },
     {
-        path: "/beach-hotel",
-        view: BeachHotel,
+        path: "/my-portfolio",
+        view: MyPortfolio,
         instance: true
     },
     {
@@ -393,7 +393,7 @@ const router = async () => {
             setupCarouselItemsSlider();
         break;
 
-        case '/beach-hotel':
+        case '/my-portfolio':
             setupCarouselItemsSlider();
         break;
     }
