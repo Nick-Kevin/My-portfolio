@@ -1,5 +1,5 @@
 import Welcome from './pages/Welcome.js';
-import Home from './pages/Home.js';
+import Home from './pages/home.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import Contact from './pages/Contact.js';
