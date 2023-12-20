@@ -394,6 +394,8 @@ const router = async () => {
         break;
 
         case '/my-portfolio':
+            const carousel = getElementBySelector('.default-carousel');
+            addClassToElement('my-shadow', carousel);
             setupCarouselItemsSlider();
         break;
     }

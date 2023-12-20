@@ -979,3 +979,7 @@ section {
     width: max-content;
     background-color: transparent !important;
 }
+
+.my-shadow {
+    box-shadow: 10px 10px 0 var(--black-color), 10px 10px 0 var(--second-color) 5px;
+}
