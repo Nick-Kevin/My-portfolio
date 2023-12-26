@@ -6,7 +6,7 @@ import Contact from './pages/Contact.js';
 import SundaySchool from './pages/Projects/Dev/SundaySchool.js';
 import MyPortfolio from './pages/Projects/Dev/MyPortfolio.js';
 import Game2048 from './pages/Projects/Dev/Game2048.js';
-import PorteParole from './pages/Projects/Dev/PorteParole.js';
+import PorteParole from './pages/Projects/UI-UX/PorteParole.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
 
 const windowHeight = window.innerHeight;
