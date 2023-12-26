@@ -26,7 +26,7 @@ export default class {
 	downloadPDF () {
 		let downloadSection = '';
 
-		if (this.carouselItemNumber[0] === 'ui-ux') {
+		if (this.carouselItemNumber && this.carouselItemNumber[0] === 'ui-ux') {
 			downloadSection += `
 			<div class="resume my-ml-8 my-mr-8 mt-10 flex-display align-items-center">
 				<span class="my-mr-2">Sketch as PDF:</span>
