@@ -7,6 +7,7 @@ import SundaySchool from './pages/Projects/Dev/SundaySchool.js';
 import MyPortfolio from './pages/Projects/Dev/MyPortfolio.js';
 import Game2048 from './pages/Projects/Dev/Game2048.js';
 import PorteParole from './pages/Projects/UI-UX/PorteParole.js';
+import SundaySchoolDesign from './pages/Projects/UI-UX/SundaySchoolDesign.js';
 import nodeGardenMass from './canvas/node-garden-mass.js';
 
 const windowHeight = window.innerHeight;
@@ -52,6 +53,11 @@ const routes = [
     {
         path: "/2048",
         view: Game2048,
+        instance: true
+    },
+    {
+        path: "/sunday-school-design",
+        view: SundaySchoolDesign,
         instance: true
     },
     {
