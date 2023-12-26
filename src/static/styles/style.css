@@ -550,6 +550,10 @@ section {
 }
 /*******************************************************************/
 
+.my-outline {
+    outline: 4px solid var(--white-color);
+}
+
 .bs {
     box-shadow:  0 25px 50px -12px rgb(0 0 0 / .45);
 }
