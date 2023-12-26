@@ -30,7 +30,7 @@ export default class {
 			downloadSection += `
 			<div class="resume my-ml-8 my-mr-8 mt-10 flex-display align-items-center">
 				<span class="my-mr-2">Sketch as PDF:</span>
-				<a style="padding: 8px 16px" class="bg-black br-1 " href="static/assets/File/Nick Kevin - CV.pdf" download>
+				<a style="padding: 8px 32px" class="bg-black br-1 " href="${ this.carouselItemNumber[1] }" download>
 					<p>Download</p>
 				</a>
 			</div>
