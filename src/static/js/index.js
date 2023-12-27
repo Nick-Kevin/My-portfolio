@@ -413,7 +413,7 @@ const router = async () => {
                   clickable: true,
                   dynamicBullets: true,
                   renderBullet: function(index, className) {
-                    return '<span class="' + className + '"> welcome' + (index + 1) + '</span>';
+                    return '<span class="' + className + '"> welcome here' + (index + 1) + '</span>';
                   }
                 },
               
