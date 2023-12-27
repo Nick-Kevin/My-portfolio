@@ -15,7 +15,7 @@
 }
 
 body {
-    background: var(--main-color) /*linear-gradient(to top right, coral, lightblue, pink)*/;
+    background: var(--main-color);
     font-family: var(--onest-regular);
     font-size: 1.6em;
     color: var(--white-color);

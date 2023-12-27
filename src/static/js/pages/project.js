@@ -129,7 +129,7 @@ export default class {
 	}
 
 	async getHtml() {
-		return `
+		return `		
 			<main id="project" class="my-pr-8 my-pl-8 my-py-8">
 				<a href="/work" class="none-decoration p-fixed nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black" data-link></a>
 				<h1 class="center-text text-5xl font-bold leading-7">${ this.title }</h1>

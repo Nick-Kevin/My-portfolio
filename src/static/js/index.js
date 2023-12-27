@@ -234,8 +234,6 @@ const setupMusicPlayerFeature = () => {
 };
 
 const setupCarouselItemsSlider = () => {
-    document.body.style.backgroundColor = "var(--main-color)";
-
     const carouselIndicator = document.querySelectorAll('.carousel-indicator [aria-current]');
     const carouselIndicatorContainer = document.querySelectorAll('.default-carousel .ox-s');;
 
@@ -260,6 +258,18 @@ const setupCarouselItemsSlider = () => {
         observer.observe(indicator, config);
     });
 }
+
+/*const loadFlowbite = () => {
+    const flowbiteScript = document.createElement('script');
+    flowbiteScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js';
+    flowbiteScript.async = true
+    document.head.appendChild(flowbiteScript);
+
+    const tailwindScript = document.createElement('script');
+    tailwindScript.src = 'https://cdn.tailwindcss.com';
+    tailwindScript.async = true
+    document.head.appendChild(tailwindScript);
+}*/
 
 const router = async () => {
     const match = routes.find(route => checkPathMatch(route.path));
@@ -312,7 +322,6 @@ const router = async () => {
         break; 
 
         case "/work":
-            document.body.style.backgroundColor = "var(--black-color)";
             setupMusicPlayerFeature();
             setupBurgerMenuFeature();
 
@@ -332,7 +341,6 @@ const router = async () => {
         break;
 
         case "/contact":
-            document.body.style.backgroundColor = "var(--main-color)";
             const contactNickKevin = getElementBySelector("#header div:first-child h1");
             gsap.to(contactNickKevin, {
                 text: {
@@ -357,7 +365,6 @@ const router = async () => {
         break;
 
         case "/about":
-            document.body.style.backgroundColor = "var(--main-color)";
             const aboutHeader = getId('header');
             addClassToElement('makeOpacity-2', aboutHeader);
 
