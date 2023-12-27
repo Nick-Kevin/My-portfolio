@@ -1000,13 +1000,16 @@ section {
 .swiper-pagination-bullets-dynamic {
     overflow: visible !important;
     font-size: 1rem !important;
+    bottom: 0 !important;
 }
 
-.swiper-pagination-bullet {   
+.swiper-pagination-bullet { 
+    vertical-align: middle;  
     width: fit-content !important; 
-    height: 50px !important;
+    height: fit-content !important;
     background-color: black !important;
     color: white !important;
+    border-radius: 5px !important;
 }
   
   .swiper-slide {
