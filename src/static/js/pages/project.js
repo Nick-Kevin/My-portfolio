@@ -149,6 +149,33 @@ export default class {
 						${ this.projectDescription }
 					</p>
 				</div>
+				<div class="swiper br-4">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="static/assets/Work-images/école-du-dimanche/authentication/Inscription.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="static/assets/Work-images/école-du-dimanche/front-office/search.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="static/assets/Work-images/école-du-dimanche/front-office/register.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="static/assets/Work-images/école-du-dimanche/front-office/historics.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="static/assets/Work-images/école-du-dimanche/back-office/dashboard-part1.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="static/assets/Work-images/école-du-dimanche/back-office/monitors.png" alt="">
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
 				${ this.downloadPDF() }
 				${ this.carousel() }
 			</main>
