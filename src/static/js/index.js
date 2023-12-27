@@ -403,6 +403,26 @@ const router = async () => {
        break;
 
         case '/sunday-school':
+            const swiper = new Swiper(".swiper", {
+                direction: "horizontal",
+                loop: "infinite",
+              
+                // Pagination
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                  dynamicBullets: true,
+                  renderBullet: function(index, className) {
+                    return '<span class="' + className + '"> welcome' + (index + 1) + '</span>';
+                  }
+                },
+              
+                // Navigation arrows
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
             setupCarouselItemsSlider();
         break;
 
