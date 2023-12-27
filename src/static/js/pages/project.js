@@ -134,7 +134,7 @@ export default class {
 				<a href="/work" class="none-decoration p-fixed nk-text-color fa fa-arrow-left my-py-1 br-1 fs-2 my-px-4 bg-black" data-link></a>
 				<h1 class="center-text text-5xl font-bold leading-7">${ this.title }</h1>
 				<div class="my-mt-8 flex-display justify-content-center image-overview">
-					<img id="overview" class="my-outline bs w-100 br-4" src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt }>
+					<img id="overview" class="bs w-100 br-4" src=${ this.imageOverviewSource } alt=${ this.imageOverviewAlt }>
 				</div>
 				<div class="my-mt-8 my-mx-9 grid-display description dashed-line-top dashed-line-bottom my-py-4">
 					<div class="grid-display">
