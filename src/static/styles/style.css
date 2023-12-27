@@ -987,3 +987,45 @@ section {
 .my-shadow {
     box-shadow: 10px 10px 0 var(--black-color), 10px 10px 0 var(--second-color) 5px;
 }
+
+.swiper {
+    width: 85%;
+}
+
+.swiper-pagination {
+    width: 500px !important;
+    height: 70px !important;
+}
+
+.swiper-pagination-bullets-dynamic {
+    overflow: visible !important;
+    font-size: 1rem !important;
+}
+
+.swiper-pagination-bullet {   
+    width: fit-content !important; 
+    height: 50px !important;
+    background-color: black !important;
+    color: white !important;
+}
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    max-width: 660px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    --swiper-theme-color: cyan;
+    --swiper-pagination-bullet-size: 10px;
+    --swiper-pagination-bullet-inactive-color: #fff;
+    --swiper-pagination-bullet-inactive-opacity: 0.4;
+  }
