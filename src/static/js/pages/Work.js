@@ -83,7 +83,7 @@ export default class extends view {
 							<div class="grid-display justify-content-center align-items-center my-px-3 my-py-3">
 								<h1 class="center-text">Sunday school</h1>
 								<div class="flex-display justify-content-center w-100">
-									<a href="#" class="bg-theme br-1 nk-text-color br-1 my-mt-3 view-more" data-link>View more</a>
+									<a href="/sunday-school-design" class="bg-theme br-1 nk-text-color br-1 my-mt-3 view-more" data-link>View more</a>
 								</div>
 							</div>
 						</div>
